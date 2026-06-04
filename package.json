@@ -1,0 +1,19 @@
+{
+  "name": "anime-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "长视频平台动漫 IP 热度追踪",
+  "scripts": {
+    "scrape:bili": "node scrapers/bili.js",
+    "scrape:tencent": "node scrapers/tencent.js",
+    "scrape:youku": "node scrapers/youku.js",
+    "scrape:iqiyi": "node scrapers/iqiyi.js",
+    "scrape:all": "npm run scrape:bili && npm run scrape:tencent && npm run scrape:youku && npm run scrape:iqiyi",
+    "serve": "python -m http.server 8744"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^2.7.0",
+    "playwright": "^1.40.0"
+  }
+}

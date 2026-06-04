@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Anime Tracker · 长视频动漫IP追踪</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23a78bfa'/%3E%3Cstop offset='1' stop-color='%2360a5fa'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-family='ui-sans-serif,system-ui' font-size='28' font-weight='800' fill='white' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<style>
+  body { background:#0d0d1a; color:#e7e7f0; font-family:ui-sans-serif,system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; }
+  .grad-text { background: linear-gradient(135deg,#c4b5fd 0%,#93c5fd 100%); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .grad-bg { background: linear-gradient(135deg,#a78bfa 0%,#60a5fa 100%); }
+  .glow-card { background: linear-gradient(180deg,rgba(167,139,250,0.06) 0%,rgba(96,165,250,0.03) 100%); border:1px solid rgba(167,139,250,0.18); }
+  .glow-card:hover { border-color: rgba(167,139,250,0.45); box-shadow: 0 0 24px rgba(96,165,250,0.15); }
+  .tab-active { background: linear-gradient(135deg,rgba(167,139,250,0.20),rgba(96,165,250,0.20)); border-color: rgba(167,139,250,0.5); color:#fff; }
+  .rank-1 { background: linear-gradient(135deg,#fbbf24,#f59e0b); color:#1a1a1a; }
+  .rank-2 { background: linear-gradient(135deg,#e5e7eb,#9ca3af); color:#1a1a1a; }
+  .rank-3 { background: linear-gradient(135deg,#fb923c,#c2410c); color:#fff; }
+  .rank-other { background: rgba(167,139,250,0.15); color:#c4b5fd; }
+  .tag-pill { background: rgba(167,139,250,0.10); border:1px solid rgba(167,139,250,0.25); color:#ddd6fe; }
+  .status-finished { background: rgba(34,197,94,0.12); border:1px solid rgba(34,197,94,0.35); color:#86efac; }
+  .status-ongoing { background: rgba(245,158,11,0.12); border:1px solid rgba(245,158,11,0.35); color:#fcd34d; }
+  .heat-badge { background: linear-gradient(135deg,rgba(251,113,133,0.18),rgba(244,114,182,0.12)); border:1px solid rgba(251,113,133,0.35); color:#fda4af; }
+  .score-badge { background: rgba(96,165,250,0.12); border:1px solid rgba(96,165,250,0.35); color:#bfdbfe; }
+  .new-badge { background: linear-gradient(135deg,#a78bfa,#60a5fa); color:#fff; font-weight:600; }
+  .up-badge { background: rgba(34,197,94,0.15); color:#86efac; border:1px solid rgba(34,197,94,0.3); }
+  .down-badge { background: rgba(239,68,68,0.12); color:#fca5a5; border:1px solid rgba(239,68,68,0.3); }
+  .exclusive-pill { background: linear-gradient(135deg,#ef4444,#dc2626); color:#fff; font-weight:600; }
+  .ip-pill { background: rgba(96,165,250,0.10); border:1px solid rgba(96,165,250,0.30); color:#93c5fd; }
+  .cover-fallback { background: linear-gradient(135deg,#312e81,#1e3a8a); }
+  .scrollbar-thin::-webkit-scrollbar { height:6px; width:6px; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: rgba(167,139,250,0.3); border-radius:3px; }
+  .line-clamp-2 { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .btn-primary { background: linear-gradient(135deg,#a78bfa,#60a5fa); color:#fff; }
+  .btn-primary:hover { opacity:0.9; }
+  .btn-ghost { background: rgba(167,139,250,0.10); border:1px solid rgba(167,139,250,0.25); color:#ddd6fe; }
+  .btn-ghost:hover { background: rgba(167,139,250,0.18); }
+  .input-dark { background: rgba(167,139,250,0.06); border:1px solid rgba(167,139,250,0.25); color:#fff; }
+  .input-dark:focus { outline: none; border-color: rgba(167,139,250,0.6); }
+  .platform-iqiyi { color:#34d399; }
+  .platform-tencent { color:#fbbf24; }
+  .platform-youku { color:#38bdf8; }
+  .platform-bili-guochuang { color:#f472b6; }
+  .platform-bili-bangumi { color:#e879f9; }
+</style>
+</head>
+<body class="min-h-screen">
+
+<header class="border-b border-purple-500/10 backdrop-blur-sm sticky top-0 z-30 bg-[#0d0d1a]/80">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-xl grad-bg flex items-center justify-center font-extrabold text-lg shadow-lg shadow-purple-500/20">A</div>
+      <div>
+        <h1 class="text-xl font-bold grad-text">Anime Tracker</h1>
+        <p class="text-xs text-gray-400">长视频平台动漫IP热度追踪 · 每日更新</p>
+      </div>
+    </div>
+    <div class="text-right text-xs text-gray-400">
+      <div>📅 数据日期：<span id="data-date" class="text-purple-300 font-medium">2026-06-04</span></div>
+      <div class="mt-0.5">⏱ 最后更新：<span id="data-time">08:00</span> (UTC+8)</div>
+    </div>
+  </div>
+</header>
+
+<nav class="max-w-7xl mx-auto px-4 sm:px-6 mt-6">
+  <div class="flex gap-2 overflow-x-auto scrollbar-thin pb-1">
+    <button data-tab="iqiyi" class="tab-btn whitespace-nowrap px-4 py-2 rounded-xl border border-purple-500/20 text-sm font-medium tab-active">🎬 爱奇艺·热播榜</button>
+    <button data-tab="tencent" class="tab-btn whitespace-nowrap px-4 py-2 rounded-xl border border-purple-500/20 text-sm font-medium text-gray-300 hover:text-white">🎭 腾讯视频·热播榜</button>
+    <button data-tab="youku" class="tab-btn whitespace-nowrap px-4 py-2 rounded-xl border border-purple-500/20 text-sm font-medium text-gray-300 hover:text-white">📱 优酷·动漫</button>
+    <button data-tab="bili-guochuang" class="tab-btn whitespace-nowrap px-4 py-2 rounded-xl border border-purple-500/20 text-sm font-medium text-gray-300 hover:text-white">🇨🇳 B站·国创榜</button>
+    <button data-tab="bili-bangumi" class="tab-btn whitespace-nowrap px-4 py-2 rounded-xl border border-purple-500/20 text-sm font-medium text-gray-300 hover:text-white">🌍 B站·番剧榜</button>
+    <button data-tab="benchmark" class="tab-btn whitespace-nowrap px-4 py-2 rounded-xl border border-purple-500/20 text-sm font-medium text-gray-300 hover:text-white">📊 热度对标</button>
+  </div>
+</nav>
+
+<!-- 榜单 view -->
+<div id="view-list">
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 mt-4 grid grid-cols-2 md:grid-cols-4 gap-3">
+    <div class="glow-card rounded-xl p-3"><div class="text-xs text-gray-400">榜单条目</div><div class="text-2xl font-bold text-purple-300 mt-1" id="stat-total">—</div></div>
+    <div class="glow-card rounded-xl p-3"><div class="text-xs text-gray-400">连载中作品</div><div class="text-2xl font-bold text-amber-300 mt-1" id="stat-ongoing">—</div></div>
+    <div class="glow-card rounded-xl p-3"><div class="text-xs text-gray-400">已完结占比</div><div class="text-2xl font-bold text-green-300 mt-1" id="stat-finished">—</div></div>
+    <div class="glow-card rounded-xl p-3"><div class="text-xs text-gray-400">平均上线年限</div><div class="text-2xl font-bold text-pink-300 mt-1" id="stat-year">—</div></div>
+  </section>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 mt-4 flex justify-end">
+    <button id="export-excel" class="btn-primary px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+      下载 Excel
+    </button>
+  </div>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 mt-4 pb-16">
+    <div id="anime-list" class="space-y-3"><div class="text-center text-gray-500 py-12">加载中…</div></div>
+  </main>
+</div>
+
+<!-- 热度对标 view -->
+<div id="view-benchmark" class="hidden">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 mt-6 pb-16">
+    <div class="glow-card rounded-2xl p-5 mb-5">
+      <h2 class="text-lg font-bold grad-text mb-2">📊 各平台热度对标</h2>
+      <p class="text-sm text-gray-400">手动填入历史 IP 在各平台的"热度峰值"作为锚点，用于判断当前榜单热度水位。数据保存在本地浏览器（localStorage），不上传服务器。</p>
+    </div>
+
+    <!-- 各平台 section -->
+    <div id="benchmark-sections" class="space-y-5"></div>
+
+    <!-- 添加新条目 表单 -->
+    <div class="glow-card rounded-2xl p-5 mt-5">
+      <h3 class="text-base font-bold mb-3 text-purple-300">➕ 添加对标作品</h3>
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-3">
+        <select id="bm-platform" class="input-dark rounded-lg px-3 py-2 text-sm">
+          <option value="iqiyi">爱奇艺</option>
+          <option value="tencent">腾讯视频</option>
+          <option value="youku">优酷</option>
+          <option value="bili-guochuang">B站国创</option>
+          <option value="bili-bangumi">B站番剧</option>
+        </select>
+        <input id="bm-title" placeholder="作品名" class="input-dark rounded-lg px-3 py-2 text-sm" />
+        <input id="bm-peak" type="number" placeholder="热度峰值" class="input-dark rounded-lg px-3 py-2 text-sm" />
+        <input id="bm-note" placeholder="备注（年份/季度等，可选）" class="input-dark rounded-lg px-3 py-2 text-sm" />
+        <button id="bm-add" class="btn-primary px-4 py-2 rounded-lg text-sm font-medium">添加</button>
+      </div>
+      <div class="mt-3 text-xs text-gray-500">
+        💡 提示：可直接从当前榜单中"借用"——点击作品名旁的 <span class="text-purple-400">📊</span> 图标即可加入对标库
+      </div>
+    </div>
+  </main>
+</div>
+
+<footer class="border-t border-purple-500/10 py-6 text-center text-xs text-gray-500">
+  数据来源：爱奇艺 · 腾讯视频 · 优酷 · 哔哩哔哩 · 每日 08:00 UTC+8 自动更新
+</footer>
+
+<script>
+const TAB_FILES = {
+  iqiyi: 'data/iqiyi.json',
+  tencent: 'data/tencent.json',
+  youku: 'data/youku.json',
+  'bili-guochuang': 'data/bili-guochuang.json',
+  'bili-bangumi': 'data/bili-bangumi.json',
+};
+const PLATFORM_LABELS = {
+  iqiyi: '爱奇艺', tencent: '腾讯视频', youku: '优酷',
+  'bili-guochuang': 'B站国创', 'bili-bangumi': 'B站番剧'
+};
+const cache = {};
+let currentTab = 'iqiyi';
+
+function rankBadge(rank) {
+  if (rank === 1) return `<div class="rank-1 w-9 h-9 rounded-lg flex items-center justify-center font-extrabold text-lg shadow-md">${rank}</div>`;
+  if (rank === 2) return `<div class="rank-2 w-9 h-9 rounded-lg flex items-center justify-center font-extrabold text-lg shadow-md">${rank}</div>`;
+  if (rank === 3) return `<div class="rank-3 w-9 h-9 rounded-lg flex items-center justify-center font-extrabold text-lg shadow-md">${rank}</div>`;
+  return `<div class="rank-other w-9 h-9 rounded-lg flex items-center justify-center font-bold text-base">${rank}</div>`;
+}
+function changeBadge(c) {
+  if (c === 'new') return `<span class="new-badge text-[10px] px-1.5 py-0.5 rounded-md">NEW</span>`;
+  if (typeof c === 'number' && c > 0) return `<span class="up-badge text-[10px] px-1.5 py-0.5 rounded-md">↑${c}</span>`;
+  if (typeof c === 'number' && c < 0) return `<span class="down-badge text-[10px] px-1.5 py-0.5 rounded-md">↓${Math.abs(c)}</span>`;
+  return '';
+}
+function statusBadge(s) {
+  if (!s || s === '未知') return '';
+  const cls = s === '已完结' ? 'status-finished' : 'status-ongoing';
+  return `<span class="${cls} text-[11px] px-2 py-0.5 rounded-md">${s}</span>`;
+}
+function badgeChip(b) {
+  if (!b) return '';
+  if (b === '独播') return `<span class="exclusive-pill text-[10px] px-1.5 py-0.5 rounded-md">独播</span>`;
+  return `<span class="tag-pill text-[10px] px-1.5 py-0.5 rounded-md">${b}</span>`;
+}
+function ipChip(o) { return o ? `<span class="ip-pill text-[10px] px-1.5 py-0.5 rounded-md">📚 ${o}</span>` : ''; }
+
+function renderItem(item, tab) {
+  const tags = (item.tags || []).slice(0, 6).map(t => `<span class="tag-pill text-[11px] px-2 py-0.5 rounded-md">${t}</span>`).join(' ');
+  const followLine = item.follow_count ? `<span class="text-gray-400">追番 <span class="text-pink-300 font-medium">${item.follow_count}</span></span>` : '';
+  const scoreLine = item.score ? `<span class="score-badge text-[11px] px-2 py-0.5 rounded-md">⭐ ${item.score}</span>` : '';
+  const cover = item.cover ? `<img src="${item.cover}" referrerpolicy="no-referrer" class="w-16 h-22 sm:w-20 sm:h-28 rounded-lg shrink-0 object-cover" loading="lazy" onerror="this.parentElement && (this.style.display='none')" />` : '';
+  const heat = (item.platform_score || item.platform_score === 0) && item.platform_score !== ''
+    ? `<div class="heat-badge text-xs px-2.5 py-1 rounded-lg font-medium">🔥 ${item.platform_score}<span class="opacity-70 ml-0.5"> ${item.score_label||''}</span></div>` : '';
+  const tagline = item.tagline ? `<span class="text-[11px] text-amber-300/80">${item.tagline}</span>` : '';
+  const link = item.link ? `<a href="${item.link}" target="_blank" class="hover:underline">${item.title}</a>` : item.title;
+  const heatNum = parseFloat(item.platform_score) || 0;
+  const addBtn = heatNum ? `<button class="benchmark-add text-purple-400 hover:text-purple-300 text-sm" data-platform="${tab}" data-title="${(item.title||'').replace(/"/g,'&quot;')}" data-peak="${heatNum}" title="加入热度对标库">📊</button>` : '';
+  return `
+  <div class="glow-card rounded-2xl p-4 transition-all">
+    <div class="flex items-start gap-4">
+      <div class="flex flex-col items-center gap-2 shrink-0">
+        ${rankBadge(item.rank)}
+        ${changeBadge(item.rank_change)}
+      </div>
+      ${cover}
+      <div class="flex-1 min-w-0">
+        <div class="flex items-start justify-between gap-3 flex-wrap">
+          <div class="flex items-center gap-2 flex-wrap">
+            <h3 class="text-base sm:text-lg font-bold text-white">${link}</h3>
+            ${addBtn}
+            ${statusBadge(item.status)}
+            ${badgeChip(item.badge)}
+            ${ipChip(item.ip_origin)}
+          </div>
+          <div class="flex items-center gap-2 flex-wrap">
+            ${scoreLine}
+            ${heat}
+          </div>
+        </div>
+        <div class="mt-1.5 text-xs text-gray-400 flex flex-wrap gap-x-3 gap-y-1">
+          ${item.year ? `<span>${item.year}${item.region ? ' · '+item.region : ''}</span>` : ''}
+          ${item.latest ? `<span>${item.latest}</span>` : ''}
+          ${followLine}
+          ${tagline}
+        </div>
+        ${tags ? `<div class="mt-2 flex flex-wrap gap-1.5">${tags}</div>` : ''}
+        ${item.synopsis ? `<p class="mt-2 text-sm text-gray-300/80 line-clamp-2">${item.synopsis}</p>` : ''}
+      </div>
+    </div>
+  </div>`;
+}
+
+async function loadTab(tab) {
+  if (!cache[tab]) {
+    try {
+      const resp = await fetch(TAB_FILES[tab]);
+      cache[tab] = await resp.json();
+    } catch (e) { cache[tab] = []; console.error('load fail', tab, e); }
+  }
+  return cache[tab];
+}
+
+async function renderTab(tab) {
+  const list = document.getElementById('anime-list');
+  list.innerHTML = '<div class="text-center text-gray-500 py-12">加载中…</div>';
+  const data = await loadTab(tab);
+  if (!data.length) {
+    list.innerHTML = `<div class="text-center text-gray-500 py-12">该榜单暂无数据</div>`;
+  } else {
+    list.innerHTML = data.map(it => renderItem(it, tab)).join('');
+  }
+  const total = data.length;
+  const ongoing = data.filter(x => x.status === '连载中').length;
+  const finished = data.filter(x => x.status === '已完结').length;
+  const yearVals = data.map(x => parseInt(x.year)).filter(y => y && y > 1900);
+  const avgYears = yearVals.length ? ((yearVals.reduce((s,y)=>s+(2026-y),0)/yearVals.length).toFixed(1)) : '—';
+  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-ongoing').textContent = ongoing;
+  document.getElementById('stat-finished').textContent = total ? Math.round(finished/total*100)+'%' : '—';
+  document.getElementById('stat-year').textContent = avgYears + (avgYears !== '—' ? ' 年' : '');
+}
+
+// === Excel 导出 ===
+function exportExcel() {
+  const data = cache[currentTab] || [];
+  if (!data.length) { alert('暂无数据可导出'); return; }
+  const rows = data.map(x => ({
+    '排名': x.rank,
+    '作品名': x.title,
+    '热度/播放量': x.platform_score,
+    '指标类型': x.score_label,
+    '评分': x.score || '',
+    '完结状态': x.status,
+    '更新进度': x.latest,
+    '题材标签': (x.tags||[]).join('；'),
+    '首播年份': x.year,
+    '首播日期': x.pub_time,
+    '地区': x.region || '',
+    '追番人数': x.follow_count || '',
+    'IP 来源': x.ip_origin || '',
+    '平台标记': x.badge || '',
+    '内容简介': x.synopsis || '',
+    '链接': x.link || '',
+  }));
+  const ws = XLSX.utils.json_to_sheet(rows);
+  // 列宽
+  ws['!cols'] = [{wch:6},{wch:30},{wch:14},{wch:10},{wch:6},{wch:10},{wch:18},{wch:30},{wch:8},{wch:12},{wch:8},{wch:14},{wch:10},{wch:8},{wch:60},{wch:50}];
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, PLATFORM_LABELS[currentTab]);
+  const today = new Date().toISOString().slice(0,10);
+  XLSX.writeFile(wb, `anime-tracker_${currentTab}_${today}.xlsx`);
+}
+
+// === 热度对标 ===
+const BM_KEY = 'anime-tracker:benchmarks';
+function loadBenchmarks() {
+  try { return JSON.parse(localStorage.getItem(BM_KEY) || '{}'); } catch(e) { return {}; }
+}
+function saveBenchmarks(bm) { localStorage.setItem(BM_KEY, JSON.stringify(bm)); }
+
+function renderBenchmark() {
+  const bm = loadBenchmarks();
+  const sections = document.getElementById('benchmark-sections');
+  sections.innerHTML = '';
+  for (const platform of ['iqiyi','tencent','youku','bili-guochuang','bili-bangumi']) {
+    const items = (bm[platform] || []).slice().sort((a,b) => b.peak - a.peak);
+    const sec = document.createElement('div');
+    sec.className = 'glow-card rounded-2xl p-5';
+    sec.innerHTML = `
+      <div class="flex items-center justify-between mb-3">
+        <h3 class="text-base font-bold platform-${platform}">${PLATFORM_LABELS[platform]}（${items.length} 条）</h3>
+        <span class="text-xs text-gray-500">按热度峰值降序</span>
+      </div>
+      ${items.length ? '<div class="space-y-2">' + items.map((x, i) => `
+        <div class="flex items-center justify-between bg-purple-500/5 rounded-lg px-3 py-2 border border-purple-500/10">
+          <div class="flex items-center gap-3 flex-1 min-w-0">
+            <span class="rank-other w-7 h-7 rounded flex items-center justify-center text-xs font-bold shrink-0">${i+1}</span>
+            <span class="font-medium truncate">${x.title}</span>
+            ${x.note ? `<span class="text-xs text-gray-400 truncate">${x.note}</span>` : ''}
+          </div>
+          <div class="flex items-center gap-2 shrink-0">
+            <span class="heat-badge text-xs px-2 py-0.5 rounded-md font-medium">🔥 ${x.peak}</span>
+            <button class="bm-del text-red-400 hover:text-red-300 text-sm" data-platform="${platform}" data-id="${x.id}" title="删除">✕</button>
+          </div>
+        </div>
+      `).join('') + '</div>' : '<div class="text-sm text-gray-500 py-4 text-center">尚未添加，可在下方手动填写或从榜单页 📊 图标"借用"</div>'}
+    `;
+    sections.appendChild(sec);
+  }
+  // 绑定删除
+  document.querySelectorAll('.bm-del').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const platform = btn.dataset.platform;
+      const id = btn.dataset.id;
+      const bm = loadBenchmarks();
+      bm[platform] = (bm[platform]||[]).filter(x => x.id !== id);
+      saveBenchmarks(bm);
+      renderBenchmark();
+    });
+  });
+}
+
+document.addEventListener('click', (e) => {
+  const t = e.target.closest('.benchmark-add');
+  if (t) {
+    const platform = t.dataset.platform;
+    const title = t.dataset.title;
+    const peak = parseFloat(t.dataset.peak);
+    const bm = loadBenchmarks();
+    if (!bm[platform]) bm[platform] = [];
+    if (bm[platform].some(x => x.title === title)) {
+      alert(`【${PLATFORM_LABELS[platform]}】「${title}」已在对标库中`);
+      return;
+    }
+    bm[platform].push({ id: Date.now()+'_'+Math.random().toString(36).slice(2,7), title, peak, note: '当前榜单·' + new Date().toISOString().slice(0,10) });
+    saveBenchmarks(bm);
+    t.style.color = '#86efac';
+    setTimeout(() => { t.style.color = ''; }, 1500);
+  }
+});
+
+document.getElementById('bm-add').addEventListener('click', () => {
+  const platform = document.getElementById('bm-platform').value;
+  const title = document.getElementById('bm-title').value.trim();
+  const peak = parseFloat(document.getElementById('bm-peak').value);
+  const note = document.getElementById('bm-note').value.trim();
+  if (!title || !peak) { alert('请填写作品名和热度峰值'); return; }
+  const bm = loadBenchmarks();
+  if (!bm[platform]) bm[platform] = [];
+  bm[platform].push({ id: Date.now()+'_'+Math.random().toString(36).slice(2,7), title, peak, note });
+  saveBenchmarks(bm);
+  document.getElementById('bm-title').value = '';
+  document.getElementById('bm-peak').value = '';
+  document.getElementById('bm-note').value = '';
+  renderBenchmark();
+});
+
+document.getElementById('export-excel').addEventListener('click', exportExcel);
+
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('tab-active'); b.classList.add('text-gray-300'); });
+    btn.classList.add('tab-active'); btn.classList.remove('text-gray-300');
+    const tab = btn.dataset.tab;
+    if (tab === 'benchmark') {
+      document.getElementById('view-list').classList.add('hidden');
+      document.getElementById('view-benchmark').classList.remove('hidden');
+      renderBenchmark();
+    } else {
+      document.getElementById('view-list').classList.remove('hidden');
+      document.getElementById('view-benchmark').classList.add('hidden');
+      currentTab = tab;
+      renderTab(tab);
+    }
+  });
+});
+
+const today = new Date();
+document.getElementById('data-date').textContent = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+
+renderTab('iqiyi');
+</script>
+</body>
+</html>

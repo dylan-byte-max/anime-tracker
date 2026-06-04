@@ -1,0 +1,32 @@
+node_modules/
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# 调试探测产物（不入库）
+scrapers/*-probe.js
+data/*-raw.json
+data/*-payloads.json
+data/*-detail-probe.json
+data/*-mobile-raw.json
+data/tx_sample.json
+data/tx_detail_api.json
+data/tencent-trpc.json
+probe_*.js
+yk_probe.py
+
+# 临时文件
+tmp.html
+tmp_*.json
+tmp.json
+yk_*.html
+iq_*.html
+iq_*.json
+tx_*.html
+tx_*.json
+youku_*.html
+iqiyi_*.html
+iqiyi_*.json
+tencent_*.json
+data-probe/
