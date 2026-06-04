@@ -90,7 +90,15 @@
     <div class="glow-card rounded-xl p-3"><div class="text-xs text-gray-400">平均上线年限</div><div class="text-2xl font-bold text-pink-300 mt-1" id="stat-year">—</div></div>
   </section>
 
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 mt-4 flex flex-wrap items-center gap-2">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 mt-4">
+    <div class="relative">
+      <input id="search-input" type="text" placeholder="🔍 搜索作品名（模糊匹配，支持空格分多关键词，例如 '凡人 修仙' 或 '斗罗'）"
+        class="w-full input-dark rounded-xl px-4 py-2.5 text-sm" autocomplete="off" />
+      <button id="search-clear" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white text-lg">×</button>
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 mt-3 flex flex-wrap items-center gap-2">
     <!-- 筛选下拉按钮组 -->
     <div class="filter-dropdown relative" data-filter="status">
       <button class="filter-btn btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1">
@@ -276,11 +284,37 @@ async function renderTab(tab) {
   const data = await loadTab(tab);
   // 重置该 tab 筛选状态（保留各 tab 自己的）
   if (!filterState[tab]) filterState[tab] = { status: new Set(), year: new Set(), region: new Set(), tag: new Set(), ip_origin: new Set() };
+  if (searchState[tab] === undefined) searchState[tab] = '';
+  // 同步搜索框显示
+  const inp = document.getElementById('search-input');
+  const clr = document.getElementById('search-clear');
+  if (inp) {
+    inp.value = searchState[tab];
+    clr.classList.toggle('hidden', !searchState[tab]);
+  }
   rebuildFilterPanels(data);
   applyFiltersAndRender();
 }
 
 const filterState = {};
+const searchState = {};   // { tab: 'query string' }
+
+// 简易模糊匹配：支持空格分多关键词（AND）+ 子序列匹配（每个关键词的字符按序在标题中出现）
+function fuzzyMatch(title, query) {
+  if (!query) return true;
+  const t = (title || '').toLowerCase();
+  const tokens = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  return tokens.every(token => {
+    // 子串匹配优先
+    if (t.includes(token)) return true;
+    // 子序列匹配：token 的字符依序在 title 出现
+    let i = 0;
+    for (const ch of t) {
+      if (ch === token[i]) { i++; if (i === token.length) return true; }
+    }
+    return false;
+  });
+}
 
 function getFilterSet(dim) {
   return filterState[currentTab][dim];
@@ -288,7 +322,9 @@ function getFilterSet(dim) {
 
 function applyFilters(data) {
   const fs = filterState[currentTab];
+  const query = (searchState[currentTab] || '').trim();
   return data.filter(x => {
+    if (query && !fuzzyMatch(x.title, query)) return false;
     if (fs.status.size && !fs.status.has(x.status || '未知')) return false;
     if (fs.year.size && !fs.year.has(String(x.year || '未知'))) return false;
     if (fs.region.size && !fs.region.has(x.region || '未知')) return false;
@@ -323,10 +359,11 @@ function applyFiltersAndRender() {
   // 顶部摘要 + 重置按钮显隐
   const fs = filterState[currentTab];
   const activeCount = fs.status.size + fs.year.size + fs.region.size + fs.tag.size + fs.ip_origin.size;
-  document.getElementById('filter-reset').classList.toggle('hidden', activeCount === 0);
+  const hasSearch = (searchState[currentTab] || '').trim().length > 0;
+  document.getElementById('filter-reset').classList.toggle('hidden', activeCount === 0 && !hasSearch);
   const orig = (cache[currentTab] || []).length;
-  document.getElementById('filter-summary').textContent =
-    activeCount ? `已筛选 ${total} / ${orig}` : `共 ${orig} 条`;
+  const summary = (activeCount || hasSearch) ? `已筛选 ${total} / ${orig}` : `共 ${orig} 条`;
+  document.getElementById('filter-summary').textContent = summary;
   // 各按钮 active + count
   ['status','year','region','tag','ip_origin'].forEach(dim => {
     const dropdown = document.querySelector(`.filter-dropdown[data-filter="${dim}"]`);
@@ -413,8 +450,30 @@ document.getElementById('filter-reset').addEventListener('click', () => {
   const fs = filterState[currentTab];
   if (!fs) return;
   Object.keys(fs).forEach(k => fs[k].clear());
+  searchState[currentTab] = '';
+  document.getElementById('search-input').value = '';
+  document.getElementById('search-clear').classList.add('hidden');
   rebuildFilterPanels(cache[currentTab] || []);
   applyFiltersAndRender();
+});
+
+// 搜索框
+const searchInput = document.getElementById('search-input');
+const searchClear = document.getElementById('search-clear');
+let searchTimer = null;
+searchInput.addEventListener('input', (e) => {
+  const v = e.target.value;
+  searchState[currentTab] = v;
+  searchClear.classList.toggle('hidden', !v);
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => applyFiltersAndRender(), 120);
+});
+searchClear.addEventListener('click', () => {
+  searchInput.value = '';
+  searchState[currentTab] = '';
+  searchClear.classList.add('hidden');
+  applyFiltersAndRender();
+  searchInput.focus();
 });
 
 // === Excel 导出 ===
