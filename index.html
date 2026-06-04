@@ -44,8 +44,9 @@
   .platform-bili-guochuang { color:#f472b6; }
   .platform-bili-bangumi { color:#e879f9; }
   /* filter checkbox */
+  .filter-panel { background:#1a1a2e; border:1px solid rgba(167,139,250,0.45); box-shadow: 0 12px 40px rgba(0,0,0,0.6), 0 0 0 1px rgba(0,0,0,0.4); backdrop-filter: blur(8px); }
   .filter-opt { display:flex; align-items:center; gap:6px; padding:5px 8px; border-radius:6px; cursor:pointer; font-size:12px; color:#ddd6fe; }
-  .filter-opt:hover { background: rgba(167,139,250,0.12); }
+  .filter-opt:hover { background: rgba(167,139,250,0.18); }
   .filter-opt input { accent-color:#a78bfa; }
   .filter-opt .count { color:#9ca3af; font-size:11px; margin-left:auto; }
   .filter-btn.active { background: linear-gradient(135deg,rgba(167,139,250,0.30),rgba(96,165,250,0.30)); border-color: rgba(167,139,250,0.6); color:#fff; }
@@ -95,31 +96,31 @@
       <button class="filter-btn btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1">
         <span>📺 完结状态</span><span class="filter-count hidden ml-1 px-1.5 rounded bg-purple-500/30 text-purple-100 text-[10px]"></span><span class="ml-1">▾</span>
       </button>
-      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-20 min-w-[180px] glow-card rounded-lg p-2 shadow-xl"></div>
+      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-50 min-w-[180px] rounded-lg p-2"></div>
     </div>
     <div class="filter-dropdown relative" data-filter="year">
       <button class="filter-btn btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1">
         <span>📅 首播年份</span><span class="filter-count hidden ml-1 px-1.5 rounded bg-purple-500/30 text-purple-100 text-[10px]"></span><span class="ml-1">▾</span>
       </button>
-      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-20 min-w-[200px] glow-card rounded-lg p-2 shadow-xl max-h-[300px] overflow-y-auto"></div>
+      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-50 min-w-[200px] rounded-lg p-2 max-h-[320px] overflow-y-auto"></div>
     </div>
     <div class="filter-dropdown relative" data-filter="region">
       <button class="filter-btn btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1">
         <span>🌏 地区</span><span class="filter-count hidden ml-1 px-1.5 rounded bg-purple-500/30 text-purple-100 text-[10px]"></span><span class="ml-1">▾</span>
       </button>
-      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-20 min-w-[180px] glow-card rounded-lg p-2 shadow-xl"></div>
+      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-50 min-w-[180px] rounded-lg p-2"></div>
     </div>
     <div class="filter-dropdown relative" data-filter="tag">
       <button class="filter-btn btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1">
         <span>🏷️ 题材</span><span class="filter-count hidden ml-1 px-1.5 rounded bg-purple-500/30 text-purple-100 text-[10px]"></span><span class="ml-1">▾</span>
       </button>
-      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-20 min-w-[260px] glow-card rounded-lg p-2 shadow-xl max-h-[360px] overflow-y-auto"></div>
+      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-50 min-w-[260px] rounded-lg p-2 max-h-[380px] overflow-y-auto"></div>
     </div>
     <div class="filter-dropdown relative" data-filter="ip_origin">
       <button class="filter-btn btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1">
         <span>📚 改编来源</span><span class="filter-count hidden ml-1 px-1.5 rounded bg-purple-500/30 text-purple-100 text-[10px]"></span><span class="ml-1">▾</span>
       </button>
-      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-20 min-w-[180px] glow-card rounded-lg p-2 shadow-xl"></div>
+      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-50 min-w-[180px] rounded-lg p-2"></div>
     </div>
     <button id="filter-reset" class="hidden text-xs text-purple-300 hover:text-purple-200 underline">清空全部筛选</button>
     <div class="ml-auto flex items-center gap-2">
