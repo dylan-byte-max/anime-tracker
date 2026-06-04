@@ -231,8 +231,6 @@ function renderItem(item, tab) {
     ? `<div class="heat-badge text-xs px-2.5 py-1 rounded-lg font-medium">🔥 ${item.platform_score}<span class="opacity-70 ml-0.5"> ${item.score_label||''}</span></div>` : '';
   const tagline = item.tagline ? `<span class="text-[11px] text-amber-300/80">${item.tagline}</span>` : '';
   const link = item.link ? `<a href="${item.link}" target="_blank" class="hover:underline">${item.title}</a>` : item.title;
-  const heatNum = parseFloat(item.platform_score) || 0;
-  const link = item.link ? `<a href="${item.link}" target="_blank" class="hover:underline">${item.title}</a>` : item.title;
   return `
   <div class="glow-card rounded-2xl p-4 transition-all">
     <div class="flex items-start gap-4">
