@@ -43,6 +43,12 @@
   .platform-youku { color:#38bdf8; }
   .platform-bili-guochuang { color:#f472b6; }
   .platform-bili-bangumi { color:#e879f9; }
+  /* filter checkbox */
+  .filter-opt { display:flex; align-items:center; gap:6px; padding:5px 8px; border-radius:6px; cursor:pointer; font-size:12px; color:#ddd6fe; }
+  .filter-opt:hover { background: rgba(167,139,250,0.12); }
+  .filter-opt input { accent-color:#a78bfa; }
+  .filter-opt .count { color:#9ca3af; font-size:11px; margin-left:auto; }
+  .filter-btn.active { background: linear-gradient(135deg,rgba(167,139,250,0.30),rgba(96,165,250,0.30)); border-color: rgba(167,139,250,0.6); color:#fff; }
 </style>
 </head>
 <body class="min-h-screen">
@@ -83,11 +89,46 @@
     <div class="glow-card rounded-xl p-3"><div class="text-xs text-gray-400">平均上线年限</div><div class="text-2xl font-bold text-pink-300 mt-1" id="stat-year">—</div></div>
   </section>
 
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 mt-4 flex justify-end">
-    <button id="export-excel" class="btn-primary px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2">
-      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-      下载 Excel
-    </button>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 mt-4 flex flex-wrap items-center gap-2">
+    <!-- 筛选下拉按钮组 -->
+    <div class="filter-dropdown relative" data-filter="status">
+      <button class="filter-btn btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1">
+        <span>📺 完结状态</span><span class="filter-count hidden ml-1 px-1.5 rounded bg-purple-500/30 text-purple-100 text-[10px]"></span><span class="ml-1">▾</span>
+      </button>
+      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-20 min-w-[180px] glow-card rounded-lg p-2 shadow-xl"></div>
+    </div>
+    <div class="filter-dropdown relative" data-filter="year">
+      <button class="filter-btn btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1">
+        <span>📅 首播年份</span><span class="filter-count hidden ml-1 px-1.5 rounded bg-purple-500/30 text-purple-100 text-[10px]"></span><span class="ml-1">▾</span>
+      </button>
+      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-20 min-w-[200px] glow-card rounded-lg p-2 shadow-xl max-h-[300px] overflow-y-auto"></div>
+    </div>
+    <div class="filter-dropdown relative" data-filter="region">
+      <button class="filter-btn btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1">
+        <span>🌏 地区</span><span class="filter-count hidden ml-1 px-1.5 rounded bg-purple-500/30 text-purple-100 text-[10px]"></span><span class="ml-1">▾</span>
+      </button>
+      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-20 min-w-[180px] glow-card rounded-lg p-2 shadow-xl"></div>
+    </div>
+    <div class="filter-dropdown relative" data-filter="tag">
+      <button class="filter-btn btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1">
+        <span>🏷️ 题材</span><span class="filter-count hidden ml-1 px-1.5 rounded bg-purple-500/30 text-purple-100 text-[10px]"></span><span class="ml-1">▾</span>
+      </button>
+      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-20 min-w-[260px] glow-card rounded-lg p-2 shadow-xl max-h-[360px] overflow-y-auto"></div>
+    </div>
+    <div class="filter-dropdown relative" data-filter="ip_origin">
+      <button class="filter-btn btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium flex items-center gap-1">
+        <span>📚 改编来源</span><span class="filter-count hidden ml-1 px-1.5 rounded bg-purple-500/30 text-purple-100 text-[10px]"></span><span class="ml-1">▾</span>
+      </button>
+      <div class="filter-panel hidden absolute left-0 top-full mt-1 z-20 min-w-[180px] glow-card rounded-lg p-2 shadow-xl"></div>
+    </div>
+    <button id="filter-reset" class="hidden text-xs text-purple-300 hover:text-purple-200 underline">清空全部筛选</button>
+    <div class="ml-auto flex items-center gap-2">
+      <span id="filter-summary" class="text-xs text-gray-400"></span>
+      <button id="export-excel" class="btn-primary px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+        下载 Excel
+      </button>
+    </div>
   </div>
 
   <main class="max-w-7xl mx-auto px-4 sm:px-6 mt-4 pb-16">
@@ -232,25 +273,153 @@ async function renderTab(tab) {
   const list = document.getElementById('anime-list');
   list.innerHTML = '<div class="text-center text-gray-500 py-12">加载中…</div>';
   const data = await loadTab(tab);
-  if (!data.length) {
-    list.innerHTML = `<div class="text-center text-gray-500 py-12">该榜单暂无数据</div>`;
+  // 重置该 tab 筛选状态（保留各 tab 自己的）
+  if (!filterState[tab]) filterState[tab] = { status: new Set(), year: new Set(), region: new Set(), tag: new Set(), ip_origin: new Set() };
+  rebuildFilterPanels(data);
+  applyFiltersAndRender();
+}
+
+const filterState = {};
+
+function getFilterSet(dim) {
+  return filterState[currentTab][dim];
+}
+
+function applyFilters(data) {
+  const fs = filterState[currentTab];
+  return data.filter(x => {
+    if (fs.status.size && !fs.status.has(x.status || '未知')) return false;
+    if (fs.year.size && !fs.year.has(String(x.year || '未知'))) return false;
+    if (fs.region.size && !fs.region.has(x.region || '未知')) return false;
+    if (fs.tag.size) {
+      const tags = x.tags || [];
+      if (!tags.some(t => fs.tag.has(t))) return false;
+    }
+    if (fs.ip_origin.size && !fs.ip_origin.has(x.ip_origin || '未知')) return false;
+    return true;
+  });
+}
+
+function applyFiltersAndRender() {
+  const data = cache[currentTab] || [];
+  const filtered = applyFilters(data);
+  const list = document.getElementById('anime-list');
+  if (!filtered.length) {
+    list.innerHTML = `<div class="text-center text-gray-500 py-12">没有符合筛选条件的作品</div>`;
   } else {
-    list.innerHTML = data.map(it => renderItem(it, tab)).join('');
+    list.innerHTML = filtered.map(it => renderItem(it, currentTab)).join('');
   }
-  const total = data.length;
-  const ongoing = data.filter(x => x.status === '连载中').length;
-  const finished = data.filter(x => x.status === '已完结').length;
-  const yearVals = data.map(x => parseInt(x.year)).filter(y => y && y > 1900);
+  // 统计（基于筛选结果）
+  const total = filtered.length;
+  const ongoing = filtered.filter(x => x.status === '连载中').length;
+  const finished = filtered.filter(x => x.status === '已完结').length;
+  const yearVals = filtered.map(x => parseInt(x.year)).filter(y => y && y > 1900);
   const avgYears = yearVals.length ? ((yearVals.reduce((s,y)=>s+(2026-y),0)/yearVals.length).toFixed(1)) : '—';
   document.getElementById('stat-total').textContent = total;
   document.getElementById('stat-ongoing').textContent = ongoing;
   document.getElementById('stat-finished').textContent = total ? Math.round(finished/total*100)+'%' : '—';
   document.getElementById('stat-year').textContent = avgYears + (avgYears !== '—' ? ' 年' : '');
+  // 顶部摘要 + 重置按钮显隐
+  const fs = filterState[currentTab];
+  const activeCount = fs.status.size + fs.year.size + fs.region.size + fs.tag.size + fs.ip_origin.size;
+  document.getElementById('filter-reset').classList.toggle('hidden', activeCount === 0);
+  const orig = (cache[currentTab] || []).length;
+  document.getElementById('filter-summary').textContent =
+    activeCount ? `已筛选 ${total} / ${orig}` : `共 ${orig} 条`;
+  // 各按钮 active + count
+  ['status','year','region','tag','ip_origin'].forEach(dim => {
+    const dropdown = document.querySelector(`.filter-dropdown[data-filter="${dim}"]`);
+    if (!dropdown) return;
+    const btn = dropdown.querySelector('.filter-btn');
+    const cnt = dropdown.querySelector('.filter-count');
+    const n = fs[dim].size;
+    btn.classList.toggle('active', n > 0);
+    if (n > 0) { cnt.classList.remove('hidden'); cnt.textContent = n; }
+    else { cnt.classList.add('hidden'); }
+  });
 }
+
+function rebuildFilterPanels(data) {
+  // 计算每个维度的可选值 + 计数
+  const counts = {
+    status: new Map(), year: new Map(), region: new Map(), tag: new Map(), ip_origin: new Map()
+  };
+  for (const x of data) {
+    const status = x.status || '未知';
+    counts.status.set(status, (counts.status.get(status)||0)+1);
+    const year = String(x.year || '未知');
+    counts.year.set(year, (counts.year.get(year)||0)+1);
+    const region = x.region || '未知';
+    counts.region.set(region, (counts.region.get(region)||0)+1);
+    const ip = x.ip_origin || '未知';
+    counts.ip_origin.set(ip, (counts.ip_origin.get(ip)||0)+1);
+    for (const t of (x.tags||[])) counts.tag.set(t, (counts.tag.get(t)||0)+1);
+  }
+  // 排序：年份倒序、其他按计数倒序
+  function sorted(map, kind) {
+    const arr = [...map.entries()];
+    if (kind === 'year') arr.sort((a,b) => (b[0]+'').localeCompare(a[0]+'', 'zh', { numeric: true }));
+    else arr.sort((a,b) => b[1]-a[1]);
+    return arr;
+  }
+  const fs = filterState[currentTab];
+  for (const dim of ['status','year','region','tag','ip_origin']) {
+    const panel = document.querySelector(`.filter-dropdown[data-filter="${dim}"] .filter-panel`);
+    if (!panel) continue;
+    const arr = sorted(counts[dim], dim);
+    panel.innerHTML = arr.length ? arr.map(([val, n]) => {
+      const checked = fs[dim].has(val) ? 'checked' : '';
+      const safeVal = val.replace(/"/g,'&quot;');
+      return `<label class="filter-opt">
+        <input type="checkbox" data-dim="${dim}" data-val="${safeVal}" ${checked}>
+        <span>${val}</span>
+        <span class="count">${n}</span>
+      </label>`;
+    }).join('') : `<div class="text-xs text-gray-500 px-2 py-2">该维度暂无数据</div>`;
+  }
+}
+
+// 复选框点击
+document.addEventListener('change', (e) => {
+  if (!e.target.matches('.filter-opt input[type="checkbox"]')) return;
+  const dim = e.target.dataset.dim;
+  const val = e.target.dataset.val;
+  const fs = filterState[currentTab];
+  if (!fs) return;
+  if (e.target.checked) fs[dim].add(val);
+  else fs[dim].delete(val);
+  applyFiltersAndRender();
+});
+
+// 下拉切换
+document.querySelectorAll('.filter-dropdown').forEach(dd => {
+  const btn = dd.querySelector('.filter-btn');
+  const panel = dd.querySelector('.filter-panel');
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    document.querySelectorAll('.filter-panel').forEach(p => { if (p !== panel) p.classList.add('hidden'); });
+    panel.classList.toggle('hidden');
+  });
+});
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.filter-dropdown')) {
+    document.querySelectorAll('.filter-panel').forEach(p => p.classList.add('hidden'));
+  }
+});
+
+// 清空筛选
+document.getElementById('filter-reset').addEventListener('click', () => {
+  const fs = filterState[currentTab];
+  if (!fs) return;
+  Object.keys(fs).forEach(k => fs[k].clear());
+  rebuildFilterPanels(cache[currentTab] || []);
+  applyFiltersAndRender();
+});
 
 // === Excel 导出 ===
 function exportExcel() {
-  const data = cache[currentTab] || [];
+  const allData = cache[currentTab] || [];
+  const data = applyFilters(allData);
   if (!data.length) { alert('暂无数据可导出'); return; }
   const rows = data.map(x => ({
     '排名': x.rank,
