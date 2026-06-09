@@ -91,10 +91,14 @@ async function aggregateList() {
 async function fetchDetail(item) {
   try {
     const html = await get(item.link);
-    // 热度
-    const heat = html.match(/class="new-title-heat"[^>]*>([^<]+)</)?.[1] || '';
-    // 标签 - new-title-feature title 属性
+    // 标签 - new-title-feature title 属性，形如 "7250 国创动漫热度榜·TOP1 新国风 仙侠神魔 古风"
     const titleAttr = html.match(/<div class="new-title-feature"[^>]*?title="([^"]+)"/)?.[1] || '';
+    // 热度 - 主路径：直接拿 .new-title-heat 内文；fallback：titleAttr 首段纯数字
+    let heat = html.match(/class="new-title-heat"[^>]*>([^<]+)</)?.[1] || '';
+    if (!heat) {
+      const m = titleAttr.match(/^\s*(\d{2,9})\b/);
+      if (m) heat = m[1];
+    }
     // 解析 title 属性: "6376 动漫热度榜·TOP2 国风剧场 新国风 热血 古风"
     const tagsAll = titleAttr.split(/\s+/).filter(t => t && t !== heat && !/热度榜|TOP\d+/.test(t));
     // 简介 - .video-desc
@@ -182,7 +186,18 @@ async function fetchDetail(item) {
     rank_change: null,
   }));
 
-  fs.writeFileSync(path.join(__dirname,'..','data','youku.json'), JSON.stringify(out, null, 2));
+  // 保底：如果新结果远少于已有结果（典型场景：海外 IP 被限，全部 heat=0），保留旧数据避免前端"今天没数据"
+  const outPath = path.join(__dirname,'..','data','youku.json');
+  let prev = [];
+  try { prev = JSON.parse(fs.readFileSync(outPath, 'utf8')); } catch(e) {}
+  if (prev.length >= 10 && out.length < prev.length * 0.5) {
+    console.warn(`\n⚠️  保底触发：新结果 ${out.length} 条 < 旧文件 ${prev.length} 条 × 50%。保留旧数据，不覆盖。`);
+    console.warn('   多半是 runner 拿到了海外简版页（detail HTML 缺 new-title-heat / new-title-feature）。');
+    console.warn('   建议在国内本机手动跑一遍 push 上去刷新。');
+    return;
+  }
+
+  fs.writeFileSync(outPath, JSON.stringify(out, null, 2));
   console.log('\n✅ youku.json 写入', out.length, '条');
   console.log('Top 5:');
   out.slice(0,5).forEach(x=>console.log(' ', x.rank, x.title, '|热度', x.platform_score, '|', x.year, x.region, '|', x.tags.join(','), '|', x.status, x.latest));
