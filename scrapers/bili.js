@@ -81,11 +81,46 @@ async function scrape(seasonType, label, max=100) {
   return out;
 }
 
+function looksDegraded(items) {
+  // 若 top1 播放量 < 5亿且远小于历史峰值（柯南 20+亿、鬼灭 12亿），多半是海外 IP 简版
+  if (!items.length) return true;
+  const top1Raw = items[0].score_raw || 0;
+  // 5 亿 阈值；并且 top10 里居然没出现"柯南/鬼灭/蜡笔小新/咒术回战/海贼王/航海王/全职猎人"任意一个，视为降级
+  const HIGH_THRESHOLD = 500_000_000;
+  const expectedKeywords = ['柯南','鬼灭','蜡笔小新','咒术','海贼','航海王','间谍过家家','银魂'];
+  const top10Titles = items.slice(0,10).map(x=>x.title).join(' ');
+  const hasExpected = expectedKeywords.some(k => top10Titles.includes(k));
+  return top1Raw < HIGH_THRESHOLD && !hasExpected;
+}
+
+function loadExisting(filePath) {
+  try { return JSON.parse(fs.readFileSync(filePath, 'utf8')); } catch(e) { return null; }
+}
+
 (async () => {
+  const guochuangPath = path.join(__dirname,'..','data','bili-guochuang.json');
+  const bangumiPath = path.join(__dirname,'..','data','bili-bangumi.json');
+
   const guochuang = await scrape(4, 'B站国创', 100);
-  fs.writeFileSync(path.join(__dirname,'..','data','bili-guochuang.json'), JSON.stringify(guochuang, null, 2));
-  console.log('✅ 国创已写入', guochuang.length);
   const bangumi = await scrape(1, 'B站番剧', 100);
-  fs.writeFileSync(path.join(__dirname,'..','data','bili-bangumi.json'), JSON.stringify(bangumi, null, 2));
-  console.log('✅ 番剧已写入', bangumi.length);
+
+  // 防御：海外 IP 降级响应保护
+  const guochuangOld = loadExisting(guochuangPath);
+  const bangumiOld = loadExisting(bangumiPath);
+
+  function writeWithGuard(label, fresh, old, file) {
+    if (looksDegraded(fresh)) {
+      if (old && old.length >= 50 && !looksDegraded(old)) {
+        console.warn(`⚠️ [${label}] 检测到疑似海外 IP 降级响应（top1=${fresh[0]?.title}/${fresh[0]?.platform_score}）→ 保留旧数据 ${old.length} 条不覆盖`);
+        return;
+      } else {
+        console.warn(`⚠️ [${label}] 新数据可疑但旧数据也可疑，强制写入新数据`);
+      }
+    }
+    fs.writeFileSync(file, JSON.stringify(fresh, null, 2));
+    console.log(`✅ [${label}] 已写入 ${fresh.length}`);
+  }
+
+  writeWithGuard('B站国创', guochuang, guochuangOld, guochuangPath);
+  writeWithGuard('B站番剧', bangumi, bangumiOld, bangumiPath);
 })();
