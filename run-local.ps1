@@ -6,6 +6,15 @@
 
 $ErrorActionPreference = "Continue"
 
+# --- 统一编码为 UTF-8（解决中文日志乱码 + 子进程输出乱码）---
+try {
+    [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+    [Console]::InputEncoding  = [System.Text.Encoding]::UTF8
+    $OutputEncoding = [System.Text.Encoding]::UTF8
+    $env:PYTHONIOENCODING = "utf-8"
+    chcp 65001 | Out-Null
+} catch {}
+
 # --- 配置 ---
 $ProjectDir = "C:\Users\dylanynsu\WorkBuddy\2026-06-04-12-43-06\anime-tracker-demo"
 $NodeExe    = "C:\Users\dylanynsu\.workbuddy\binaries\node\versions\22.22.2\node.exe"
@@ -27,7 +36,8 @@ $LogFile = Join-Path $LogDir "local-run_$Stamp.log"
 function Log($msg) {
     $line = "[{0}] {1}" -f (Get-Date -Format "HH:mm:ss"), $msg
     Write-Output $line
-    try { Add-Content -Path $LogFile -Value $line -Encoding UTF8 } catch {}
+    # 用 .NET 无 BOM UTF-8 追加写，避免 PS5.1 的 BOM + GBK 乱码
+    try { [System.IO.File]::AppendAllText($LogFile, $line + "`r`n", (New-Object System.Text.UTF8Encoding($false))) } catch {}
 }
 
 Log "===== anime-tracker 本地爬虫开始 ====="
