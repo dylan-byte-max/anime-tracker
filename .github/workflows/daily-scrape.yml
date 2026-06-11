@@ -1,8 +1,14 @@
+# 双轨数据更新策略：
+# - GHA（本 workflow）：每天北京 08:00 自动跑，作为「兜底」。海外 IP 可能导致 B站/爱奇艺头部降级，
+#   但保证「不开机的日子也有数据」。
+# - 本地 Windows 任务计划：每天 12:00 用国内 IP 跑准确数据，push 时间晚于 GHA，自然覆盖兜底版。
+#   （见项目根目录 run-local.ps1）
+
 name: Daily Anime Scrape & Deploy
 
 on:
   schedule:
-    # 每天北京时间 08:00 运行 (UTC 00:00)
+    # UTC 00:00 = 北京 08:00（比本地 12:00 早，让本地数据能覆盖）
     - cron: '0 0 * * *'
   workflow_dispatch:
 
@@ -20,65 +26,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Install Playwright browsers
-        run: npx playwright install chromium --with-deps
-
-      # B站国创榜（原生 HTTP）
-      - name: Scrape Bilibili
-        run: node scrapers/bili.js
+      - run: npm install
+      - run: npx playwright install chromium --with-deps
+      - run: node scrapers/bili.js
         continue-on-error: true
-
-      # 腾讯视频动漫（原生 HTTP，trpc API）
-      - name: Scrape Tencent Video
-        run: node scrapers/tencent.js
+      - run: node scrapers/tencent.js
         continue-on-error: true
-
-      # 优酷动漫（原生 HTTP，SSR 详情页）
-      - name: Scrape Youku
-        run: node scrapers/youku.js
+      - run: node scrapers/youku.js
         continue-on-error: true
-
-      # 爱奇艺动漫热播榜（Playwright）
-      - name: Scrape iQiyi
-        run: node scrapers/iqiyi.js
+      - run: node scrapers/iqiyi.js
         continue-on-error: true
-
       - name: Commit & Push data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || git commit -m "📊 update: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git diff --cached --quiet || git commit -m "📊 update (GHA 兜底): $(date -u '+%Y-%m-%d %H:%M UTC')"
           for i in 1 2 3; do
             git push && break
-            echo "Push failed, attempt $i. Pulling and retrying..."
             git pull --rebase origin main --strategy-option=theirs || true
             sleep 2
           done
-
-  deploy:
-    needs: scrape
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - name: Pull latest data
-        run: git pull origin main
-
-      - uses: actions/configure-pages@v4
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - uses: actions/deploy-pages@v4
