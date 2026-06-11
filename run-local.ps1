@@ -51,6 +51,10 @@ foreach ($s in $scrapers) {
     if ($LASTEXITCODE -eq 0) { Log "  [$s] OK" } else { Log "  [$s] 退出码=$LASTEXITCODE" }
 }
 
+# --- 1.5 存当天历史快照 + 更新索引 ---
+Log "---- 存历史快照 ----"
+& $NodeExe "scrapers\save-history.js" 2>&1 | ForEach-Object { Log "  $_" }
+
 # --- 2. 先 commit 本地数据（避免 pull rebase 时 unstaged 报错）---
 Log "git add & commit..."
 git add data/ 2>&1 | Out-Null

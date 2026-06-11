@@ -90,11 +90,15 @@
     <div class="glow-card rounded-xl p-3"><div class="text-xs text-gray-400">平均上线年限</div><div class="text-2xl font-bold text-pink-300 mt-1" id="stat-year">—</div></div>
   </section>
 
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 mt-4">
-    <div class="relative">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 mt-4 flex flex-col sm:flex-row gap-2">
+    <div class="relative flex-1">
       <input id="search-input" type="text" placeholder="🔍 搜索作品名（模糊匹配，支持空格分多关键词，例如 '凡人 修仙' 或 '斗罗'）"
         class="w-full input-dark rounded-xl px-4 py-2.5 text-sm" autocomplete="off" />
       <button id="search-clear" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white text-lg">×</button>
+    </div>
+    <div class="flex items-center gap-2 shrink-0">
+      <span class="text-xs text-gray-400">📅 日期</span>
+      <select id="date-select" class="input-dark rounded-xl px-3 py-2.5 text-sm cursor-pointer min-w-[150px]"></select>
     </div>
   </div>
 
@@ -195,8 +199,17 @@ const PLATFORM_LABELS = {
   iqiyi: '爱奇艺', tencent: '腾讯视频', youku: '优酷',
   'bili-guochuang': 'B站国创', 'bili-bangumi': 'B站番剧'
 };
-const cache = {};
+const cache = {};                // key: `${tab}@${date||'latest'}` -> 数据数组
 let currentTab = 'iqiyi';
+let historyIndex = {};           // { platform: ['2026-06-11', ...] }
+const dateState = {};            // { tab: 'latest' | 'YYYY-MM-DD' }
+
+async function loadHistoryIndex() {
+  try {
+    const resp = await fetch('data/history-index.json?t=' + Date.now());
+    if (resp.ok) historyIndex = await resp.json();
+  } catch (e) { historyIndex = {}; }
+}
 
 function rankBadge(rank) {
   if (rank === 1) return `<div class="rank-1 w-9 h-9 rounded-lg flex items-center justify-center font-extrabold text-lg shadow-md">${rank}</div>`;
@@ -266,18 +279,43 @@ function renderItem(item, tab) {
 }
 
 async function loadTab(tab) {
-  if (!cache[tab]) {
+  const date = dateState[tab] || 'latest';
+  const cacheKey = `${tab}@${date}`;
+  if (!cache[cacheKey]) {
+    // latest 用根目录文件；具体日期用 history 快照
+    const url = date === 'latest'
+      ? TAB_FILES[tab]
+      : `data/${tab}/history/${date}.json`;
     try {
-      const resp = await fetch(TAB_FILES[tab]);
-      cache[tab] = await resp.json();
-    } catch (e) { cache[tab] = []; console.error('load fail', tab, e); }
+      const resp = await fetch(url + '?t=' + Date.now());
+      cache[cacheKey] = resp.ok ? await resp.json() : [];
+    } catch (e) { cache[cacheKey] = []; console.error('load fail', cacheKey, e); }
   }
-  return cache[tab];
+  return cache[cacheKey];
+}
+
+function curData() {
+  const date = dateState[currentTab] || 'latest';
+  return cache[`${currentTab}@${date}`] || [];
+}
+
+// 填充日期下拉：latest（今日最新）+ history 里所有日期
+function populateDateSelect(tab) {
+  const sel = document.getElementById('date-select');
+  const dates = historyIndex[tab] || [];
+  const cur = dateState[tab] || 'latest';
+  let html = `<option value="latest">最新（实时）</option>`;
+  // 今天的快照如果存在，latest 和它内容一样，这里只列历史日期
+  html += dates.map(d => `<option value="${d}">${d}</option>`).join('');
+  sel.innerHTML = html;
+  sel.value = cur;
 }
 
 async function renderTab(tab) {
   const list = document.getElementById('anime-list');
   list.innerHTML = '<div class="text-center text-gray-500 py-12">加载中…</div>';
+  if (dateState[tab] === undefined) dateState[tab] = 'latest';
+  populateDateSelect(tab);
   const data = await loadTab(tab);
   // 重置该 tab 筛选状态（保留各 tab 自己的）
   if (!filterState[tab]) filterState[tab] = { status: new Set(), year: new Set(), region: new Set(), tag: new Set(), ip_origin: new Set() };
@@ -292,6 +330,16 @@ async function renderTab(tab) {
   rebuildFilterPanels(data);
   applyFiltersAndRender();
 }
+
+// 日期切换
+document.getElementById('date-select').addEventListener('change', async (e) => {
+  dateState[currentTab] = e.target.value;
+  const list = document.getElementById('anime-list');
+  list.innerHTML = '<div class="text-center text-gray-500 py-12">加载中…</div>';
+  const data = await loadTab(currentTab);
+  rebuildFilterPanels(data);
+  applyFiltersAndRender();
+});
 
 const filterState = {};
 const searchState = {};   // { tab: 'query string' }
@@ -335,7 +383,7 @@ function applyFilters(data) {
 }
 
 function applyFiltersAndRender() {
-  const data = cache[currentTab] || [];
+  const data = curData();
   const filtered = applyFilters(data);
   const list = document.getElementById('anime-list');
   if (!filtered.length) {
@@ -358,8 +406,9 @@ function applyFiltersAndRender() {
   const activeCount = fs.status.size + fs.year.size + fs.region.size + fs.tag.size + fs.ip_origin.size;
   const hasSearch = (searchState[currentTab] || '').trim().length > 0;
   document.getElementById('filter-reset').classList.toggle('hidden', activeCount === 0 && !hasSearch);
-  const orig = (cache[currentTab] || []).length;
-  const summary = (activeCount || hasSearch) ? `已筛选 ${total} / ${orig}` : `共 ${orig} 条`;
+  const orig = curData().length;
+  const dateLabel = (dateState[currentTab] && dateState[currentTab] !== 'latest') ? `（${dateState[currentTab]} 快照）` : '';
+  const summary = (activeCount || hasSearch) ? `已筛选 ${total} / ${orig}${dateLabel}` : `共 ${orig} 条${dateLabel}`;
   document.getElementById('filter-summary').textContent = summary;
   // 各按钮 active + count
   ['status','year','region','tag','ip_origin'].forEach(dim => {
@@ -450,7 +499,7 @@ document.getElementById('filter-reset').addEventListener('click', () => {
   searchState[currentTab] = '';
   document.getElementById('search-input').value = '';
   document.getElementById('search-clear').classList.add('hidden');
-  rebuildFilterPanels(cache[currentTab] || []);
+  rebuildFilterPanels(curData());
   applyFiltersAndRender();
 });
 
@@ -475,7 +524,7 @@ searchClear.addEventListener('click', () => {
 
 // === Excel 导出 ===
 function exportExcel() {
-  const allData = cache[currentTab] || [];
+  const allData = curData();
   const data = applyFilters(allData);
   if (!data.length) { alert('暂无数据可导出'); return; }
   const rows = data.map(x => ({
@@ -593,7 +642,8 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 const today = new Date();
 document.getElementById('data-date').textContent = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
 
-renderTab('iqiyi');
+// 先加载历史索引，再渲染首个 tab（这样日期下拉一进来就有）
+loadHistoryIndex().then(() => renderTab('iqiyi'));
 </script>
 </body>
 </html>

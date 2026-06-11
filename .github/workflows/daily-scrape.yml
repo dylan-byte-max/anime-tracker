@@ -39,6 +39,8 @@ jobs:
         continue-on-error: true
       - run: node scrapers/iqiyi.js
         continue-on-error: true
+      - run: node scrapers/save-history.js
+        continue-on-error: true
       - name: Commit & Push data
         run: |
           git config user.name "github-actions[bot]"
