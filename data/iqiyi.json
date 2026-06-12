@@ -29,6 +29,34 @@
   },
   {
     "rank": 2,
+    "title": "大主宰年番",
+    "cover": "https://pic4.iqiyipic.com/image/20260420/d1/1e/a_100459186_m_601_m38_318_424.webp",
+    "link": "https://www.iqiyi.com/v_1d74ab0t9ug.html",
+    "score_label": "热度",
+    "platform_score": 3514,
+    "score_raw": 3514,
+    "score": 7.6,
+    "latest": "更新至77集",
+    "status": "连载中",
+    "tags": [
+      "热血",
+      "玄幻",
+      "动作",
+      "奇幻",
+      "冒险",
+      "英雄"
+    ],
+    "year": 2023,
+    "pub_time": "2023-6-30",
+    "region": "内地",
+    "synopsis": "大千世界，位面交汇，万族林立，群英荟萃，一位位来自下位面的天之至尊，在这无尽世界，演绎着令人向往的传奇，追求着主宰之路。",
+    "ip_origin": "小说改",
+    "tagline": "今日更新",
+    "badge": "独播",
+    "rank_change": null
+  },
+  {
+    "rank": 3,
     "title": "择天记",
     "cover": "https://pic7.iqiyipic.com/image/20260523/ef/01/a_100615181_m_601_m6_318_424.webp",
     "link": "https://www.iqiyi.com/v_mo3lbdn60s.html",
@@ -55,7 +83,7 @@
     "rank_change": null
   },
   {
-    "rank": 3,
+    "rank": 4,
     "title": "逆天邪神年番",
     "cover": "https://pic0.iqiyipic.com/image/20260416/ff/0b/a_100613847_m_601_m4_318_424.webp",
     "link": "https://www.iqiyi.com/v_o5999g9dp0.html",
@@ -345,20 +373,18 @@
     "latest": "24集全",
     "status": "已完结",
     "tags": [
-      "穿越",
-      "恋爱",
       "搞笑",
-      "古装",
-      "穿越流",
-      "宫斗流"
+      "日常",
+      "生活",
+      "漫画改编"
     ],
-    "year": 2024,
-    "pub_time": "2024-6-14",
-    "region": "内地",
-    "synopsis": "社畜王翠花穿书到了一本宫斗文，成为“妖妃”庾晚音。这本书的女主谢永儿也是穿书进来的，庾晚音为了逆转自己的反派宿命，选择和暴君夏侯澹联手，不料暴君竟然也是穿书进来的！庾晚音希望三个现代人可以放下宫斗，坐在一起斗地主吃火锅。但谢永儿认为自己才是天选之女，依然选择站在庾晚音对立面与男主端王站队。庾晚音不得不展开一系列行动，为了让自己能活下去，并帮助大夏避免旱灾危机......",
-    "ip_origin": "小说改",
-    "tagline": "豆瓣高分",
-    "badge": "独播",
+    "year": 2016,
+    "pub_time": "2016-7-13",
+    "region": "日本",
+    "synopsis": "《蜡笔小新》是一部描写主人公野原新之助和周围人群的日常生活的搞笑喜剧片。调皮的野原新之助作已经是最为知名的动漫角色形象之一。虽然原作者的臼井仪人先生已经离世，但蜡笔小新的故事还将继续。第五季继续为我们带来热闹爆笑的小新新故事。",
+    "ip_origin": "漫画改",
+    "tagline": "生活",
+    "badge": "",
     "rank_change": null
   },
   {
