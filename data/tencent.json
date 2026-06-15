@@ -33,7 +33,7 @@
     "platform_score": 17146,
     "score_raw": 17146,
     "score": null,
-    "latest": "更新至144集",
+    "latest": "更新至145集",
     "status": "连载中",
     "tags": [
       "玄幻"
@@ -588,7 +588,7 @@
     "latest": "更新至456集",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "玄幻,战斗,腾讯出品"
     ],
     "year": "2021",
     "pub_time": "2021-04-06 10:00:00",
@@ -1027,7 +1027,7 @@
     "region": "日本",
     "synopsis": "笑料满点的小新继续让你回忆童年",
     "ip_origin": "",
-    "tagline": "评分 9.3",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -1736,7 +1736,31 @@
     "latest": "全80集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "玄幻"
+    ],
+    "year": "2024",
+    "pub_time": "2024-10-29 10:00:00",
+    "region": "内地",
+    "synopsis": "一曲祖神谣，道尽血与泪",
+    "ip_origin": "",
+    "tagline": "特效炸裂",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 82,
+    "cid": "mzc00200apsjzeq",
+    "title": "斗罗大陆3龙王传说·动态漫1-3季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200apsjzeq1753260164783/350",
+    "link": "https://v.qq.com/x/cover/mzc00200apsjzeq.html",
+    "score_label": "热度",
+    "platform_score": 8006,
+    "score_raw": 8006,
+    "score": null,
+    "latest": "全116集",
+    "status": "已完结",
+    "tags": [
+      "玄幻,动态漫画,冒险"
     ],
     "year": "2010",
     "pub_time": "",
@@ -1931,7 +1955,7 @@
     "region": "内地",
     "synopsis": "",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "评分 9.3",
     "badge": "",
     "rank_change": null
   },
