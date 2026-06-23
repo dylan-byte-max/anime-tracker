@@ -228,7 +228,7 @@
     "latest": "更新至01集",
     "status": "连载中",
     "tags": [
-      "奇幻"
+      "武侠"
     ],
     "year": "2026",
     "pub_time": "2026-06-20 10:00:00",
@@ -348,7 +348,7 @@
     "latest": "更新至10集",
     "status": "连载中",
     "tags": [
-      "奇幻"
+      "玄幻"
     ],
     "year": "2026",
     "pub_time": "2026-04-30 10:00:00",
@@ -444,14 +444,14 @@
     "latest": "更新至350集",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "奇幻"
     ],
-    "year": "2023",
-    "pub_time": "2023-02-18 10:00:00",
+    "year": "2026",
+    "pub_time": "2026-04-30 10:00:00",
     "region": "内地",
-    "synopsis": "我乃“区区”炼气期",
+    "synopsis": "一戒盘龙，龙血战士觉醒！",
     "ip_origin": "",
-    "tagline": "评分 9.0",
+    "tagline": "奇幻魔法",
     "badge": "",
     "rank_change": null
   },
@@ -672,6 +672,30 @@
     "rank_change": null
   },
   {
+    "rank": 28,
+    "cid": "mzc002000iis17y",
+    "title": "斩神之凡尘神域 第2季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002000iis17y1779934185848/350",
+    "link": "https://v.qq.com/x/cover/mzc002000iis17y.html",
+    "score_label": "热度",
+    "platform_score": 10176,
+    "score_raw": 10176,
+    "score": null,
+    "latest": "",
+    "status": "连载中",
+    "tags": [
+      "都市"
+    ],
+    "year": "2026",
+    "pub_time": "2026-06-25 10:00:00",
+    "region": "内地",
+    "synopsis": "众神围攻沧南，守夜人齐聚",
+    "ip_origin": "",
+    "tagline": "预约破800万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
     "rank": 29,
     "cid": "mzc002000iis17y",
     "title": "斩神之凡尘神域 第2季",
@@ -835,7 +859,7 @@
     "region": "日本",
     "synopsis": "你也可以变成光！",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "奇幻冒险",
     "badge": "",
     "rank_change": null
   },
@@ -1313,7 +1337,7 @@
     "region": "内地",
     "synopsis": "神仙妖怪的爆笑日常",
     "ip_origin": "",
-    "tagline": "评分 9.6",
+    "tagline": "动漫资讯",
     "badge": "",
     "rank_change": null
   },
@@ -1929,7 +1953,7 @@
     "region": "内地",
     "synopsis": "我即血祖，踏破空河！",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
@@ -2090,7 +2114,7 @@
     "latest": "全156集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "冒险,战斗,搞笑,腾讯出品,玄幻"
     ],
     "year": "2010",
     "pub_time": "",
@@ -2143,7 +2167,7 @@
     "year": "2010",
     "pub_time": "",
     "region": "内地",
-    "synopsis": "斗罗大陆，神龙降临",
+    "synopsis": "异人不老少女",
     "ip_origin": "",
     "tagline": "评分 9.3",
     "badge": "",
