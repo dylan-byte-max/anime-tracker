@@ -1,6 +1,34 @@
 [
   {
     "rank": 1,
+    "title": "航海王",
+    "cover": "https://pic8.iqiyipic.com/image/20260402/ed/a7/a_100013977_m_601_m77_318_424.webp",
+    "link": "https://www.iqiyi.com/v_19rrok4nt0.html",
+    "score_label": "热度",
+    "platform_score": 4148,
+    "score_raw": 4148,
+    "score": 9.5,
+    "latest": "更新至1167集",
+    "status": "连载中",
+    "tags": [
+      "热血",
+      "冒险",
+      "励志",
+      "奇幻",
+      "热血冒险",
+      "漫画改编"
+    ],
+    "year": 1999,
+    "pub_time": "1999-10-20",
+    "region": "日本",
+    "synopsis": "有个男人，他拥有世界上一切财富、名望和权势，他就是「海盗王」高路德•罗杰。 他在临死前说过这样一句话，让全世界的人都奔向大海： 「想要我的财宝吗？想要的话就拿去吧……！你们去找吧！我把世界上的一切都放在那里了」。 后来世界上的人们将这个宝藏称作“大秘宝”（One Piece），许多人为了争夺大秘宝One Piece，无数海盗扬起旗帜，互相斗争，后来就形成了「大海盗时代」。 主角蒙奇•D•路飞在遥远的路途上找寻着志同道合的伙伴，携手共进「伟大航线」，目标则是当上「海盗王」。 航海王是一个依靠彼此坚毅的友情最终获得胜利，伙伴们一起朝着梦想扬帆努力的冒险故事。",
+    "ip_origin": "漫画改",
+    "tagline": "豆瓣高分",
+    "badge": "独播",
+    "rank_change": null
+  },
+  {
+    "rank": 2,
     "title": "大主宰年番",
     "cover": "https://pic4.iqiyipic.com/image/20260420/d1/1e/a_100459186_m_601_m38_318_424.webp",
     "link": "https://www.iqiyi.com/v_1d74ab0t9ug.html",
@@ -28,7 +56,7 @@
     "rank_change": null
   },
   {
-    "rank": 2,
+    "rank": 3,
     "title": "择天记",
     "cover": "https://pic7.iqiyipic.com/image/20260523/ef/01/a_100615181_m_601_m6_318_424.webp",
     "link": "https://www.iqiyi.com/v_mo3lbdn60s.html",
@@ -341,7 +369,34 @@
     "platform_score": 1576,
     "score_raw": 1576,
     "score": 9.4,
-    "latest": "28集全",
+    "latest": "291集全",
+    "status": "已完结",
+    "tags": [
+      "热血",
+      "搞笑",
+      "动作",
+      "冒险",
+      "漫画改编"
+    ],
+    "year": 1992,
+    "pub_time": "1992-2-19",
+    "region": "日本",
+    "synopsis": "悟空的哥哥拉帝兹来到地球，透漏了悟空原是战斗民族的赛亚人战士，并抢走了孙悟饭威胁悟空一天之内杀死一百个地球人，悟空和比克大魔王联手对抗，然而因为双方实力的差距而陷入苦战。由于赛亚人的侵略，比克等龙珠战士战死，七龙珠也随着消失，为了让死去的战士复活，克林、悟饭和布尔玛出发前往那美克星球寻找七龙珠。贝吉塔为了得到永生，也去了那美克星。贝吉塔等人把受伤的悟空送入治疗室诊治，这时候那美克星的龙珠已经聚集，克林与悟饭让天天召唤出了神龙，许到最后一个愿望的时候大长老牺牲，神龙因此消失。与此同时，比克从神龙的愿望中复活！",
+    "ip_origin": "漫画改",
+    "tagline": "豆瓣高分",
+    "badge": "独播",
+    "rank_change": null
+  },
+  {
+    "rank": 23,
+    "title": "海绵宝宝 第12季",
+    "cover": "https://pic7.iqiyipic.com/image/20231109/14/5e/a_100358947_m_601_m11_318_424.webp",
+    "link": "https://www.iqiyi.com/v_19rvdx1uq4.html",
+    "score_label": "热度",
+    "platform_score": 1599,
+    "score_raw": 1599,
+    "score": 9.6,
+    "latest": "26集全",
     "status": "已完结",
     "tags": [
       "热血",
