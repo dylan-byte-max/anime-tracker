@@ -468,7 +468,7 @@
     "latest": "更新至1263集",
     "status": "连载中",
     "tags": [
-      "悬疑"
+      "推理,经典"
     ],
     "year": "1996",
     "pub_time": "1996-01-08",
@@ -540,7 +540,7 @@
     "latest": "更新至668集",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "战斗,腾讯出品,玄幻"
     ],
     "year": "2020",
     "pub_time": "2020-03-08",
@@ -636,7 +636,7 @@
     "latest": "全432集",
     "status": "已完结",
     "tags": [
-      "玄幻"
+      "冒险,战斗,玄幻"
     ],
     "year": "2017",
     "pub_time": "2023-01-14 10:00:00",
@@ -816,24 +816,48 @@
     "rank_change": null
   },
   {
-    "rank": 35,
-    "cid": "mzc002003lw1kp8",
-    "title": "一念永恒 第3季",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002003lw1kp81740474476603/350",
-    "link": "https://v.qq.com/x/cover/mzc002003lw1kp8.html",
+    "rank": 31,
+    "cid": "mzc00200ab0trmk",
+    "title": "镖人 第1季",
+    "cover": "https://puui.qpic.cn/vcover_vt_pic/0/mzc00200ab0trmk1688652158759/350",
+    "link": "https://v.qq.com/x/cover/mzc00200ab0trmk.html",
     "score_label": "热度",
     "platform_score": 9316,
     "score_raw": 9316,
     "score": null,
-    "latest": "全59集",
+    "latest": "全15集",
     "status": "已完结",
     "tags": [
-      "玄幻"
+      "武侠"
     ],
-    "year": "2024",
-    "pub_time": "2024-07-03 10:00:00",
+    "year": "2023",
+    "pub_time": "2023-06-01 10:00:00",
     "region": "内地",
-    "synopsis": "拒绝牛马修仙！快乐万岁",
+    "synopsis": "重现隋唐江湖热血！",
+    "ip_origin": "",
+    "tagline": "评分 9.6",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 32,
+    "cid": "mzc00200x6fq63h",
+    "title": "诡秘之主 小丑篇",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200x6fq63h1722861340713/350",
+    "link": "https://v.qq.com/x/cover/mzc00200x6fq63h.html",
+    "score_label": "热度",
+    "platform_score": 9526,
+    "score_raw": 9526,
+    "score": null,
+    "latest": "全13集",
+    "status": "已完结",
+    "tags": [
+      "奇幻"
+    ],
+    "year": "2025",
+    "pub_time": "2025-06-28 10:00:00",
+    "region": "内地",
+    "synopsis": "从诡秘醒来，赞美愚者传说",
     "ip_origin": "",
     "tagline": "评分 9.5",
     "badge": "",
@@ -960,24 +984,96 @@
     "rank_change": null
   },
   {
-    "rank": 41,
-    "cid": "mzc002008hw5asj",
-    "title": "蜡笔小新 第7季",
-    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc002008hw5asj1611127404024/350",
-    "link": "https://v.qq.com/x/cover/mzc002008hw5asj.html",
+    "rank": 35,
+    "cid": "k4mutekomtrdbux",
+    "title": "魔道祖师",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/k4mutekomtrdbux1625798477193/350",
+    "link": "https://v.qq.com/x/cover/k4mutekomtrdbux.html",
     "score_label": "热度",
     "platform_score": 8978,
     "score_raw": 8978,
     "score": null,
-    "latest": "全312集",
+    "latest": "全35集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "玄幻,腾讯出品,战斗"
+    ],
+    "year": "2018",
+    "pub_time": "2021-08-07 12:00:00",
+    "region": "内地",
+    "synopsis": "夷陵老祖重现人间",
+    "ip_origin": "",
+    "tagline": "评分 9.8",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 36,
+    "cid": "mzc0020056atjb3",
+    "title": "剑来 第三季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc0020056atjb31781946323643/350",
+    "link": "https://v.qq.com/x/cover/mzc0020056atjb3.html",
+    "score_label": "热度",
+    "platform_score": 9381,
+    "score_raw": 9381,
+    "score": null,
+    "latest": "",
+    "status": "连载中",
+    "tags": [
+      "仙侠"
     ],
     "year": "2010",
     "pub_time": "",
-    "region": "日本",
-    "synopsis": "笑料满点的小新继续让你回忆童年",
+    "region": "内地",
+    "synopsis": "剑修剑仙，剑气长城！",
+    "ip_origin": "",
+    "tagline": "东方仙侠",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 37,
+    "cid": "mzc00200z195unq",
+    "title": "诛仙 第3季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200z195unq1749694262811/350",
+    "link": "https://v.qq.com/x/cover/mzc00200z195unq.html",
+    "score_label": "热度",
+    "platform_score": 9367,
+    "score_raw": 9367,
+    "score": null,
+    "latest": "全26集",
+    "status": "已完结",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2025",
+    "pub_time": "2025-06-12 10:00:00",
+    "region": "内地",
+    "synopsis": "劫波历尽，何日是归期",
+    "ip_origin": "",
+    "tagline": "评分 9.4",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 38,
+    "cid": "mzc002003lw1kp8",
+    "title": "一念永恒 第3季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002003lw1kp81740474476603/350",
+    "link": "https://v.qq.com/x/cover/mzc002003lw1kp8.html",
+    "score_label": "热度",
+    "platform_score": 9340,
+    "score_raw": 9340,
+    "score": null,
+    "latest": "全59集",
+    "status": "已完结",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2024",
+    "pub_time": "2024-07-03 10:00:00",
+    "region": "内地",
+    "synopsis": "拒绝牛马修仙！快乐万岁",
     "ip_origin": "",
     "tagline": "评分 9.5",
     "badge": "",
@@ -1044,7 +1140,7 @@
     "latest": "全1集",
     "status": "已完结",
     "tags": [
-      "仙侠"
+      "武侠"
     ],
     "year": "2025",
     "pub_time": "2025-05-30 12:00:00",
@@ -1081,25 +1177,25 @@
   },
   {
     "rank": 46,
-    "cid": "mzc00200s5j9upv",
-    "title": "画江湖之不良人第七季：九幽玄天",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200s5j9upv1737603032866/350",
-    "link": "https://v.qq.com/x/cover/mzc00200s5j9upv.html",
+    "cid": "mzc00200s2yolvm",
+    "title": "一念永恒合集篇",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200s2yolvm1714380693628/350",
+    "link": "https://v.qq.com/x/cover/mzc00200s2yolvm.html",
     "score_label": "热度",
     "platform_score": 8799,
     "score_raw": 8799,
     "score": null,
-    "latest": "全12集",
-    "status": "已完结",
+    "latest": "更新至28集",
+    "status": "连载中",
     "tags": [
-      "武侠"
+      "玄幻"
     ],
-    "year": "2025",
-    "pub_time": "2025-03-27 10:00:00",
+    "year": "2010",
+    "pub_time": "",
     "region": "内地",
-    "synopsis": "百亿国漫，王者回归",
+    "synopsis": "百集内容一次看",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
@@ -1327,13 +1423,13 @@
     "platform_score": 8553,
     "score_raw": 8553,
     "score": null,
-    "latest": "全28集",
+    "latest": "全156集",
     "status": "已完结",
     "tags": [
-      "真人,战斗,科幻"
+      "搞笑,经典"
     ],
-    "year": "2020",
-    "pub_time": "2020-06-20 10:00:00",
+    "year": "2010",
+    "pub_time": "",
     "region": "日本",
     "synopsis": "赛罗徒弟大展身手",
     "ip_origin": "",
@@ -2168,12 +2264,12 @@
     "tags": [
       "奇幻"
     ],
-    "year": "2010",
-    "pub_time": "2020-04-24 12:00:00",
-    "region": "内地",
-    "synopsis": "豆瓣高分人气动画再度回归",
+    "year": "2017",
+    "pub_time": "2017-04-05",
+    "region": "日本",
+    "synopsis": "忍者村的博人与伙伴们",
     "ip_origin": "",
-    "tagline": "评分 9.3",
+    "tagline": "热血战斗",
     "badge": "",
     "rank_change": null
   },
