@@ -8,7 +8,7 @@
     "link": "https://www.bilibili.com/bangumi/play/ss39308",
     "sub_title": "普普通通的年轻锤锤",
     "status": "连载中",
-    "latest": "更新至第1416话",
+    "latest": "更新至第1417话",
     "score_label": "播放量",
     "platform_score": "116.2亿次播放",
     "score_raw": 11619771268,
@@ -1430,7 +1430,7 @@
     "rank_change": null
   },
   {
-    "rank": 52,
+    "rank": 61,
     "season_id": 28758,
     "media_id": 28223054,
     "title": "猫之茗",
@@ -1456,7 +1456,7 @@
     "rank_change": null
   },
   {
-    "rank": 53,
+    "rank": 62,
     "season_id": 39666,
     "media_id": 28235360,
     "title": "时光代理人 第二季",
@@ -1482,7 +1482,33 @@
     "rank_change": null
   },
   {
-    "rank": 54,
+    "rank": 63,
+    "season_id": 32321,
+    "media_id": 28227527,
+    "title": "大理寺日志",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/08ee22bd12db1c9d8a878c3c6f665bc3f5758fa0.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss32321",
+    "sub_title": "白猫少卿破奇案",
+    "status": "已完结",
+    "latest": "全12话",
+    "score_label": "播放量",
+    "platform_score": "2.5亿次播放",
+    "score_raw": 246988679,
+    "score": "9.8",
+    "follow_count": "481.8万追番",
+    "tags": [],
+    "year": "2020",
+    "pub_time": "2020-04-10 11:00:00",
+    "region": "中国大陆",
+    "synopsis": "在唐朝武明空统治时期，以主管全国大案要案的大理寺为舞台，讲述大理寺众人，在白猫少卿李饼的带领下，展开各种惊心动魄的破案冒险，向命运反抗，坚守自己内心正义的故事。",
+    "series": "大理寺日志",
+    "ip_origin": "",
+    "total": "2.5亿次播放",
+    "badge": "独家",
+    "rank_change": null
+  },
+  {
+    "rank": 64,
     "season_id": 48578,
     "media_id": 22811568,
     "title": "镇魂街 第四季",
@@ -1513,7 +1539,7 @@
     "rank_change": null
   },
   {
-    "rank": 55,
+    "rank": 65,
     "season_id": 24608,
     "media_id": 101852,
     "title": "少年歌行",
@@ -1544,7 +1570,7 @@
     "rank_change": null
   },
   {
-    "rank": 56,
+    "rank": 66,
     "season_id": 42009,
     "media_id": 28338297,
     "title": "这里是峡谷公寓",
@@ -1570,7 +1596,7 @@
     "rank_change": null
   },
   {
-    "rank": 57,
+    "rank": 67,
     "season_id": 26193,
     "media_id": 4313762,
     "title": "百妖谱",
@@ -1601,7 +1627,7 @@
     "rank_change": null
   },
   {
-    "rank": 58,
+    "rank": 68,
     "season_id": 41187,
     "media_id": 28236894,
     "title": "小小朱历史课",
@@ -1627,7 +1653,7 @@
     "rank_change": null
   },
   {
-    "rank": 59,
+    "rank": 69,
     "season_id": 105121,
     "media_id": 26940875,
     "title": "王蓝莓的童年时光",
