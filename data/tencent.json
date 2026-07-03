@@ -577,6 +577,30 @@
   },
   {
     "rank": 25,
+    "cid": "mzc00200azkttu2",
+    "title": "逆天至尊",
+    "cover": "https://puui.qpic.cn/vcover_vt_pic/0/mzc00200azkttu21691465661315/350",
+    "link": "https://v.qq.com/x/cover/mzc00200azkttu2.html",
+    "score_label": "热度",
+    "platform_score": 10703,
+    "score_raw": 10703,
+    "score": null,
+    "latest": "更新至528集",
+    "status": "连载中",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2021",
+    "pub_time": "2021-07-16",
+    "region": "内地",
+    "synopsis": "一剑高下，风雨潇洒",
+    "ip_origin": "",
+    "tagline": "玄幻修真",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 26,
     "cid": "7q544xyrava3vxf",
     "title": "武神主宰",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/7q544xyrava3vxf1781927008498/350",
@@ -612,7 +636,7 @@
     "latest": "",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "战斗,玄幻,腾讯出品"
     ],
     "year": "2010",
     "pub_time": "",
@@ -756,7 +780,7 @@
     "latest": "全35集",
     "status": "已完结",
     "tags": [
-      "玄幻,腾讯出品,战斗"
+      "仙侠"
     ],
     "year": "2018",
     "pub_time": "2021-08-07 12:00:00",
@@ -1271,6 +1295,28 @@
   },
   {
     "rank": 54,
+    "cid": "mzc00200wx5n6q2",
+    "title": "斗破苍穹美杜莎",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200wx5n6q21776068877958/350",
+    "link": "https://v.qq.com/x/cover/mzc00200wx5n6q2.html",
+    "score_label": "热度",
+    "platform_score": 9008,
+    "score_raw": 9008,
+    "score": null,
+    "latest": "更新至179集",
+    "status": "连载中",
+    "tags": [],
+    "year": "2010",
+    "pub_time": "",
+    "region": "内地",
+    "synopsis": "",
+    "ip_origin": "",
+    "tagline": "东方玄幻",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 55,
     "cid": "mzc00200fr1ry1o",
     "title": "龙族 第1季",
     "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200fr1ry1o1656480935127/350",
@@ -1310,8 +1356,8 @@
     ],
     "year": "2010",
     "pub_time": "",
-    "region": "日本",
-    "synopsis": "最爆笑的小男孩儿",
+    "region": "内地",
+    "synopsis": "百集内容一次看",
     "ip_origin": "",
     "tagline": "评分 9.5",
     "badge": "",
@@ -1543,17 +1589,17 @@
     "platform_score": 8487,
     "score_raw": 8487,
     "score": null,
-    "latest": "全52集",
+    "latest": "全24集",
     "status": "已完结",
     "tags": [
-      "玄幻,冒险,腾讯出品,搞笑"
+      "战斗,冒险,搞笑,腾讯出品,玄幻"
     ],
-    "year": "2020",
-    "pub_time": "2024-07-03 10:00:00",
+    "year": "2017",
+    "pub_time": "2017-10-27 10:10:00",
     "region": "内地",
-    "synopsis": "修仙界泥石流来了！",
+    "synopsis": "风起云涌罗天大醮",
     "ip_origin": "",
-    "tagline": "在追破1000万",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
@@ -2093,15 +2139,17 @@
     "platform_score": 8115,
     "score_raw": 8115,
     "score": null,
-    "latest": "更新至219集",
-    "status": "连载中",
-    "tags": [],
-    "year": "2010",
-    "pub_time": "",
+    "latest": "全12集",
+    "status": "已完结",
+    "tags": [
+      "搞笑,冒险"
+    ],
+    "year": "2021",
+    "pub_time": "2021-12-03 12:00:00",
     "region": "内地",
-    "synopsis": "",
+    "synopsis": "灵气复苏，少年崛起",
     "ip_origin": "",
-    "tagline": "未来科幻",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
