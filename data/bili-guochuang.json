@@ -7,8 +7,8 @@
     "cover": "https://i0.hdslb.com/bfs/bangumi/image/7f2b308db3d98f1791b24a9efa9636a5042d8125.png",
     "link": "https://www.bilibili.com/bangumi/play/ss39308",
     "sub_title": "普普通通的年轻锤锤",
-    "status": "连载中",
-    "latest": "更新至第1422话",
+    "status": "未知",
+    "latest": "",
     "score_label": "播放量",
     "platform_score": "116.9亿次播放",
     "score_raw": 11686035319,
@@ -329,7 +329,7 @@
     "synopsis": "根据古典小说记载，世上有人有妖，妖会与人相恋，妖寿命千年，人的寿命有限，人死了，妖活着。人会投胎转世，但投胎以后不记得上辈子的爱。妖如果痴情的话，就去找狐妖“购买”一项服务，让投胎转世的人回忆起前世的爱……狐妖红娘这个角色就为此而诞生。\n作品主要讲述了以红娘为职业的狐妖，在为前世恋人牵红线的过程中发生的一系列有趣、神秘的故事。",
     "series": "狐妖小红娘",
     "ip_origin": "",
-    "total": "10.5亿次播放",
+    "total": "10.6亿次播放",
     "badge": "大会员",
     "rank_change": null
   },
@@ -487,7 +487,7 @@
     "platform_score": "7.8亿次播放",
     "score_raw": 782777115,
     "score": "9.6",
-    "follow_count": "1166.6万系列追番",
+    "follow_count": "1166.7万系列追番",
     "tags": [
       "原创",
       "热血",
@@ -1011,7 +1011,7 @@
     "platform_score": "3.9亿次播放",
     "score_raw": 392171455,
     "score": "9.8",
-    "follow_count": "1166.6万系列追番",
+    "follow_count": "1166.7万系列追番",
     "tags": [
       "原创",
       "战斗",
@@ -1029,7 +1029,33 @@
     "rank_change": null
   },
   {
-    "rank": 38,
+    "rank": 45,
+    "season_id": 48315,
+    "media_id": 22580805,
+    "title": "伍六七之记忆碎片",
+    "cover": "https://i0.hdslb.com/bfs/bangumi/image/4ca65598089129eb1cb5916f97dbb2c5f032ae88.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss48315",
+    "sub_title": "伍六七身世之谜揭开",
+    "status": "已完结",
+    "latest": "全10话",
+    "score_label": "播放量",
+    "platform_score": "3.9亿次播放",
+    "score_raw": 387918273,
+    "score": "7.7",
+    "follow_count": "1467.4万系列追番",
+    "tags": [],
+    "year": "2024",
+    "pub_time": "2024-10-02 12:00:00",
+    "region": "中国大陆",
+    "synopsis": "为了找回珍视的伙伴，伍六七重回玄武国，面对那些被遗忘的记忆碎片。尘封的真相带来痛苦与愤怒，但现在的他不再是孤身一人。拥有力量，究竟是为了什么？这一次，伍六七要为自己的人生做出新的选择…",
+    "series": "伍六七",
+    "ip_origin": "",
+    "total": "3.9亿次播放",
+    "badge": "大会员",
+    "rank_change": null
+  },
+  {
+    "rank": 46,
     "season_id": 39394,
     "media_id": 28235086,
     "title": "无限吃鸡小队 第二季",
@@ -1055,7 +1081,7 @@
     "rank_change": null
   },
   {
-    "rank": 39,
+    "rank": 47,
     "season_id": 39707,
     "media_id": 28235401,
     "title": "中国奇谭",
@@ -1084,7 +1110,7 @@
     "rank_change": null
   },
   {
-    "rank": 40,
+    "rank": 48,
     "season_id": 28761,
     "media_id": 28223057,
     "title": "少年歌行 风花雪月篇",
@@ -1430,7 +1456,7 @@
     "rank_change": null
   },
   {
-    "rank": 52,
+    "rank": 61,
     "season_id": 28758,
     "media_id": 28223054,
     "title": "猫之茗",
@@ -1456,7 +1482,7 @@
     "rank_change": null
   },
   {
-    "rank": 53,
+    "rank": 62,
     "season_id": 39666,
     "media_id": 28235360,
     "title": "时光代理人 第二季",
@@ -1482,7 +1508,33 @@
     "rank_change": null
   },
   {
-    "rank": 54,
+    "rank": 63,
+    "season_id": 32321,
+    "media_id": 28227527,
+    "title": "大理寺日志",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/08ee22bd12db1c9d8a878c3c6f665bc3f5758fa0.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss32321",
+    "sub_title": "白猫少卿破奇案",
+    "status": "已完结",
+    "latest": "全12话",
+    "score_label": "播放量",
+    "platform_score": "2.5亿次播放",
+    "score_raw": 247191475,
+    "score": "9.8",
+    "follow_count": "481.9万追番",
+    "tags": [],
+    "year": "2020",
+    "pub_time": "2020-04-10 11:00:00",
+    "region": "中国大陆",
+    "synopsis": "在唐朝武明空统治时期，以主管全国大案要案的大理寺为舞台，讲述大理寺众人，在白猫少卿李饼的带领下，展开各种惊心动魄的破案冒险，向命运反抗，坚守自己内心正义的故事。",
+    "series": "大理寺日志",
+    "ip_origin": "",
+    "total": "2.5亿次播放",
+    "badge": "独家",
+    "rank_change": null
+  },
+  {
+    "rank": 64,
     "season_id": 48578,
     "media_id": 22811568,
     "title": "镇魂街 第四季",
@@ -1513,7 +1565,7 @@
     "rank_change": null
   },
   {
-    "rank": 55,
+    "rank": 65,
     "season_id": 24608,
     "media_id": 101852,
     "title": "少年歌行",
@@ -1544,7 +1596,7 @@
     "rank_change": null
   },
   {
-    "rank": 56,
+    "rank": 66,
     "season_id": 42009,
     "media_id": 28338297,
     "title": "这里是峡谷公寓",
@@ -1570,7 +1622,7 @@
     "rank_change": null
   },
   {
-    "rank": 57,
+    "rank": 67,
     "season_id": 26193,
     "media_id": 4313762,
     "title": "百妖谱",
@@ -1601,7 +1653,7 @@
     "rank_change": null
   },
   {
-    "rank": 58,
+    "rank": 68,
     "season_id": 41187,
     "media_id": 28236894,
     "title": "小小朱历史课",
@@ -1627,7 +1679,7 @@
     "rank_change": null
   },
   {
-    "rank": 59,
+    "rank": 69,
     "season_id": 105121,
     "media_id": 26940875,
     "title": "王蓝莓的童年时光",
@@ -2234,7 +2286,7 @@
     "rank_change": null
   },
   {
-    "rank": 81,
+    "rank": 99,
     "season_id": 96881,
     "media_id": 26088933,
     "title": "开心锤锤世界",
@@ -2265,7 +2317,7 @@
     "rank_change": null
   },
   {
-    "rank": 82,
+    "rank": 100,
     "season_id": 25567,
     "media_id": 131852,
     "title": "通灵妃",
