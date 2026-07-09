@@ -449,6 +449,32 @@
   },
   {
     "rank": 17,
+    "season_id": 26257,
+    "media_id": 4315402,
+    "title": "三体",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/9870f898b8a39bbb8048f34317f8d78a02cc1770.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss26257",
+    "sub_title": "面壁计划开启",
+    "status": "已完结",
+    "latest": "全15话",
+    "score_label": "播放量",
+    "platform_score": "8.5亿次播放",
+    "score_raw": 845249874,
+    "score": "8.2",
+    "follow_count": "689.4万追番",
+    "tags": [],
+    "year": "2022",
+    "pub_time": "2022-12-10 11:00:00",
+    "region": "中国大陆",
+    "synopsis": "无数细线横亘在星空之中，如同一把巨大的刷子。三体星舰队将于400年后抵达。遥远蝴蝶扇动着翅膀，也改变了罗辑的命运，轰然打开的门后是世界中心——面壁计划开启。同时，智子所创建的破壁室内，破壁人一一就位……",
+    "series": "三体",
+    "ip_origin": "",
+    "total": "8.5亿次播放",
+    "badge": "出品",
+    "rank_change": null
+  },
+  {
+    "rank": 18,
     "season_id": 39395,
     "media_id": 28235087,
     "title": "大神探诸葛九九",
@@ -474,7 +500,7 @@
     "rank_change": null
   },
   {
-    "rank": 18,
+    "rank": 19,
     "season_id": 22088,
     "media_id": 23432,
     "title": "灵笼 第一季",
@@ -505,7 +531,7 @@
     "rank_change": null
   },
   {
-    "rank": 19,
+    "rank": 20,
     "season_id": 44872,
     "media_id": 20141490,
     "title": "宝宝巴士儿歌3D版",
@@ -535,7 +561,59 @@
     "rank_change": null
   },
   {
-    "rank": 20,
+    "rank": 21,
+    "season_id": 40731,
+    "media_id": 28236437,
+    "title": "MR.BONE",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/52ea72942c0807f305f5dcba3a65a9e008bc1412.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss40731",
+    "sub_title": "我叫MR.BONE",
+    "status": "未知",
+    "latest": "",
+    "score_label": "播放量",
+    "platform_score": "7.1亿次播放",
+    "score_raw": 710413311,
+    "score": "9.6",
+    "follow_count": "76.9万追番",
+    "tags": [],
+    "year": "2022",
+    "pub_time": "2022-01-01 10:00:00",
+    "region": "中国大陆",
+    "synopsis": "我叫MR.BONE，我生活在一个满是脏丝（Zombies）的世界！在最初的混乱过后，随着社会秩序的稳定，人们从脏丝的威胁当中恢复过来，与它们共同生活在这个世界上。找到新工作的我，也在生活的轨迹里认识了形形色色的伙伴。威胁还没消除，社会也没崩盘，而生活当然还要继续。",
+    "series": "MR.BONE",
+    "ip_origin": "",
+    "total": "7.1亿次播放",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 22,
+    "season_id": 44176,
+    "media_id": 28412536,
+    "title": "伍六七之暗影宿命",
+    "cover": "https://i0.hdslb.com/bfs/bangumi/image/6e5c5848ff8943fd6366e943a4f75b98598c50c6.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss44176",
+    "sub_title": "打破暗影刺客的宿命",
+    "status": "已完结",
+    "latest": "全10话",
+    "score_label": "播放量",
+    "platform_score": "7亿次播放",
+    "score_raw": 698368297,
+    "score": "9.2",
+    "follow_count": "1467.4万系列追番",
+    "tags": [],
+    "year": "2023",
+    "pub_time": "2023-01-18 12:00:00",
+    "region": "中国大陆",
+    "synopsis": "随着伍六七回到玄武国寻找他的身世，亦引起了七大暗影刺客的追捕。然而每一位暗影刺客都带着不同的目的和不同的过去，青凤的阴谋也在此浮出了水面。而此时等待着小鸡岛上的人民，又将是另一个危机，伍六七将如何面对他的抉择？",
+    "series": "伍六七",
+    "ip_origin": "",
+    "total": "7亿次播放",
+    "badge": "大会员",
+    "rank_change": null
+  },
+  {
+    "rank": 23,
     "season_id": 28763,
     "media_id": 28223059,
     "title": "天官赐福",
@@ -561,7 +639,7 @@
     "rank_change": null
   },
   {
-    "rank": 21,
+    "rank": 24,
     "season_id": 26194,
     "media_id": 4313802,
     "title": "仙王的日常生活",
@@ -591,7 +669,7 @@
     "rank_change": null
   },
   {
-    "rank": 22,
+    "rank": 25,
     "season_id": 3863,
     "media_id": 3863,
     "title": "镇魂街 第一季",
@@ -617,7 +695,7 @@
     "rank_change": null
   },
   {
-    "rank": 23,
+    "rank": 26,
     "season_id": 39111,
     "media_id": 28234803,
     "title": "一口小鸭梨",
@@ -643,7 +721,7 @@
     "rank_change": null
   },
   {
-    "rank": 24,
+    "rank": 27,
     "season_id": 36594,
     "media_id": 28232253,
     "title": "伍六七之玄武国篇",
@@ -669,7 +747,7 @@
     "rank_change": null
   },
   {
-    "rank": 25,
+    "rank": 28,
     "season_id": 39947,
     "media_id": 28235647,
     "title": "有兽焉",
@@ -700,7 +778,7 @@
     "rank_change": null
   },
   {
-    "rank": 26,
+    "rank": 29,
     "season_id": 41889,
     "media_id": 28337752,
     "title": "快把舅舅带走",
@@ -726,7 +804,7 @@
     "rank_change": null
   },
   {
-    "rank": 27,
+    "rank": 30,
     "season_id": 6402,
     "media_id": 6402,
     "title": "一人之下 第二季",
@@ -752,7 +830,38 @@
     "rank_change": null
   },
   {
-    "rank": 28,
+    "rank": 31,
+    "season_id": 38755,
+    "media_id": 28234446,
+    "title": "铁头与橘子",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/a1d32b8b86215f481362a467720f792b4c414584.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss38755",
+    "sub_title": "铁头与橘子的爱情",
+    "status": "已完结",
+    "latest": "全199话",
+    "score_label": "播放量",
+    "platform_score": "5亿次播放",
+    "score_raw": 502808525,
+    "score": "",
+    "follow_count": "11万追番",
+    "tags": [
+      "原创",
+      "恋爱",
+      "少女",
+      "日常"
+    ],
+    "year": "2019",
+    "pub_time": "2019-08-08 00:00:01",
+    "region": "中国大陆",
+    "synopsis": "顶级财团斯芬克斯家族给继承人铁头安排了豪门联姻，但是引起本来就对家族各种制度与贪婪不满的铁头更大的反抗。毅然与家族对抗，在失落的时候遇到了懵懂无知，为生活而忙碌奔波的橘子，在几次冲突较量中爱上了这个单纯懦弱但是又敏感坚韧的平民小女孩。斯芬克斯家族无法能忍铁头与橘子破坏家族联姻的计划，用尽各种卑鄙的手段进行破坏，铁头与橘子的爱情之路也会经受不同的考验。",
+    "series": "铁头与橘子",
+    "ip_origin": "原创",
+    "total": "5亿次播放",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 32,
     "season_id": 35220,
     "media_id": 28230742,
     "title": "时光代理人",
@@ -778,7 +887,7 @@
     "rank_change": null
   },
   {
-    "rank": 29,
+    "rank": 33,
     "season_id": 33323,
     "media_id": 28228714,
     "title": "雾山五行",
@@ -804,7 +913,33 @@
     "rank_change": null
   },
   {
-    "rank": 30,
+    "rank": 34,
+    "season_id": 26311,
+    "media_id": 4315962,
+    "title": "凹凸世界 第三季",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/8155078332f0d9ce724eda922a14c0f7c9c826ca.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss26311",
+    "sub_title": "打破虚假表象",
+    "status": "已完结",
+    "latest": "全40话",
+    "score_label": "播放量",
+    "platform_score": "4.7亿次播放",
+    "score_raw": 473343165,
+    "score": "9.4",
+    "follow_count": "445.8万系列追番",
+    "tags": [],
+    "year": "2019",
+    "pub_time": "2019-01-25 12:00:00",
+    "region": "中国大陆",
+    "synopsis": "凹凸世界的创世神是一位很肆意随性的神明，他创造了凹凸世界的无数星球和人民，又随心所欲地统治着他们。同时他还设立了七神使，让他们代行神旨。\n但是，创世神也不是完全不给他的子民机会——只要在“凹凸大赛”中获得最终的胜利，那么就能得到一切，并赐予你与“七神使”一样代神统治世界的权力。\n然而，以上这些，都只是虚伪的表象。\n这场比赛注定没有胜利者。\n直到，我们的主角——金，出现在了赛场上。\n",
+    "series": "凹凸世界",
+    "ip_origin": "",
+    "total": "4.7亿次播放",
+    "badge": "独家",
+    "rank_change": null
+  },
+  {
+    "rank": 35,
     "season_id": 26266,
     "media_id": 4315642,
     "title": "元龙",
@@ -830,7 +965,7 @@
     "rank_change": null
   },
   {
-    "rank": 31,
+    "rank": 36,
     "season_id": 48518,
     "media_id": 22730760,
     "title": "宗门里除了我都是卧底",
@@ -860,7 +995,7 @@
     "rank_change": null
   },
   {
-    "rank": 32,
+    "rank": 37,
     "season_id": 39696,
     "media_id": 28235390,
     "title": "仙王的日常生活 第三季",
@@ -890,7 +1025,7 @@
     "rank_change": null
   },
   {
-    "rank": 33,
+    "rank": 38,
     "season_id": 5626,
     "media_id": 5626,
     "title": "镇魂街 第二季",
@@ -916,7 +1051,59 @@
     "rank_change": null
   },
   {
-    "rank": 34,
+    "rank": 39,
+    "season_id": 6360,
+    "media_id": 6360,
+    "title": "伍六七",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/b69e26d9e50514f3fa99eac9ab5aabf2a6e28c88.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss6360",
+    "sub_title": "帮助别人，寻找自我",
+    "status": "已完结",
+    "latest": "全13话",
+    "score_label": "播放量",
+    "platform_score": "4.3亿次播放",
+    "score_raw": 428768470,
+    "score": "9.8",
+    "follow_count": "1467.4万系列追番",
+    "tags": [],
+    "year": "2018",
+    "pub_time": "2018-04-25 00:00:01",
+    "region": "中国大陆",
+    "synopsis": "在某个小岛上，有一个可以伪装成任何东西的廉价刺客，名叫伍六七。平时看上去是个理发师，其实背地里却做着刺客生意。热爱理发事业，喜欢给人剪头发，善用剪刀——剪刀也是他的刺杀武器。由于初入刺客行当，行情十分廉价，因此接到的都是些奇葩的刺杀任务。在执行刺杀任务的过程中，与刺杀对象发生一系列有趣的意外事件。",
+    "series": "伍六七",
+    "ip_origin": "",
+    "total": "4.3亿次播放",
+    "badge": "大会员",
+    "rank_change": null
+  },
+  {
+    "rank": 40,
+    "season_id": 28510,
+    "media_id": 28222513,
+    "title": "伍六七之最强发型师",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/d179871a635e9c908a53be6580714ce3c6fee5ba.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss28510",
+    "sub_title": "帮助别人，寻找自我",
+    "status": "已完结",
+    "latest": "全10话",
+    "score_label": "播放量",
+    "platform_score": "4.2亿次播放",
+    "score_raw": 419558223,
+    "score": "9.8",
+    "follow_count": "1467.4万系列追番",
+    "tags": [],
+    "year": "2019",
+    "pub_time": "2019-10-23 12:00:00",
+    "region": "中国大陆",
+    "synopsis": "伍六七在帮助别人和寻找自我的过程中，认识了不同的人，并与不同角色之间发生了有趣的故事，最终用爱与包容化解了仇恨与偏见。",
+    "series": "伍六七",
+    "ip_origin": "",
+    "total": "4.2亿次播放",
+    "badge": "大会员",
+    "rank_change": null
+  },
+  {
+    "rank": 41,
     "season_id": 38368,
     "media_id": 28234052,
     "title": "小狮子赛几",
@@ -942,7 +1129,7 @@
     "rank_change": null
   },
   {
-    "rank": 35,
+    "rank": 42,
     "season_id": 35201,
     "media_id": 28230723,
     "title": "仙王的日常生活 第二季",
@@ -972,7 +1159,7 @@
     "rank_change": null
   },
   {
-    "rank": 36,
+    "rank": 43,
     "season_id": 39386,
     "media_id": 28235078,
     "title": "飞狗MOCO",
@@ -998,7 +1185,7 @@
     "rank_change": null
   },
   {
-    "rank": 37,
+    "rank": 44,
     "season_id": 46585,
     "media_id": 21123554,
     "title": "灵笼 第二季",
@@ -1115,7 +1302,7 @@
     "rank_change": null
   },
   {
-    "rank": 41,
+    "rank": 49,
     "season_id": 28757,
     "media_id": 28223053,
     "title": "两不疑",
@@ -1141,7 +1328,7 @@
     "rank_change": null
   },
   {
-    "rank": 42,
+    "rank": 50,
     "season_id": 43554,
     "media_id": 28340128,
     "title": "凸变英雄X",
@@ -1172,7 +1359,7 @@
     "rank_change": null
   },
   {
-    "rank": 43,
+    "rank": 51,
     "season_id": 43547,
     "media_id": 28340121,
     "title": "镇魂街 第三季",
@@ -1203,7 +1390,7 @@
     "rank_change": null
   },
   {
-    "rank": 44,
+    "rank": 52,
     "season_id": 33725,
     "media_id": 28229155,
     "title": "獭獭突然想到",
@@ -1229,7 +1416,7 @@
     "rank_change": null
   },
   {
-    "rank": 45,
+    "rank": 53,
     "season_id": 35202,
     "media_id": 28230724,
     "title": "元龙 第二季",
@@ -1255,7 +1442,7 @@
     "rank_change": null
   },
   {
-    "rank": 46,
+    "rank": 54,
     "season_id": 105244,
     "media_id": 26952992,
     "title": "王蓝莓搞笑一家人",
@@ -1286,7 +1473,33 @@
     "rank_change": null
   },
   {
-    "rank": 47,
+    "rank": 55,
+    "season_id": 40720,
+    "media_id": 28236426,
+    "title": "猪屁登",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/523d25dc21710b15229c96daa3e12e7bd19e7702.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss40720",
+    "sub_title": "和猪屁登传递正能量",
+    "status": "已完结",
+    "latest": "全500话",
+    "score_label": "播放量",
+    "platform_score": "3亿次播放",
+    "score_raw": 296003586,
+    "score": "",
+    "follow_count": "5.9万追番",
+    "tags": [],
+    "year": "2022",
+    "pub_time": "2022-01-01 09:35:00",
+    "region": "中国大陆",
+    "synopsis": "主人公猪屁登是一只有爱的正能量小猪，立足于弘扬社会主义核心价值观，在不同的生活场景中，发生了一系列传递爱与温暖的正能量故事，从而影响和带动身边人一起传递正能量",
+    "series": "猪屁登",
+    "ip_origin": "",
+    "total": "3亿次播放",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 56,
     "season_id": 1689,
     "media_id": 1689,
     "title": "那年那兔那些事儿 第一季",
@@ -1316,7 +1529,7 @@
     "rank_change": null
   },
   {
-    "rank": 48,
+    "rank": 57,
     "season_id": 5050,
     "media_id": 5050,
     "title": "一人之下",
@@ -1342,7 +1555,7 @@
     "rank_change": null
   },
   {
-    "rank": 49,
+    "rank": 58,
     "season_id": 21911,
     "media_id": 17632,
     "title": "我家大师兄脑子有坑",
@@ -1373,7 +1586,7 @@
     "rank_change": null
   },
   {
-    "rank": 50,
+    "rank": 59,
     "season_id": 105231,
     "media_id": 26951672,
     "title": "王蓝莓的搞笑日常",
@@ -1404,7 +1617,7 @@
     "rank_change": null
   },
   {
-    "rank": 51,
+    "rank": 60,
     "season_id": 41553,
     "media_id": 28237262,
     "title": "无限王者小队",
@@ -1658,7 +1871,33 @@
     "rank_change": null
   },
   {
-    "rank": 60,
+    "rank": 70,
+    "season_id": 41393,
+    "media_id": 28237101,
+    "title": "凹凸世界 第四季",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/55285d9059494f3fed0e71f2d66eaa70924fe020.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss41393",
+    "sub_title": "凹凸大赛将迎来尾声",
+    "status": "已完结",
+    "latest": "全20话",
+    "score_label": "播放量",
+    "platform_score": "2.3亿次播放",
+    "score_raw": 226850705,
+    "score": "8.6",
+    "follow_count": "445.8万系列追番",
+    "tags": [],
+    "year": "2022",
+    "pub_time": "2022-04-29 12:00:00",
+    "region": "中国大陆",
+    "synopsis": "凹凸大赛将迎来尾声，\n众人也由此走向命运的分叉口。\n金终于获知了关于姐姐的消息，格瑞也走到了真相面前，鬼狐找到了大赛的漏洞联合了嘉德罗斯小队与雷狮海盗团，安迷修的骑士之道上出现了曾经的引路人，艾比带着曾经的记忆开始寻找创世神失踪的真相，而两位监督天使各自带着神使的任务暗中行事……",
+    "series": "凹凸世界",
+    "ip_origin": "",
+    "total": "2.3亿次播放",
+    "badge": "独家",
+    "rank_change": null
+  },
+  {
+    "rank": 71,
     "season_id": 255322,
     "media_id": 419651912,
     "title": "小魔万物大百科—海洋篇",
@@ -1686,7 +1925,7 @@
     "rank_change": null
   },
   {
-    "rank": 61,
+    "rank": 72,
     "season_id": 25469,
     "media_id": 129152,
     "title": "如果历史是一群喵 1-3季",
@@ -1712,7 +1951,7 @@
     "rank_change": null
   },
   {
-    "rank": 62,
+    "rank": 73,
     "season_id": 37558,
     "media_id": 28233234,
     "title": "逗酱萌鸭的睡前小故事",
@@ -1738,7 +1977,7 @@
     "rank_change": null
   },
   {
-    "rank": 63,
+    "rank": 74,
     "season_id": 3043,
     "media_id": 3043,
     "title": "凹凸世界 第一季",
@@ -1764,7 +2003,7 @@
     "rank_change": null
   },
   {
-    "rank": 64,
+    "rank": 75,
     "season_id": 2967,
     "media_id": 2967,
     "title": "那年那兔那些事儿 第二季",
@@ -1794,7 +2033,7 @@
     "rank_change": null
   },
   {
-    "rank": 65,
+    "rank": 76,
     "season_id": 39722,
     "media_id": 28235416,
     "title": "两不疑 第二季",
@@ -1820,7 +2059,7 @@
     "rank_change": null
   },
   {
-    "rank": 66,
+    "rank": 77,
     "season_id": 39659,
     "media_id": 28235353,
     "title": "第一序列",
@@ -1846,7 +2085,7 @@
     "rank_change": null
   },
   {
-    "rank": 67,
+    "rank": 78,
     "season_id": 39706,
     "media_id": 28235400,
     "title": "元龙 第三季",
@@ -1872,7 +2111,7 @@
     "rank_change": null
   },
   {
-    "rank": 68,
+    "rank": 79,
     "season_id": 5559,
     "media_id": 5559,
     "title": "那年那兔那些事儿 第三季",
@@ -1902,7 +2141,33 @@
     "rank_change": null
   },
   {
-    "rank": 69,
+    "rank": 80,
+    "season_id": 6159,
+    "media_id": 6159,
+    "title": "妖神记",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/8386e389b3d72850a1dedf8bdc83ae252fd11ebe.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss6159",
+    "sub_title": "这一世换我守护你",
+    "status": "已完结",
+    "latest": "全120话",
+    "score_label": "播放量",
+    "platform_score": "1.9亿次播放",
+    "score_raw": 193623420,
+    "score": "7.8",
+    "follow_count": "112.5万系列追番",
+    "tags": [],
+    "year": "2017",
+    "pub_time": "2017-05-09 12:00:00",
+    "region": "中国大陆",
+    "synopsis": "神秘瑰丽的妖灵世界，奇奥无穷的时空妖灵之书，聂离追寻着世界的真相。美丽温柔的叶紫芸、倔强高傲的肖凝儿，面对两位女神的青睐，他该如何抉择？还有患难与共的兄弟，一起修炼最强功法、最强妖灵之力，踏足武道巅峰。",
+    "series": "妖神记",
+    "ip_origin": "",
+    "total": "1.9亿次播放",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 81,
     "season_id": 39457,
     "media_id": 28235149,
     "title": "不白吃话山海经",
@@ -1928,7 +2193,7 @@
     "rank_change": null
   },
   {
-    "rank": 70,
+    "rank": 82,
     "season_id": 26196,
     "media_id": 4313822,
     "title": "我家大师兄是个反派",
@@ -1954,7 +2219,33 @@
     "rank_change": null
   },
   {
-    "rank": 71,
+    "rank": 83,
+    "season_id": 32544,
+    "media_id": 28227842,
+    "title": "喜羊羊与灰太狼之羊村守护者",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/7ead54c7d4dcf6b0eb5b80e26c3cbdc34854f436.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss32544",
+    "sub_title": "守护羊村的荣耀",
+    "status": "已完结",
+    "latest": "全60话",
+    "score_label": "播放量",
+    "platform_score": "1.8亿次播放",
+    "score_raw": 184809729,
+    "score": "9.8",
+    "follow_count": "218.4万系列追番",
+    "tags": [],
+    "year": "2020",
+    "pub_time": "2020-02-19 20:00:00",
+    "region": "中国大陆",
+    "synopsis": "狼将军利用功能各异的神奇法宝强化七大恶狼攻打羊村。为保羊村安全，众羊出发寻找赶跑狼将军的方法，却意外获得羊族前辈的神奇武器。一路上，小羊们用神奇的装备打退了群狼的一次次阴谋和攻击，而灰太狼在这过程中也被小羊们的善良和团结所感动。在灰太狼等一众狼的帮助下，众羊终于成功打败狼将军，草原实现了真正和平",
+    "series": "喜羊羊与灰太狼",
+    "ip_origin": "",
+    "total": "1.8亿次播放",
+    "badge": "大会员",
+    "rank_change": null
+  },
+  {
+    "rank": 84,
     "season_id": 41445,
     "media_id": 28237154,
     "title": "小狮子赛几 第2季",
@@ -1980,7 +2271,142 @@
     "rank_change": null
   },
   {
-    "rank": 72,
+    "rank": 85,
+    "season_id": 2647,
+    "media_id": 2647,
+    "title": "口水三国",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/0e6bce5d018796dda7782aa5c97bfdd14691348a.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss2647",
+    "sub_title": "各种各样的作死方式",
+    "status": "已完结",
+    "latest": "全124话",
+    "score_label": "播放量",
+    "platform_score": "1.8亿次播放",
+    "score_raw": 181378567,
+    "score": "8.5",
+    "follow_count": "83.6万系列追番",
+    "tags": [],
+    "year": "2014",
+    "pub_time": "2014-09-30 00:00:00",
+    "region": "中国大陆",
+    "synopsis": "《口水三国》是福利喵工作室制作的一部黑白定格动画。画风Q萌，配音犀利，还伴随着各种作死方式，每一集都给你不一样的感受！我们的黑白定格动画关爱社会特殊人群，所以请关爱我们的黑白定格动画，因为我们就像大熊猫一样稀有。",
+    "series": "口水三国",
+    "ip_origin": "",
+    "total": "1.8亿次播放",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 86,
+    "season_id": 5885,
+    "media_id": 5885,
+    "title": "京剧猫",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/241a0cde9188af2a09cec47a9cffe57116d2b2d9.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss5885",
+    "sub_title": "披荆斩棘战胜邪恶",
+    "status": "已完结",
+    "latest": "全60话",
+    "score_label": "播放量",
+    "platform_score": "1.8亿次播放",
+    "score_raw": 176138543,
+    "score": "9.8",
+    "follow_count": "168.1万系列追番",
+    "tags": [],
+    "year": "2015",
+    "pub_time": "2015-12-29 00:00:01",
+    "region": "中国大陆",
+    "synopsis": "且看白糖和星罗班的小伙伴如何披荆斩棘战胜邪恶。",
+    "series": "京剧猫",
+    "ip_origin": "",
+    "total": "1.8亿次播放",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 87,
+    "season_id": 48416,
+    "media_id": 22638046,
+    "title": "哪吒之魔童闹海",
+    "cover": "https://i0.hdslb.com/bfs/bangumi/image/1d7cd26b50543465213ffeb06ad82b6b87661d8f.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss48416?theme=movie",
+    "sub_title": "小爷是魔，那又如何",
+    "status": "未知",
+    "latest": "2025年1月29日上映",
+    "score_label": "播放量",
+    "platform_score": "1.8亿次播放",
+    "score_raw": 175817526,
+    "score": "9.8",
+    "follow_count": "218.3万系列追剧",
+    "tags": [
+      "剧情",
+      "动画",
+      "奇幻",
+      "喜剧"
+    ],
+    "year": "2025",
+    "pub_time": "2025-08-02 10:00:00",
+    "region": "中国大陆",
+    "synopsis": "　天劫之后，哪吒、敖丙的灵魂虽保住了，但肉身很快会魂飞魄散。太乙真人打算用七色宝莲给二人重塑肉身。但是在重塑肉身的过程中却遇到重重困难，哪吒、敖丙的命运将走向何方？",
+    "series": "哪吒2",
+    "ip_origin": "",
+    "total": "1.8亿次播放",
+    "badge": "大会员",
+    "rank_change": null
+  },
+  {
+    "rank": 88,
+    "season_id": 27796,
+    "media_id": 28220992,
+    "title": "阿衰",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/8d1afb44a4bb4552cfb77af7147b9fc1a6c39f8a.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss27796",
+    "sub_title": "童年动起来了",
+    "status": "已完结",
+    "latest": "全34话",
+    "score_label": "播放量",
+    "platform_score": "1.7亿次播放",
+    "score_raw": 174830073,
+    "score": "7.1",
+    "follow_count": "133.7万系列追番",
+    "tags": [],
+    "year": "2019",
+    "pub_time": "2019-05-16 00:00:01",
+    "region": "中国大陆",
+    "synopsis": "阿衰,原名阿帅，是怕踢中学学生，为人张扬轻浮，缺少稳重，学习不佳，总考倒数第一，留过两年级。但其实他是一个乐于助人并且有同情心的初中生。\n阿衰身高并不高，喜欢打CS、看漫画怕踢、爱吃油炸臭豆腐，爱放臭P，经常被大脸妹虐待，特长是睡觉、恶作剧等一些中学生经常做的事，让人能回忆起初中时候的美好。日常围绕他与同桌大脸妹，死党(朋友)小冲，富二代庄库，老师金乘五等人展开。\n",
+    "series": "阿衰",
+    "ip_origin": "",
+    "total": "1.7亿次播放",
+    "badge": "大会员",
+    "rank_change": null
+  },
+  {
+    "rank": 89,
+    "season_id": 41527,
+    "media_id": 28237236,
+    "title": "叽歪老表",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/12e1b2045e0c005c1e9fd5769d2d6ad7e9b061d7.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss41527",
+    "sub_title": "永不消停的虫兄虫弟",
+    "status": "未知",
+    "latest": "",
+    "score_label": "播放量",
+    "platform_score": "1.7亿次播放",
+    "score_raw": 167954628,
+    "score": "4.7",
+    "follow_count": "5.4万系列追番",
+    "tags": [],
+    "year": "2022",
+    "pub_time": "2022-04-01 10:00:00",
+    "region": "中国大陆",
+    "synopsis": "叽歪老表是一对永不消停的“虫兄虫弟”。表哥大叽是来自北方“南漂”的瓢虫，天性憨直傻楞，但却好运爆棚，遇事总能逢凶化吉。表弟小歪是在南方本地生活的潮虫，满脑子都是精明算计的歪脑筋鬼主意，但却总是搬起石头砸自己的脚。两兄弟混迹在游乐园旁的草地，遭遇了形形色色的人和事，开始了他们不停作妖捣蛋的爆笑日常。",
+    "series": "叽歪老表",
+    "ip_origin": "",
+    "total": "1.7亿次播放",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 90,
     "season_id": 25346,
     "media_id": 125252,
     "title": "京剧猫 第三季",
@@ -2006,7 +2432,7 @@
     "rank_change": null
   },
   {
-    "rank": 73,
+    "rank": 91,
     "season_id": 39688,
     "media_id": 28235382,
     "title": "君有云",
@@ -2037,7 +2463,7 @@
     "rank_change": null
   },
   {
-    "rank": 74,
+    "rank": 92,
     "season_id": 43340,
     "media_id": 28339914,
     "title": "仙王的日常生活 第四季",
@@ -2068,7 +2494,7 @@
     "rank_change": null
   },
   {
-    "rank": 75,
+    "rank": 93,
     "season_id": 26232,
     "media_id": 4314842,
     "title": "天宝伏妖录",
@@ -2094,7 +2520,7 @@
     "rank_change": null
   },
   {
-    "rank": 76,
+    "rank": 94,
     "season_id": 45734,
     "media_id": 20328226,
     "title": "少年歌行 海外仙山篇",
@@ -2125,7 +2551,7 @@
     "rank_change": null
   },
   {
-    "rank": 77,
+    "rank": 95,
     "season_id": 25813,
     "media_id": 139952,
     "title": "萌妻食神",
@@ -2151,7 +2577,7 @@
     "rank_change": null
   },
   {
-    "rank": 78,
+    "rank": 96,
     "season_id": 45197,
     "media_id": 20258610,
     "title": "哈小浪之超时空星战",
@@ -2177,7 +2603,7 @@
     "rank_change": null
   },
   {
-    "rank": 79,
+    "rank": 97,
     "season_id": 47144,
     "media_id": 21185045,
     "title": "熊出没",
@@ -2203,7 +2629,7 @@
     "rank_change": null
   },
   {
-    "rank": 80,
+    "rank": 98,
     "season_id": 39661,
     "media_id": 28235355,
     "title": "百妖谱·京师篇",
