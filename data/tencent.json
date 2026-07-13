@@ -252,7 +252,7 @@
     "latest": "全52集",
     "status": "已完结",
     "tags": [
-      "战斗,真人,经典,科幻"
+      "真人"
     ],
     "year": "1996",
     "pub_time": "1996-09-07",
@@ -264,7 +264,7 @@
     "rank_change": null
   },
   {
-    "rank": 12,
+    "rank": 11,
     "cid": "mzc002007j7p5hn",
     "title": "神印王座",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002007j7p5hn1776850944831/350",
@@ -284,6 +284,30 @@
     "synopsis": "深渊再起，王座降临",
     "ip_origin": "",
     "tagline": "在追破1000万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 12,
+    "cid": "mzc00200tkx0thd",
+    "title": "镖人 第2季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200tkx0thd1781164117753/350",
+    "link": "https://v.qq.com/x/cover/mzc00200tkx0thd.html",
+    "score_label": "热度",
+    "platform_score": 12919,
+    "score_raw": 12919,
+    "score": null,
+    "latest": "更新至06集",
+    "status": "连载中",
+    "tags": [
+      "武侠"
+    ],
+    "year": "2026",
+    "pub_time": "2026-06-11 10:00:00",
+    "region": "内地",
+    "synopsis": "狂草美学再搅江湖",
+    "ip_origin": "",
+    "tagline": "动作炫酷",
     "badge": "",
     "rank_change": null
   },
@@ -2327,17 +2351,17 @@
     "platform_score": 8121,
     "score_raw": 8121,
     "score": null,
-    "latest": "全48集",
+    "latest": "全28集",
     "status": "已完结",
     "tags": [
       "腾讯出品,治愈,魔幻,战斗,搞笑"
     ],
     "year": "2010",
-    "pub_time": "2023-07-05 10:00:00",
+    "pub_time": "",
     "region": "内地",
-    "synopsis": "西洋神怪的东方合租日常",
+    "synopsis": "重返少年时光",
     "ip_origin": "",
-    "tagline": "评分 9.7",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
