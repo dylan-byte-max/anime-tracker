@@ -633,11 +633,11 @@
           "event_id": "tencent-2026annual",
           "event_name": "2026 腾讯视频动漫年度发布",
           "event_date": "2026-06-22",
-          "event_note": "近7小时直播发布94个项目（去重后约70+独立IP），分三大板块：26部全新IP全球首发、32部人气IP释出新进度、36部动漫精品（年番/剧场版/续作）。强调「常新可期」「日日有新番」确定性供给。",
+          "event_note": "近7小时直播官方宣称94个项目（26全新IP+32人气IP进度+36精品），业内按片单逐一核对实际约84部（含同一IP拆多条线、季番升年番等）。人气IP板块官方并未公布全部名称，本站收录以公开可考证项目为准。",
           "sections": [
             {
-              "section_name": "全新IP全球首发（26部）",
-              "section_theme": "多元源头的原创、国际合作与网文新改编",
+              "section_name": "全新IP全球首发",
+              "section_theme": "官方称26部·多元源头的原创、国际合作与网文新改编",
               "items": [
                 {
                   "title": "大圣·出世",
@@ -700,10 +700,10 @@
                   "source_url": "https://www.toutiao.com/article/7654744462140228159/"
                 },
                 {
-                  "title": "边缘神联盟 / 边缘神2050",
+                  "title": "边缘神2050",
                   "art_style": "3D",
                   "ip_origin": "原创剧本",
-                  "ip_name": "原创",
+                  "ip_name": "原创（官方原名《边缘神联盟》）",
                   "synopsis": "把中国神仙扔进2050年的「未来神话」，近未来科幻+神话。",
                   "release_window": "TBD",
                   "date_confirmed": false,
@@ -736,7 +736,7 @@
                   "source_url": "https://m.thepaper.cn/newsDetail_forward_33449590"
                 },
                 {
-                  "title": "末日特情处",
+                  "title": "末日特勤处",
                   "art_style": "未知",
                   "ip_origin": "小说",
                   "ip_name": "番茄小说系",
@@ -744,7 +744,7 @@
                   "release_window": "2026H2",
                   "date_confirmed": false,
                   "release_status": "预告",
-                  "notes": "腾讯与恒星引力传媒（《苍兰诀》出品方）联合出品。",
+                  "notes": "腾讯与恒星引力传媒（《苍兰诀》出品方）联合出品。；异名《末日特情处》。",
                   "source_url": "https://m.thepaper.cn/newsDetail_forward_33449590"
                 },
                 {
@@ -916,19 +916,7 @@
                   "source_url": "https://finance.sina.cn/2026-06-22/detail-iniekknt9781181.d.html"
                 },
                 {
-                  "title": "敦煌奇幻旅行记",
-                  "art_style": "未知",
-                  "ip_origin": "小说",
-                  "ip_name": "同名儿童文学",
-                  "synopsis": "少女罗依依闯入神兽与古城共存的敦煌异世界。",
-                  "release_window": "TBD",
-                  "date_confirmed": false,
-                  "release_status": "预告",
-                  "notes": "少儿精品长番，敦煌文化元素。",
-                  "source_url": "https://www.toutiao.com/article/7655304243494060607/"
-                },
-                {
-                  "title": "749",
+                  "title": "749收容",
                   "art_style": "未知",
                   "ip_origin": "小说",
                   "ip_name": "番茄小说系",
@@ -954,8 +942,8 @@
               ]
             },
             {
-              "section_name": "人气IP新进度（32部）",
-              "section_theme": "已立项IP释出制作新进展",
+              "section_name": "人气IP新进度",
+              "section_theme": "官方称32部（部分未公布名）·已立项IP释出制作新进展",
               "items": [
                 {
                   "title": "雪中悍刀行（动画）",
@@ -1080,13 +1068,13 @@
                 {
                   "title": "龙族·最后的旅行",
                   "art_style": "未知",
-                  "ip_origin": "小说",
+                  "ip_origin": "游戏",
                   "ip_name": "龙族（江南）",
                   "synopsis": "AVG互动叙事游戏，「亲手改写绘梨衣的命运」。",
                   "release_window": "2027Q1",
                   "date_confirmed": false,
                   "release_status": "远期规划",
-                  "notes": "龙族拆分线（游戏形态）。",
+                  "notes": "AVG互动叙事游戏（非番剧），改编自江南《龙族》。",
                   "source_url": "https://www.toutiao.com/article/7654744462140228159/"
                 },
                 {
@@ -1172,12 +1160,36 @@
                   "release_status": "预告",
                   "notes": "冷饭：2022已官宣。",
                   "source_url": "https://view.inews.qq.com/a/20260623A0981H00"
+                },
+                {
+                  "title": "圣墟（先导片/番剧）",
+                  "art_style": "3D",
+                  "ip_origin": "小说",
+                  "ip_name": "圣墟（辰东）",
+                  "synopsis": "破败尘世中石昊逆势而上，辰东三部曲终章的番剧化。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "提出「极繁美学」单场景七层视觉层次；与《遮天》《完美世界》共构辰东宇宙。",
+                  "source_url": "https://finance.sina.cn/2026-06-22/detail-iniekknt9781181.d.html"
+                },
+                {
+                  "title": "桃与末世之书",
+                  "art_style": "未知",
+                  "ip_origin": "漫画",
+                  "ip_name": "桃与末世之书（快看漫画）",
+                  "synopsis": "械人与兽灵两族的新世界，黑瞳石继遗愿解锁神庙面具、寻「白像」平息纷争。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "远期规划",
+                  "notes": "花果山文化+腾讯+快看联合出品；2023年官宣的老项目本次再释进度。",
+                  "source_url": "https://piaofang.maoyan.com/tv/1517785"
                 }
               ]
             },
             {
-              "section_name": "动漫精品·年番/剧场版/续作（36部）",
-              "section_theme": "年番矩阵与标杆续作、剧场版",
+              "section_name": "动漫精品·年番/剧场版/续作",
+              "section_theme": "官方称36部·年番矩阵与标杆续作、剧场版",
               "items": [
                 {
                   "title": "斩神之凡尘神域 第二季",
@@ -1550,6 +1562,102 @@
                   "release_status": "预告",
                   "notes": "正剧+剧场版拆分IP。",
                   "source_url": "https://view.inews.qq.com/a/20260623A0981H00"
+                },
+                {
+                  "title": "武神主宰",
+                  "art_style": "3D",
+                  "ip_origin": "小说",
+                  "ip_name": "武神主宰（暗魔师）",
+                  "synopsis": "秦尘凭武帝记忆与武神决逆袭，重踏武道巅峰。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "已上线",
+                  "notes": "若鸿文化制作，本次由季番升级为年番，已更新650+集。",
+                  "source_url": "https://m.thepaper.cn/newsDetail_forward_33449590"
+                },
+                {
+                  "title": "无上神帝",
+                  "art_style": "3D",
+                  "ip_origin": "小说",
+                  "ip_name": "无上神帝（蜗牛狂奔）",
+                  "synopsis": "仙王牧云残魂万年后觉醒于废物少年之身，重启逆天之路。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "已上线",
+                  "notes": "若鸿文化制作，季番升年番，已更新580+集。",
+                  "source_url": "https://m.thepaper.cn/newsDetail_forward_33449590"
+                },
+                {
+                  "title": "万界独尊",
+                  "art_style": "3D",
+                  "ip_origin": "小说",
+                  "ip_name": "万界独尊（云天空）",
+                  "synopsis": "遭挚爱背叛跌落尘埃，林枫携葬神之力跨界历练问鼎万界。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "已上线",
+                  "notes": "若鸿文化制作，季番升年番，发布会释出全新预告。",
+                  "source_url": "https://www.sina.cn/media/5444000471"
+                },
+                {
+                  "title": "妖神记",
+                  "art_style": "3D",
+                  "ip_origin": "漫画",
+                  "ip_name": "妖神记（发飙的蜗牛）",
+                  "synopsis": "聂离重生携妖灵之力，于妖魔乱世逆天改命。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "已上线",
+                  "notes": "若鸿文化制作，2017年首播老IP升级年番，备案《圣魔篇》。",
+                  "source_url": "https://www.toutiao.com/article/7646409537775223330/"
+                },
+                {
+                  "title": "故宫怪兽谈",
+                  "art_style": "3D",
+                  "ip_origin": "小说",
+                  "ip_name": "故宫里的大怪兽姊妹篇（常怡）",
+                  "synopsis": "12岁李小雨随苏醒神兽闯入地下皇宫，揭开「地下紫禁城」百年秘密。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "少儿精品长番，以故宫建筑为骨动画化重构。",
+                  "source_url": "https://game.sohu.com/a/1041618359_603687"
+                },
+                {
+                  "title": "超迷你战士之万境突破",
+                  "art_style": "三渲二",
+                  "ip_origin": "原创剧本",
+                  "ip_name": "超迷你战士（左袋文化）",
+                  "synopsis": "番外篇，融合古风、像素、赛博多元画风的迷你战士新冒险。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "与左袋文化联合出品，系列已6季、全平台200万粉。",
+                  "source_url": "https://game.sohu.com/a/1041618359_603687"
+                },
+                {
+                  "title": "鱼缸之城之下雪篇",
+                  "art_style": "2D",
+                  "ip_origin": "原创剧本",
+                  "ip_name": "鱼缸之城（幺菁）",
+                  "synopsis": "人类小孩夏天与狐妖小蛮的异世界治愈奇幻冒险。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "源自艺术家幺菁原创IP（全网600万粉），Z世代治愈向。",
+                  "source_url": "https://m.thepaper.cn/newsDetail_forward_33449590"
+                },
+                {
+                  "title": "敦煌奇幻旅行记",
+                  "art_style": "3D",
+                  "ip_origin": "国际出版",
+                  "ip_name": "敦煌奇幻旅行记（同名儿童文学）",
+                  "synopsis": "少女罗依依闯入神兽与古城共存的敦煌异世界。",
+                  "release_window": "TBD",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "少儿精品长番，敦煌文化元素。",
+                  "source_url": "https://www.toutiao.com/article/7655304243494060607/"
                 }
               ]
             }
@@ -2178,18 +2286,6 @@
                   "source_url": "https://m.sohu.com/a/957003895_121124780"
                 },
                 {
-                  "title": "深空彼岸",
-                  "art_style": "3D",
-                  "ip_origin": "小说",
-                  "ip_name": "深空彼岸（辰东）",
-                  "synopsis": "（见新作区，此处不重复）",
-                  "release_window": "2026-01-16",
-                  "date_confirmed": true,
-                  "release_status": "已定档",
-                  "notes": "已在新作区列出。",
-                  "source_url": "https://news.qq.com/rain/a/20251221A07BMU00"
-                },
-                {
                   "title": "第一序列 第二季",
                   "art_style": "3D",
                   "ip_origin": "小说",
@@ -2316,6 +2412,120 @@
                   "ip_name": "灵笼（艺画开天）",
                   "synopsis": "「幸存者能否重夺未来」，末世灯塔文明的生存抉择。",
                   "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "",
+                  "source_url": "https://bgm.tv/index/84849"
+                }
+              ]
+            },
+            {
+              "section_name": "电影单元 / 其他",
+              "section_theme": "发布会附带公布的国创电影与系列新作",
+              "items": [
+                {
+                  "title": "百妖谱 大电影",
+                  "art_style": "2D",
+                  "ip_origin": "原创剧本",
+                  "ip_name": "百妖谱（好传动画）",
+                  "synopsis": "好传动画国风妖怪题材《百妖谱》系列的大电影。",
+                  "release_window": "TBD",
+                  "date_confirmed": false,
+                  "release_status": "远期规划",
+                  "notes": "",
+                  "source_url": "https://bgm.tv/index/84849"
+                },
+                {
+                  "title": "龙心少女",
+                  "art_style": "未知",
+                  "ip_origin": "原创剧本",
+                  "ip_name": "龙心少女",
+                  "synopsis": "发布会公布的国创电影新作。",
+                  "release_window": "TBD",
+                  "date_confirmed": false,
+                  "release_status": "远期规划",
+                  "notes": "",
+                  "source_url": "https://bgm.tv/index/84849"
+                },
+                {
+                  "title": "请吃红小豆吧！红与绿",
+                  "art_style": "2D",
+                  "ip_origin": "原创剧本",
+                  "ip_name": "请吃红小豆吧！",
+                  "synopsis": "治愈系原创IP《请吃红小豆吧！》的电影单元。",
+                  "release_window": "TBD",
+                  "date_confirmed": false,
+                  "release_status": "远期规划",
+                  "notes": "",
+                  "source_url": "https://bgm.tv/index/84849"
+                },
+                {
+                  "title": "十万个冷笑话：∞",
+                  "art_style": "2D",
+                  "ip_origin": "漫画",
+                  "ip_name": "十万个冷笑话（寒舞）",
+                  "synopsis": "经典恶搞漫画IP《十万个冷笑话》的全新篇章。",
+                  "release_window": "TBD",
+                  "date_confirmed": false,
+                  "release_status": "远期规划",
+                  "notes": "",
+                  "source_url": "https://bgm.tv/index/84849"
+                },
+                {
+                  "title": "猫之茗 第三季",
+                  "art_style": "2D",
+                  "ip_origin": "原创剧本",
+                  "ip_name": "猫之茗",
+                  "synopsis": "茶馆里猫拟人化的温情日常番第三季。",
+                  "release_window": "TBD",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "",
+                  "source_url": "https://bgm.tv/index/84849"
+                },
+                {
+                  "title": "剑网3·沈剑心的365天",
+                  "art_style": "3D",
+                  "ip_origin": "游戏",
+                  "ip_name": "剑网3衍生·沈剑心（西山居）",
+                  "synopsis": "端游《剑网3》衍生角色沈剑心的搞笑日常番。",
+                  "release_window": "TBD",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "",
+                  "source_url": "https://bgm.tv/index/84849"
+                },
+                {
+                  "title": "曾经有勇士",
+                  "art_style": "未知",
+                  "ip_origin": "原创剧本",
+                  "ip_name": "曾经有勇士",
+                  "synopsis": "（官方尚未公开正式剧情简介）",
+                  "release_window": "TBD",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "",
+                  "source_url": "https://bgm.tv/index/84849"
+                },
+                {
+                  "title": "仙帝归来",
+                  "art_style": "3D",
+                  "ip_origin": "小说",
+                  "ip_name": "仙帝归来",
+                  "synopsis": "都市修仙爽文改编。",
+                  "release_window": "TBD",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "",
+                  "source_url": "https://bgm.tv/index/84849"
+                },
+                {
+                  "title": "开局地摊卖大力",
+                  "art_style": "3D",
+                  "ip_origin": "小说",
+                  "ip_name": "开局地摊卖大力",
+                  "synopsis": "爽文改编，市井修仙题材。",
+                  "release_window": "TBD",
                   "date_confirmed": false,
                   "release_status": "预告",
                   "notes": "",
