@@ -199,6 +199,42 @@
                   "release_status": "已上线",
                   "notes": "玄机科技制作，已更新超100集，长期稳坐优酷动漫热播榜前列；衍生真人剧《师兄太稳健》推进漫剧联动。",
                   "source_url": "https://mp.weixin.qq.com/s/ldlt_1y5wY1WkiLdB_dmAw"
+                },
+                {
+                  "title": "百炼成神3",
+                  "art_style": "3D",
+                  "ip_origin": "漫画",
+                  "ip_name": "百炼成神（乱世狂刀/starzeng）",
+                  "synopsis": "罗征承袭百炼成神之路，历经诸天万界征伐，一步步登临神境的经典热血修炼故事第三季。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "风月工作室承制。",
+                  "source_url": "https://mp.weixin.qq.com/s/ldlt_1y5wY1WkiLdB_dmAw"
+                },
+                {
+                  "title": "神墓4",
+                  "art_style": "3D",
+                  "ip_origin": "小说",
+                  "ip_name": "神墓（辰东）",
+                  "synopsis": "辰东经典玄幻IP，辰南自远古神墓复活，在纷乱大陆一路崛起、探寻永生与宿命之谜的第四季。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "伊恩动漫、燃天工作室承制；英文名 TOMB OF FALLEN GODS。",
+                  "source_url": "https://mp.weixin.qq.com/s/ldlt_1y5wY1WkiLdB_dmAw"
+                },
+                {
+                  "title": "少年歌行之南明离火",
+                  "art_style": "三渲二",
+                  "ip_origin": "漫画",
+                  "ip_name": "少年歌行（周木楠）",
+                  "synopsis": "江湖风云再起，萧瑟、萧忆情、无心等人卷入南明离火的江湖纷争，武侠群像热血续章。",
+                  "release_window": "2026",
+                  "date_confirmed": false,
+                  "release_status": "预告",
+                  "notes": "精空千阙承制。",
+                  "source_url": "https://mp.weixin.qq.com/s/ldlt_1y5wY1WkiLdB_dmAw"
                 }
               ]
             },
