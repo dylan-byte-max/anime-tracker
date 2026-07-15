@@ -53,6 +53,18 @@
   .filter-opt input { accent-color:#a78bfa; }
   .filter-opt .count { color:#9ca3af; font-size:11px; margin-left:auto; }
   .filter-btn.active { background: linear-gradient(135deg,rgba(167,139,250,0.30),rgba(96,165,250,0.30)); border-color: rgba(167,139,250,0.6); color:#fff; }
+  /* 未来排播专属标签 */
+  .art-2d { background: rgba(56,189,248,0.14); border:1px solid rgba(56,189,248,0.4); color:#7dd3fc; }
+  .art-3d { background: rgba(167,139,250,0.14); border:1px solid rgba(167,139,250,0.4); color:#c4b5fd; }
+  .art-santo { background: rgba(52,211,153,0.14); border:1px solid rgba(52,211,153,0.4); color:#6ee7b7; }
+  .art-ai { background: rgba(244,114,182,0.14); border:1px solid rgba(244,114,182,0.4); color:#f9a8d4; }
+  .art-unknown { background: rgba(148,163,184,0.12); border:1px solid rgba(148,163,184,0.35); color:#cbd5e1; }
+  .rls-dated { background: linear-gradient(135deg,rgba(34,197,94,0.20),rgba(16,185,129,0.14)); border:1px solid rgba(34,197,94,0.5); color:#86efac; font-weight:600; }
+  .rls-teaser { background: rgba(251,191,36,0.12); border:1px solid rgba(251,191,36,0.4); color:#fcd34d; }
+  .rls-longterm { background: rgba(148,163,184,0.10); border:1px solid rgba(148,163,184,0.3); color:#94a3b8; }
+  .pl-filter-chip { background: rgba(167,139,250,0.08); border:1px solid rgba(167,139,250,0.25); color:#ddd6fe; cursor:pointer; transition:all .15s; }
+  .pl-filter-chip:hover { background: rgba(167,139,250,0.16); }
+  .pl-filter-chip.active { background: linear-gradient(135deg,rgba(167,139,250,0.35),rgba(96,165,250,0.30)); border-color: rgba(167,139,250,0.65); color:#fff; }
 </style>
 </head>
 <body class="min-h-screen">
@@ -80,6 +92,7 @@
     <button data-tab="youku" class="tab-btn whitespace-nowrap px-4 py-2 rounded-xl border border-purple-500/20 text-sm font-medium text-gray-300 hover:text-white">📱 优酷·动漫</button>
     <button data-tab="bili-guochuang" class="tab-btn whitespace-nowrap px-4 py-2 rounded-xl border border-purple-500/20 text-sm font-medium text-gray-300 hover:text-white">🇨🇳 B站·国创榜</button>
     <button data-tab="bili-bangumi" class="tab-btn whitespace-nowrap px-4 py-2 rounded-xl border border-purple-500/20 text-sm font-medium text-gray-300 hover:text-white">🌍 B站·番剧榜</button>
+    <button data-tab="pipeline" class="tab-btn whitespace-nowrap px-4 py-2 rounded-xl border border-purple-500/20 text-sm font-medium text-gray-300 hover:text-white">🗓️ 未来排播</button>
     <button data-tab="benchmark" class="tab-btn whitespace-nowrap px-4 py-2 rounded-xl border border-purple-500/20 text-sm font-medium text-gray-300 hover:text-white">📊 热度对标</button>
   </div>
 </nav>
@@ -183,6 +196,47 @@
         💡 数据保存在本地浏览器 localStorage，换设备需手动重新填写
       </div>
     </div>
+  </main>
+</div>
+
+<!-- 未来排播 view -->
+<div id="view-pipeline" class="hidden">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 mt-6 pb-16">
+    <div class="glow-card rounded-2xl p-5 mb-4">
+      <h2 class="text-lg font-bold grad-text mb-2">🗓️ 各平台未来排播 Pipeline</h2>
+      <p class="text-sm text-gray-400 leading-relaxed">汇总各平台年度动漫发布会公布的重点片单，标注画风、原 IP 类型、故事梗概、预计上线时间与补充信息，用于研判各家未来一年的内容意图与战略走向。预计上线时间随信息明确逐步细化，<span class="text-purple-300">每周一全网检索更新</span>。</p>
+      <div class="mt-2 text-xs text-gray-500">数据更新：<span id="pl-updated" class="text-purple-300">—</span></div>
+    </div>
+
+    <!-- 筛选行 -->
+    <div class="mb-4 space-y-2">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-xs text-gray-500 w-14 shrink-0">平台</span>
+        <div id="pl-filter-platform" class="flex flex-wrap gap-1.5"></div>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-xs text-gray-500 w-14 shrink-0">画风</span>
+        <div id="pl-filter-art" class="flex flex-wrap gap-1.5"></div>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-xs text-gray-500 w-14 shrink-0">原IP类型</span>
+        <div id="pl-filter-ip" class="flex flex-wrap gap-1.5"></div>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-xs text-gray-500 w-14 shrink-0">档期状态</span>
+        <div id="pl-filter-status" class="flex flex-wrap gap-1.5"></div>
+      </div>
+      <div class="flex items-center gap-3 pt-1">
+        <input id="pl-search" type="text" placeholder="🔍 搜索项目名 / 原IP名" class="flex-1 input-dark rounded-xl px-4 py-2 text-sm" autocomplete="off" />
+        <button id="pl-export" class="btn-primary px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 shrink-0">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+          导出 Excel
+        </button>
+      </div>
+      <div id="pl-summary" class="text-xs text-gray-400"></div>
+    </div>
+
+    <div id="pipeline-sections" class="space-y-6"></div>
   </main>
 </div>
 
@@ -624,18 +678,224 @@ document.getElementById('bm-add').addEventListener('click', () => {
 
 document.getElementById('export-excel').addEventListener('click', exportExcel);
 
+// === 未来排播 Pipeline ===
+let pipelineData = null;          // 原始 JSON
+let plItemsFlat = [];             // 扁平化的项目数组（带 platform 字段）
+const plFilter = { platform: new Set(), art: new Set(), ip: new Set(), status: new Set() };
+let plSearch = '';
+
+const ART_CLASS = { '2D':'art-2d', '3D':'art-3d', '三渲二':'art-santo', 'AI混合制作':'art-ai' };
+function artChip(a) {
+  const cls = ART_CLASS[a] || 'art-unknown';
+  return `<span class="${cls} text-[11px] px-2 py-0.5 rounded-md font-medium">${a||'未知'}</span>`;
+}
+const RLS_CLASS = { '已定档':'rls-dated', '预告':'rls-teaser', '远期规划':'rls-longterm' };
+function rlsChip(s) {
+  const cls = RLS_CLASS[s] || 'rls-teaser';
+  return `<span class="${cls} text-[11px] px-2 py-0.5 rounded-md">${s||'预告'}</span>`;
+}
+// 档期排序权重：已定档最靠前，粒度越细越靠前
+function rlsSortKey(it) {
+  const w = it.release_window || '';
+  const st = it.release_status || '';
+  // 精确度分层
+  let precision = 0;
+  if (/^\d{4}-\d{2}-\d{2}$/.test(w)) precision = 4;
+  else if (/^\d{4}-\d{2}$/.test(w)) precision = 3;
+  else if (/Q[1-4]|H[12]|暑期|夏|春|秋|冬/.test(w)) precision = 2;
+  else if (/^\d{4}$/.test(w)) precision = 1;
+  else precision = 0; // TBD / 空
+  const statusBonus = st === '已定档' ? 10 : (st === '预告' ? 5 : 0);
+  return statusBonus + precision;
+}
+
+async function loadPipeline() {
+  if (pipelineData) return pipelineData;
+  try {
+    const resp = await fetch('data/pipeline.json?t=' + Date.now());
+    pipelineData = resp.ok ? await resp.json() : { platforms: {} };
+  } catch (e) { pipelineData = { platforms: {} }; console.error('pipeline load fail', e); }
+  // 扁平化
+  plItemsFlat = [];
+  const order = ['youku','tencent','iqiyi','bili-guochuang'];
+  for (const pk of order) {
+    const p = pipelineData.platforms && pipelineData.platforms[pk];
+    if (!p) continue;
+    for (const it of (p.items||[])) {
+      plItemsFlat.push({ ...it, _platform: pk, _platformLabel: p.label || PLATFORM_LABELS[pk] || pk });
+    }
+  }
+  return pipelineData;
+}
+
+function plMatchSearch(it, q) {
+  if (!q) return true;
+  const hay = ((it.title||'') + ' ' + (it.ip_name||'')).toLowerCase();
+  return q.toLowerCase().trim().split(/\s+/).filter(Boolean).every(tk => hay.includes(tk));
+}
+function plApplyFilters() {
+  return plItemsFlat.filter(it => {
+    if (plFilter.platform.size && !plFilter.platform.has(it._platform)) return false;
+    if (plFilter.art.size && !plFilter.art.has(it.art_style||'未知')) return false;
+    if (plFilter.ip.size && !plFilter.ip.has(it.ip_origin||'未知')) return false;
+    if (plFilter.status.size && !plFilter.status.has(it.release_status||'预告')) return false;
+    if (!plMatchSearch(it, plSearch)) return false;
+    return true;
+  });
+}
+
+function plBuildChips() {
+  // 统计各维度可选值
+  const dims = { platform:new Map(), art:new Map(), ip:new Map(), status:new Map() };
+  for (const it of plItemsFlat) {
+    dims.platform.set(it._platform, (dims.platform.get(it._platform)||0)+1);
+    dims.art.set(it.art_style||'未知', (dims.art.get(it.art_style||'未知')||0)+1);
+    dims.ip.set(it.ip_origin||'未知', (dims.ip.get(it.ip_origin||'未知')||0)+1);
+    dims.status.set(it.release_status||'预告', (dims.status.get(it.release_status||'预告')||0)+1);
+  }
+  function render(containerId, dim, labelFn) {
+    const el = document.getElementById(containerId);
+    const arr = [...dims[dim].entries()].sort((a,b)=>b[1]-a[1]);
+    el.innerHTML = arr.map(([val,n]) => {
+      const active = plFilter[dim].has(val) ? 'active' : '';
+      const safe = String(val).replace(/"/g,'&quot;');
+      return `<button class="pl-filter-chip ${active} text-xs px-2.5 py-1 rounded-lg" data-pldim="${dim}" data-plval="${safe}">${labelFn(val)}<span class="opacity-60 ml-1">${n}</span></button>`;
+    }).join('');
+  }
+  render('pl-filter-platform', 'platform', v => PLATFORM_LABELS[v] || v);
+  render('pl-filter-art', 'art', v => v);
+  render('pl-filter-ip', 'ip', v => v);
+  render('pl-filter-status', 'status', v => v);
+}
+
+function plItemCard(it) {
+  const ipName = it.ip_name ? `<span class="ip-pill text-[10px] px-1.5 py-0.5 rounded-md">📖 ${it.ip_name}</span>` : '';
+  const win = it.release_window && it.release_window !== 'TBD'
+    ? `<span class="text-sm font-semibold text-green-300">📅 ${it.release_window}</span>`
+    : `<span class="text-sm text-gray-500">📅 待定</span>`;
+  const notes = it.notes ? `<div class="mt-2 text-xs text-amber-200/80 bg-amber-500/5 border border-amber-500/15 rounded-lg px-3 py-2 leading-relaxed">💡 ${it.notes}</div>` : '';
+  const src = it.source_url ? `<a href="${it.source_url}" target="_blank" class="text-[11px] text-purple-400/70 hover:text-purple-300 hover:underline">来源 ↗</a>` : '';
+  return `
+  <div class="glow-card rounded-2xl p-4">
+    <div class="flex items-start justify-between gap-3 flex-wrap">
+      <div class="flex items-center gap-2 flex-wrap min-w-0">
+        <h4 class="text-base font-bold text-white">${it.title}</h4>
+        ${artChip(it.art_style)}
+        <span class="tag-pill text-[10px] px-1.5 py-0.5 rounded-md">${it.ip_origin||'未知'}</span>
+        ${ipName}
+        ${rlsChip(it.release_status)}
+      </div>
+      <div class="shrink-0">${win}</div>
+    </div>
+    ${it.synopsis ? `<p class="mt-2 text-sm text-gray-300/85 leading-relaxed">${it.synopsis}</p>` : ''}
+    ${notes}
+    <div class="mt-1.5 text-right">${src}</div>
+  </div>`;
+}
+
+function renderPipeline() {
+  const sections = document.getElementById('pipeline-sections');
+  loadPipeline().then(() => {
+    document.getElementById('pl-updated').textContent = (pipelineData.meta && pipelineData.meta.updated) || '—';
+    plBuildChips();
+    plRenderList();
+  });
+}
+
+function plRenderList() {
+  const sections = document.getElementById('pipeline-sections');
+  const filtered = plApplyFilters();
+  // 按平台分组
+  const order = ['youku','tencent','iqiyi','bili-guochuang'];
+  const byPlatform = {};
+  for (const it of filtered) { (byPlatform[it._platform] = byPlatform[it._platform] || []).push(it); }
+  let html = '';
+  for (const pk of order) {
+    const items = byPlatform[pk];
+    if (!items || !items.length) continue;
+    items.sort((a,b) => rlsSortKey(b) - rlsSortKey(a));
+    const p = pipelineData.platforms[pk] || {};
+    html += `
+    <div>
+      <div class="flex items-baseline gap-3 flex-wrap mb-1">
+        <h3 class="text-lg font-bold platform-${pk}">${p.label || PLATFORM_LABELS[pk]}</h3>
+        <span class="text-xs text-gray-400">${p.event || ''}</span>
+        ${p.event_date ? `<span class="text-xs text-gray-500">${p.event_date}</span>` : ''}
+        <span class="text-xs text-purple-300">${items.length} 个项目</span>
+      </div>
+      ${p.event_note ? `<p class="text-xs text-gray-500 mb-3 leading-relaxed">${p.event_note}</p>` : ''}
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+        ${items.map(plItemCard).join('')}
+      </div>
+    </div>`;
+  }
+  sections.innerHTML = html || `<div class="text-center text-gray-500 py-12">没有符合筛选条件的项目</div>`;
+  // 摘要
+  const active = plFilter.platform.size + plFilter.art.size + plFilter.ip.size + plFilter.status.size + (plSearch.trim()?1:0);
+  document.getElementById('pl-summary').textContent = active ? `已筛选 ${filtered.length} / ${plItemsFlat.length} 个项目` : `共 ${plItemsFlat.length} 个项目`;
+}
+
+// 筛选 chip 点击（事件委托）
+document.addEventListener('click', (e) => {
+  const chip = e.target.closest('.pl-filter-chip');
+  if (!chip) return;
+  const dim = chip.dataset.pldim;
+  const val = chip.dataset.plval;
+  if (!plFilter[dim]) return;
+  if (plFilter[dim].has(val)) plFilter[dim].delete(val);
+  else plFilter[dim].add(val);
+  plBuildChips();
+  plRenderList();
+});
+
+// 搜索
+document.getElementById('pl-search').addEventListener('input', (e) => {
+  plSearch = e.target.value;
+  plRenderList();
+});
+
+// Excel 导出
+document.getElementById('pl-export').addEventListener('click', () => {
+  const data = plApplyFilters();
+  if (!data.length) { alert('暂无数据可导出'); return; }
+  const rows = data.map(x => ({
+    '平台': x._platformLabel,
+    '项目名': x.title,
+    '画风': x.art_style || '',
+    '原IP类型': x.ip_origin || '',
+    '原IP名': x.ip_name || '',
+    '故事梗概': x.synopsis || '',
+    '预计上线': x.release_window || '',
+    '档期状态': x.release_status || '',
+    '补充信息': x.notes || '',
+    '来源': x.source_url || '',
+  }));
+  const ws = XLSX.utils.json_to_sheet(rows);
+  ws['!cols'] = [{wch:10},{wch:26},{wch:10},{wch:10},{wch:22},{wch:60},{wch:12},{wch:10},{wch:60},{wch:40}];
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, '未来排播');
+  XLSX.writeFile(wb, `anime-pipeline_${new Date().toISOString().slice(0,10)}.xlsx`);
+});
+
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('tab-active'); b.classList.add('text-gray-300'); });
     btn.classList.add('tab-active'); btn.classList.remove('text-gray-300');
     const tab = btn.dataset.tab;
+    const vList = document.getElementById('view-list');
+    const vBench = document.getElementById('view-benchmark');
+    const vPipe = document.getElementById('view-pipeline');
     if (tab === 'benchmark') {
-      document.getElementById('view-list').classList.add('hidden');
-      document.getElementById('view-benchmark').classList.remove('hidden');
+      vList.classList.add('hidden'); vPipe.classList.add('hidden');
+      vBench.classList.remove('hidden');
       renderBenchmark();
+    } else if (tab === 'pipeline') {
+      vList.classList.add('hidden'); vBench.classList.add('hidden');
+      vPipe.classList.remove('hidden');
+      renderPipeline();
     } else {
-      document.getElementById('view-list').classList.remove('hidden');
-      document.getElementById('view-benchmark').classList.add('hidden');
+      vBench.classList.add('hidden'); vPipe.classList.add('hidden');
+      vList.classList.remove('hidden');
       currentTab = tab;
       renderTab(tab);
     }

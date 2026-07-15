@@ -1,0 +1,458 @@
+{
+  "meta": {
+    "updated": "2026-07-15",
+    "note": "各平台未来排播 pipeline。数据源自平台年度发布会片单 + 全网检索，每周一更新。release_window 粒度随信息明确度逐步细化。"
+  },
+  "platforms": {
+    "youku": {
+      "label": "优酷",
+      "event": "2026 优酷动漫春集发布会",
+      "event_date": "2026-05-11",
+      "event_note": "主题「看原创国漫上优酷」，一口气公布 13 部作品，主打「新国风·新题材·新美术」三新战略，强调原创产能与文化出海。",
+      "items": [
+        {
+          "title": "东大高武学院",
+          "art_style": "3D",
+          "ip_origin": "原创剧本",
+          "ip_name": "",
+          "synopsis": "首部原创 3D 都市修仙国漫，融合中式修仙设定与二十四节气文化，聚焦校园少年英雄成长群像。白毛男主，都市+校园+传统文化。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "优酷计划推动其出海，是「新题材」战略代表作；首发 PV 短视频平台首周破百万赞，被视为「都市修仙+传统文化」融合题材的探路项目。",
+          "source_url": "https://www.thepaper.cn/newsDetail_forward_33160930"
+        },
+        {
+          "title": "夜不收",
+          "art_style": "3D",
+          "ip_origin": "原创剧本",
+          "ip_name": "",
+          "synopsis": "国内首部原创 3D 反伪英雄动画，都市异能题材，聚焦资本操控、阶级阴谋等现实议题。超写实实拍融合动画，原力动画制作。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "帧均电影级镜头，探索异能组织对抗反派的全新叙事，拓宽国漫科幻的题材边界与思想深度。",
+          "source_url": "https://new.qq.com/rain/a/20260511A06EKE00"
+        },
+        {
+          "title": "一斩苍穹",
+          "art_style": "3D",
+          "ip_origin": "原创剧本",
+          "ip_name": "",
+          "synopsis": "反套路修仙，讲述断臂少年谷安以杀证道、掀翻腐朽仙门秩序的复仇历程。男主拿大砍刀，主打反差与感官刺激。",
+          "release_window": "2026Q3",
+          "release_status": "预告",
+          "notes": "神漫文化入局优酷的首个原创国漫 IP，预计暑期上线，志在成为今夏黑马。",
+          "source_url": "https://new.qq.com/rain/a/20260511A06EKE00"
+        },
+        {
+          "title": "云深不知梦 第二季 / SP·逐冥之役",
+          "art_style": "3D",
+          "ip_origin": "原创剧本",
+          "ip_name": "云深不知梦",
+          "synopsis": "国漫大女主赛道标杆，女主云望舒觉醒拯救苍生，高定幻想风美术。第二季浮现更宏大世界观与暗线。",
+          "release_window": "2026暑期",
+          "release_status": "已定档",
+          "notes": "SP 及第二季官宣定档 2026 暑期档；站内预约近 300w。女主为唯一登上《费加罗》开年群封的国漫女性角色，原创 IP 系列化的样板。",
+          "source_url": "https://new.qq.com/rain/a/20260511A06EKE00"
+        },
+        {
+          "title": "沧元图 第三季",
+          "art_style": "三渲二",
+          "ip_origin": "小说",
+          "ip_name": "沧元图（我吃西红柿）",
+          "synopsis": "东方玄幻头部标杆，水墨风 3D 顶流。孟川支援反攻妖族，从东宁府到大越王朝，局势升级。升级为年番长线更新。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "第三季全网预约破 937 万刷新国漫纪录；获 CCTV6、新华社、CNBC、《经济学人》报道，中国文化出海标志性国漫。",
+          "source_url": "https://new.qq.com/rain/a/20260511A06EKE00"
+        },
+        {
+          "title": "楚乌",
+          "art_style": "三渲二",
+          "ip_origin": "漫画",
+          "ip_name": "楚乌（墨飞）",
+          "synopsis": "融合中式恐怖+都市异能国潮美学。改编自中国动漫金龙奖最佳剧情漫画奖金奖作品，PV 高度还原漫画。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "经典漫画 IP 动画化，优酷高还原改编策略代表。",
+          "source_url": "https://www.thepaper.cn/newsDetail_forward_33160930"
+        },
+        {
+          "title": "莽荒纪",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "莽荒纪（我吃西红柿）",
+          "synopsis": "我吃西红柿十年亿级顶流网文 IP，采用年番长线运营模式，力图打造国民级东方仙侠传世之作。",
+          "release_window": "TBD",
+          "release_status": "远期规划",
+          "notes": "神漫制作，头部作家+顶尖团队强强联合，长线开发。",
+          "source_url": "https://www.thepaper.cn/newsDetail_forward_33160930"
+        }
+      ]
+    },
+    "tencent": {
+      "label": "腾讯视频",
+      "event": "2026 腾讯视频动漫年度发布",
+      "event_date": "2026-06-22",
+      "event_note": "近 7 小时超长直播发布 94 部作品：26 部全新 IP 全球首发、32 部人气 IP 更新进度、36 部精品集体炸场。强调「常新可期」「日日有新番」的确定性供给体系。",
+      "items": [
+        {
+          "title": "大圣·出世",
+          "art_style": "3D",
+          "ip_origin": "原创剧本",
+          "ip_name": "大圣归来（电影衍生）",
+          "synopsis": "田晓鹏监制，与《大圣归来》背后的十月文化合作，首次展现花果山世界观全貌，描摹齐天大圣的来时路。",
+          "release_window": "TBD",
+          "release_status": "预告",
+          "notes": "电影《大圣归来》时隔 11 年官宣回归动画剧集，情怀级 IP 的世界观扩展。",
+          "source_url": "https://www.sohu.com/a/1040905100_120893702"
+        },
+        {
+          "title": "猫武士",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "猫武士（英国 Coolabi）",
+          "synopsis": "改编自被译成 38 种语言的现象级奇幻小说，中英美团队联合打造官方动画剧集。",
+          "release_window": "2028",
+          "release_status": "远期规划",
+          "notes": "腾讯作为联合出品方，是该 IP 首次官方授权动画改编；预计 2028 播出，后续登陆迪士尼+和迪士尼频道。国产动画首次以「制作方」而非版权输出方姿态出海，战略信号极强。",
+          "source_url": "https://m.thepaper.cn/newsDetail_forward_33449590"
+        },
+        {
+          "title": "诡秘之主 第二季 / 无面人",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "诡秘之主（爱潜水的乌贼）",
+          "synopsis": "中国动画出海之王，非凡世界的秘密逐一揭开。第二季进入制作，铺开更多世界观与原作高光。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "IMDb 9.3，创中国动画历史新高；第一季全球 190 国同步，第二季发行再刷纪录。手搓 40 集进度超预期。",
+          "source_url": "https://new.qq.com/rain/a/20260623A07QN300"
+        },
+        {
+          "title": "斗破苍穹剧场版·双帝之战",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "斗破苍穹（天蚕土豆）",
+          "synopsis": "开播近十年的头部 IP 完结篇，萧炎与魂天帝终极对决，将「莫欺少年穷」的热血宣言喊到最后。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "以剧场版规格为十年长跑 IP 收尾，集中资源打法。",
+          "source_url": "https://new.qq.com/rain/a/20260623A07QN300"
+        },
+        {
+          "title": "雪中悍刀行",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "雪中悍刀行（烽火戏诸侯）",
+          "synopsis": "武侠东方美学，徐凤年孤身赴北荒抗击四十万大军。敦煌壁画、皮影、京剧元素融入雪中江湖，突出留白余韵。",
+          "release_window": "TBD",
+          "release_status": "预告",
+          "notes": "PV 首曝人物建模，预约破 256 万，持续推进动画化开发。",
+          "source_url": "https://www.sohu.com/a/1040905100_120893702"
+        },
+        {
+          "title": "清明上河图密码",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "清明上河图密码（冶文彪）",
+          "synopsis": "公案推理+宋画美学，国画散点透视运用到动漫运镜，每帧信息量巨大，可考据真实历史事件与名画细节。",
+          "release_window": "TBD",
+          "release_status": "预告",
+          "notes": "博物馆级埋彩蛋，考据向差异化项目。",
+          "source_url": "https://www.sohu.com/a/1040905100_120893702"
+        },
+        {
+          "title": "太白金星有点烦",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "太白金星有点烦（马伯庸）",
+          "synopsis": "改编自马伯庸同名小说，把天庭写成职场，讲述神仙也要背上牛马命的中层公务员故事。",
+          "release_window": "TBD",
+          "release_status": "预告",
+          "notes": "神话赛道差异化，「西游职场」喜剧向。",
+          "source_url": "https://new.qq.com/rain/a/20260623A07QN300"
+        },
+        {
+          "title": "永夜君王",
+          "art_style": "AI混合制作",
+          "ip_origin": "小说",
+          "ip_name": "永夜君王（烟雨江南）",
+          "synopsis": "末世孤独与热血群像，明暗双修体质、二十七座浮空大陆等宏大设定。灰度美学构筑末日宇宙。",
+          "release_window": "TBD",
+          "release_status": "预告",
+          "notes": "由新团队「异类」打造，精品 AI 混制作品，AI 辅助生成概念场景、分镜与渲染，让高视觉难度题材找到可执行路径。技术信号项目。",
+          "source_url": "https://m.thepaper.cn/newsDetail_forward_33449590"
+        },
+        {
+          "title": "DNF",
+          "art_style": "3D",
+          "ip_origin": "游戏",
+          "ip_name": "地下城与勇士",
+          "synopsis": "20 年阿拉德大陆首次动画化，万千冒险家的青春。",
+          "release_window": "TBD",
+          "release_status": "预告",
+          "notes": "全球知名格斗游戏 IP 二十年来首次动画化，压轴出场。游戏 IP 内容宇宙化布局。",
+          "source_url": "https://finance.sina.cn/2026-06-22/detail-iniekknt9781181.d.html"
+        },
+        {
+          "title": "深海余烬",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "深海余烬（远瞳）",
+          "synopsis": "远洋船长在灰烬中打捞文明遗骸，斩获第 33 届中国科幻银河奖。",
+          "release_window": "2027",
+          "release_status": "已定档",
+          "notes": "阅文年度最受期待改编 IP 奖，长期打磨视觉品质，定档 2027。",
+          "source_url": "https://www.sohu.com/a/1040905100_120893702"
+        },
+        {
+          "title": "火旺",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "火旺",
+          "synopsis": "「东方克苏鲁修仙」开创之作，克苏鲁与道教修仙融合，创造新视觉语言。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "确定今年与观众见面，暗黑修仙开山题材。",
+          "source_url": "https://www.sohu.com/a/1040905100_120893702"
+        },
+        {
+          "title": "画江湖之不良人 第八季",
+          "art_style": "3D",
+          "ip_origin": "原创剧本",
+          "ip_name": "画江湖之不良人",
+          "synopsis": "陪伴十年的超级 IP，李星云重回中原，主角团再同框开启宿命羁绊。导演换回封神第四季舒导。",
+          "release_window": "2027",
+          "release_status": "预告",
+          "notes": "国创陪伴感最强作品之一，第 9 季已在写。跨越 11 年的长线运营标杆。",
+          "source_url": "https://www.sohu.com/a/1040905100_120893702"
+        }
+      ]
+    },
+    "iqiyi": {
+      "label": "爱奇艺",
+      "event": "2026 爱奇艺世界·大会动漫年度发布「新番集结号」",
+      "event_date": "2026-04-21",
+      "event_note": "公布 9 部年番 + 19 部季番共 28 部片单。战略核心：坚持头部战略、稳步扩大年番布局（2024 首部年番，预计 2028 增至 8 部），并推出星河 AI 番剧计划，构建以创作者为核心、AI 为引擎的开放共创生态。",
+      "items": [
+        {
+          "title": "无敌剑域",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "无敌剑域",
+          "synopsis": "呈现大量「一剑宇宙」人气角色与经典场景。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "行业首部全流程 AIGC 制作年番，基于爱奇艺纳逗 Pro 开发。爱奇艺 AI 战略的旗舰验证项目。",
+          "source_url": "https://pages.iqiyi.com/p/scpr/63x0awbw.html"
+        },
+        {
+          "title": "我不是戏神",
+          "art_style": "三渲二",
+          "ip_origin": "小说",
+          "ip_name": "我不是戏神（三九音域）",
+          "synopsis": "世界观独特，包含神道、灾厄、灭世等高概念设定，群像塑造动人。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "玄机科技制作，重点年番。",
+          "source_url": "https://pages.iqiyi.com/p/scpr/63x0awbw.html"
+        },
+        {
+          "title": "元尊 年番",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "元尊（天蚕土豆）",
+          "synopsis": "精准抓住天蚕土豆原作精髓，主打智谋爽感。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "上海幻维数码制作，头部网文 IP 升级年番。",
+          "source_url": "https://www.163.com/dy/article/KR243SAK053469KC.html"
+        },
+        {
+          "title": "一剑独尊",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "一剑独尊（青鸾峰上）",
+          "synopsis": "世界观宏大、情节高燃，带来极致爽感与强烈视觉冲击。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "兴艺凯晨制作，重点年番。",
+          "source_url": "https://pages.iqiyi.com/p/scpr/63x0awbw.html"
+        },
+        {
+          "title": "天渊",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "天渊",
+          "synopsis": "视觉风格独特、画面极具张力，最大程度还原原著名场面。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "渔猫文化制作，重点年番。",
+          "source_url": "https://pages.iqiyi.com/p/scpr/63x0awbw.html"
+        },
+        {
+          "title": "夜无疆",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "夜无疆",
+          "synopsis": "浓厚末世与暗黑风格，多线叙事展现主角在末世下的生存与成长，永夜设定独特。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "万维猫动画制作，区别于传统玄幻的暗黑末世题材。",
+          "source_url": "https://pages.iqiyi.com/p/scpr/63x0awbw.html"
+        },
+        {
+          "title": "择日飞升",
+          "art_style": "三渲二",
+          "ip_origin": "小说",
+          "ip_name": "择日飞升",
+          "synopsis": "坚守原著反抗神权压迫内核，用水墨、重彩、壁画元素打造瑰丽诡谲的择日世界。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "中影年年制作，美术风格化项目。",
+          "source_url": "https://pages.iqiyi.com/p/scpr/63x0awbw.html"
+        },
+        {
+          "title": "异兽迷城",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "异兽迷城（彭湃）",
+          "synopsis": "融合赛博朋克、现代都市潮流与奇幻玄学三重风格，围绕「世界是假的，爱是真的」核心展开。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "神漫文化制作，多风格融合季番。",
+          "source_url": "https://pages.iqiyi.com/p/scpr/63x0awbw.html"
+        },
+        {
+          "title": "财神窦占龙",
+          "art_style": "3D",
+          "ip_origin": "原创剧本",
+          "ip_name": "财神",
+          "synopsis": "中式恐怖奇谈，让观众在中式民俗构建的幻境与迷局中感受故事张力。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "北京电影学院徐铮导演，中式恐怖民俗题材。",
+          "source_url": "https://pages.iqiyi.com/p/scpr/63x0awbw.html"
+        },
+        {
+          "title": "李熊猫",
+          "art_style": "2D",
+          "ip_origin": "原创剧本",
+          "ip_name": "李熊猫",
+          "synopsis": "设定新颖有趣，精细手绘制作，融合古风、摇滚、电子等多元音乐风格。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "花原文化制作，稀有的 2D 手绘精品季番。",
+          "source_url": "https://pages.iqiyi.com/p/scpr/63x0awbw.html"
+        }
+      ]
+    },
+    "bili-guochuang": {
+      "label": "B站国创",
+      "event": "2025-2026 bilibili 国创动画作品发布会（第八届）",
+      "event_date": "2025-11-15",
+      "event_note": "以「一起寻找答案」为主题发布 40 部国创作品。专注挖掘多元化、精品化内容，在代表性 IP 续作之外给新颖题材、风格化作品更大空间。近一年国创观看时长近 9.7 亿小时。",
+      "items": [
+        {
+          "title": "中国奇谭2",
+          "art_style": "2D",
+          "ip_origin": "原创剧本",
+          "ip_name": "中国奇谭",
+          "synopsis": "9 个风格迥异的短篇故事，12 位导演联手拓展「奇谭宇宙」。深植东方美学，映照当代人自我认同、代际情感等现实议题。",
+          "release_window": "2026-01-01",
+          "release_status": "已定档",
+          "notes": "现象级 IP，定档 2026 元旦。涵盖二维逐帧、三渲二、毛毡定格动画等多种形式；从短片开发到长线运营的国创 IP 样本。",
+          "source_url": "https://www.bilibili.com/read/cv43750963"
+        },
+        {
+          "title": "我在废土世界扫垃圾",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "我在废土世界扫垃圾（晋江）",
+          "synopsis": "国内首部「浪漫废土」题材，区别于黄沙漫天的传统废土，展现奇异生物、植物与城市建筑的融合，科技与人类结合。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "B站首次合作神漫文化，改编自晋江人气小说。美术风格创新项目。",
+          "source_url": "https://www.bilibili.com/read/cv43750963"
+        },
+        {
+          "title": "罗小黑战记 学前篇",
+          "art_style": "2D",
+          "ip_origin": "原创剧本",
+          "ip_name": "罗小黑战记",
+          "synopsis": "TV 动画时隔 4 年回归，新篇章「学前篇」进一步讲述「众生之门」之后的故事。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "治愈系王牌 IP 回归，B站开启 TV 动画新篇章。",
+          "source_url": "https://www.bilibili.com/read/cv43750963"
+        },
+        {
+          "title": "时光代理人 第三季",
+          "art_style": "2D",
+          "ip_origin": "原创剧本",
+          "ip_name": "时光代理人",
+          "synopsis": "英都篇完结后，在程小时死亡的谜团中，第三季揭开火灾案的秘密。",
+          "release_window": "2026-10",
+          "release_status": "已定档",
+          "notes": "锁定 2026 年 10 月，B站原创长线 IP 标杆。",
+          "source_url": "https://m.sohu.com/a/957003895_121124780"
+        },
+        {
+          "title": "凡人修仙传 新一季",
+          "art_style": "3D",
+          "ip_origin": "小说",
+          "ip_name": "凡人修仙传（忘语）",
+          "synopsis": "年番不断更，头部东方玄幻标杆 IP。",
+          "release_window": "2026H1",
+          "release_status": "预告",
+          "notes": "王裕仁导演；同 IP 院线电影《瀚海迷踪》、番外篇《玄骨传》也在制作中。矩阵化开发。",
+          "source_url": "https://m.sohu.com/a/957003895_121124780"
+        },
+        {
+          "title": "难哄",
+          "art_style": "2D",
+          "ip_origin": "小说",
+          "ip_name": "难哄（竹已）",
+          "synopsis": "动画市场少见的 2D 制作都市恋爱故事，久别重逢破心结。",
+          "release_window": "2026",
+          "release_status": "预告",
+          "notes": "配音沿用猫耳 FM 同名广播剧原班人马（播放量超 1.4 亿）。都市恋爱 2D 题材补位。",
+          "source_url": "https://www.bilibili.com/read/cv43750963"
+        },
+        {
+          "title": "仙剑奇侠传四",
+          "art_style": "3D",
+          "ip_origin": "游戏",
+          "ip_name": "仙剑奇侠传四",
+          "synopsis": "寻仙问道，逆命而行。经典国民游戏 IP 动画化。",
+          "release_window": "TBD",
+          "release_status": "预告",
+          "notes": "曝光最新预告，经典游戏 IP 改编。",
+          "source_url": "https://www.bilibili.com/bangumi/play/ep2383667"
+        },
+        {
+          "title": "胶囊计划 第四季",
+          "art_style": "2D",
+          "ip_origin": "原创剧本",
+          "ip_name": "胶囊计划",
+          "synopsis": "原创动画短篇集，被视为国创动画制作天花板。第四季团队进一步多元化，出现沙特动画创作者。",
+          "release_window": "2026夏",
+          "release_status": "预告",
+          "notes": "寻光计划孵化，前三季总播放破亿；国际化+原创扶持信号。",
+          "source_url": "https://m.sohu.com/a/957003895_121124780"
+        },
+        {
+          "title": "记忆管理局",
+          "art_style": "2D",
+          "ip_origin": "原创剧本",
+          "ip_name": "记忆管理局",
+          "synopsis": "时光代理人同世界观相关的原创奇幻作品。",
+          "release_window": "2026夏",
+          "release_status": "已定档",
+          "notes": "2026 年夏上映。",
+          "source_url": "https://www.bilibili.com/bangumi/play/ep2383667"
+        }
+      ]
+    }
+  }
+}
