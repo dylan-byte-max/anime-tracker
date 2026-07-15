@@ -513,17 +513,17 @@
     "platform_score": 10997,
     "score_raw": 10997,
     "score": null,
-    "latest": "全432集",
+    "latest": "全20集",
     "status": "已完结",
     "tags": [
-      "冒险,战斗,玄幻"
+      "奇幻"
     ],
-    "year": "2017",
-    "pub_time": "2023-01-14 10:00:00",
+    "year": "2026",
+    "pub_time": "2026-04-30 10:00:00",
     "region": "内地",
-    "synopsis": "重生踏足武道巅峰",
+    "synopsis": "一戒盘龙，龙血战士觉醒！",
     "ip_origin": "",
-    "tagline": "在追破1000万",
+    "tagline": "奇幻魔法",
     "badge": "",
     "rank_change": null
   },
@@ -756,14 +756,14 @@
     "latest": "更新至465集",
     "status": "连载中",
     "tags": [
-      "玄幻,战斗,腾讯出品"
+      "搞笑,经典"
     ],
-    "year": "2021",
-    "pub_time": "2021-04-06 10:00:00",
-    "region": "内地",
-    "synopsis": "我身为剑，再续前缘",
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "笑料满点的小新继续让你回忆童年",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "评分 9.3",
     "badge": "",
     "rank_change": null
   },
@@ -825,17 +825,17 @@
     "platform_score": 9569,
     "score_raw": 9569,
     "score": null,
-    "latest": "全28集",
-    "status": "已完结",
+    "latest": "更新至531集",
+    "status": "连载中",
     "tags": [
-      "真人,战斗,科幻"
+      "玄幻"
     ],
-    "year": "2020",
-    "pub_time": "2020-06-20 10:00:00",
-    "region": "日本",
-    "synopsis": "赛罗徒弟大展身手",
+    "year": "2021",
+    "pub_time": "2021-07-16",
+    "region": "内地",
+    "synopsis": "一剑高下，风雨潇洒",
     "ip_origin": "",
-    "tagline": "评分 9.2",
+    "tagline": "玄幻修真",
     "badge": "",
     "rank_change": null
   },
@@ -1092,7 +1092,79 @@
     "latest": "全1集",
     "status": "已完结",
     "tags": [
-      "仙侠"
+      "都市"
+    ],
+    "year": "2021",
+    "pub_time": "2021-12-03",
+    "region": "内地",
+    "synopsis": "灵气复苏爆笑修炼",
+    "ip_origin": "",
+    "tagline": "都市奇幻",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 48,
+    "cid": "ygci7rbfq3celp8",
+    "title": "罗小黑战记",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/ygci7rbfq3celp8t1444944536.jpg/350",
+    "link": "https://v.qq.com/x/cover/ygci7rbfq3celp8.html",
+    "score_label": "热度",
+    "platform_score": 9289,
+    "score_raw": 9289,
+    "score": null,
+    "latest": "全28集",
+    "status": "已完结",
+    "tags": [
+      "搞笑,治愈"
+    ],
+    "year": "2011",
+    "pub_time": "",
+    "region": "内地",
+    "synopsis": "可爱小黑猫",
+    "ip_origin": "",
+    "tagline": "评分 9.8",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 49,
+    "cid": "mzc00200ygmoqes",
+    "title": "非人哉 第2季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200ygmoqes1739343018249/350",
+    "link": "https://v.qq.com/x/cover/mzc00200ygmoqes.html",
+    "score_label": "热度",
+    "platform_score": 9284,
+    "score_raw": 9284,
+    "score": null,
+    "latest": "全48集",
+    "status": "已完结",
+    "tags": [
+      "日常"
+    ],
+    "year": "2024",
+    "pub_time": "2024-09-30 10:00:00",
+    "region": "内地",
+    "synopsis": "哪吒在小学当校霸",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 50,
+    "cid": "mzc00200x6fq63h",
+    "title": "诡秘之主 小丑篇",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200x6fq63h1722861340713/350",
+    "link": "https://v.qq.com/x/cover/mzc00200x6fq63h.html",
+    "score_label": "热度",
+    "platform_score": 9281,
+    "score_raw": 9281,
+    "score": null,
+    "latest": "全13集",
+    "status": "已完结",
+    "tags": [
+      "奇幻"
     ],
     "year": "2025",
     "pub_time": "2025-05-30 12:00:00",
@@ -1813,7 +1885,7 @@
     "region": "内地",
     "synopsis": "伍六七身世之谜揭开",
     "ip_origin": "",
-    "tagline": "评分 9.6",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
