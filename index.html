@@ -214,7 +214,7 @@
   <main class="max-w-7xl mx-auto px-4 sm:px-6 mt-6 pb-16">
     <div class="glow-card rounded-2xl p-5 mb-4">
       <h2 class="text-lg font-bold grad-text mb-2">🗓️ 各平台未来排播 Pipeline</h2>
-      <p class="text-sm text-gray-400 leading-relaxed">按各平台官方发布会的完整片单与板块结构呈现，标注画风、原 IP 类型、故事梗概、预计上线时间与补充信息，用于研判各家未来一年的内容意图与战略走向。<span class="text-green-300">绿色</span>=已定档确切日期，<span class="text-amber-300">琥珀色</span>=模糊时间，随信息明确逐步细化，<span class="text-purple-300">每周一全网检索更新</span>。</p>
+      <p class="text-sm text-gray-400 leading-relaxed">按各平台官方发布会的完整片单与板块结构呈现，标注画风、原 IP 类型、故事梗概、预计上线时间与补充信息，用于研判各家未来一年的内容意图与战略走向。<span class="text-green-300">绿色</span>=确切日期（已到则显示「已上线」，未到显示「已定档」），<span class="text-amber-300">琥珀色</span>=模糊时间，状态按当天日期自动判定，<span class="text-purple-300">每周一核查未上线项目档期</span>。</p>
       <div class="mt-2 text-xs text-gray-500">数据更新：<span id="pl-updated" class="text-purple-300">—</span></div>
     </div>
 
@@ -710,9 +710,22 @@ function artChip(a) {
   return `<span class="${cls} text-[11px] px-1.5 py-0.5 rounded-md font-medium whitespace-nowrap">${a||'未知'}</span>`;
 }
 const RLS_CLASS = { '已定档':'rls-dated', '已上线':'rls-dated', '预告':'rls-teaser', '远期规划':'rls-longterm' };
-function rlsChip(s) {
+function effectiveStatus(it) {
+  if (it.date_confirmed) {
+    const w = it.release_window || '';
+    const m = w.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (m) {
+      const rel = new Date(+m[1], +m[2]-1, +m[3]);
+      const today = new Date(); today.setHours(0,0,0,0);
+      return rel <= today ? '已上线' : '已定档';
+    }
+  }
+  return it.release_status || '预告';
+}
+function rlsChip(it) {
+  const s = effectiveStatus(it);
   const cls = RLS_CLASS[s] || 'rls-teaser';
-  return `<span class="${cls} text-[11px] px-1.5 py-0.5 rounded-md whitespace-nowrap">${s||'预告'}</span>`;
+  return `<span class="${cls} text-[11px] px-1.5 py-0.5 rounded-md whitespace-nowrap">${s}</span>`;
 }
 // 上线时间单元格：确切日期=绿色，模糊时间=琥珀色，待定=灰色
 function releaseCell(it) {
@@ -764,7 +777,7 @@ function plMatchSearch(it, q) {
 function plItemPass(it) {
   if (plFilter.art.size && !plFilter.art.has(it.art_style||'未知')) return false;
   if (plFilter.ip.size && !plFilter.ip.has(it.ip_origin||'未知')) return false;
-  if (plFilter.status.size && !plFilter.status.has(it.release_status||'预告')) return false;
+  if (plFilter.status.size && !plFilter.status.has(effectiveStatus(it))) return false;
   if (!plMatchSearch(it, plSearch)) return false;
   return true;
 }
@@ -796,7 +809,7 @@ function plRenderFilterChips() {
   for (const it of items) {
     dims.art.set(it.art_style||'未知', (dims.art.get(it.art_style||'未知')||0)+1);
     dims.ip.set(it.ip_origin||'未知', (dims.ip.get(it.ip_origin||'未知')||0)+1);
-    dims.status.set(it.release_status||'预告', (dims.status.get(it.release_status||'预告')||0)+1);
+    const es = effectiveStatus(it); dims.status.set(es, (dims.status.get(es)||0)+1);
   }
   function render(id, dim) {
     const el = document.getElementById(id);
@@ -818,7 +831,7 @@ function plTableRow(it) {
     <td>${artChip(it.art_style)}</td>
     <td><span class="tag-pill text-[10px] px-1.5 py-0.5 rounded-md whitespace-nowrap">${it.ip_origin||'未知'}</span>${ipName}</td>
     <td class="col-syn">${it.synopsis||''}</td>
-    <td>${releaseCell(it)}<div class="mt-1">${rlsChip(it.release_status)}</div></td>
+    <td>${releaseCell(it)}<div class="mt-1">${rlsChip(it)}</div></td>
     <td class="col-notes">${it.notes||''}</td>
   </tr>`;
 }
@@ -921,7 +934,7 @@ document.getElementById('pl-export').addEventListener('click', () => {
       '故事梗概': x.synopsis||'',
       '预计上线': x.release_window||'',
       '是否确切定档': x.date_confirmed ? '是' : '否',
-      '档期状态': x.release_status||'',
+      '档期状态': effectiveStatus(x),
       '补充信息': x.notes||'',
       '来源': x.source_url||'',
     });
