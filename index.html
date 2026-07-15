@@ -65,6 +65,16 @@
   .pl-filter-chip { background: rgba(167,139,250,0.08); border:1px solid rgba(167,139,250,0.25); color:#ddd6fe; cursor:pointer; transition:all .15s; }
   .pl-filter-chip:hover { background: rgba(167,139,250,0.16); }
   .pl-filter-chip.active { background: linear-gradient(135deg,rgba(167,139,250,0.35),rgba(96,165,250,0.30)); border-color: rgba(167,139,250,0.65); color:#fff; }
+  /* 未来排播表格 */
+  .pl-table { width:100%; border-collapse:separate; border-spacing:0; font-size:12.5px; }
+  .pl-table thead th { position:sticky; top:0; background:#161628; color:#c4b5fd; font-weight:600; text-align:left; padding:8px 10px; border-bottom:1px solid rgba(167,139,250,0.3); white-space:nowrap; z-index:1; }
+  .pl-table tbody td { padding:9px 10px; border-bottom:1px solid rgba(167,139,250,0.08); vertical-align:top; color:#d8d8e8; }
+  .pl-table tbody tr:hover { background: rgba(167,139,250,0.05); }
+  .pl-table .col-title { font-weight:600; color:#fff; min-width:120px; }
+  .pl-table .col-syn { color:#b8b8cc; line-height:1.5; min-width:200px; }
+  .pl-table .col-notes { color:#e8d4a8; line-height:1.5; min-width:180px; font-size:12px; }
+  .pl-tbl-wrap { overflow-x:auto; border:1px solid rgba(167,139,250,0.15); border-radius:14px; }
+  .pl-tab-chip { cursor:pointer; transition:all .15s; }
 </style>
 </head>
 <body class="min-h-screen">
@@ -204,39 +214,47 @@
   <main class="max-w-7xl mx-auto px-4 sm:px-6 mt-6 pb-16">
     <div class="glow-card rounded-2xl p-5 mb-4">
       <h2 class="text-lg font-bold grad-text mb-2">🗓️ 各平台未来排播 Pipeline</h2>
-      <p class="text-sm text-gray-400 leading-relaxed">汇总各平台年度动漫发布会公布的重点片单，标注画风、原 IP 类型、故事梗概、预计上线时间与补充信息，用于研判各家未来一年的内容意图与战略走向。预计上线时间随信息明确逐步细化，<span class="text-purple-300">每周一全网检索更新</span>。</p>
+      <p class="text-sm text-gray-400 leading-relaxed">按各平台官方发布会的完整片单与板块结构呈现，标注画风、原 IP 类型、故事梗概、预计上线时间与补充信息，用于研判各家未来一年的内容意图与战略走向。<span class="text-green-300">绿色</span>=已定档确切日期，<span class="text-amber-300">琥珀色</span>=模糊时间，随信息明确逐步细化，<span class="text-purple-300">每周一全网检索更新</span>。</p>
       <div class="mt-2 text-xs text-gray-500">数据更新：<span id="pl-updated" class="text-purple-300">—</span></div>
     </div>
 
-    <!-- 筛选行 -->
-    <div class="mb-4 space-y-2">
+    <!-- 平台 + 发布会切换 -->
+    <div class="mb-3 space-y-2">
       <div class="flex flex-wrap items-center gap-2">
-        <span class="text-xs text-gray-500 w-14 shrink-0">平台</span>
-        <div id="pl-filter-platform" class="flex flex-wrap gap-1.5"></div>
-      </div>
-      <div class="flex flex-wrap items-center gap-2">
-        <span class="text-xs text-gray-500 w-14 shrink-0">画风</span>
-        <div id="pl-filter-art" class="flex flex-wrap gap-1.5"></div>
+        <span class="text-xs text-gray-500 w-16 shrink-0">选择平台</span>
+        <div id="pl-tab-platform" class="flex flex-wrap gap-1.5"></div>
       </div>
       <div class="flex flex-wrap items-center gap-2">
-        <span class="text-xs text-gray-500 w-14 shrink-0">原IP类型</span>
-        <div id="pl-filter-ip" class="flex flex-wrap gap-1.5"></div>
+        <span class="text-xs text-gray-500 w-16 shrink-0">发布会</span>
+        <div id="pl-tab-event" class="flex flex-wrap gap-1.5"></div>
       </div>
-      <div class="flex flex-wrap items-center gap-2">
-        <span class="text-xs text-gray-500 w-14 shrink-0">档期状态</span>
-        <div id="pl-filter-status" class="flex flex-wrap gap-1.5"></div>
-      </div>
-      <div class="flex items-center gap-3 pt-1">
-        <input id="pl-search" type="text" placeholder="🔍 搜索项目名 / 原IP名" class="flex-1 input-dark rounded-xl px-4 py-2 text-sm" autocomplete="off" />
-        <button id="pl-export" class="btn-primary px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 shrink-0">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-          导出 Excel
-        </button>
-      </div>
-      <div id="pl-summary" class="text-xs text-gray-400"></div>
     </div>
 
-    <div id="pipeline-sections" class="space-y-6"></div>
+    <!-- 筛选行 -->
+    <div class="mb-3 flex flex-wrap items-center gap-x-4 gap-y-2 border-t border-purple-500/10 pt-3">
+      <div class="flex flex-wrap items-center gap-1.5">
+        <span class="text-xs text-gray-500">画风</span>
+        <div id="pl-filter-art" class="flex flex-wrap gap-1.5"></div>
+      </div>
+      <div class="flex flex-wrap items-center gap-1.5">
+        <span class="text-xs text-gray-500">原IP</span>
+        <div id="pl-filter-ip" class="flex flex-wrap gap-1.5"></div>
+      </div>
+      <div class="flex flex-wrap items-center gap-1.5">
+        <span class="text-xs text-gray-500">档期</span>
+        <div id="pl-filter-status" class="flex flex-wrap gap-1.5"></div>
+      </div>
+    </div>
+    <div class="mb-4 flex items-center gap-3">
+      <input id="pl-search" type="text" placeholder="🔍 搜索项目名 / 原IP名" class="flex-1 input-dark rounded-xl px-4 py-2 text-sm" autocomplete="off" />
+      <button id="pl-export" class="btn-primary px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2 shrink-0">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+        导出 Excel
+      </button>
+    </div>
+    <div id="pl-summary" class="text-xs text-gray-400 mb-3"></div>
+
+    <div id="pipeline-sections" class="space-y-8"></div>
   </main>
 </div>
 
@@ -678,35 +696,41 @@ document.getElementById('bm-add').addEventListener('click', () => {
 
 document.getElementById('export-excel').addEventListener('click', exportExcel);
 
-// === 未来排播 Pipeline ===
-let pipelineData = null;          // 原始 JSON
-let plItemsFlat = [];             // 扁平化的项目数组（带 platform 字段）
-const plFilter = { platform: new Set(), art: new Set(), ip: new Set(), status: new Set() };
+// === 未来排播 Pipeline (v2: 平台→发布会→板块→表格) ===
+let pipelineData = null;
+const PL_ORDER = ['youku','tencent','iqiyi','bili-guochuang'];
+let plCurPlatform = 'youku';
+let plCurEventId = null;           // 当前发布会 event_id
+const plFilter = { art: new Set(), ip: new Set(), status: new Set() };
 let plSearch = '';
 
 const ART_CLASS = { '2D':'art-2d', '3D':'art-3d', '三渲二':'art-santo', 'AI混合制作':'art-ai' };
 function artChip(a) {
   const cls = ART_CLASS[a] || 'art-unknown';
-  return `<span class="${cls} text-[11px] px-2 py-0.5 rounded-md font-medium">${a||'未知'}</span>`;
+  return `<span class="${cls} text-[11px] px-1.5 py-0.5 rounded-md font-medium whitespace-nowrap">${a||'未知'}</span>`;
 }
-const RLS_CLASS = { '已定档':'rls-dated', '预告':'rls-teaser', '远期规划':'rls-longterm' };
+const RLS_CLASS = { '已定档':'rls-dated', '已上线':'rls-dated', '预告':'rls-teaser', '远期规划':'rls-longterm' };
 function rlsChip(s) {
   const cls = RLS_CLASS[s] || 'rls-teaser';
-  return `<span class="${cls} text-[11px] px-2 py-0.5 rounded-md">${s||'预告'}</span>`;
+  return `<span class="${cls} text-[11px] px-1.5 py-0.5 rounded-md whitespace-nowrap">${s||'预告'}</span>`;
 }
-// 档期排序权重：已定档最靠前，粒度越细越靠前
+// 上线时间单元格：确切日期=绿色，模糊时间=琥珀色，待定=灰色
+function releaseCell(it) {
+  const w = it.release_window || '';
+  if (!w || w === 'TBD') return `<span class="rls-longterm text-[11px] px-2 py-0.5 rounded-md whitespace-nowrap">待定</span>`;
+  if (it.date_confirmed) return `<span class="rls-dated text-[12px] px-2 py-0.5 rounded-md whitespace-nowrap">📅 ${w}</span>`;
+  return `<span class="rls-teaser text-[12px] px-2 py-0.5 rounded-md whitespace-nowrap">~ ${w}</span>`;
+}
+// 档期排序：确切日期优先，粒度越细越靠前
 function rlsSortKey(it) {
   const w = it.release_window || '';
-  const st = it.release_status || '';
-  // 精确度分层
   let precision = 0;
-  if (/^\d{4}-\d{2}-\d{2}$/.test(w)) precision = 4;
-  else if (/^\d{4}-\d{2}$/.test(w)) precision = 3;
+  if (/^\d{4}-\d{2}-\d{2}$/.test(w)) precision = 5;
+  else if (/^\d{4}-\d{2}$/.test(w)) precision = 4;
   else if (/Q[1-4]|H[12]|暑期|夏|春|秋|冬/.test(w)) precision = 2;
   else if (/^\d{4}$/.test(w)) precision = 1;
-  else precision = 0; // TBD / 空
-  const statusBonus = st === '已定档' ? 10 : (st === '预告' ? 5 : 0);
-  return statusBonus + precision;
+  const confBonus = it.date_confirmed ? 20 : 0;
+  return confBonus + precision;
 }
 
 async function loadPipeline() {
@@ -715,166 +739,199 @@ async function loadPipeline() {
     const resp = await fetch('data/pipeline.json?t=' + Date.now());
     pipelineData = resp.ok ? await resp.json() : { platforms: {} };
   } catch (e) { pipelineData = { platforms: {} }; console.error('pipeline load fail', e); }
-  // 扁平化
-  plItemsFlat = [];
-  const order = ['youku','tencent','iqiyi','bili-guochuang'];
-  for (const pk of order) {
-    const p = pipelineData.platforms && pipelineData.platforms[pk];
-    if (!p) continue;
-    for (const it of (p.items||[])) {
-      plItemsFlat.push({ ...it, _platform: pk, _platformLabel: p.label || PLATFORM_LABELS[pk] || pk });
-    }
-  }
   return pipelineData;
 }
 
+// 当前发布会对象
+function plCurEvent() {
+  const p = pipelineData.platforms[plCurPlatform];
+  if (!p || !p.events || !p.events.length) return null;
+  return p.events.find(e => e.event_id === plCurEventId) || p.events[0];
+}
+// 当前发布会所有项目（扁平，带 section 引用）
+function plCurItems() {
+  const ev = plCurEvent();
+  if (!ev) return [];
+  const out = [];
+  for (const s of (ev.sections||[])) for (const it of (s.items||[])) out.push({ ...it, _section: s.section_name });
+  return out;
+}
 function plMatchSearch(it, q) {
   if (!q) return true;
   const hay = ((it.title||'') + ' ' + (it.ip_name||'')).toLowerCase();
   return q.toLowerCase().trim().split(/\s+/).filter(Boolean).every(tk => hay.includes(tk));
 }
-function plApplyFilters() {
-  return plItemsFlat.filter(it => {
-    if (plFilter.platform.size && !plFilter.platform.has(it._platform)) return false;
-    if (plFilter.art.size && !plFilter.art.has(it.art_style||'未知')) return false;
-    if (plFilter.ip.size && !plFilter.ip.has(it.ip_origin||'未知')) return false;
-    if (plFilter.status.size && !plFilter.status.has(it.release_status||'预告')) return false;
-    if (!plMatchSearch(it, plSearch)) return false;
-    return true;
-  });
+function plItemPass(it) {
+  if (plFilter.art.size && !plFilter.art.has(it.art_style||'未知')) return false;
+  if (plFilter.ip.size && !plFilter.ip.has(it.ip_origin||'未知')) return false;
+  if (plFilter.status.size && !plFilter.status.has(it.release_status||'预告')) return false;
+  if (!plMatchSearch(it, plSearch)) return false;
+  return true;
 }
 
-function plBuildChips() {
-  // 统计各维度可选值
-  const dims = { platform:new Map(), art:new Map(), ip:new Map(), status:new Map() };
-  for (const it of plItemsFlat) {
-    dims.platform.set(it._platform, (dims.platform.get(it._platform)||0)+1);
+// 平台切换 tab
+function plRenderPlatformTabs() {
+  const el = document.getElementById('pl-tab-platform');
+  el.innerHTML = PL_ORDER.filter(pk => pipelineData.platforms[pk]).map(pk => {
+    const active = pk === plCurPlatform;
+    const cls = active ? 'tab-active' : 'text-gray-300 hover:text-white';
+    return `<button class="pl-tab-chip whitespace-nowrap px-3 py-1.5 rounded-lg border border-purple-500/20 text-xs font-medium ${cls}" data-plplatform="${pk}">${pipelineData.platforms[pk].label}</button>`;
+  }).join('');
+}
+// 发布会切换 tab
+function plRenderEventTabs() {
+  const el = document.getElementById('pl-tab-event');
+  const p = pipelineData.platforms[plCurPlatform];
+  const events = (p && p.events) || [];
+  el.innerHTML = events.map(ev => {
+    const active = ev.event_id === plCurEventId;
+    const cls = active ? 'tab-active' : 'text-gray-300 hover:text-white';
+    return `<button class="pl-tab-chip whitespace-nowrap px-3 py-1.5 rounded-lg border border-purple-500/20 text-xs font-medium ${cls}" data-plevent="${ev.event_id}"><span class="opacity-70">${ev.event_date}</span>　${ev.event_name}</button>`;
+  }).join('');
+}
+// 筛选 chip（基于当前发布会的项目统计）
+function plRenderFilterChips() {
+  const items = plCurItems();
+  const dims = { art:new Map(), ip:new Map(), status:new Map() };
+  for (const it of items) {
     dims.art.set(it.art_style||'未知', (dims.art.get(it.art_style||'未知')||0)+1);
     dims.ip.set(it.ip_origin||'未知', (dims.ip.get(it.ip_origin||'未知')||0)+1);
     dims.status.set(it.release_status||'预告', (dims.status.get(it.release_status||'预告')||0)+1);
   }
-  function render(containerId, dim, labelFn) {
-    const el = document.getElementById(containerId);
+  function render(id, dim) {
+    const el = document.getElementById(id);
     const arr = [...dims[dim].entries()].sort((a,b)=>b[1]-a[1]);
     el.innerHTML = arr.map(([val,n]) => {
       const active = plFilter[dim].has(val) ? 'active' : '';
       const safe = String(val).replace(/"/g,'&quot;');
-      return `<button class="pl-filter-chip ${active} text-xs px-2.5 py-1 rounded-lg" data-pldim="${dim}" data-plval="${safe}">${labelFn(val)}<span class="opacity-60 ml-1">${n}</span></button>`;
+      return `<button class="pl-filter-chip ${active} text-[11px] px-2 py-0.5 rounded-md" data-pldim="${dim}" data-plval="${safe}">${val}<span class="opacity-60 ml-1">${n}</span></button>`;
     }).join('');
   }
-  render('pl-filter-platform', 'platform', v => PLATFORM_LABELS[v] || v);
-  render('pl-filter-art', 'art', v => v);
-  render('pl-filter-ip', 'ip', v => v);
-  render('pl-filter-status', 'status', v => v);
+  render('pl-filter-art','art'); render('pl-filter-ip','ip'); render('pl-filter-status','status');
 }
 
-function plItemCard(it) {
-  const ipName = it.ip_name ? `<span class="ip-pill text-[10px] px-1.5 py-0.5 rounded-md">📖 ${it.ip_name}</span>` : '';
-  const win = it.release_window && it.release_window !== 'TBD'
-    ? `<span class="text-sm font-semibold text-green-300">📅 ${it.release_window}</span>`
-    : `<span class="text-sm text-gray-500">📅 待定</span>`;
-  const notes = it.notes ? `<div class="mt-2 text-xs text-amber-200/80 bg-amber-500/5 border border-amber-500/15 rounded-lg px-3 py-2 leading-relaxed">💡 ${it.notes}</div>` : '';
-  const src = it.source_url ? `<a href="${it.source_url}" target="_blank" class="text-[11px] text-purple-400/70 hover:text-purple-300 hover:underline">来源 ↗</a>` : '';
-  return `
-  <div class="glow-card rounded-2xl p-4">
-    <div class="flex items-start justify-between gap-3 flex-wrap">
-      <div class="flex items-center gap-2 flex-wrap min-w-0">
-        <h4 class="text-base font-bold text-white">${it.title}</h4>
-        ${artChip(it.art_style)}
-        <span class="tag-pill text-[10px] px-1.5 py-0.5 rounded-md">${it.ip_origin||'未知'}</span>
-        ${ipName}
-        ${rlsChip(it.release_status)}
-      </div>
-      <div class="shrink-0">${win}</div>
-    </div>
-    ${it.synopsis ? `<p class="mt-2 text-sm text-gray-300/85 leading-relaxed">${it.synopsis}</p>` : ''}
-    ${notes}
-    <div class="mt-1.5 text-right">${src}</div>
+function plTableRow(it) {
+  const ipName = it.ip_name ? `<div class="text-[11px] text-blue-300/70 mt-0.5">${it.ip_name}</div>` : '';
+  const src = it.source_url ? `<a href="${it.source_url}" target="_blank" class="text-[11px] text-purple-400/70 hover:text-purple-300">↗</a>` : '';
+  return `<tr>
+    <td class="col-title">${it.title}${src ? ' '+src : ''}</td>
+    <td>${artChip(it.art_style)}</td>
+    <td><span class="tag-pill text-[10px] px-1.5 py-0.5 rounded-md whitespace-nowrap">${it.ip_origin||'未知'}</span>${ipName}</td>
+    <td class="col-syn">${it.synopsis||''}</td>
+    <td>${releaseCell(it)}<div class="mt-1">${rlsChip(it.release_status)}</div></td>
+    <td class="col-notes">${it.notes||''}</td>
+  </tr>`;
+}
+
+function plRenderList() {
+  const container = document.getElementById('pipeline-sections');
+  const ev = plCurEvent();
+  if (!ev) { container.innerHTML = `<div class="text-center text-gray-500 py-12">暂无数据</div>`; return; }
+  let html = `<div class="glow-card rounded-xl p-4">
+    <div class="text-sm text-gray-300 leading-relaxed">${ev.event_note||''}</div>
   </div>`;
+  let shown = 0, total = 0;
+  for (const s of (ev.sections||[])) {
+    const items = (s.items||[]).filter(plItemPass).sort((a,b)=>rlsSortKey(b)-rlsSortKey(a));
+    total += (s.items||[]).length;
+    if (!items.length) continue;
+    shown += items.length;
+    html += `<div>
+      <div class="flex items-baseline gap-2 flex-wrap mb-2 mt-4">
+        <h3 class="text-base font-bold platform-${plCurPlatform}">${s.section_name}</h3>
+        <span class="text-xs text-gray-500">${s.section_theme||''}</span>
+        <span class="text-xs text-purple-300">${items.length} 部</span>
+      </div>
+      <div class="pl-tbl-wrap">
+        <table class="pl-table">
+          <thead><tr>
+            <th>项目</th><th>画风</th><th>原IP</th><th>故事梗概</th><th>预计上线</th><th>补充信息</th>
+          </tr></thead>
+          <tbody>${items.map(plTableRow).join('')}</tbody>
+        </table>
+      </div>
+    </div>`;
+  }
+  if (shown === 0) html += `<div class="text-center text-gray-500 py-12">没有符合筛选条件的项目</div>`;
+  container.innerHTML = html;
+  const active = plFilter.art.size + plFilter.ip.size + plFilter.status.size + (plSearch.trim()?1:0);
+  document.getElementById('pl-summary').textContent = active ? `已筛选 ${shown} / ${total} 部` : `本场发布会共 ${total} 部`;
 }
 
 function renderPipeline() {
-  const sections = document.getElementById('pipeline-sections');
   loadPipeline().then(() => {
     document.getElementById('pl-updated').textContent = (pipelineData.meta && pipelineData.meta.updated) || '—';
-    plBuildChips();
+    // 初始化当前发布会
+    const p = pipelineData.platforms[plCurPlatform];
+    if (p && p.events && p.events.length && !p.events.find(e=>e.event_id===plCurEventId)) {
+      plCurEventId = p.events[0].event_id;
+    }
+    plRenderPlatformTabs();
+    plRenderEventTabs();
+    plRenderFilterChips();
     plRenderList();
   });
 }
 
-function plRenderList() {
-  const sections = document.getElementById('pipeline-sections');
-  const filtered = plApplyFilters();
-  // 按平台分组
-  const order = ['youku','tencent','iqiyi','bili-guochuang'];
-  const byPlatform = {};
-  for (const it of filtered) { (byPlatform[it._platform] = byPlatform[it._platform] || []).push(it); }
-  let html = '';
-  for (const pk of order) {
-    const items = byPlatform[pk];
-    if (!items || !items.length) continue;
-    items.sort((a,b) => rlsSortKey(b) - rlsSortKey(a));
-    const p = pipelineData.platforms[pk] || {};
-    html += `
-    <div>
-      <div class="flex items-baseline gap-3 flex-wrap mb-1">
-        <h3 class="text-lg font-bold platform-${pk}">${p.label || PLATFORM_LABELS[pk]}</h3>
-        <span class="text-xs text-gray-400">${p.event || ''}</span>
-        ${p.event_date ? `<span class="text-xs text-gray-500">${p.event_date}</span>` : ''}
-        <span class="text-xs text-purple-300">${items.length} 个项目</span>
-      </div>
-      ${p.event_note ? `<p class="text-xs text-gray-500 mb-3 leading-relaxed">${p.event_note}</p>` : ''}
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
-        ${items.map(plItemCard).join('')}
-      </div>
-    </div>`;
-  }
-  sections.innerHTML = html || `<div class="text-center text-gray-500 py-12">没有符合筛选条件的项目</div>`;
-  // 摘要
-  const active = plFilter.platform.size + plFilter.art.size + plFilter.ip.size + plFilter.status.size + (plSearch.trim()?1:0);
-  document.getElementById('pl-summary').textContent = active ? `已筛选 ${filtered.length} / ${plItemsFlat.length} 个项目` : `共 ${plItemsFlat.length} 个项目`;
-}
-
-// 筛选 chip 点击（事件委托）
+// 平台切换
+document.getElementById('pl-tab-platform').addEventListener('click', (e) => {
+  const btn = e.target.closest('[data-plplatform]');
+  if (!btn) return;
+  plCurPlatform = btn.dataset.plplatform;
+  const p = pipelineData.platforms[plCurPlatform];
+  plCurEventId = (p && p.events && p.events[0]) ? p.events[0].event_id : null;
+  ['art','ip','status'].forEach(d => plFilter[d].clear());
+  plRenderPlatformTabs(); plRenderEventTabs(); plRenderFilterChips(); plRenderList();
+});
+// 发布会切换
+document.getElementById('pl-tab-event').addEventListener('click', (e) => {
+  const btn = e.target.closest('[data-plevent]');
+  if (!btn) return;
+  plCurEventId = btn.dataset.plevent;
+  ['art','ip','status'].forEach(d => plFilter[d].clear());
+  plRenderEventTabs(); plRenderFilterChips(); plRenderList();
+});
+// 筛选 chip
 document.addEventListener('click', (e) => {
   const chip = e.target.closest('.pl-filter-chip');
   if (!chip) return;
-  const dim = chip.dataset.pldim;
-  const val = chip.dataset.plval;
+  const dim = chip.dataset.pldim, val = chip.dataset.plval;
   if (!plFilter[dim]) return;
-  if (plFilter[dim].has(val)) plFilter[dim].delete(val);
-  else plFilter[dim].add(val);
-  plBuildChips();
-  plRenderList();
+  if (plFilter[dim].has(val)) plFilter[dim].delete(val); else plFilter[dim].add(val);
+  plRenderFilterChips(); plRenderList();
 });
-
 // 搜索
-document.getElementById('pl-search').addEventListener('input', (e) => {
-  plSearch = e.target.value;
-  plRenderList();
-});
+document.getElementById('pl-search').addEventListener('input', (e) => { plSearch = e.target.value; plRenderList(); });
 
-// Excel 导出
+// Excel 导出（导出当前发布会全部项目）
 document.getElementById('pl-export').addEventListener('click', () => {
-  const data = plApplyFilters();
-  if (!data.length) { alert('暂无数据可导出'); return; }
-  const rows = data.map(x => ({
-    '平台': x._platformLabel,
-    '项目名': x.title,
-    '画风': x.art_style || '',
-    '原IP类型': x.ip_origin || '',
-    '原IP名': x.ip_name || '',
-    '故事梗概': x.synopsis || '',
-    '预计上线': x.release_window || '',
-    '档期状态': x.release_status || '',
-    '补充信息': x.notes || '',
-    '来源': x.source_url || '',
-  }));
+  const ev = plCurEvent();
+  if (!ev) { alert('暂无数据可导出'); return; }
+  const rows = [];
+  for (const s of (ev.sections||[])) for (const x of (s.items||[])) {
+    if (!plItemPass(x)) continue;
+    rows.push({
+      '平台': pipelineData.platforms[plCurPlatform].label,
+      '发布会': ev.event_name,
+      '板块': s.section_name,
+      '项目名': x.title,
+      '画风': x.art_style||'',
+      '原IP类型': x.ip_origin||'',
+      '原IP名': x.ip_name||'',
+      '故事梗概': x.synopsis||'',
+      '预计上线': x.release_window||'',
+      '是否确切定档': x.date_confirmed ? '是' : '否',
+      '档期状态': x.release_status||'',
+      '补充信息': x.notes||'',
+      '来源': x.source_url||'',
+    });
+  }
+  if (!rows.length) { alert('暂无数据可导出'); return; }
   const ws = XLSX.utils.json_to_sheet(rows);
-  ws['!cols'] = [{wch:10},{wch:26},{wch:10},{wch:10},{wch:22},{wch:60},{wch:12},{wch:10},{wch:60},{wch:40}];
+  ws['!cols'] = [{wch:8},{wch:22},{wch:14},{wch:26},{wch:8},{wch:8},{wch:22},{wch:55},{wch:12},{wch:12},{wch:8},{wch:55},{wch:40}];
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, '未来排播');
-  XLSX.writeFile(wb, `anime-pipeline_${new Date().toISOString().slice(0,10)}.xlsx`);
+  XLSX.writeFile(wb, `anime-pipeline_${plCurPlatform}_${new Date().toISOString().slice(0,10)}.xlsx`);
 });
 
 document.querySelectorAll('.tab-btn').forEach(btn => {
