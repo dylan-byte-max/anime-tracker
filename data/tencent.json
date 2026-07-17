@@ -633,17 +633,17 @@
     "platform_score": 10623,
     "score_raw": 10623,
     "score": null,
-    "latest": "全52集",
+    "latest": "全3集",
     "status": "已完结",
     "tags": [
       "奇幻"
     ],
-    "year": "2025",
-    "pub_time": "2025-07-30 10:00:00",
+    "year": "2026",
+    "pub_time": "2026-06-20 10:00:00",
     "region": "内地",
-    "synopsis": "铁骑龙腾，续写紫川传奇",
+    "synopsis": "猎杀开启，塔罗会集结！",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "评分 9.7",
     "badge": "",
     "rank_change": null
   },
@@ -1057,6 +1057,30 @@
   },
   {
     "rank": 45,
+    "cid": "mzc00200stwyax5",
+    "title": "茶啊二中 第6季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200stwyax51783648218157/350",
+    "link": "https://v.qq.com/x/cover/mzc00200stwyax5.html",
+    "score_label": "热度",
+    "platform_score": 9578,
+    "score_raw": 9578,
+    "score": null,
+    "latest": "",
+    "status": "连载中",
+    "tags": [
+      "搞笑"
+    ],
+    "year": "2026",
+    "pub_time": "2026-07-26 10:00:00",
+    "region": "内地",
+    "synopsis": "重返二中，笑赴年少时光",
+    "ip_origin": "",
+    "tagline": "搞笑动画",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 46,
     "cid": "mzc00200fr1ry1o",
     "title": "龙族 第1季",
     "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200fr1ry1o1656480935127/350",
@@ -1944,8 +1968,8 @@
     "cover": "http://puui.qpic.cn/vcover_vt_pic/0/bymafsjpccgo4bw1550819552/350",
     "link": "https://v.qq.com/x/cover/bymafsjpccgo4bw.html",
     "score_label": "热度",
-    "platform_score": 8292,
-    "score_raw": 8292,
+    "platform_score": 8418,
+    "score_raw": 8418,
     "score": null,
     "latest": "全21集",
     "status": "已完结",
@@ -2019,10 +2043,10 @@
     "platform_score": 8247,
     "score_raw": 8247,
     "score": null,
-    "latest": "更新至02集",
-    "status": "连载中",
+    "latest": "全99集",
+    "status": "已完结",
     "tags": [
-      "搞笑"
+      "科幻,搞笑,冒险,经典"
     ],
     "year": "2010",
     "pub_time": "",
