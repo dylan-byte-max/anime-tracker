@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-15",
+    "updated": "2026-07-20",
     "schema": "v2",
     "note": "各平台未来排播 pipeline。按平台→发布会→板块(section)→项目层级组织，完整录入官方发布会片单。date_confirmed=true 表示确切上线日期，false 表示模糊时间(如2026/2026Q3)。每周一全网检索更新档期。"
   },
@@ -1425,9 +1425,9 @@
                   "ip_origin": "漫画",
                   "ip_name": "大王饶命（会说话的肘子）",
                   "synopsis": "大魔王回归，卡洛儿登场，吕树将踏出国门。",
-                  "release_window": "2026Q3",
-                  "date_confirmed": false,
-                  "release_status": "预告",
+                  "release_window": "2026-06-26",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
                   "notes": "进入制作收尾，大概率今年9月见；第四季已启动。",
                   "source_url": "https://finance.sina.cn/2026-06-22/detail-iniekknt9781181.d.html"
                 },
@@ -1473,8 +1473,8 @@
                   "ip_origin": "原创剧本",
                   "ip_name": "茶啊二中",
                   "synopsis": "校园日常轻喜剧，单集约40分钟。",
-                  "release_window": "2026暑期",
-                  "date_confirmed": false,
+                  "release_window": "2026-07-26",
+                  "date_confirmed": true,
                   "release_status": "已定档",
                   "notes": "定档暑期。",
                   "source_url": "https://m.thepaper.cn/newsDetail_forward_33449590"
@@ -2375,9 +2375,9 @@
                   "ip_origin": "漫画",
                   "ip_name": "非人哉（一汪空气，分子互动）",
                   "synopsis": "神仙妖怪的现代日常，「13-24集明年不见不散」。",
-                  "release_window": "2026-05",
-                  "date_confirmed": false,
-                  "release_status": "预告",
+                  "release_window": "2026-05-05",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
                   "notes": "分子互动；2D日常番扛把子。",
                   "source_url": "https://www.slyday.com/show-263674-1-1.html"
                 },
