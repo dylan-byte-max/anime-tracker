@@ -264,6 +264,54 @@
     "rank_change": null
   },
   {
+    "rank": 10,
+    "cid": "mzc00200n53vkqc",
+    "title": "遮天",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200n53vkqc1781928886798/350",
+    "link": "https://v.qq.com/x/cover/mzc00200n53vkqc.html",
+    "score_label": "热度",
+    "platform_score": 13669,
+    "score_raw": 13669,
+    "score": null,
+    "latest": "更新至171集",
+    "status": "连载中",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2023",
+    "pub_time": "2023-05-03 10:00:00",
+    "region": "内地",
+    "synopsis": "登天路，踏歌行",
+    "ip_origin": "",
+    "tagline": "东方仙侠",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 11,
+    "cid": "hzgtnf6tbvfekfv",
+    "title": "名侦探柯南[普通话版]",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/hzgtnf6tbvfekfv1555149409/350",
+    "link": "https://v.qq.com/x/cover/hzgtnf6tbvfekfv.html",
+    "score_label": "热度",
+    "platform_score": 12918,
+    "score_raw": 12918,
+    "score": null,
+    "latest": "更新至1267集",
+    "status": "连载中",
+    "tags": [
+      "推理,经典"
+    ],
+    "year": "1996",
+    "pub_time": "1996-01-08",
+    "region": "日本",
+    "synopsis": "永恒的柯南",
+    "ip_origin": "",
+    "tagline": "评分 9.3",
+    "badge": "",
+    "rank_change": null
+  },
+  {
     "rank": 12,
     "cid": "hzgtnf6tbvfekfv",
     "title": "名侦探柯南[普通话版]",
@@ -638,12 +686,12 @@
     "tags": [
       "战斗,玄幻,腾讯出品"
     ],
-    "year": "2020",
-    "pub_time": "2020-05-18",
+    "year": "2025",
+    "pub_time": "2025-07-30 10:00:00",
     "region": "内地",
-    "synopsis": "仙王觉醒，重归万界巅峰",
+    "synopsis": "铁骑龙腾，续写紫川传奇",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -697,6 +745,30 @@
   },
   {
     "rank": 30,
+    "cid": "mzc00200nbtnyds",
+    "title": "全职法师 第7季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200nbtnyds1778637123989/350",
+    "link": "https://v.qq.com/x/cover/mzc00200nbtnyds.html",
+    "score_label": "热度",
+    "platform_score": 10370,
+    "score_raw": 10370,
+    "score": null,
+    "latest": "全12集",
+    "status": "已完结",
+    "tags": [
+      "奇幻"
+    ],
+    "year": "2026",
+    "pub_time": "2026-05-13 10:00:00",
+    "region": "内地",
+    "synopsis": "万魔摧危城，孤勇捍苍生",
+    "ip_origin": "",
+    "tagline": "奇幻魔法",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 31,
     "cid": "mzc00200azkttu2",
     "title": "逆天至尊",
     "cover": "https://puui.qpic.cn/vcover_vt_pic/0/mzc00200azkttu21691465661315/350",
@@ -969,7 +1041,7 @@
     "platform_score": 9580,
     "score_raw": 9580,
     "score": null,
-    "latest": "全8集",
+    "latest": "全40集",
     "status": "已完结",
     "tags": [
       "奇幻"
@@ -1378,12 +1450,12 @@
     "latest": "全53集",
     "status": "已完结",
     "tags": [
-      "玄幻"
+      "搞笑,经典"
     ],
     "year": "2010",
     "pub_time": "",
-    "region": "内地",
-    "synopsis": "百集内容一次看",
+    "region": "日本",
+    "synopsis": "最爆笑的小男孩儿",
     "ip_origin": "",
     "tagline": "评分 9.5",
     "badge": "",
@@ -1427,9 +1499,9 @@
     "status": "连载中",
     "tags": [],
     "year": "2010",
-    "pub_time": "",
+    "pub_time": "2026-08-08 12:00:00",
     "region": "内地",
-    "synopsis": "",
+    "synopsis": "诸法因缘生，诸法因缘灭",
     "ip_origin": "",
     "tagline": "东方玄幻",
     "badge": "",
@@ -1661,17 +1733,17 @@
     "platform_score": 8733,
     "score_raw": 8733,
     "score": null,
-    "latest": "更新至29集",
-    "status": "连载中",
+    "latest": "全8集",
+    "status": "已完结",
     "tags": [
-      "动作,经典,科幻,战斗"
+      "都市"
     ],
-    "year": "2010",
-    "pub_time": "",
-    "region": "日本",
-    "synopsis": "历代奥特曼都在这里！",
+    "year": "2021",
+    "pub_time": "2021-12-03",
+    "region": "内地",
+    "synopsis": "灵气复苏爆笑修炼",
     "ip_origin": "",
-    "tagline": "童年记忆",
+    "tagline": "都市奇幻",
     "badge": "",
     "rank_change": null
   },
