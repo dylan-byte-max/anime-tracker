@@ -408,6 +408,78 @@
     "rank_change": null
   },
   {
+    "rank": 15,
+    "cid": "yl6lapwmmx5ivew",
+    "title": "妖神记",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/yl6lapwmmx5ivew1781927458736/350",
+    "link": "https://v.qq.com/x/cover/yl6lapwmmx5ivew.html",
+    "score_label": "热度",
+    "platform_score": 12422,
+    "score_raw": 12422,
+    "score": null,
+    "latest": "更新至435集",
+    "status": "连载中",
+    "tags": [
+      "冒险,战斗,玄幻"
+    ],
+    "year": "2017",
+    "pub_time": "2023-01-14 10:00:00",
+    "region": "内地",
+    "synopsis": "重生踏足武道巅峰",
+    "ip_origin": "",
+    "tagline": "在追破1000万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 16,
+    "cid": "mzc002006n62s11",
+    "title": "炼气十万年",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002006n62s111722876274238/350",
+    "link": "https://v.qq.com/x/cover/mzc002006n62s11.html",
+    "score_label": "热度",
+    "platform_score": 12413,
+    "score_raw": 12413,
+    "score": null,
+    "latest": "更新至361集",
+    "status": "连载中",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2023",
+    "pub_time": "2023-02-18 10:00:00",
+    "region": "内地",
+    "synopsis": "我乃“区区”炼气期",
+    "ip_origin": "",
+    "tagline": "评分 9.0",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 17,
+    "cid": "mzc00200xxpsogl",
+    "title": "剑来 第二季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200xxpsogl1766627170315/350",
+    "link": "https://v.qq.com/x/cover/mzc00200xxpsogl.html",
+    "score_label": "热度",
+    "platform_score": 12335,
+    "score_raw": 12335,
+    "score": null,
+    "latest": "全27集",
+    "status": "已完结",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2025",
+    "pub_time": "2025-12-25 10:00:00",
+    "region": "内地",
+    "synopsis": "行万里路，打百万拳",
+    "ip_origin": "",
+    "tagline": "在追破1000万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
     "rank": 18,
     "cid": "mzc00200nc1cbum",
     "title": "火影忍者疾风传[日语版]",
@@ -873,17 +945,17 @@
     "platform_score": 9715,
     "score_raw": 9715,
     "score": null,
-    "latest": "全35集",
+    "latest": "全3集",
     "status": "已完结",
     "tags": [
       "玄幻,腾讯出品,战斗"
     ],
-    "year": "2018",
-    "pub_time": "2021-08-07 12:00:00",
+    "year": "2026",
+    "pub_time": "2026-06-20 10:00:00",
     "region": "内地",
-    "synopsis": "夷陵老祖重现人间",
+    "synopsis": "猎杀开启，塔罗会集结！",
     "ip_origin": "",
-    "tagline": "评分 9.8",
+    "tagline": "评分 9.7",
     "badge": "",
     "rank_change": null
   },
@@ -921,17 +993,17 @@
     "platform_score": 9595,
     "score_raw": 9595,
     "score": null,
-    "latest": "",
-    "status": "连载中",
+    "latest": "全24集",
+    "status": "已完结",
     "tags": [
-      "搞笑"
+      "奇幻"
     ],
-    "year": "2026",
-    "pub_time": "2026-07-26 10:00:00",
+    "year": "2025",
+    "pub_time": "2025-07-18 00:00:00",
     "region": "内地",
-    "synopsis": "重返二中，笑赴年少时光",
+    "synopsis": "凡王之血，必以剑终",
     "ip_origin": "",
-    "tagline": "搞笑动画",
+    "tagline": "评分 9.1",
     "badge": "",
     "rank_change": null
   },
@@ -993,15 +1065,15 @@
     "platform_score": 9448,
     "score_raw": 9448,
     "score": null,
-    "latest": "全40集",
+    "latest": "全84集",
     "status": "已完结",
     "tags": [
-      "玄幻"
+      "搞笑,经典"
     ],
-    "year": "2018",
-    "pub_time": "2018-01-20 10:00:07",
-    "region": "内地",
-    "synopsis": "此生不悔入唐门",
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "笑料满点的小新继续让你回忆童年",
     "ip_origin": "",
     "tagline": "评分 9.3",
     "badge": "",
@@ -1594,7 +1666,7 @@
     "latest": "全294集",
     "status": "已完结",
     "tags": [
-      "搞笑,科幻,经典"
+      "日常"
     ],
     "year": "2010",
     "pub_time": "",
@@ -2171,7 +2243,55 @@
     "year": "2010",
     "pub_time": "",
     "region": "日本",
-    "synopsis": "奥特曼最新版",
+    "synopsis": "这个小孩太逗了",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 79,
+    "cid": "mzc0020036ro0ux",
+    "title": "斗破苍穹三年之约",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc0020036ro0ux1634437673075/350",
+    "link": "https://v.qq.com/x/cover/mzc0020036ro0ux.html",
+    "score_label": "热度",
+    "platform_score": 8622,
+    "score_raw": 8622,
+    "score": null,
+    "latest": "全13集",
+    "status": "已完结",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2021",
+    "pub_time": "2021-10-31",
+    "region": "内地",
+    "synopsis": "赴三年之约 战云岚之巅",
+    "ip_origin": "",
+    "tagline": "讨论破500万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 80,
+    "cid": "nug3wu4a6zvwy8s",
+    "title": "捷德奥特曼[普通话版]",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/nug3wu4a6zvwy8s1567565789/350",
+    "link": "https://v.qq.com/x/cover/nug3wu4a6zvwy8s.html",
+    "score_label": "热度",
+    "platform_score": 8617,
+    "score_raw": 8617,
+    "score": null,
+    "latest": "全25集",
+    "status": "已完结",
+    "tags": [
+      "战斗,真人,科幻"
+    ],
+    "year": "2017",
+    "pub_time": "2017-07-08",
+    "region": "日本",
+    "synopsis": "黑暗奥特曼之子成长之路",
     "ip_origin": "",
     "tagline": "评分 9.2",
     "badge": "",
@@ -2226,7 +2346,7 @@
     "rank_change": null
   },
   {
-    "rank": 94,
+    "rank": 99,
     "cid": "mzc002008q6obet",
     "title": "特利迦奥特曼[普通话版]",
     "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc002008q6obet1625711278127/350",
