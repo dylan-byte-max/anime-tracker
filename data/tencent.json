@@ -252,7 +252,7 @@
     "latest": "全52集",
     "status": "已完结",
     "tags": [
-      "战斗,真人,经典,科幻"
+      "真人"
     ],
     "year": "1996",
     "pub_time": "1996-09-07",
@@ -913,10 +913,10 @@
   },
   {
     "rank": 39,
-    "cid": "mzc00200stwyax5",
-    "title": "茶啊二中 第6季",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200stwyax51783648218157/350",
-    "link": "https://v.qq.com/x/cover/mzc00200stwyax5.html",
+    "cid": "mzc00200s2yolvm",
+    "title": "一念永恒合集篇",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200s2yolvm1714380693628/350",
+    "link": "https://v.qq.com/x/cover/mzc00200s2yolvm.html",
     "score_label": "热度",
     "platform_score": 9689,
     "score_raw": 9689,
@@ -1116,7 +1116,7 @@
     "latest": "更新至533集",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "搞笑,治愈"
     ],
     "year": "2021",
     "pub_time": "2021-07-16",
@@ -1161,17 +1161,17 @@
     "platform_score": 9401,
     "score_raw": 9401,
     "score": null,
-    "latest": "全28集",
+    "latest": "全54集",
     "status": "已完结",
     "tags": [
       "搞笑,治愈"
     ],
-    "year": "2011",
-    "pub_time": "",
+    "year": "2022",
+    "pub_time": "2022-07-20",
     "region": "内地",
-    "synopsis": "可爱小黑猫",
+    "synopsis": "我即血祖，踏破空河！",
     "ip_origin": "",
-    "tagline": "评分 9.8",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -1503,7 +1503,7 @@
     "year": "2023",
     "pub_time": "2023-09-25",
     "region": "内地",
-    "synopsis": "《仙逆》动画合集篇",
+    "synopsis": "",
     "ip_origin": "",
     "tagline": "东方玄幻",
     "badge": "",
@@ -1661,17 +1661,17 @@
     "platform_score": 8711,
     "score_raw": 8711,
     "score": null,
-    "latest": "全80集",
+    "latest": "全271集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "冒险,战斗,魔幻,搞笑,经典,竞技"
     ],
     "year": "2010",
     "pub_time": "",
     "region": "日本",
-    "synopsis": "哆啦A梦的全新道具",
+    "synopsis": "神奇宝贝无印篇",
     "ip_origin": "",
-    "tagline": "童年记忆",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -2005,9 +2005,9 @@
     "year": "2010",
     "pub_time": "",
     "region": "日本",
-    "synopsis": "这个小孩太逗了",
+    "synopsis": "机器猫第3季",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "评分 9.1",
     "badge": "",
     "rank_change": null
   },
@@ -2351,17 +2351,17 @@
     "platform_score": 8157,
     "score_raw": 8157,
     "score": null,
-    "latest": "全26集",
+    "latest": "全13集",
     "status": "已完结",
     "tags": [
-      "仙侠"
+      "恋爱,搞笑,玄幻,腾讯出品,战斗"
     ],
-    "year": "2022",
-    "pub_time": "2024-03-29 20:00:00",
+    "year": "2015",
+    "pub_time": "2023-06-24 10:00:00",
     "region": "内地",
-    "synopsis": "拔剑欲问仙，怎修心无念",
+    "synopsis": "万物有界，爱恨无由",
     "ip_origin": "",
-    "tagline": "在追破1000万",
+    "tagline": "评分 9.7",
     "badge": "",
     "rank_change": null
   },
