@@ -385,25 +385,25 @@
   },
   {
     "rank": 17,
-    "cid": "mzc00200xxpsogl",
-    "title": "剑来 第二季",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200xxpsogl1766627170315/350",
-    "link": "https://v.qq.com/x/cover/mzc00200xxpsogl.html",
+    "cid": "mzc00200r33k6xc",
+    "title": "死灵法师！我即是天灾",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200r33k6xc1781960970592/350",
+    "link": "https://v.qq.com/x/cover/mzc00200r33k6xc.html",
     "score_label": "热度",
     "platform_score": 12099,
     "score_raw": 12099,
     "score": null,
-    "latest": "全27集",
-    "status": "已完结",
+    "latest": "更新至03集",
+    "status": "连载中",
     "tags": [
-      "仙侠"
+      "奇幻"
     ],
-    "year": "2025",
-    "pub_time": "2025-12-25 10:00:00",
+    "year": "2026",
+    "pub_time": "2026-07-24 10:00:00",
     "region": "内地",
-    "synopsis": "行万里路，打百万拳",
+    "synopsis": "一人成天灾，万骨俯首称臣",
     "ip_origin": "",
-    "tagline": "在追破1000万",
+    "tagline": "奇幻冒险",
     "badge": "",
     "rank_change": null
   },
@@ -456,7 +456,55 @@
     "rank_change": null
   },
   {
+    "rank": 19,
+    "cid": "mzc00200xxpsogl",
+    "title": "剑来 第二季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200xxpsogl1766627170315/350",
+    "link": "https://v.qq.com/x/cover/mzc00200xxpsogl.html",
+    "score_label": "热度",
+    "platform_score": 12309,
+    "score_raw": 12309,
+    "score": null,
+    "latest": "全27集",
+    "status": "已完结",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2025",
+    "pub_time": "2025-12-25 10:00:00",
+    "region": "内地",
+    "synopsis": "行万里路，打百万拳",
+    "ip_origin": "",
+    "tagline": "在追破1000万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
     "rank": 20,
+    "cid": "yl6lapwmmx5ivew",
+    "title": "妖神记",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/yl6lapwmmx5ivew1781927458736/350",
+    "link": "https://v.qq.com/x/cover/yl6lapwmmx5ivew.html",
+    "score_label": "热度",
+    "platform_score": 12270,
+    "score_raw": 12270,
+    "score": null,
+    "latest": "更新至435集",
+    "status": "连载中",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2017",
+    "pub_time": "2023-01-14 10:00:00",
+    "region": "内地",
+    "synopsis": "重生踏足武道巅峰",
+    "ip_origin": "",
+    "tagline": "在追破1000万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 21,
     "cid": "mzc002006n62s11",
     "title": "炼气十万年",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002006n62s111722876274238/350",
@@ -585,17 +633,17 @@
     "platform_score": 11255,
     "score_raw": 11255,
     "score": null,
-    "latest": "更新至05集",
-    "status": "连载中",
+    "latest": "全8集",
+    "status": "已完结",
     "tags": [
-      "玄幻"
+      "搞笑"
     ],
-    "year": "2026",
-    "pub_time": "2026-07-15 10:00:00",
+    "year": "2024",
+    "pub_time": "2024-07-21 10:00:00",
     "region": "内地",
-    "synopsis": "熟背套路，做绝世反派",
+    "synopsis": "初三夏天，不说再见！",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "评分 9.6",
     "badge": "",
     "rank_change": null
   },
@@ -753,17 +801,17 @@
     "platform_score": 10660,
     "score_raw": 10660,
     "score": null,
-    "latest": "全50集",
-    "status": "已完结",
+    "latest": "更新至625集",
+    "status": "连载中",
     "tags": [
-      "战斗,真人,经典,科幻"
+      "战斗,玄幻,腾讯出品"
     ],
-    "year": "2010",
-    "pub_time": "",
-    "region": "日本",
-    "synopsis": "新战士成长故事",
+    "year": "2020",
+    "pub_time": "2020-05-18",
+    "region": "内地",
+    "synopsis": "仙王觉醒，重归万界巅峰",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -1092,7 +1140,7 @@
     "latest": "全25集",
     "status": "已完结",
     "tags": [
-      "战斗,真人,科幻"
+      "真人"
     ],
     "year": "2010",
     "pub_time": "",
@@ -1260,7 +1308,7 @@
     "latest": "全96集",
     "status": "已完结",
     "tags": [
-      "搞笑,治愈,腾讯出品"
+      "日常"
     ],
     "year": "2010",
     "pub_time": "2021-07-21 10:00:00",
@@ -1353,17 +1401,17 @@
     "platform_score": 9166,
     "score_raw": 9166,
     "score": null,
-    "latest": "全17集",
+    "latest": "全53集",
     "status": "已完结",
     "tags": [
-      "奇幻"
+      "仙侠"
     ],
-    "year": "2022",
-    "pub_time": "2022-08-19 10:00:00",
+    "year": "2010",
+    "pub_time": "",
     "region": "内地",
-    "synopsis": "我们的火，要把世界都点燃",
+    "synopsis": "百集内容一次看",
     "ip_origin": "",
-    "tagline": "奇幻冒险",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
@@ -1423,17 +1471,17 @@
     "platform_score": 9057,
     "score_raw": 9057,
     "score": null,
-    "latest": "更新至29集",
-    "status": "连载中",
+    "latest": "全17集",
+    "status": "已完结",
     "tags": [
-      "动作,经典,科幻,战斗"
+      "奇幻"
     ],
-    "year": "2010",
-    "pub_time": "",
-    "region": "日本",
-    "synopsis": "历代奥特曼都在这里！",
+    "year": "2022",
+    "pub_time": "2022-08-19 10:00:00",
+    "region": "内地",
+    "synopsis": "我们的火，要把世界都点燃",
     "ip_origin": "",
-    "tagline": "童年记忆",
+    "tagline": "奇幻冒险",
     "badge": "",
     "rank_change": null
   },
@@ -1567,17 +1615,17 @@
     "platform_score": 8805,
     "score_raw": 8805,
     "score": null,
-    "latest": "全13集",
+    "latest": "全14集",
     "status": "已完结",
     "tags": [
-      "奇幻"
+      "搞笑"
     ],
-    "year": "2025",
-    "pub_time": "2025-06-28 10:00:00",
+    "year": "2010",
+    "pub_time": "",
     "region": "内地",
-    "synopsis": "从诡秘醒来，赞美愚者传说",
+    "synopsis": "平淡的校园的爆笑日常",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "评分 9.6",
     "badge": "",
     "rank_change": null
   },
@@ -1652,7 +1700,7 @@
     "rank_change": null
   },
   {
-    "rank": 70,
+    "rank": 69,
     "cid": "mzc00200451r6j1",
     "title": "斗破苍穹合集篇",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200451r6j11737106304834/350",
@@ -1672,6 +1720,30 @@
     "synopsis": "斗气纵横，热血不休",
     "ip_origin": "",
     "tagline": "东方玄幻",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 70,
+    "cid": "mzc00200p29gosv",
+    "title": "斗破苍穹 第4季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200p29gosv1613880920381/350",
+    "link": "https://v.qq.com/x/cover/mzc00200p29gosv.html",
+    "score_label": "热度",
+    "platform_score": 8817,
+    "score_raw": 8817,
+    "score": null,
+    "latest": "全24集",
+    "status": "已完结",
+    "tags": [
+      "玄幻,战斗,冒险,腾讯出品"
+    ],
+    "year": "2021",
+    "pub_time": "2021-03-28 10:00:00",
+    "region": "内地",
+    "synopsis": "少年不屈 异火不熄",
+    "ip_origin": "",
+    "tagline": "讨论破500万",
     "badge": "",
     "rank_change": null
   },
@@ -1805,15 +1877,15 @@
     "platform_score": 8501,
     "score_raw": 8501,
     "score": null,
-    "latest": "全1集",
+    "latest": "全156集",
     "status": "已完结",
     "tags": [
-      "仙侠"
+      "搞笑,经典"
     ],
-    "year": "2025",
-    "pub_time": "2025-05-30 12:00:00",
-    "region": "内地",
-    "synopsis": "不朽战歌，神临之战",
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "这个小孩太逗了",
     "ip_origin": "",
     "tagline": "评分 9.5",
     "badge": "",
@@ -2202,7 +2274,7 @@
     "rank_change": null
   },
   {
-    "rank": 93,
+    "rank": 90,
     "cid": "5d9f63kl5qxru2r",
     "title": "茶啊二中 第2季",
     "cover": "http://puui.qpic.cn/vcover_vt_pic/0/5d9f63kl5qxru2rt1444842442.jpg/350",
@@ -2250,7 +2322,53 @@
     "rank_change": null
   },
   {
+    "rank": 94,
+    "cid": "bymafsjpccgo4bw",
+    "title": "蜡笔小新剧场版合集",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/bymafsjpccgo4bw1550819552/350",
+    "link": "https://v.qq.com/x/cover/bymafsjpccgo4bw.html",
+    "score_label": "热度",
+    "platform_score": 8408,
+    "score_raw": 8408,
+    "score": null,
+    "latest": "全21集",
+    "status": "已完结",
+    "tags": [
+      "日常"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "小新欢乐剧场",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
     "rank": 95,
+    "cid": "mzc00200wxtniqe",
+    "title": "斗破苍穹萧薰儿",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200wxtniqe1776069020833/350",
+    "link": "https://v.qq.com/x/cover/mzc00200wxtniqe.html",
+    "score_label": "热度",
+    "platform_score": 8406,
+    "score_raw": 8406,
+    "score": null,
+    "latest": "更新至193集",
+    "status": "连载中",
+    "tags": [],
+    "year": "2010",
+    "pub_time": "",
+    "region": "内地",
+    "synopsis": "",
+    "ip_origin": "",
+    "tagline": "东方玄幻",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 96,
     "cid": "ew5kos9k2ox5huz",
     "title": "狐妖小红娘合集篇",
     "cover": "http://puui.qpic.cn/vcover_vt_pic/0/ew5kos9k2ox5huzt1463716913.jpg/350",
@@ -2283,15 +2401,15 @@
     "platform_score": 8194,
     "score_raw": 8194,
     "score": null,
-    "latest": "全660集",
+    "latest": "全26集",
     "status": "已完结",
     "tags": [
-      "玄幻"
+      "仙侠"
     ],
-    "year": "2019",
-    "pub_time": "2019-01-05",
+    "year": "2022",
+    "pub_time": "2024-03-29 20:00:00",
     "region": "内地",
-    "synopsis": "剑指处，鸣破长空！",
+    "synopsis": "拔剑欲问仙，怎修心无念",
     "ip_origin": "",
     "tagline": "在追破1000万",
     "badge": "",

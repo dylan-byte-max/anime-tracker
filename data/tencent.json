@@ -753,17 +753,17 @@
     "platform_score": 10660,
     "score_raw": 10660,
     "score": null,
-    "latest": "全50集",
-    "status": "已完结",
+    "latest": "更新至625集",
+    "status": "连载中",
     "tags": [
-      "战斗,真人,经典,科幻"
+      "战斗,玄幻,腾讯出品"
     ],
-    "year": "2010",
-    "pub_time": "",
-    "region": "日本",
-    "synopsis": "新战士成长故事",
+    "year": "2020",
+    "pub_time": "2020-05-18",
+    "region": "内地",
+    "synopsis": "仙王觉醒，重归万界巅峰",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -1377,17 +1377,17 @@
     "platform_score": 9161,
     "score_raw": 9161,
     "score": null,
-    "latest": "更新至185集",
+    "latest": "更新至29集",
     "status": "连载中",
     "tags": [
-      "治愈,搞笑"
+      "动作,经典,科幻,战斗"
     ],
     "year": "2010",
     "pub_time": "",
-    "region": "内地",
-    "synopsis": "哈小浪一家的快乐日常",
+    "region": "日本",
+    "synopsis": "历代奥特曼都在这里！",
     "ip_origin": "",
-    "tagline": "微动漫",
+    "tagline": "童年记忆",
     "badge": "",
     "rank_change": null
   },
@@ -1671,7 +1671,7 @@
     "region": "内地",
     "synopsis": "斗气纵横，热血不休",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
@@ -1778,8 +1778,8 @@
     "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc0020036ro0ux1634437673075/350",
     "link": "https://v.qq.com/x/cover/mzc0020036ro0ux.html",
     "score_label": "热度",
-    "platform_score": 8512,
-    "score_raw": 8512,
+    "platform_score": 8639,
+    "score_raw": 8639,
     "score": null,
     "latest": "全13集",
     "status": "已完结",
@@ -1954,10 +1954,10 @@
     "tags": [
       "武侠"
     ],
-    "year": "2025",
-    "pub_time": "2025-03-27 10:00:00",
-    "region": "内地",
-    "synopsis": "百亿国漫，王者回归",
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "极品小孩",
     "ip_origin": "",
     "tagline": "评分 9.4",
     "badge": "",
@@ -2317,7 +2317,7 @@
     "region": "日本",
     "synopsis": "小丸子美好童真",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "电竞",
     "badge": "",
     "rank_change": null
   },
