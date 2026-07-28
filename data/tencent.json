@@ -49,6 +49,30 @@
   },
   {
     "rank": 3,
+    "cid": "324olz7ilvo2j5f",
+    "title": "吞噬星空",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/324olz7ilvo2j5f1781926278904/350",
+    "link": "https://v.qq.com/x/cover/324olz7ilvo2j5f.html",
+    "score_label": "热度",
+    "platform_score": 17403,
+    "score_raw": 17403,
+    "score": null,
+    "latest": "更新至234集",
+    "status": "连载中",
+    "tags": [
+      "科幻"
+    ],
+    "year": "2020",
+    "pub_time": "2020-11-29",
+    "region": "内地",
+    "synopsis": "银河浩瀚，征途不止",
+    "ip_origin": "",
+    "tagline": "在追破2000万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 4,
     "cid": "mzc002000iis17y",
     "title": "斩神之凡尘神域 第2季",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002000iis17y1782108736144/350",
@@ -140,6 +164,30 @@
     "synopsis": "偷鸡少年长生一梦终圆满",
     "ip_origin": "",
     "tagline": "评分 9.8",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 6,
+    "cid": "mzc00200xf3rir6",
+    "title": "斗罗大陆Ⅱ绝世唐门",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200xf3rir61781944893526/350",
+    "link": "https://v.qq.com/x/cover/mzc00200xf3rir6.html",
+    "score_label": "热度",
+    "platform_score": 15099,
+    "score_raw": 15099,
+    "score": null,
+    "latest": "更新至163集",
+    "status": "连载中",
+    "tags": [
+      "奇幻"
+    ],
+    "year": "2023",
+    "pub_time": "2023-06-24 10:00:00",
+    "region": "内地",
+    "synopsis": "你我皆唐门，生在绝世中",
+    "ip_origin": "",
+    "tagline": "讨论破100万",
     "badge": "",
     "rank_change": null
   },
@@ -264,31 +312,31 @@
     "rank_change": null
   },
   {
-    "rank": 12,
-    "cid": "mzc00200e951mx9",
-    "title": "星辰变 最终季",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200e951mx91776735977961/350",
-    "link": "https://v.qq.com/x/cover/mzc00200e951mx9.html",
+    "rank": 11,
+    "cid": "cfrygt95a6j2vor",
+    "title": "迪迦奥特曼[普通话版]",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/cfrygt95a6j2vor1594313441898/350",
+    "link": "https://v.qq.com/x/cover/cfrygt95a6j2vor.html",
     "score_label": "热度",
     "platform_score": 12919,
     "score_raw": 12919,
     "score": null,
-    "latest": "全12集",
+    "latest": "全52集",
     "status": "已完结",
     "tags": [
-      "玄幻"
+      "战斗,真人,经典,科幻"
     ],
-    "year": "2026",
-    "pub_time": "2026-05-07 10:00:00",
-    "region": "内地",
-    "synopsis": "8年陪伴，国漫白月光迎终章",
+    "year": "1996",
+    "pub_time": "1996-09-07",
+    "region": "日本",
+    "synopsis": "你也可以变成光！",
     "ip_origin": "",
-    "tagline": "特效炸裂",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
   {
-    "rank": 13,
+    "rank": 12,
     "cid": "hzgtnf6tbvfekfv",
     "title": "名侦探柯南[普通话版]",
     "cover": "http://puui.qpic.cn/vcover_vt_pic/0/hzgtnf6tbvfekfv1555149409/350",
@@ -300,7 +348,7 @@
     "latest": "更新至1268集",
     "status": "连载中",
     "tags": [
-      "推理,经典"
+      "悬疑"
     ],
     "year": "1996",
     "pub_time": "1996-01-08",
@@ -873,17 +921,41 @@
     "platform_score": 10003,
     "score_raw": 10003,
     "score": null,
-    "latest": "全35集",
+    "latest": "更新至535集",
+    "status": "连载中",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2021",
+    "pub_time": "2021-07-16",
+    "region": "内地",
+    "synopsis": "一剑高下，风雨潇洒",
+    "ip_origin": "",
+    "tagline": "玄幻修真",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 41,
+    "cid": "mzc00200jl6jwb6",
+    "title": "诡秘之主特别篇",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200jl6jwb61782110043890/350",
+    "link": "https://v.qq.com/x/cover/mzc00200jl6jwb6.html",
+    "score_label": "热度",
+    "platform_score": 10122,
+    "score_raw": 10122,
+    "score": null,
+    "latest": "全3集",
     "status": "已完结",
     "tags": [
-      "玄幻,腾讯出品,战斗"
+      "奇幻"
     ],
-    "year": "2018",
-    "pub_time": "2021-08-07 12:00:00",
+    "year": "2026",
+    "pub_time": "2026-06-20 10:00:00",
     "region": "内地",
-    "synopsis": "夷陵老祖重现人间",
+    "synopsis": "猎杀开启，塔罗会集结！",
     "ip_origin": "",
-    "tagline": "评分 9.8",
+    "tagline": "评分 9.7",
     "badge": "",
     "rank_change": null
   },
@@ -1233,17 +1305,17 @@
     "platform_score": 9369,
     "score_raw": 9369,
     "score": null,
-    "latest": "全96集",
+    "latest": "全52集",
     "status": "已完结",
     "tags": [
-      "搞笑,治愈,腾讯出品"
+      "玄幻,冒险,腾讯出品,搞笑"
     ],
-    "year": "2010",
-    "pub_time": "2021-07-21 10:00:00",
+    "year": "2020",
+    "pub_time": "2024-07-03 10:00:00",
     "region": "内地",
-    "synopsis": "神仙妖怪的爆笑日常",
+    "synopsis": "修仙界泥石流来了！",
     "ip_origin": "",
-    "tagline": "评分 9.6",
+    "tagline": "在追破1000万",
     "badge": "",
     "rank_change": null
   },
@@ -1798,7 +1870,7 @@
     "rank_change": null
   },
   {
-    "rank": 76,
+    "rank": 71,
     "cid": "mzc0020005ycqoe",
     "title": "哆啦A梦 第5季",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc0020005ycqoe1758328914412/350",
@@ -2200,16 +2272,16 @@
     "rank_change": null
   },
   {
-    "rank": 93,
-    "cid": "e05xep7nc3kzawj",
-    "title": "罗布奥特曼[普通话版]",
-    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/e05xep7nc3kzawj1530266066/350",
-    "link": "https://v.qq.com/x/cover/e05xep7nc3kzawj.html",
+    "rank": 90,
+    "cid": "mzc00200qhj76m8",
+    "title": "地缚少年花子君 第2季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200qhj76m81760083332519/350",
+    "link": "https://v.qq.com/x/cover/mzc00200qhj76m8.html",
     "score_label": "热度",
     "platform_score": 8249,
     "score_raw": 8249,
     "score": null,
-    "latest": "全25集",
+    "latest": "全24集",
     "status": "已完结",
     "tags": [
       "科幻,真人,战斗,搞笑"
@@ -2239,11 +2311,11 @@
       "武侠"
     ],
     "year": "2025",
-    "pub_time": "2025-03-27 10:00:00",
-    "region": "内地",
-    "synopsis": "百亿国漫，王者回归",
+    "pub_time": "2025-10-11 00:00:00",
+    "region": "日本",
+    "synopsis": "奇幻校园续篇上线！",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "青春校园",
     "badge": "",
     "rank_change": null
   },
@@ -2332,7 +2404,7 @@
     "latest": "全294集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "真人"
     ],
     "year": "2010",
     "pub_time": "",
@@ -2363,7 +2435,7 @@
     "region": "日本",
     "synopsis": "永远的小精灵皮卡丘",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "科幻动作",
     "badge": "",
     "rank_change": null
   },
