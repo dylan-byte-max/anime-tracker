@@ -998,12 +998,12 @@
     "tags": [
       "玄幻"
     ],
-    "year": "2026",
-    "pub_time": "2026-07-18 10:00:00",
+    "year": "2018",
+    "pub_time": "2018-01-20 10:00:07",
     "region": "内地",
-    "synopsis": "寰宇最强，阴阳大战",
+    "synopsis": "此生不悔入唐门",
     "ip_origin": "",
-    "tagline": "特效炸裂",
+    "tagline": "评分 9.3",
     "badge": "",
     "rank_change": null
   },
@@ -1128,7 +1128,31 @@
     "rank_change": null
   },
   {
-    "rank": 48,
+    "rank": 44,
+    "cid": "mzc002007wvyaqd",
+    "title": "蜡笔小新 第8季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002007wvyaqd1717569340234/350",
+    "link": "https://v.qq.com/x/cover/mzc002007wvyaqd.html",
+    "score_label": "热度",
+    "platform_score": 10049,
+    "score_raw": 10049,
+    "score": null,
+    "latest": "全84集",
+    "status": "已完结",
+    "tags": [
+      "搞笑,经典"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "笑料满点的小新继续让你回忆童年",
+    "ip_origin": "",
+    "tagline": "评分 9.3",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 45,
     "cid": "mzc00200pk5azl4",
     "title": "小品一家人 合集",
     "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200pk5azl41649217510084/350",
@@ -1308,7 +1332,7 @@
     "latest": "更新至185集",
     "status": "连载中",
     "tags": [
-      "治愈,搞笑"
+      "搞笑"
     ],
     "year": "2010",
     "pub_time": "",
@@ -1487,23 +1511,23 @@
   },
   {
     "rank": 63,
-    "cid": "mzc00200fca7946",
-    "title": "仙逆剧场版 神临之战",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200fca79461748496944742/350",
-    "link": "https://v.qq.com/x/cover/mzc00200fca7946.html",
+    "cid": "nsgczu8u2kvpe9e",
+    "title": "蜡笔小新 第1季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/nsgczu8u2kvpe9e1480388656/350",
+    "link": "https://v.qq.com/x/cover/nsgczu8u2kvpe9e.html",
     "score_label": "热度",
     "platform_score": 8866,
     "score_raw": 8866,
     "score": null,
-    "latest": "全1集",
+    "latest": "全480集",
     "status": "已完结",
     "tags": [
-      "仙侠"
+      "日常"
     ],
-    "year": "2025",
-    "pub_time": "2025-05-30 12:00:00",
-    "region": "内地",
-    "synopsis": "不朽战歌，神临之战",
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "永恒的小孩",
     "ip_origin": "",
     "tagline": "评分 9.5",
     "badge": "",
@@ -1772,11 +1796,11 @@
     "rank_change": null
   },
   {
-    "rank": 75,
-    "cid": "mzc00200p29gosv",
-    "title": "斗破苍穹 第4季",
-    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200p29gosv1613880920381/350",
-    "link": "https://v.qq.com/x/cover/mzc00200p29gosv.html",
+    "rank": 74,
+    "cid": "mzc00200wxtniqe",
+    "title": "斗破苍穹萧薰儿",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200wxtniqe1776069020833/350",
+    "link": "https://v.qq.com/x/cover/mzc00200wxtniqe.html",
     "score_label": "热度",
     "platform_score": 8608,
     "score_raw": 8608,
@@ -1820,7 +1844,31 @@
     "rank_change": null
   },
   {
-    "rank": 77,
+    "rank": 75,
+    "cid": "bymafsjpccgo4bw",
+    "title": "蜡笔小新剧场版合集",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/bymafsjpccgo4bw1550819552/350",
+    "link": "https://v.qq.com/x/cover/bymafsjpccgo4bw.html",
+    "score_label": "热度",
+    "platform_score": 8768,
+    "score_raw": 8768,
+    "score": null,
+    "latest": "全21集",
+    "status": "已完结",
+    "tags": [
+      "搞笑,经典"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "小新欢乐剧场",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 76,
     "cid": "mzc00200xc5s515",
     "title": "武动乾坤 第6季",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200xc5s5151761961383757/350",
@@ -1877,17 +1925,17 @@
     "platform_score": 8445,
     "score_raw": 8445,
     "score": null,
-    "latest": "全13集",
+    "latest": "全25集",
     "status": "已完结",
     "tags": [
-      "玄幻"
+      "战斗,真人,科幻"
     ],
-    "year": "2021",
-    "pub_time": "2021-10-31",
-    "region": "内地",
-    "synopsis": "赴三年之约 战云岚之巅",
+    "year": "2017",
+    "pub_time": "2017-07-08",
+    "region": "日本",
+    "synopsis": "黑暗奥特曼之子成长之路",
     "ip_origin": "",
-    "tagline": "讨论破500万",
+    "tagline": "评分 9.2",
     "badge": "",
     "rank_change": null
   },
