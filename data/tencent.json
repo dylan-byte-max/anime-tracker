@@ -240,17 +240,17 @@
     "rank_change": null
   },
   {
-    "rank": 11,
-    "cid": "cfrygt95a6j2vor",
-    "title": "迪迦奥特曼[普通话版]",
-    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/cfrygt95a6j2vor1594313441898/350",
-    "link": "https://v.qq.com/x/cover/cfrygt95a6j2vor.html",
+    "rank": 10,
+    "cid": "mzc00200n53vkqc",
+    "title": "遮天",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200n53vkqc1781928886798/350",
+    "link": "https://v.qq.com/x/cover/mzc00200n53vkqc.html",
     "score_label": "热度",
     "platform_score": 13082,
     "score_raw": 13082,
     "score": null,
-    "latest": "全52集",
-    "status": "已完结",
+    "latest": "更新至173集",
+    "status": "连载中",
     "tags": [
       "战斗,真人,经典,科幻"
     ],
@@ -337,6 +337,30 @@
   },
   {
     "rank": 15,
+    "cid": "mzc00200r33k6xc",
+    "title": "死灵法师！我即是天灾",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200r33k6xc1781960970592/350",
+    "link": "https://v.qq.com/x/cover/mzc00200r33k6xc.html",
+    "score_label": "热度",
+    "platform_score": 12876,
+    "score_raw": 12876,
+    "score": null,
+    "latest": "更新至05集",
+    "status": "连载中",
+    "tags": [
+      "奇幻"
+    ],
+    "year": "2026",
+    "pub_time": "2026-07-24 10:00:00",
+    "region": "内地",
+    "synopsis": "一人成天灾，万骨俯首称臣",
+    "ip_origin": "",
+    "tagline": "奇幻冒险",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 16,
     "cid": "mzc002007j7p5hn",
     "title": "神印王座",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002007j7p5hn1776850944831/350",
@@ -1233,17 +1257,17 @@
     "platform_score": 9558,
     "score_raw": 9558,
     "score": null,
-    "latest": "全24集",
-    "status": "已完结",
+    "latest": "更新至29集",
+    "status": "连载中",
     "tags": [
-      "奇幻"
+      "动作,经典,科幻,战斗"
     ],
-    "year": "2025",
-    "pub_time": "2025-07-18 00:00:00",
-    "region": "内地",
-    "synopsis": "凡王之血，必以剑终",
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "历代奥特曼都在这里！",
     "ip_origin": "",
-    "tagline": "评分 9.0",
+    "tagline": "童年记忆",
     "badge": "",
     "rank_change": null
   },
@@ -1393,25 +1417,25 @@
   },
   {
     "rank": 59,
-    "cid": "ygci7rbfq3celp8",
-    "title": "罗小黑战记",
-    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/ygci7rbfq3celp8t1444944536.jpg/350",
-    "link": "https://v.qq.com/x/cover/ygci7rbfq3celp8.html",
+    "cid": "mzc00200832tfs6",
+    "title": "星座狗联盟之射手小浪",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200832tfs61637570544910/350",
+    "link": "https://v.qq.com/x/cover/mzc00200832tfs6.html",
     "score_label": "热度",
     "platform_score": 9106,
     "score_raw": 9106,
     "score": null,
-    "latest": "全28集",
-    "status": "已完结",
+    "latest": "更新至185集",
+    "status": "连载中",
     "tags": [
-      "搞笑,治愈"
+      "搞笑"
     ],
-    "year": "2011",
+    "year": "2010",
     "pub_time": "",
     "region": "内地",
-    "synopsis": "可爱小黑猫",
+    "synopsis": "哈小浪一家的快乐日常",
     "ip_origin": "",
-    "tagline": "评分 9.8",
+    "tagline": "微动漫",
     "badge": "",
     "rank_change": null
   },
@@ -1714,10 +1738,10 @@
     "latest": "全480集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "奇幻"
     ],
-    "year": "2010",
-    "pub_time": "",
+    "year": "2017",
+    "pub_time": "2017-04-05",
     "region": "日本",
     "synopsis": "永恒的小孩",
     "ip_origin": "",
@@ -2213,10 +2237,10 @@
     "platform_score": 8289,
     "score_raw": 8289,
     "score": null,
-    "latest": "全99集",
+    "latest": "全156集",
     "status": "已完结",
     "tags": [
-      "科幻,搞笑,冒险,经典"
+      "搞笑,经典"
     ],
     "year": "2010",
     "pub_time": "",
