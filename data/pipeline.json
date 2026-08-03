@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-07-20",
+    "updated": "2026-08-03",
     "schema": "v2",
     "note": "各平台未来排播 pipeline。按平台→发布会→板块(section)→项目层级组织，完整录入官方发布会片单。date_confirmed=true 表示确切上线日期，false 表示模糊时间(如2026/2026Q3)。每周一全网检索更新档期。"
   },
@@ -1449,9 +1449,9 @@
                   "ip_origin": "小说",
                   "ip_name": "诡秘之主（爱潜水的乌贼）",
                   "synopsis": "非凡世界的秘密被一一揭开。",
-                  "release_window": "2026",
+                  "release_window": "2027",
                   "date_confirmed": false,
-                  "release_status": "预告",
+                  "release_status": "远期规划",
                   "notes": "首次公布40集体量；IMDb9.3中国动画新高，海外190国同步；推进游戏/环球影城合作。",
                   "source_url": "https://news.qq.com/rain/a/20260623A0807K00"
                 },
@@ -2141,9 +2141,9 @@
                   "ip_origin": "原创剧本",
                   "ip_name": "百日成王",
                   "synopsis": "「100天从蝼蚁登基成王」。",
-                  "release_window": "2026H1",
-                  "date_confirmed": false,
-                  "release_status": "预告",
+                  "release_window": "2026-07-03",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
                   "notes": "B站联合出品原创。",
                   "source_url": "https://www.bilibili.com/bangumi/play/ep2383667"
                 },
@@ -2165,9 +2165,9 @@
                   "ip_origin": "原创剧本",
                   "ip_name": "记忆管理局",
                   "synopsis": "主角关潮进入记忆层执行「消除BUG、管理记忆」任务，探索每层记忆的考验。",
-                  "release_window": "2026夏",
-                  "date_confirmed": false,
-                  "release_status": "预告",
+                  "release_window": "2026-08-02",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
                   "notes": "导演刘文钰、李书宇；制作火药方糖/摔跤社。",
                   "source_url": "https://www.miyoushe.com/hna/article/70634158"
                 },
@@ -2201,9 +2201,9 @@
                   "ip_origin": "小说",
                   "ip_name": "万古至尊（太一生水，起点）",
                   "synopsis": "「转世归来，踏足神境」，李云霄转世修仙。",
-                  "release_window": "2026H2",
-                  "date_confirmed": false,
-                  "release_status": "预告",
+                  "release_window": "2026-07-20",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
                   "notes": "舞之动画制作。",
                   "source_url": "https://www.miyoushe.com/hna/article/70634158"
                 },
@@ -2291,8 +2291,8 @@
                   "ip_origin": "原创剧本",
                   "ip_name": "时光代理人（李豪凌）",
                   "synopsis": "照相馆恢复平静后，程小时、陆光逐步触及Bahati火灾案秘密，牵出神秘组织。",
-                  "release_window": "2026-10",
-                  "date_confirmed": false,
+                  "release_window": "2026-08-14",
+                  "date_confirmed": true,
                   "release_status": "已定档",
                   "notes": "官方明确2026年10月；B站原创长线IP标杆，已延伸主题餐厅、音乐剧。",
                   "source_url": "https://m.sohu.com/a/957003895_121124780"
@@ -2303,8 +2303,8 @@
                   "ip_origin": "小说",
                   "ip_name": "凡人修仙传（忘语）",
                   "synopsis": "「韩立重返天南风云起」，迎来韩立结婴关键剧情节点。",
-                  "release_window": "2026H1",
-                  "date_confirmed": false,
+                  "release_window": "2026-06-13",
+                  "date_confirmed": true,
                   "release_status": "已定档",
                   "notes": "B站首部年番；周边众筹破3400万；院线电影《瀚海迷踪》、番外《玄骨传》同步制作。",
                   "source_url": "https://k.sina.com.cn/article_7517400647_1c0126e4705907srx8.html"
@@ -2351,9 +2351,9 @@
                   "ip_origin": "原创剧本",
                   "ip_name": "胶囊计划（B站寻光计划）",
                   "synopsis": "「极致情绪+独立命题」的原创短片集，「关于奇迹的故事」。",
-                  "release_window": "2026夏",
-                  "date_confirmed": false,
-                  "release_status": "预告",
+                  "release_window": "2026-07-08",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
                   "notes": "前三季总播放破亿；第四季首次出现沙特动画创作者。",
                   "source_url": "https://m.sohu.com/a/957003895_121124780"
                 },
