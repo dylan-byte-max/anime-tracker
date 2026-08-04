@@ -25,6 +25,30 @@
   },
   {
     "rank": 2,
+    "cid": "324olz7ilvo2j5f",
+    "title": "吞噬星空",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/324olz7ilvo2j5f1781926278904/350",
+    "link": "https://v.qq.com/x/cover/324olz7ilvo2j5f.html",
+    "score_label": "热度",
+    "platform_score": 17157,
+    "score_raw": 17157,
+    "score": null,
+    "latest": "更新至235集",
+    "status": "连载中",
+    "tags": [
+      "科幻,战斗,冒险,腾讯出品"
+    ],
+    "year": "2020",
+    "pub_time": "2020-11-29",
+    "region": "内地",
+    "synopsis": "银河浩瀚，征途不止",
+    "ip_origin": "",
+    "tagline": "在追破2000万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 3,
     "cid": "mzc00200stwyax5",
     "title": "茶啊二中 第6季",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200stwyax51783648218157/350",
@@ -48,7 +72,7 @@
     "rank_change": null
   },
   {
-    "rank": 3,
+    "rank": 4,
     "cid": "mzc002000iis17y",
     "title": "斩神之凡尘神域 第2季",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002000iis17y1782108736144/350",
@@ -273,17 +297,17 @@
     "platform_score": 12673,
     "score_raw": 12673,
     "score": null,
-    "latest": "全589集",
-    "status": "已完结",
+    "latest": "更新至07集",
+    "status": "连载中",
     "tags": [
-      "搞笑"
+      "玄幻"
     ],
-    "year": "2020",
-    "pub_time": "2020-12-30",
+    "year": "2026",
+    "pub_time": "2026-07-21 10:00:00",
     "region": "内地",
-    "synopsis": "普通锤锤的爆笑日常",
+    "synopsis": "背叛憎恨我的，我将杀尽",
     "ip_origin": "",
-    "tagline": "评分 9.3",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -372,7 +396,7 @@
     "latest": "更新至07集",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "战斗,真人,经典,科幻"
     ],
     "year": "2026",
     "pub_time": "2026-07-21 10:00:00",
@@ -840,26 +864,50 @@
     "rank_change": null
   },
   {
-    "rank": 36,
-    "cid": "mzc00200315e0q9",
-    "title": "完美世界剧场版 九劫焚天",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200315e0q91785400682813/350",
-    "link": "https://v.qq.com/x/cover/mzc00200315e0q9.html",
+    "rank": 35,
+    "cid": "zazxegf2svyt43i",
+    "title": "梦比优斯奥特曼",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/zazxegf2svyt43i1618467168753/350",
+    "link": "https://v.qq.com/x/cover/zazxegf2svyt43i.html",
     "score_label": "热度",
     "platform_score": 10023,
     "score_raw": 10023,
     "score": null,
-    "latest": "",
+    "latest": "全50集",
+    "status": "已完结",
+    "tags": [
+      "真人"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "新战士成长故事",
+    "ip_origin": "",
+    "tagline": "评分 9.4",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 36,
+    "cid": "h9py387nkwo4ops",
+    "title": "奥特曼最强合辑",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/h9py387nkwo4ops1479717232/350",
+    "link": "https://v.qq.com/x/cover/h9py387nkwo4ops.html",
+    "score_label": "热度",
+    "platform_score": 10145,
+    "score_raw": 10145,
+    "score": null,
+    "latest": "更新至29集",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "真人"
     ],
-    "year": "2026",
-    "pub_time": "2026-08-08 12:00:00",
-    "region": "内地",
-    "synopsis": "焚身照长夜，星火传后世",
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "历代奥特曼都在这里！",
     "ip_origin": "",
-    "tagline": "预约破200万",
+    "tagline": "童年记忆",
     "badge": "",
     "rank_change": null
   },
@@ -1089,17 +1137,17 @@
     "platform_score": 9627,
     "score_raw": 9627,
     "score": null,
-    "latest": "全3集",
+    "latest": "全96集",
     "status": "已完结",
     "tags": [
-      "奇幻"
+      "日常"
     ],
-    "year": "2026",
-    "pub_time": "2026-06-20 10:00:00",
+    "year": "2010",
+    "pub_time": "2021-07-21 10:00:00",
     "region": "内地",
-    "synopsis": "猎杀开启，塔罗会集结！",
+    "synopsis": "神仙妖怪的爆笑日常",
     "ip_origin": "",
-    "tagline": "评分 9.7",
+    "tagline": "评分 9.6",
     "badge": "",
     "rank_change": null
   },
@@ -1201,25 +1249,25 @@
   },
   {
     "rank": 51,
-    "cid": "mzc002003lw1kp8",
-    "title": "一念永恒 第3季",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002003lw1kp81740474476603/350",
-    "link": "https://v.qq.com/x/cover/mzc002003lw1kp8.html",
+    "cid": "mzc0020025pxmh9",
+    "title": "鬼灭之刃 柱训练篇",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc0020025pxmh91715829433651/350",
+    "link": "https://v.qq.com/x/cover/mzc0020025pxmh9.html",
     "score_label": "热度",
     "platform_score": 9333,
     "score_raw": 9333,
     "score": null,
-    "latest": "全59集",
+    "latest": "全8集",
     "status": "已完结",
     "tags": [
-      "仙侠"
+      "奇幻"
     ],
     "year": "2024",
-    "pub_time": "2024-07-03 10:00:00",
-    "region": "内地",
-    "synopsis": "拒绝牛马修仙！快乐万岁",
+    "pub_time": "2024-06-22 20:00:00",
+    "region": "日本",
+    "synopsis": "热血柱之特训高燃来袭！",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "评分 9.6",
     "badge": "",
     "rank_change": null
   },
@@ -1233,17 +1281,17 @@
     "platform_score": 9325,
     "score_raw": 9325,
     "score": null,
-    "latest": "全8集",
+    "latest": "全52集",
     "status": "已完结",
     "tags": [
       "奇幻"
     ],
-    "year": "2024",
-    "pub_time": "2024-06-22 20:00:00",
-    "region": "日本",
-    "synopsis": "热血柱之特训高燃来袭！",
+    "year": "2025",
+    "pub_time": "2025-07-30 10:00:00",
+    "region": "内地",
+    "synopsis": "铁骑龙腾，续写紫川传奇",
     "ip_origin": "",
-    "tagline": "评分 9.6",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -1666,7 +1714,7 @@
     "latest": "全80集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "搞笑,经典"
     ],
     "year": "2010",
     "pub_time": "",
@@ -1923,17 +1971,17 @@
     "platform_score": 8473,
     "score_raw": 8473,
     "score": null,
-    "latest": "全116集",
+    "latest": "全10集",
     "status": "已完结",
     "tags": [
-      "玄幻,动态漫画,冒险"
+      "搞笑,校园"
     ],
     "year": "2010",
     "pub_time": "",
     "region": "内地",
-    "synopsis": "斗罗大陆，神龙降临",
+    "synopsis": "史上最奇葩学校",
     "ip_origin": "",
-    "tagline": "评分 9.3",
+    "tagline": "搞笑动画",
     "badge": "",
     "rank_change": null
   },
@@ -2185,7 +2233,7 @@
     "platform_score": 8315,
     "score_raw": 8315,
     "score": null,
-    "latest": "全12集",
+    "latest": "全48集",
     "status": "已完结",
     "tags": [
       "玄幻"
@@ -2257,17 +2305,41 @@
     "platform_score": 8246,
     "score_raw": 8246,
     "score": null,
-    "latest": "全29集",
+    "latest": "全24集",
     "status": "已完结",
     "tags": [
-      "真人"
+      "战斗,真人,科幻,经典"
     ],
-    "year": "2021",
-    "pub_time": "2021-09-11",
+    "year": "2010",
+    "pub_time": "",
     "region": "日本",
-    "synopsis": "你一定会，变成一道光！",
+    "synopsis": "奥特曼最新版",
     "ip_origin": "",
-    "tagline": "科幻动作",
+    "tagline": "评分 9.2",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 99,
+    "cid": "mzc00200fcbsh1z",
+    "title": "吞噬星空剧场版 决战原始星",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200fcbsh1z1777605196133/350",
+    "link": "https://v.qq.com/x/cover/mzc00200fcbsh1z.html",
+    "score_label": "热度",
+    "platform_score": 8402,
+    "score_raw": 8402,
+    "score": null,
+    "latest": "全1集",
+    "status": "已完结",
+    "tags": [
+      "科幻"
+    ],
+    "year": "2026",
+    "pub_time": "2026-05-01 12:00:00",
+    "region": "内地",
+    "synopsis": "我有一刀，可斩宇宙",
+    "ip_origin": "",
+    "tagline": "评分 9.7",
     "badge": "",
     "rank_change": null
   },
@@ -2286,8 +2358,8 @@
     "tags": [
       "战斗,搞笑,魔幻,冒险,经典,竞技"
     ],
-    "year": "2010",
-    "pub_time": "",
+    "year": "2013",
+    "pub_time": "2013-10-17",
     "region": "日本",
     "synopsis": "揭开神兽隐藏的秘密",
     "ip_origin": "",
