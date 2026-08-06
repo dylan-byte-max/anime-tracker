@@ -245,7 +245,7 @@
     "rank_change": null
   },
   {
-    "rank": 11,
+    "rank": 10,
     "title": "仙武传",
     "cover": "",
     "link": "https://v.youku.com/video?s=fabd799ef8f546219853&scm=20140719.manual.54061.show_fabd799ef8f546219853",
@@ -267,6 +267,31 @@
     "ip_origin": "",
     "tagline": "",
     "badge": "独播",
+    "rank_change": null
+  },
+  {
+    "rank": 11,
+    "title": "全民诡异：开局掌握零元购",
+    "cover": "",
+    "link": "https://v.youku.com/video?s=bade2f9917a04c6d9319&scm=20140719.rcmd.48457.show_bade2f9917a04c6d9319",
+    "score_label": "热度",
+    "platform_score": 3075,
+    "score_raw": 3075,
+    "score": null,
+    "latest": "更新至229话",
+    "status": "连载中",
+    "tags": [
+      "冒险",
+      "热血",
+      "玄幻"
+    ],
+    "year": "2025",
+    "pub_time": "2025-04-02 10:00:12",
+    "region": "",
+    "synopsis": "诡异末世降临，男主角陈木携万亿诡币重生，开局直接化身天使投资人，当其他人为了几块冥币大打出手时，陈木早已开启了大撒币模式买下各种诡异场景。别人还在规则中苦苦探索生路，陈木却倒反天罡化身规则制定者。各路诡异强者匍匐在他脚下，人类终将站在诡异末世的巅峰。",
+    "ip_origin": "",
+    "tagline": "",
+    "badge": "VIP",
     "rank_change": null
   },
   {
@@ -540,6 +565,29 @@
     "ip_origin": "",
     "tagline": "",
     "badge": "独播 剧・",
+    "rank_change": null
+  },
+  {
+    "rank": 39,
+    "title": "坏蛋联盟",
+    "cover": "",
+    "link": "https://v.youku.com/video?s=bafb519c6da94396b25a&scm=20140719.rcmd.feed.show_bafb519c6da94396b25a&scg_id=22901041",
+    "score_label": "热度",
+    "platform_score": 396,
+    "score_raw": 396,
+    "score": null,
+    "latest": "1话全",
+    "status": "已完结",
+    "tags": [
+      "搞笑"
+    ],
+    "year": "2023",
+    "pub_time": "2023-12-14 00:16:34",
+    "region": "",
+    "synopsis": "故事的主角是五个无恶不作的坏蛋——风度翩翩的扒手“大坏狼”、见多识广的保险箱窃贼“贪心蛇”、冷静沉稳的伪装大师“美肚鲨”、暴躁易怒的打手“食人鱼”、伶牙俐齿的黑客专家“骇客蛛”闪亮登场，他们是最臭名昭著的“坏蛋联盟”。他们平时威风八面，四处作案，令人闻风丧胆。直到某一天，他们突然想成为模范公民，然而转型路途甚是艰难，且意外层出不穷，令人啼笑皆非。",
+    "ip_origin": "",
+    "tagline": "",
+    "badge": "VIP",
     "rank_change": null
   }
 ]
