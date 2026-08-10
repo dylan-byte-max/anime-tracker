@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-03",
+    "updated": "2026-08-10",
     "schema": "v2",
     "note": "各平台未来排播 pipeline。按平台→发布会→板块(section)→项目层级组织，完整录入官方发布会片单。date_confirmed=true 表示确切上线日期，false 表示模糊时间(如2026/2026Q3)。每周一全网检索更新档期。"
   },
@@ -1269,8 +1269,8 @@
                   "ip_origin": "小说",
                   "ip_name": "完美世界（辰东）",
                   "synopsis": "孤身赴异域换百年和平，柳神石昊共赴仙古大战。",
-                  "release_window": "2026-07",
-                  "date_confirmed": false,
+                  "release_window": "2026-08-08",
+                  "date_confirmed": true,
                   "release_status": "已定档",
                   "notes": "升级光影与特效系统；定档7月（具体日期待公布）。",
                   "source_url": "https://finance.sina.cn/2026-06-22/detail-iniekknt9781181.d.html"
@@ -1593,9 +1593,9 @@
                   "ip_origin": "小说",
                   "ip_name": "诛仙（萧鼎）",
                   "synopsis": "正剧续作+剧场版配置。",
-                  "release_window": "TBD",
-                  "date_confirmed": false,
-                  "release_status": "预告",
+                  "release_window": "2026-08-21",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
                   "notes": "正剧+剧场版拆分IP。",
                   "source_url": "https://view.inews.qq.com/a/20260623A0981H00"
                 },
@@ -1858,9 +1858,9 @@
                   "ip_origin": "小说",
                   "ip_name": "天下霸唱新作",
                   "synopsis": "「这个财神有点邪门」，在烟火人间与诡谲幻界间重塑中式惊悚美学。",
-                  "release_window": "TBD",
-                  "date_confirmed": false,
-                  "release_status": "预告",
+                  "release_window": "2026-08-16",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
                   "notes": "中影年年，徐铮导演；中式恐怖/民俗悬疑。",
                   "source_url": "https://pages.iqiyi.com/p/scpr/63x0awbw.html"
                 },
