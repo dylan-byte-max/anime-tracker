@@ -361,25 +361,25 @@
   },
   {
     "rank": 16,
-    "cid": "mzc00200r33k6xc",
-    "title": "死灵法师！我即是天灾",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200r33k6xc1781960970592/350",
-    "link": "https://v.qq.com/x/cover/mzc00200r33k6xc.html",
+    "cid": "mzc00200xxpsogl",
+    "title": "剑来 第二季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200xxpsogl1766627170315/350",
+    "link": "https://v.qq.com/x/cover/mzc00200xxpsogl.html",
     "score_label": "热度",
     "platform_score": 11928,
     "score_raw": 11928,
     "score": null,
-    "latest": "更新至07集",
-    "status": "连载中",
+    "latest": "全27集",
+    "status": "已完结",
     "tags": [
-      "奇幻"
+      "仙侠"
     ],
-    "year": "2026",
-    "pub_time": "2026-07-24 10:00:00",
+    "year": "2025",
+    "pub_time": "2025-12-25 10:00:00",
     "region": "内地",
-    "synopsis": "一人成天灾，万骨俯首称臣",
+    "synopsis": "行万里路，打百万拳",
     "ip_origin": "",
-    "tagline": "奇幻冒险",
+    "tagline": "在追破1000万",
     "badge": "",
     "rank_change": null
   },
@@ -409,6 +409,30 @@
   },
   {
     "rank": 18,
+    "cid": "mzc00200r33k6xc",
+    "title": "死灵法师！我即是天灾",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200r33k6xc1781960970592/350",
+    "link": "https://v.qq.com/x/cover/mzc00200r33k6xc.html",
+    "score_label": "热度",
+    "platform_score": 12059,
+    "score_raw": 12059,
+    "score": null,
+    "latest": "更新至07集",
+    "status": "连载中",
+    "tags": [
+      "奇幻"
+    ],
+    "year": "2026",
+    "pub_time": "2026-07-24 10:00:00",
+    "region": "内地",
+    "synopsis": "一人成天灾，万骨俯首称臣",
+    "ip_origin": "",
+    "tagline": "奇幻冒险",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 19,
     "cid": "yl6lapwmmx5ivew",
     "title": "妖神记",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/yl6lapwmmx5ivew1781927458736/350",
@@ -513,7 +537,7 @@
     "platform_score": 10922,
     "score_raw": 10922,
     "score": null,
-    "latest": "更新至366集",
+    "latest": "更新至367集",
     "status": "连载中",
     "tags": [
       "玄幻"
@@ -633,17 +657,17 @@
     "platform_score": 10405,
     "score_raw": 10405,
     "score": null,
-    "latest": "全1集",
-    "status": "已完结",
+    "latest": "更新至473集",
+    "status": "连载中",
     "tags": [
-      "仙侠"
+      "玄幻,战斗,腾讯出品"
     ],
-    "year": "2025",
-    "pub_time": "2025-05-30 12:00:00",
+    "year": "2021",
+    "pub_time": "2021-04-06 10:00:00",
     "region": "内地",
-    "synopsis": "不朽战歌，神临之战",
+    "synopsis": "我身为剑，再续前缘",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -672,26 +696,50 @@
     "rank_change": null
   },
   {
-    "rank": 29,
-    "cid": "mzc00200azkttu2",
-    "title": "逆天至尊",
-    "cover": "https://puui.qpic.cn/vcover_vt_pic/0/mzc00200azkttu21691465661315/350",
-    "link": "https://v.qq.com/x/cover/mzc00200azkttu2.html",
+    "rank": 28,
+    "cid": "mzc002006znrsl7",
+    "title": "斩神之凡尘神域 第1季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002006znrsl71721095123461/350",
+    "link": "https://v.qq.com/x/cover/mzc002006znrsl7.html",
     "score_label": "热度",
     "platform_score": 10238,
     "score_raw": 10238,
     "score": null,
-    "latest": "更新至539集",
+    "latest": "全15集",
+    "status": "已完结",
+    "tags": [
+      "都市"
+    ],
+    "year": "2024",
+    "pub_time": "2024-07-31 10:00:00",
+    "region": "内地",
+    "synopsis": "大夏境内，神明禁行",
+    "ip_origin": "",
+    "tagline": "评分 9.6",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 29,
+    "cid": "mzc00200fcns51n",
+    "title": "仙逆剧场版 弑仙之战",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200fcns51n1781960412009/350",
+    "link": "https://v.qq.com/x/cover/mzc00200fcns51n.html",
+    "score_label": "热度",
+    "platform_score": 10516,
+    "score_raw": 10516,
+    "score": null,
+    "latest": "",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "仙侠"
     ],
-    "year": "2021",
-    "pub_time": "2021-07-16",
+    "year": "2010",
+    "pub_time": "",
     "region": "内地",
-    "synopsis": "一剑高下，风雨潇洒",
+    "synopsis": "绝境破阳实，血幡弑祖魂",
     "ip_origin": "",
-    "tagline": "玄幻修真",
+    "tagline": "预约破100万",
     "badge": "",
     "rank_change": null
   },
@@ -924,7 +972,7 @@
     "latest": "全84集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "搞笑,经典"
     ],
     "year": "2010",
     "pub_time": "",
@@ -1092,7 +1140,7 @@
     "latest": "全40集",
     "status": "已完结",
     "tags": [
-      "玄幻,冒险,腾讯出品"
+      "玄幻"
     ],
     "year": "2018",
     "pub_time": "2018-01-20 10:00:07",
@@ -1320,7 +1368,7 @@
     "rank_change": null
   },
   {
-    "rank": 56,
+    "rank": 53,
     "cid": "mzc002003lw1kp8",
     "title": "一念永恒 第3季",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002003lw1kp81740474476603/350",
@@ -1663,17 +1711,15 @@
     "platform_score": 8528,
     "score_raw": 8528,
     "score": null,
-    "latest": "全80集",
-    "status": "已完结",
-    "tags": [
-      "日常"
-    ],
+    "latest": "更新至179集",
+    "status": "连载中",
+    "tags": [],
     "year": "2010",
     "pub_time": "",
-    "region": "日本",
-    "synopsis": "哆啦A梦的全新道具",
+    "region": "内地",
+    "synopsis": "",
     "ip_origin": "",
-    "tagline": "童年记忆",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
