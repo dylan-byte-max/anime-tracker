@@ -408,6 +408,30 @@
     "rank_change": null
   },
   {
+    "rank": 17,
+    "cid": "cfrygt95a6j2vor",
+    "title": "迪迦奥特曼[普通话版]",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/cfrygt95a6j2vor1594313441898/350",
+    "link": "https://v.qq.com/x/cover/cfrygt95a6j2vor.html",
+    "score_label": "热度",
+    "platform_score": 12024,
+    "score_raw": 12024,
+    "score": null,
+    "latest": "全52集",
+    "status": "已完结",
+    "tags": [
+      "真人"
+    ],
+    "year": "1996",
+    "pub_time": "1996-09-07",
+    "region": "日本",
+    "synopsis": "你也可以变成光！",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
     "rank": 18,
     "cid": "cfrygt95a6j2vor",
     "title": "迪迦奥特曼[普通话版]",
@@ -1080,26 +1104,26 @@
     "rank_change": null
   },
   {
-    "rank": 46,
-    "cid": "qyqaod1cfohr8st",
-    "title": "斗罗大陆合集篇",
-    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/qyqaod1cfohr8st1559287237/350",
-    "link": "https://v.qq.com/x/cover/qyqaod1cfohr8st.html",
+    "rank": 28,
+    "cid": "mzc00200fobieel",
+    "title": "一人之下 第6季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200fobieel1770356912460/350",
+    "link": "https://v.qq.com/x/cover/mzc00200fobieel.html",
     "score_label": "热度",
     "platform_score": 9302,
     "score_raw": 9302,
     "score": null,
-    "latest": "全40集",
+    "latest": "全26集",
     "status": "已完结",
     "tags": [
       "玄幻,冒险,腾讯出品"
     ],
-    "year": "2018",
-    "pub_time": "2018-01-20 10:00:07",
+    "year": "2020",
+    "pub_time": "2020-03-08",
     "region": "内地",
-    "synopsis": "此生不悔入唐门",
+    "synopsis": "武神跌落，浴火少年再起",
     "ip_origin": "",
-    "tagline": "评分 9.3",
+    "tagline": "在追破1000万",
     "badge": "",
     "rank_change": null
   },
@@ -1123,7 +1147,7 @@
     "region": "内地",
     "synopsis": "狂草美学再搅江湖",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -1176,22 +1200,22 @@
     "rank_change": null
   },
   {
-    "rank": 50,
-    "cid": "mzc0020025pxmh9",
-    "title": "鬼灭之刃 柱训练篇",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc0020025pxmh91715829433651/350",
-    "link": "https://v.qq.com/x/cover/mzc0020025pxmh9.html",
+    "rank": 34,
+    "cid": "mzc00200g760kt3",
+    "title": "鬼灭之刃",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200g760kt31762927860474/350",
+    "link": "https://v.qq.com/x/cover/mzc00200g760kt3.html",
     "score_label": "热度",
     "platform_score": 9178,
     "score_raw": 9178,
     "score": null,
-    "latest": "全8集",
+    "latest": "全26集",
     "status": "已完结",
     "tags": [
       "奇幻"
     ],
-    "year": "2024",
-    "pub_time": "2024-06-22 20:00:00",
+    "year": "2019",
+    "pub_time": "2025-11-14 20:00:00",
     "region": "日本",
     "synopsis": "热血柱之特训高燃来袭！",
     "ip_origin": "",
@@ -1209,17 +1233,17 @@
     "platform_score": 9118,
     "score_raw": 9118,
     "score": null,
-    "latest": "全14集",
-    "status": "已完结",
+    "latest": "更新至473集",
+    "status": "连载中",
     "tags": [
-      "搞笑,校园"
+      "玄幻,战斗,腾讯出品"
     ],
-    "year": "2010",
-    "pub_time": "",
+    "year": "2021",
+    "pub_time": "2021-04-06 10:00:00",
     "region": "内地",
-    "synopsis": "平淡的校园的爆笑日常",
+    "synopsis": "我身为剑，再续前缘",
     "ip_origin": "",
-    "tagline": "评分 9.6",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -1831,17 +1855,17 @@
     "platform_score": 8444,
     "score_raw": 8444,
     "score": null,
-    "latest": "更新至02集",
-    "status": "连载中",
+    "latest": "全10集",
+    "status": "已完结",
     "tags": [
-      "搞笑"
+      "搞笑,校园"
     ],
     "year": "2010",
     "pub_time": "",
     "region": "内地",
-    "synopsis": "在吃鸡游戏里的冒险之旅",
+    "synopsis": "重返中学爆笑校园生活",
     "ip_origin": "",
-    "tagline": "游戏剧场",
+    "tagline": "评分 9.6",
     "badge": "",
     "rank_change": null
   },
@@ -1902,7 +1926,7 @@
     "latest": "全294集",
     "status": "已完结",
     "tags": [
-      "搞笑,科幻,经典"
+      "日常"
     ],
     "year": "2010",
     "pub_time": "",
@@ -1962,16 +1986,16 @@
     "rank_change": null
   },
   {
-    "rank": 83,
-    "cid": "mzc00200p49magn",
-    "title": "全职高手 第3季",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200p49magn1717035881243/350",
-    "link": "https://v.qq.com/x/cover/mzc00200p49magn.html",
+    "rank": 79,
+    "cid": "mzc00200apsjzeq",
+    "title": "斗罗大陆3龙王传说·动态漫1-3季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200apsjzeq1753260164783/350",
+    "link": "https://v.qq.com/x/cover/mzc00200apsjzeq.html",
     "score_label": "热度",
     "platform_score": 8254,
     "score_raw": 8254,
     "score": null,
-    "latest": "全17集",
+    "latest": "全116集",
     "status": "已完结",
     "tags": [
       "竞技"
@@ -2019,17 +2043,17 @@
     "platform_score": 8226,
     "score_raw": 8226,
     "score": null,
-    "latest": "全12集",
-    "status": "已完结",
+    "latest": "更新至02集",
+    "status": "连载中",
     "tags": [
-      "玄幻"
+      "搞笑"
     ],
-    "year": "2025",
-    "pub_time": "2025-11-20 10:00:00",
+    "year": "2010",
+    "pub_time": "",
     "region": "内地",
-    "synopsis": "斩杀林琅天，登顶冠军",
+    "synopsis": "在吃鸡游戏里的冒险之旅",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "游戏剧场",
     "badge": "",
     "rank_change": null
   },
@@ -2390,6 +2414,102 @@
     "synopsis": "百亿国漫，王者回归",
     "ip_origin": "",
     "tagline": "评分 9.4",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 97,
+    "cid": "mzc0020082u0tna",
+    "title": "灵境行者",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc0020082u0tna1786414213032/350",
+    "link": "https://v.qq.com/x/cover/mzc0020082u0tna.html",
+    "score_label": "热度",
+    "platform_score": 8352,
+    "score_raw": 8352,
+    "score": null,
+    "latest": "",
+    "status": "连载中",
+    "tags": [
+      "奇幻"
+    ],
+    "year": "2010",
+    "pub_time": "2026-09-03 10:00:00",
+    "region": "内地",
+    "synopsis": "神游夜巡，诸邪退散",
+    "ip_origin": "",
+    "tagline": "奇幻冒险",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 98,
+    "cid": "s81fq84xftn50r2",
+    "title": "茶啊二中 第1季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/s81fq84xftn50r2t1445502702.jpg/350",
+    "link": "https://v.qq.com/x/cover/s81fq84xftn50r2.html",
+    "score_label": "热度",
+    "platform_score": 8348,
+    "score_raw": 8348,
+    "score": null,
+    "latest": "全10集",
+    "status": "已完结",
+    "tags": [
+      "搞笑,校园"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "内地",
+    "synopsis": "史上最奇葩学校",
+    "ip_origin": "",
+    "tagline": "搞笑动画",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 99,
+    "cid": "mzc00200p29gosv",
+    "title": "斗破苍穹 第4季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200p29gosv1613880920381/350",
+    "link": "https://v.qq.com/x/cover/mzc00200p29gosv.html",
+    "score_label": "热度",
+    "platform_score": 8343,
+    "score_raw": 8343,
+    "score": null,
+    "latest": "全24集",
+    "status": "已完结",
+    "tags": [
+      "玄幻,战斗,冒险,腾讯出品"
+    ],
+    "year": "2021",
+    "pub_time": "2021-03-28 10:00:00",
+    "region": "内地",
+    "synopsis": "少年不屈 异火不熄",
+    "ip_origin": "",
+    "tagline": "讨论破500万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 100,
+    "cid": "o638xbha5jz73ya",
+    "title": "精灵宝可梦XY&Z",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/o638xbha5jz73ya1513246695/350",
+    "link": "https://v.qq.com/x/cover/o638xbha5jz73ya.html",
+    "score_label": "热度",
+    "platform_score": 8327,
+    "score_raw": 8327,
+    "score": null,
+    "latest": "全49集",
+    "status": "已完结",
+    "tags": [
+      "战斗,搞笑,魔幻,冒险,经典,竞技"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "揭开神兽隐藏的秘密",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   }
