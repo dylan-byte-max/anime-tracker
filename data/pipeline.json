@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-10",
+    "updated": "2026-08-17",
     "schema": "v2",
     "note": "各平台未来排播 pipeline。按平台→发布会→板块(section)→项目层级组织，完整录入官方发布会片单。date_confirmed=true 表示确切上线日期，false 表示模糊时间(如2026/2026Q3)。每周一全网检索更新档期。"
   },
@@ -1023,7 +1023,7 @@
                   "ip_origin": "小说",
                   "ip_name": "大道之上（宅猪）",
                   "synopsis": "中式民俗玄幻，「一乡一异闻，一村一精怪」；东方诡秘+传统修真。",
-                  "release_window": "TBD",
+                  "release_window": "2026Q3",
                   "date_confirmed": false,
                   "release_status": "预告",
                   "notes": "原著作者看PV后称「太对味了」；民俗玄幻差异化标杆。",
@@ -1059,7 +1059,7 @@
                   "ip_origin": "小说",
                   "ip_name": "神秘复苏（佛前献花）",
                   "synopsis": "灵异复苏流现象级IP，「都市+诡异」规则类灵异新世界设定。",
-                  "release_window": "TBD",
+                  "release_window": "2026-09",
                   "date_confirmed": false,
                   "release_status": "预告",
                   "notes": "",
