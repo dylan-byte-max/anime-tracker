@@ -276,7 +276,7 @@
     "latest": "更新至1269集",
     "status": "连载中",
     "tags": [
-      "悬疑"
+      "推理,经典"
     ],
     "year": "1996",
     "pub_time": "1996-01-08",
@@ -553,6 +553,54 @@
   },
   {
     "rank": 24,
+    "cid": "mzc00200ilydv1a",
+    "title": "无上神帝",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200ilydv1a1781927175912/350",
+    "link": "https://v.qq.com/x/cover/mzc00200ilydv1a.html",
+    "score_label": "热度",
+    "platform_score": 10754,
+    "score_raw": 10754,
+    "score": null,
+    "latest": "更新至632集",
+    "status": "连载中",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2020",
+    "pub_time": "2020-05-18",
+    "region": "内地",
+    "synopsis": "仙王觉醒，重归万界巅峰",
+    "ip_origin": "",
+    "tagline": "东方玄幻",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 25,
+    "cid": "mzc002002qg0pbc",
+    "title": "花仙子之魔法香对论",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002002qg0pbc1782090984482/350",
+    "link": "https://v.qq.com/x/cover/mzc002002qg0pbc.html",
+    "score_label": "热度",
+    "platform_score": 10699,
+    "score_raw": 10699,
+    "score": null,
+    "latest": "全26集",
+    "status": "已完结",
+    "tags": [
+      "奇幻"
+    ],
+    "year": "2026",
+    "pub_time": "2026-07-04 10:00:00",
+    "region": "内地",
+    "synopsis": "童年回忆归来，新花仙子带你踏入新冒险！",
+    "ip_origin": "",
+    "tagline": "情怀满满",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 26,
     "cid": "mzc00200e951mx9",
     "title": "星辰变 最终季",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200e951mx91776735977961/350",
@@ -1811,11 +1859,11 @@
       "玄幻"
     ],
     "year": "2025",
-    "pub_time": "2025-11-20 10:00:00",
+    "pub_time": "2025-07-30 10:00:00",
     "region": "内地",
-    "synopsis": "斩杀林琅天，登顶冠军",
+    "synopsis": "铁骑龙腾，续写紫川传奇",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -1856,7 +1904,7 @@
     "latest": "全156集",
     "status": "已完结",
     "tags": [
-      "搞笑,经典"
+      "仙侠"
     ],
     "year": "2010",
     "pub_time": "",
@@ -1885,7 +1933,103 @@
     "year": "2010",
     "pub_time": "",
     "region": "日本",
-    "synopsis": "蓝胖子大冒险！",
+    "synopsis": "小新欢乐剧场",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 91,
+    "cid": "jkuu8jwsei6lv7u",
+    "title": "茶啊二中 第3季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/jkuu8jwsei6lv7ut1472108403.jpg/350",
+    "link": "https://v.qq.com/x/cover/jkuu8jwsei6lv7u.html",
+    "score_label": "热度",
+    "platform_score": 8362,
+    "score_raw": 8362,
+    "score": null,
+    "latest": "全10集",
+    "status": "已完结",
+    "tags": [
+      "搞笑,校园"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "内地",
+    "synopsis": "重返中学爆笑校园生活",
+    "ip_origin": "",
+    "tagline": "评分 9.6",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 92,
+    "cid": "mzc00200p49magn",
+    "title": "全职高手 第3季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200p49magn1717035881243/350",
+    "link": "https://v.qq.com/x/cover/mzc00200p49magn.html",
+    "score_label": "热度",
+    "platform_score": 8333,
+    "score_raw": 8333,
+    "score": null,
+    "latest": "全17集",
+    "status": "已完结",
+    "tags": [
+      "竞技"
+    ],
+    "year": "2024",
+    "pub_time": "2024-05-30 18:00:00",
+    "region": "内地",
+    "synopsis": "愿有你的荣耀永不散场",
+    "ip_origin": "",
+    "tagline": "电竞",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 93,
+    "cid": "mzc00200xo7ks75",
+    "title": "奥特英雄传 赛罗与捷德[普通话版]",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200xo7ks751578886909/350",
+    "link": "https://v.qq.com/x/cover/mzc00200xo7ks75.html",
+    "score_label": "热度",
+    "platform_score": 8332,
+    "score_raw": 8332,
+    "score": null,
+    "latest": "全23集",
+    "status": "已完结",
+    "tags": [
+      "科幻,真人,战斗,经典"
+    ],
+    "year": "2010",
+    "pub_time": "2020-01-11 00:00:00",
+    "region": "日本",
+    "synopsis": "赛罗与捷德的历史",
+    "ip_origin": "",
+    "tagline": "评分 9.0",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 94,
+    "cid": "mzc00200faybjea",
+    "title": "诛仙 第2季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200faybjea1726819297144/350",
+    "link": "https://v.qq.com/x/cover/mzc00200faybjea.html",
+    "score_label": "热度",
+    "platform_score": 8322,
+    "score_raw": 8322,
+    "score": null,
+    "latest": "全26集",
+    "status": "已完结",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2024",
+    "pub_time": "2024-03-29 20:00:00",
+    "region": "内地",
+    "synopsis": "十载离人梦，殊途无归处",
     "ip_origin": "",
     "tagline": "评分 9.1",
     "badge": "",
@@ -2115,17 +2259,17 @@
     "platform_score": 8205,
     "score_raw": 8205,
     "score": null,
-    "latest": "全26集",
+    "latest": "全29集",
     "status": "已完结",
     "tags": [
-      "仙侠"
+      "真人"
     ],
-    "year": "2024",
-    "pub_time": "2024-03-29 20:00:00",
-    "region": "内地",
-    "synopsis": "十载离人梦，殊途无归处",
+    "year": "2021",
+    "pub_time": "2021-09-11",
+    "region": "日本",
+    "synopsis": "你一定会，变成一道光！",
     "ip_origin": "",
-    "tagline": "评分 9.1",
+    "tagline": "科幻动作",
     "badge": "",
     "rank_change": null
   },
