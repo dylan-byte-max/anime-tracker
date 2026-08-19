@@ -129,7 +129,7 @@
     "platform_score": 5157,
     "score_raw": 5157,
     "score": null,
-    "latest": "更新至154话",
+    "latest": "更新至155话",
     "status": "连载中",
     "tags": [
       "国风剧场",
@@ -220,7 +220,57 @@
     "rank_change": null
   },
   {
+    "rank": 9,
+    "title": "东大高武学院",
+    "cover": "",
+    "link": "https://v.youku.com/video?s=eabedc9465724a09b03d&scm=20140719.manual.54061.show_eabedc9465724a09b03d",
+    "score_label": "热度",
+    "platform_score": 3735,
+    "score_raw": 3735,
+    "score": null,
+    "latest": "更新至6话",
+    "status": "连载中",
+    "tags": [
+      "都市",
+      "玄幻",
+      "校园"
+    ],
+    "year": "2026",
+    "pub_time": "2026-07-16 10:00:01",
+    "region": "",
+    "synopsis": "灵气复苏的都市，妖魔入侵威胁来袭，天生废灵根的少年秦雨体内意外觉醒神力，被选中成为神秘至强功法万物生的传承人。秦雨加入东大高武学院后逐渐结识侠肝义胆的一群伙伴，一起修炼成长，共同守护校园和人族星球。",
+    "ip_origin": "",
+    "tagline": "",
+    "badge": "独播",
+    "rank_change": null
+  },
+  {
     "rank": 10,
+    "title": "仙武传",
+    "cover": "",
+    "link": "https://v.youku.com/video?s=fabd799ef8f546219853&scm=20140719.manual.48457.show_fabd799ef8f546219853",
+    "score_label": "热度",
+    "platform_score": 3225,
+    "score_raw": 3225,
+    "score": null,
+    "latest": "173话全",
+    "status": "已完结",
+    "tags": [
+      "新国风",
+      "仙侠神魔",
+      "古风"
+    ],
+    "year": "2023",
+    "pub_time": "2023-03-19 09:50:12",
+    "region": "",
+    "synopsis": "废柴少年叶辰意外得真火，踏上仙途，在神魔乱世中逆天崛起，逐鹿大道之巅。",
+    "ip_origin": "",
+    "tagline": "",
+    "badge": "独播",
+    "rank_change": null
+  },
+  {
+    "rank": 11,
     "title": "封天契",
     "cover": "",
     "link": "https://v.youku.com/video?s=bdbcd9ea582547d1b014&scm=20140719.manual.54061.show_bdbcd9ea582547d1b014",
@@ -252,7 +302,7 @@
     "platform_score": 3018,
     "score_raw": 3018,
     "score": null,
-    "latest": "更新至234话",
+    "latest": "更新至235话",
     "status": "连载中",
     "tags": [
       "冒险",
@@ -277,19 +327,18 @@
     "platform_score": 2714,
     "score_raw": 2714,
     "score": null,
-    "latest": "更新至120话",
+    "latest": "更新至130话",
     "status": "连载中",
     "tags": [
-      "魔法",
-      "冒险"
+      "玄幻"
     ],
     "year": "2026",
     "pub_time": "2026-06-02 17:26:54",
     "region": "",
-    "synopsis": "人类女孩小豆捡到灵石后无意间觉醒系统，召唤出守护神兽白泽，并与灵宠并肩对抗魔化反派，守护世界和平！",
+    "synopsis": "异能者江阎觉醒双生神赐，手握SSS级十方鬼令统帅百鬼阎罗，手持红纸伞执掌杀伐，更练就强横肉身同阶无敌。开局觉醒天赋异能，独闯古王遗迹斩兽王，灭外敌，武道大赛一路横推夺魁，闯出鬼仙名号，引得三大顶尖武道书院争相招揽，少年锋芒尽显。",
     "ip_origin": "",
     "tagline": "",
-    "badge": "VIP",
+    "badge": "",
     "rank_change": null
   },
   {
@@ -425,7 +474,7 @@
     "platform_score": 2068,
     "score_raw": 2068,
     "score": null,
-    "latest": "更新至90话",
+    "latest": "更新至100话",
     "status": "连载中",
     "tags": [
       "恋爱",
@@ -462,7 +511,7 @@
     "synopsis": "失去修为的最强魔头，如何驯服九位恶名昭彰的徒弟，一场师徒间的较量悄然上演。",
     "ip_origin": "",
     "tagline": "",
-    "badge": "独播",
+    "badge": "VIP",
     "rank_change": null
   },
   {
