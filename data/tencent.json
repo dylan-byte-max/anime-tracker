@@ -504,7 +504,7 @@
     "rank_change": null
   },
   {
-    "rank": 22,
+    "rank": 21,
     "cid": "mzc002006znrsl7",
     "title": "斩神之凡尘神域 第1季",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002006znrsl71721095123461/350",
@@ -849,17 +849,17 @@
     "platform_score": 9414,
     "score_raw": 9414,
     "score": null,
-    "latest": "更新至541集",
-    "status": "连载中",
+    "latest": "全5集",
+    "status": "已完结",
     "tags": [
-      "玄幻"
+      "治愈"
     ],
-    "year": "2021",
-    "pub_time": "2021-07-16",
+    "year": "2026",
+    "pub_time": "2026-08-07 10:00:00",
     "region": "内地",
-    "synopsis": "一剑高下，风雨潇洒",
+    "synopsis": "崩了碎了，来这就对了！",
     "ip_origin": "",
-    "tagline": "玄幻修真",
+    "tagline": "治愈动画",
     "badge": "",
     "rank_change": null
   },
@@ -1185,17 +1185,41 @@
     "platform_score": 8969,
     "score_raw": 8969,
     "score": null,
-    "latest": "更新至29集",
-    "status": "连载中",
+    "latest": "全48集",
+    "status": "已完结",
+    "tags": [
+      "日常"
+    ],
+    "year": "2024",
+    "pub_time": "2024-09-30 10:00:00",
+    "region": "内地",
+    "synopsis": "哪吒在小学当校霸",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 56,
+    "cid": "zazxegf2svyt43i",
+    "title": "梦比优斯奥特曼",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/zazxegf2svyt43i1618467168753/350",
+    "link": "https://v.qq.com/x/cover/zazxegf2svyt43i.html",
+    "score_label": "热度",
+    "platform_score": 9139,
+    "score_raw": 9139,
+    "score": null,
+    "latest": "全50集",
+    "status": "已完结",
     "tags": [
       "真人"
     ],
     "year": "2010",
     "pub_time": "",
     "region": "日本",
-    "synopsis": "历代奥特曼都在这里！",
+    "synopsis": "新战士成长故事",
     "ip_origin": "",
-    "tagline": "童年记忆",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -2390,6 +2414,78 @@
     "synopsis": "骑士在梦中对抗敌人",
     "ip_origin": "",
     "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 98,
+    "cid": "mzc00200pntcqa9",
+    "title": "假面骑士ZZZ[日语版]",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200pntcqa91777162621736/350",
+    "link": "https://v.qq.com/x/cover/mzc00200pntcqa9.html",
+    "score_label": "热度",
+    "platform_score": 8279,
+    "score_raw": 8279,
+    "score": null,
+    "latest": "更新至48集",
+    "status": "连载中",
+    "tags": [
+      "真人"
+    ],
+    "year": "2025",
+    "pub_time": "2025-09-07 10:00:00",
+    "region": "日本",
+    "synopsis": "骑士在梦中对抗敌人",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 99,
+    "cid": "mzc00200p29gosv",
+    "title": "斗破苍穹 第4季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200p29gosv1613880920381/350",
+    "link": "https://v.qq.com/x/cover/mzc00200p29gosv.html",
+    "score_label": "热度",
+    "platform_score": 8274,
+    "score_raw": 8274,
+    "score": null,
+    "latest": "全24集",
+    "status": "已完结",
+    "tags": [
+      "玄幻,战斗,冒险,腾讯出品"
+    ],
+    "year": "2021",
+    "pub_time": "2021-03-28 10:00:00",
+    "region": "内地",
+    "synopsis": "少年不屈 异火不熄",
+    "ip_origin": "",
+    "tagline": "讨论破500万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 100,
+    "cid": "mzc00200p49magn",
+    "title": "全职高手 第3季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200p49magn1717035881243/350",
+    "link": "https://v.qq.com/x/cover/mzc00200p49magn.html",
+    "score_label": "热度",
+    "platform_score": 8263,
+    "score_raw": 8263,
+    "score": null,
+    "latest": "全17集",
+    "status": "已完结",
+    "tags": [
+      "竞技"
+    ],
+    "year": "2024",
+    "pub_time": "2024-05-30 18:00:00",
+    "region": "内地",
+    "synopsis": "愿有你的荣耀永不散场",
+    "ip_origin": "",
+    "tagline": "电竞",
     "badge": "",
     "rank_change": null
   }
