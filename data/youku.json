@@ -8,7 +8,7 @@
     "platform_score": 6602,
     "score_raw": 6602,
     "score": null,
-    "latest": "更新至90话",
+    "latest": "更新至91话",
     "status": "连载中",
     "tags": [
       "新国风",
@@ -28,7 +28,7 @@
     "rank": 2,
     "title": "开心锤锤",
     "cover": "",
-    "link": "https://v.youku.com/video?s=ccdd2cdc62ec4bb1b83b&scm=20140719.rcmd.54061.show_ccdd2cdc62ec4bb1b83b",
+    "link": "https://v.youku.com/video?s=ccdd2cdc62ec4bb1b83b&scm=20140719.rcmd.48457.show_ccdd2cdc62ec4bb1b83b",
     "score_label": "热度",
     "platform_score": 6466,
     "score_raw": 6466,
@@ -220,6 +220,30 @@
     "rank_change": null
   },
   {
+    "rank": 9,
+    "title": "猫和老鼠",
+    "cover": "",
+    "link": "https://v.youku.com/video?s=f4487f8e61ad11e0bea1&scm=20140719.manual.48457.show_f4487f8e61ad11e0bea1",
+    "score_label": "热度",
+    "platform_score": 3781,
+    "score_raw": 3781,
+    "score": null,
+    "latest": "140话全",
+    "status": "已完结",
+    "tags": [
+      "搞笑",
+      "童话"
+    ],
+    "year": "2011",
+    "pub_time": "2011-05-27 23:45:05",
+    "region": "",
+    "synopsis": "猫TOM与鼠JERRY，一对欢喜冤家，生活中斗智斗勇，制造无数笑料。",
+    "ip_origin": "",
+    "tagline": "",
+    "badge": "VIP",
+    "rank_change": null
+  },
+  {
     "rank": 10,
     "title": "哈小浪之山海大王",
     "cover": "",
@@ -404,7 +428,7 @@
     "platform_score": 2847,
     "score_raw": 2847,
     "score": null,
-    "latest": "更新至3话",
+    "latest": "更新至4话",
     "status": "连载中",
     "tags": [
       "玄幻",
@@ -662,7 +686,7 @@
     "synopsis": "乐观机灵的小丸子意外变身郡主，与高冷梅三少斗智斗勇，假戏真做渐生情愫。",
     "ip_origin": "",
     "tagline": "",
-    "badge": "独播 剧・",
+    "badge": "VIP",
     "rank_change": null
   },
   {
