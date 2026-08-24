@@ -297,17 +297,17 @@
     "platform_score": 12344,
     "score_raw": 12344,
     "score": null,
-    "latest": "全1集",
-    "status": "已完结",
+    "latest": "更新至1270集",
+    "status": "连载中",
     "tags": [
-      "玄幻"
+      "悬疑"
     ],
-    "year": "2026",
-    "pub_time": "2026-08-08 12:00:00",
-    "region": "内地",
-    "synopsis": "焚身照长夜，星火传后世",
+    "year": "1996",
+    "pub_time": "1996-01-08",
+    "region": "日本",
+    "synopsis": "永恒的柯南",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "评分 9.3",
     "badge": "",
     "rank_change": null
   },
@@ -537,17 +537,17 @@
     "platform_score": 10423,
     "score_raw": 10423,
     "score": null,
-    "latest": "更新至11集",
+    "latest": "更新至370集",
     "status": "连载中",
     "tags": [
       "玄幻"
     ],
-    "year": "2026",
-    "pub_time": "2026-07-21 10:00:00",
+    "year": "2023",
+    "pub_time": "2023-02-18 10:00:00",
     "region": "内地",
-    "synopsis": "背叛憎恨我的，我将杀尽",
+    "synopsis": "我乃“区区”炼气期",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "评分 9.0",
     "badge": "",
     "rank_change": null
   },
@@ -780,7 +780,7 @@
     "latest": "全12集",
     "status": "已完结",
     "tags": [
-      "玄幻"
+      "奇幻"
     ],
     "year": "2026",
     "pub_time": "2026-05-07 10:00:00",
@@ -825,17 +825,17 @@
     "platform_score": 9569,
     "score_raw": 9569,
     "score": null,
-    "latest": "全1集",
-    "status": "已完结",
+    "latest": "更新至185集",
+    "status": "连载中",
     "tags": [
-      "仙侠"
+      "治愈,搞笑"
     ],
-    "year": "2025",
-    "pub_time": "2025-05-30 12:00:00",
+    "year": "2010",
+    "pub_time": "",
     "region": "内地",
-    "synopsis": "不朽战歌，神临之战",
+    "synopsis": "哈小浪一家的快乐日常",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "微动漫",
     "badge": "",
     "rank_change": null
   },
@@ -993,17 +993,17 @@
     "platform_score": 9336,
     "score_raw": 9336,
     "score": null,
-    "latest": "全26集",
+    "latest": "全192集",
     "status": "已完结",
     "tags": [
-      "仙侠"
+      "奇幻"
     ],
-    "year": "2024",
-    "pub_time": "2024-03-29 20:00:00",
-    "region": "内地",
-    "synopsis": "十载离人梦，殊途无归处",
+    "year": "2017",
+    "pub_time": "2017-04-05",
+    "region": "日本",
+    "synopsis": "忍者村的博人与伙伴们",
     "ip_origin": "",
-    "tagline": "评分 9.1",
+    "tagline": "热血战斗",
     "badge": "",
     "rank_change": null
   },
@@ -1075,7 +1075,7 @@
     "region": "内地",
     "synopsis": "熟背套路，做绝世反派",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "治愈动画",
     "badge": "",
     "rank_change": null
   },
@@ -1411,7 +1411,7 @@
     "region": "内地",
     "synopsis": "拒绝牛马修仙！快乐万岁",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "游戏剧场",
     "badge": "",
     "rank_change": null
   },
@@ -2190,7 +2190,7 @@
     "latest": "全156集",
     "status": "已完结",
     "tags": [
-      "搞笑,经典"
+      "日常"
     ],
     "year": "2010",
     "pub_time": "",
@@ -2334,14 +2334,14 @@
     "latest": "全52集",
     "status": "已完结",
     "tags": [
-      "战斗,搞笑,魔幻,冒险,经典,竞技"
+      "玄幻"
     ],
     "year": "2013",
     "pub_time": "2013-10-17",
     "region": "日本",
     "synopsis": "永远的小精灵皮卡丘",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "评分 9.1",
     "badge": "",
     "rank_change": null
   },
@@ -2384,12 +2384,252 @@
     "tags": [
       "日常"
     ],
-    "year": "2010",
-    "pub_time": "",
+    "year": "2021",
+    "pub_time": "2021-09-11",
     "region": "日本",
     "synopsis": "欢乐搞笑熊孩子",
     "ip_origin": "",
     "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 91,
+    "cid": "r6iebo6c8kh6gd4",
+    "title": "欧布奥特曼[日语版]",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/r6iebo6c8kh6gd41569330100/350",
+    "link": "https://v.qq.com/x/cover/r6iebo6c8kh6gd4.html",
+    "score_label": "热度",
+    "platform_score": 8264,
+    "score_raw": 8264,
+    "score": null,
+    "latest": "全25集",
+    "status": "已完结",
+    "tags": [
+      "战斗,真人,科幻"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "合体初代奥特曼、迪迦",
+    "ip_origin": "",
+    "tagline": "动作炫酷",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 92,
+    "cid": "5d9f63kl5qxru2r",
+    "title": "茶啊二中 第2季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/5d9f63kl5qxru2rt1444842442.jpg/350",
+    "link": "https://v.qq.com/x/cover/5d9f63kl5qxru2r.html",
+    "score_label": "热度",
+    "platform_score": 8260,
+    "score_raw": 8260,
+    "score": null,
+    "latest": "全10集",
+    "status": "已完结",
+    "tags": [
+      "搞笑"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "内地",
+    "synopsis": "重返少年时光",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 93,
+    "cid": "qwzpd184if155sa",
+    "title": "蜡笔小新 第4季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/qwzpd184if155sa1480388725/350",
+    "link": "https://v.qq.com/x/cover/qwzpd184if155sa.html",
+    "score_label": "热度",
+    "platform_score": 8239,
+    "score_raw": 8239,
+    "score": null,
+    "latest": "全156集",
+    "status": "已完结",
+    "tags": [
+      "搞笑,经典"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "极品小孩",
+    "ip_origin": "",
+    "tagline": "评分 9.4",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 94,
+    "cid": "hibacbz0801byjb",
+    "title": "精灵宝可梦 第4季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/hibacbz0801byjbt1444858320.jpg/350",
+    "link": "https://v.qq.com/x/cover/hibacbz0801byjb.html",
+    "score_label": "热度",
+    "platform_score": 8231,
+    "score_raw": 8231,
+    "score": null,
+    "latest": "全144集",
+    "status": "已完结",
+    "tags": [
+      "冒险"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "追寻梦想的冒险",
+    "ip_origin": "",
+    "tagline": "评分 9.2",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 95,
+    "cid": "mzc00200bn7xxln",
+    "title": "奥特银河格斗 命运的冲突[普通话版]",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200bn7xxln1659524955812/350",
+    "link": "https://v.qq.com/x/cover/mzc00200bn7xxln.html",
+    "score_label": "热度",
+    "platform_score": 8227,
+    "score_raw": 8227,
+    "score": null,
+    "latest": "全11集",
+    "status": "已完结",
+    "tags": [
+      "真人"
+    ],
+    "year": "2022",
+    "pub_time": "2022-08-05 19:00:00",
+    "region": "日本",
+    "synopsis": "终极一战，银河之巅！",
+    "ip_origin": "",
+    "tagline": "评分 9.2",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 96,
+    "cid": "mzc00200xc5s515",
+    "title": "武动乾坤 第6季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200xc5s5151761961383757/350",
+    "link": "https://v.qq.com/x/cover/mzc00200xc5s515.html",
+    "score_label": "热度",
+    "platform_score": 8225,
+    "score_raw": 8225,
+    "score": null,
+    "latest": "全12集",
+    "status": "已完结",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2025",
+    "pub_time": "2025-11-20 10:00:00",
+    "region": "内地",
+    "synopsis": "斩杀林琅天，登顶冠军",
+    "ip_origin": "",
+    "tagline": "东方玄幻",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 97,
+    "cid": "mzc00200p49magn",
+    "title": "全职高手 第3季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200p49magn1717035881243/350",
+    "link": "https://v.qq.com/x/cover/mzc00200p49magn.html",
+    "score_label": "热度",
+    "platform_score": 8203,
+    "score_raw": 8203,
+    "score": null,
+    "latest": "全17集",
+    "status": "已完结",
+    "tags": [
+      "竞技"
+    ],
+    "year": "2024",
+    "pub_time": "2024-05-30 18:00:00",
+    "region": "内地",
+    "synopsis": "愿有你的荣耀永不散场",
+    "ip_origin": "",
+    "tagline": "电竞",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 98,
+    "cid": "os5xg6aoe1ysb67",
+    "title": "奥特英雄 新生代英雄传[普通话版]",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/os5xg6aoe1ysb671545985464/350",
+    "link": "https://v.qq.com/x/cover/os5xg6aoe1ysb67.html",
+    "score_label": "热度",
+    "platform_score": 8172,
+    "score_raw": 8172,
+    "score": null,
+    "latest": "全26集",
+    "status": "已完结",
+    "tags": [
+      "科幻,真人,战斗,经典"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "新生代奥特英雄",
+    "ip_origin": "",
+    "tagline": "动作炫酷",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 99,
+    "cid": "5seimij3v9kms9y",
+    "title": "精灵宝可梦XY 第1季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/5seimij3v9kms9yt1472630401.jpg/350",
+    "link": "https://v.qq.com/x/cover/5seimij3v9kms9y.html",
+    "score_label": "热度",
+    "platform_score": 8163,
+    "score_raw": 8163,
+    "score": null,
+    "latest": "全52集",
+    "status": "已完结",
+    "tags": [
+      "战斗,搞笑,魔幻,冒险,经典,竞技"
+    ],
+    "year": "2013",
+    "pub_time": "2013-10-17",
+    "region": "日本",
+    "synopsis": "永远的小精灵皮卡丘",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 100,
+    "cid": "8rbtcil5a2heb7d",
+    "title": "宝可梦 太阳&月亮 第1季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/8rbtcil5a2heb7d1516349195/350",
+    "link": "https://v.qq.com/x/cover/8rbtcil5a2heb7d.html",
+    "score_label": "热度",
+    "platform_score": 8163,
+    "score_raw": 8163,
+    "score": null,
+    "latest": "全43集",
+    "status": "已完结",
+    "tags": [
+      "冒险,战斗,魔幻,搞笑,经典,竞技"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "夏天！海滩！新的冒险",
+    "ip_origin": "",
+    "tagline": "评分 9.3",
     "badge": "",
     "rank_change": null
   }
