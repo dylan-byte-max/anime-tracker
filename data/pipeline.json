@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-17",
+    "updated": "2026-08-31",
     "schema": "v2",
     "note": "各平台未来排播 pipeline。按平台→发布会→板块(section)→项目层级组织，完整录入官方发布会片单。date_confirmed=true 表示确切上线日期，false 表示模糊时间(如2026/2026Q3)。每周一全网检索更新档期。"
   },
@@ -1509,7 +1509,7 @@
                   "ip_origin": "小说",
                   "ip_name": "神印王座（唐家三少）",
                   "synopsis": "圣巴别之战篇章。",
-                  "release_window": "2026",
+                  "release_window": "2027",
                   "date_confirmed": false,
                   "release_status": "已定档",
                   "notes": "在播年番续作。",
@@ -2447,7 +2447,7 @@
                   "ip_origin": "原创剧本",
                   "ip_name": "灵笼（艺画开天）",
                   "synopsis": "「幸存者能否重夺未来」，末世灯塔文明的生存抉择。",
-                  "release_window": "2026",
+                  "release_window": "2026H2",
                   "date_confirmed": false,
                   "release_status": "预告",
                   "notes": "",
