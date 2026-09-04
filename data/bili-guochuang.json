@@ -454,6 +454,32 @@
   },
   {
     "rank": 17,
+    "season_id": 26257,
+    "media_id": 4315402,
+    "title": "三体",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/9870f898b8a39bbb8048f34317f8d78a02cc1770.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss26257",
+    "sub_title": "面壁计划开启",
+    "status": "已完结",
+    "latest": "全15话",
+    "score_label": "播放量",
+    "platform_score": "8.5亿次播放",
+    "score_raw": 851269457,
+    "score": "8.2",
+    "follow_count": "688.9万追番",
+    "tags": [],
+    "year": "2022",
+    "pub_time": "2022-12-10 11:00:00",
+    "region": "中国大陆",
+    "synopsis": "无数细线横亘在星空之中，如同一把巨大的刷子。三体星舰队将于400年后抵达。遥远蝴蝶扇动着翅膀，也改变了罗辑的命运，轰然打开的门后是世界中心——面壁计划开启。同时，智子所创建的破壁室内，破壁人一一就位……",
+    "series": "三体",
+    "ip_origin": "",
+    "total": "8.5亿次播放",
+    "badge": "出品",
+    "rank_change": null
+  },
+  {
+    "rank": 18,
     "season_id": 44872,
     "media_id": 20141490,
     "title": "宝宝巴士儿歌3D版",
@@ -483,7 +509,7 @@
     "rank_change": null
   },
   {
-    "rank": 18,
+    "rank": 19,
     "season_id": 39395,
     "media_id": 28235087,
     "title": "大神探诸葛九九",
@@ -509,7 +535,7 @@
     "rank_change": null
   },
   {
-    "rank": 19,
+    "rank": 20,
     "season_id": 22088,
     "media_id": 23432,
     "title": "灵笼 第一季",
@@ -540,7 +566,59 @@
     "rank_change": null
   },
   {
-    "rank": 20,
+    "rank": 21,
+    "season_id": 40731,
+    "media_id": 28236437,
+    "title": "MR.BONE",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/52ea72942c0807f305f5dcba3a65a9e008bc1412.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss40731",
+    "sub_title": "我叫MR.BONE",
+    "status": "未知",
+    "latest": "",
+    "score_label": "播放量",
+    "platform_score": "7.2亿次播放",
+    "score_raw": 720204431,
+    "score": "9.6",
+    "follow_count": "77.7万追番",
+    "tags": [],
+    "year": "2022",
+    "pub_time": "2022-01-01 10:00:00",
+    "region": "中国大陆",
+    "synopsis": "我叫MR.BONE，我生活在一个满是脏丝（Zombies）的世界！在最初的混乱过后，随着社会秩序的稳定，人们从脏丝的威胁当中恢复过来，与它们共同生活在这个世界上。找到新工作的我，也在生活的轨迹里认识了形形色色的伙伴。威胁还没消除，社会也没崩盘，而生活当然还要继续。",
+    "series": "MR.BONE",
+    "ip_origin": "",
+    "total": "7.2亿次播放",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 22,
+    "season_id": 44176,
+    "media_id": 28412536,
+    "title": "伍六七之暗影宿命",
+    "cover": "https://i0.hdslb.com/bfs/bangumi/image/6e5c5848ff8943fd6366e943a4f75b98598c50c6.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss44176",
+    "sub_title": "打破暗影刺客的宿命",
+    "status": "已完结",
+    "latest": "全10话",
+    "score_label": "播放量",
+    "platform_score": "7亿次播放",
+    "score_raw": 703341893,
+    "score": "9.2",
+    "follow_count": "1468.3万系列追番",
+    "tags": [],
+    "year": "2023",
+    "pub_time": "2023-01-18 12:00:00",
+    "region": "中国大陆",
+    "synopsis": "随着伍六七回到玄武国寻找他的身世，亦引起了七大暗影刺客的追捕。然而每一位暗影刺客都带着不同的目的和不同的过去，青凤的阴谋也在此浮出了水面。而此时等待着小鸡岛上的人民，又将是另一个危机，伍六七将如何面对他的抉择？",
+    "series": "伍六七",
+    "ip_origin": "",
+    "total": "7亿次播放",
+    "badge": "大会员",
+    "rank_change": null
+  },
+  {
+    "rank": 23,
     "season_id": 28763,
     "media_id": 28223059,
     "title": "天官赐福",
@@ -566,7 +644,7 @@
     "rank_change": null
   },
   {
-    "rank": 21,
+    "rank": 24,
     "season_id": 26194,
     "media_id": 4313802,
     "title": "仙王的日常生活",
@@ -579,7 +657,7 @@
     "platform_score": "6.8亿次播放",
     "score_raw": 675181669,
     "score": "4.7",
-    "follow_count": "1125.1万系列追番",
+    "follow_count": "1125万系列追番",
     "tags": [
       "小说改",
       "搞笑",
@@ -596,7 +674,7 @@
     "rank_change": null
   },
   {
-    "rank": 22,
+    "rank": 25,
     "season_id": 39111,
     "media_id": 28234803,
     "title": "一口小鸭梨",
@@ -622,7 +700,7 @@
     "rank_change": null
   },
   {
-    "rank": 23,
+    "rank": 26,
     "season_id": 3863,
     "media_id": 3863,
     "title": "镇魂街 第一季",
@@ -648,7 +726,7 @@
     "rank_change": null
   },
   {
-    "rank": 24,
+    "rank": 27,
     "season_id": 39947,
     "media_id": 28235647,
     "title": "有兽焉",
@@ -679,7 +757,7 @@
     "rank_change": null
   },
   {
-    "rank": 25,
+    "rank": 28,
     "season_id": 36594,
     "media_id": 28232253,
     "title": "伍六七之玄武国篇",
@@ -705,7 +783,7 @@
     "rank_change": null
   },
   {
-    "rank": 26,
+    "rank": 29,
     "season_id": 41889,
     "media_id": 28337752,
     "title": "快把舅舅带走",
@@ -731,7 +809,7 @@
     "rank_change": null
   },
   {
-    "rank": 27,
+    "rank": 30,
     "season_id": 6402,
     "media_id": 6402,
     "title": "一人之下 第二季",
@@ -757,7 +835,38 @@
     "rank_change": null
   },
   {
-    "rank": 28,
+    "rank": 31,
+    "season_id": 38755,
+    "media_id": 28234446,
+    "title": "铁头与橘子",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/a1d32b8b86215f481362a467720f792b4c414584.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss38755",
+    "sub_title": "铁头与橘子的爱情",
+    "status": "已完结",
+    "latest": "全199话",
+    "score_label": "播放量",
+    "platform_score": "5.1亿次播放",
+    "score_raw": 510533918,
+    "score": "",
+    "follow_count": "11.1万追番",
+    "tags": [
+      "原创",
+      "恋爱",
+      "少女",
+      "日常"
+    ],
+    "year": "2019",
+    "pub_time": "2019-08-08 00:00:01",
+    "region": "中国大陆",
+    "synopsis": "顶级财团斯芬克斯家族给继承人铁头安排了豪门联姻，但是引起本来就对家族各种制度与贪婪不满的铁头更大的反抗。毅然与家族对抗，在失落的时候遇到了懵懂无知，为生活而忙碌奔波的橘子，在几次冲突较量中爱上了这个单纯懦弱但是又敏感坚韧的平民小女孩。斯芬克斯家族无法能忍铁头与橘子破坏家族联姻的计划，用尽各种卑鄙的手段进行破坏，铁头与橘子的爱情之路也会经受不同的考验。",
+    "series": "铁头与橘子",
+    "ip_origin": "原创",
+    "total": "5.1亿次播放",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 32,
     "season_id": 35220,
     "media_id": 28230742,
     "title": "时光代理人",
@@ -783,7 +892,7 @@
     "rank_change": null
   },
   {
-    "rank": 29,
+    "rank": 33,
     "season_id": 33323,
     "media_id": 28228714,
     "title": "雾山五行",
@@ -809,7 +918,33 @@
     "rank_change": null
   },
   {
-    "rank": 30,
+    "rank": 34,
+    "season_id": 26311,
+    "media_id": 4315962,
+    "title": "凹凸世界 第三季",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/8155078332f0d9ce724eda922a14c0f7c9c826ca.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss26311",
+    "sub_title": "打破虚假表象",
+    "status": "已完结",
+    "latest": "全40话",
+    "score_label": "播放量",
+    "platform_score": "4.8亿次播放",
+    "score_raw": 477588024,
+    "score": "9.4",
+    "follow_count": "449.6万系列追番",
+    "tags": [],
+    "year": "2019",
+    "pub_time": "2019-01-25 12:00:00",
+    "region": "中国大陆",
+    "synopsis": "凹凸世界的创世神是一位很肆意随性的神明，他创造了凹凸世界的无数星球和人民，又随心所欲地统治着他们。同时他还设立了七神使，让他们代行神旨。\n但是，创世神也不是完全不给他的子民机会——只要在“凹凸大赛”中获得最终的胜利，那么就能得到一切，并赐予你与“七神使”一样代神统治世界的权力。\n然而，以上这些，都只是虚伪的表象。\n这场比赛注定没有胜利者。\n直到，我们的主角——金，出现在了赛场上。\n",
+    "series": "凹凸世界",
+    "ip_origin": "",
+    "total": "4.8亿次播放",
+    "badge": "独家",
+    "rank_change": null
+  },
+  {
+    "rank": 35,
     "season_id": 26266,
     "media_id": 4315642,
     "title": "元龙",
@@ -835,7 +970,7 @@
     "rank_change": null
   },
   {
-    "rank": 31,
+    "rank": 36,
     "season_id": 48518,
     "media_id": 22730760,
     "title": "宗门里除了我都是卧底",
@@ -865,7 +1000,7 @@
     "rank_change": null
   },
   {
-    "rank": 32,
+    "rank": 37,
     "season_id": 39696,
     "media_id": 28235390,
     "title": "仙王的日常生活 第三季",
@@ -878,7 +1013,7 @@
     "platform_score": "4.6亿次播放",
     "score_raw": 459111439,
     "score": "7.8",
-    "follow_count": "1125.1万系列追番",
+    "follow_count": "1125万系列追番",
     "tags": [
       "小说改",
       "搞笑",
@@ -960,7 +1095,7 @@
     "platform_score": "4.1亿次播放",
     "score_raw": 405664285,
     "score": "6.8",
-    "follow_count": "1125.1万系列追番",
+    "follow_count": "1125万系列追番",
     "tags": [
       "小说改",
       "搞笑",
@@ -2142,7 +2277,7 @@
     "platform_score": "1.7亿次播放",
     "score_raw": 165607844,
     "score": "8.5",
-    "follow_count": "1125.1万系列追番",
+    "follow_count": "1125万系列追番",
     "tags": [
       "小说改",
       "热血",
