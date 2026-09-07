@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-08-31",
+    "updated": "2026-09-07",
     "schema": "v2",
     "note": "各平台未来排播 pipeline。按平台→发布会→板块(section)→项目层级组织，完整录入官方发布会片单。date_confirmed=true 表示确切上线日期，false 表示模糊时间(如2026/2026Q3)。每周一全网检索更新档期。"
   },
@@ -102,8 +102,8 @@
                   "ip_origin": "小说",
                   "ip_name": "光阴之外",
                   "synopsis": "国漫少见的末世废土题材，男主许青是贫民窟「生存者」，塑造「最狠男主」，挖掘复杂人性而非简单逆天改命。",
-                  "release_window": "2026",
-                  "date_confirmed": false,
+                  "release_window": "2026-06-20",
+                  "date_confirmed": true,
                   "release_status": "已定档",
                   "notes": "第二季2026-05-03官宣，升级为全年不断更年番；首集站内热度8653创新番首更纪录；官抖点赞最快破千万的国漫新番。",
                   "source_url": "https://new.qq.com/rain/a/20260511A07P2F00"
@@ -120,8 +120,8 @@
                   "ip_origin": "小说",
                   "ip_name": "沧元图（我吃西红柿）",
                   "synopsis": "东方玄幻头部标杆，水墨风3D顶流。孟川支援反攻妖族，从东宁府到大越王朝，升级为年番长线更新。",
-                  "release_window": "2026",
-                  "date_confirmed": false,
+                  "release_window": "2026-04-03",
+                  "date_confirmed": true,
                   "release_status": "已定档",
                   "notes": "第三季全网预约破937万刷新国漫纪录；1192万加追优酷全品类历史第一，热度值9106；获CCTV6/新华社/CNBC/《经济学人》报道，文化出海标杆。",
                   "source_url": "https://view.inews.qq.com/a/20260511A06EKE00"
@@ -777,7 +777,7 @@
                   "ip_origin": "小说",
                   "ip_name": "番茄小说系",
                   "synopsis": "末世题材新故事。",
-                  "release_window": "2026H2",
+                  "release_window": "2028",
                   "date_confirmed": false,
                   "release_status": "预告",
                   "notes": "腾讯与恒星引力传媒（《苍兰诀》出品方）联合出品。；异名《末日特情处》。",
