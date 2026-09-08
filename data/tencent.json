@@ -441,17 +441,17 @@
     "platform_score": 10266,
     "score_raw": 10266,
     "score": null,
-    "latest": "更新至15集",
+    "latest": "更新至17集",
     "status": "连载中",
     "tags": [
-      "奇幻"
+      "玄幻"
     ],
     "year": "2026",
-    "pub_time": "2026-07-24 10:00:00",
+    "pub_time": "2026-07-21 10:00:00",
     "region": "内地",
-    "synopsis": "一人成天灾，万骨俯首称臣",
+    "synopsis": "背叛憎恨我的，我将杀尽",
     "ip_origin": "",
-    "tagline": "奇幻冒险",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -657,17 +657,17 @@
     "platform_score": 9497,
     "score_raw": 9497,
     "score": null,
-    "latest": "全52集",
+    "latest": "全589集",
     "status": "已完结",
     "tags": [
-      "真人"
+      "搞笑"
     ],
-    "year": "1996",
-    "pub_time": "1996-09-07",
-    "region": "日本",
-    "synopsis": "你也可以变成光！",
+    "year": "2020",
+    "pub_time": "2020-12-30",
+    "region": "内地",
+    "synopsis": "普通锤锤的爆笑日常",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "评分 9.3",
     "badge": "",
     "rank_change": null
   },
@@ -996,7 +996,7 @@
     "latest": "全46集",
     "status": "已完结",
     "tags": [
-      "玄幻"
+      "真人"
     ],
     "year": "2022",
     "pub_time": "2022-07-17",
@@ -1636,7 +1636,7 @@
     "latest": "全156集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "搞笑,经典"
     ],
     "year": "2010",
     "pub_time": "",
@@ -1905,7 +1905,7 @@
     "region": "内地",
     "synopsis": "重返少年时光",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -2172,7 +2172,31 @@
     "rank_change": null
   },
   {
-    "rank": 92,
+    "rank": 93,
+    "cid": "2iqrhqekbtgwp1s",
+    "title": "葫芦兄弟",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/2iqrhqekbtgwp1st1444811983.jpg/350",
+    "link": "https://v.qq.com/x/cover/2iqrhqekbtgwp1s.html",
+    "score_label": "热度",
+    "platform_score": 7479,
+    "score_raw": 7479,
+    "score": null,
+    "latest": "全13集",
+    "status": "已完结",
+    "tags": [
+      "冒险"
+    ],
+    "year": "2010",
+    "pub_time": "2020-06-01 00:00:00",
+    "region": "内地",
+    "synopsis": "葫芦娃斗妖精",
+    "ip_origin": "",
+    "tagline": "评分 9.2",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 94,
     "cid": "mzc00200cgo4wcc",
     "title": "画江湖之不良人第六季",
     "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200cgo4wcc1659888008066/350",
@@ -2205,7 +2229,53 @@
     "platform_score": 7392,
     "score_raw": 7392,
     "score": null,
-    "latest": "全294集",
+    "latest": "全24集",
+    "status": "已完结",
+    "tags": [
+      "奇幻"
+    ],
+    "year": "2017",
+    "pub_time": "2017-10-27 10:10:00",
+    "region": "内地",
+    "synopsis": "风起云涌罗天大醮",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 97,
+    "cid": "mzc002002uie58j",
+    "title": "吞噬星空·原始星重温版",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002002uie58j1776863997218/350",
+    "link": "https://v.qq.com/x/cover/mzc002002uie58j.html",
+    "score_label": "热度",
+    "platform_score": 7414,
+    "score_raw": 7414,
+    "score": null,
+    "latest": "更新至219集",
+    "status": "连载中",
+    "tags": [],
+    "year": "2010",
+    "pub_time": "",
+    "region": "内地",
+    "synopsis": "",
+    "ip_origin": "",
+    "tagline": "未来科幻",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 98,
+    "cid": "xr3wcifqf4c3ghv",
+    "title": "蜡笔小新 第3季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/xr3wcifqf4c3ghv1480388718/350",
+    "link": "https://v.qq.com/x/cover/xr3wcifqf4c3ghv.html",
+    "score_label": "热度",
+    "platform_score": 7406,
+    "score_raw": 7406,
+    "score": null,
+    "latest": "全156集",
     "status": "已完结",
     "tags": [
       "日常"
@@ -2213,9 +2283,9 @@
     "year": "2010",
     "pub_time": "",
     "region": "日本",
-    "synopsis": "机器猫第3季",
+    "synopsis": "欢乐搞笑熊孩子",
     "ip_origin": "",
-    "tagline": "评分 9.1",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
