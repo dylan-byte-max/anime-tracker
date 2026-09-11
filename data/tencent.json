@@ -180,7 +180,7 @@
     "latest": "更新至10集",
     "status": "连载中",
     "tags": [
-      "仙侠"
+      "恋爱"
     ],
     "year": "2026",
     "pub_time": "2026-07-22 10:00:00",
@@ -681,17 +681,17 @@
     "platform_score": 9325,
     "score_raw": 9325,
     "score": null,
-    "latest": "全26集",
-    "status": "已完结",
+    "latest": "更新至08集",
+    "status": "连载中",
     "tags": [
-      "仙侠"
+      "奇幻"
     ],
-    "year": "2024",
-    "pub_time": "2024-08-15 10:00:00",
+    "year": "2026",
+    "pub_time": "2026-08-26 10:00:00",
     "region": "内地",
-    "synopsis": "天行健，君子以自强不息",
+    "synopsis": "御兽背叛，逆焰重生",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "都市奇幻",
     "badge": "",
     "rank_change": null
   },
@@ -716,6 +716,78 @@
     "synopsis": "普通锤锤的爆笑日常",
     "ip_origin": "",
     "tagline": "评分 9.3",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 28,
+    "cid": "mzc00200u94ke3h",
+    "title": "万古神帝",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200u94ke3h1781936203384/350",
+    "link": "https://v.qq.com/x/cover/mzc00200u94ke3h.html",
+    "score_label": "热度",
+    "platform_score": 9641,
+    "score_raw": 9641,
+    "score": null,
+    "latest": "更新至17集",
+    "status": "连载中",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2026",
+    "pub_time": "2026-07-21 10:00:00",
+    "region": "内地",
+    "synopsis": "背叛憎恨我的，我将杀尽",
+    "ip_origin": "",
+    "tagline": "东方玄幻",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 29,
+    "cid": "7q544xyrava3vxf",
+    "title": "武神主宰",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/7q544xyrava3vxf1781927008498/350",
+    "link": "https://v.qq.com/x/cover/7q544xyrava3vxf.html",
+    "score_label": "热度",
+    "platform_score": 9606,
+    "score_raw": 9606,
+    "score": null,
+    "latest": "更新至690集",
+    "status": "连载中",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2020",
+    "pub_time": "2020-03-08",
+    "region": "内地",
+    "synopsis": "武神跌落，浴火少年再起",
+    "ip_origin": "",
+    "tagline": "在追破1000万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 30,
+    "cid": "mzc0020072zgk61",
+    "title": "剑来 第一季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc0020072zgk611721874669799/350",
+    "link": "https://v.qq.com/x/cover/mzc0020072zgk61.html",
+    "score_label": "热度",
+    "platform_score": 9393,
+    "score_raw": 9393,
+    "score": null,
+    "latest": "全26集",
+    "status": "已完结",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2024",
+    "pub_time": "2024-08-15 10:00:00",
+    "region": "内地",
+    "synopsis": "天行健，君子以自强不息",
+    "ip_origin": "",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -787,7 +859,7 @@
     "region": "内地",
     "synopsis": "我身为剑，再续前缘",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "评分 9.6",
     "badge": "",
     "rank_change": null
   },
@@ -1253,17 +1325,15 @@
     "platform_score": 8024,
     "score_raw": 8024,
     "score": null,
-    "latest": "全52集",
-    "status": "已完结",
-    "tags": [
-      "奇幻"
-    ],
-    "year": "2025",
-    "pub_time": "2025-07-30 10:00:00",
+    "latest": "更新至193集",
+    "status": "连载中",
+    "tags": [],
+    "year": "2010",
+    "pub_time": "",
     "region": "内地",
-    "synopsis": "铁骑龙腾，续写紫川传奇",
+    "synopsis": "",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -1407,7 +1477,7 @@
     "region": "内地",
     "synopsis": "百亿国漫，王者回归",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "讨论破500万",
     "badge": "",
     "rank_change": null
   },
@@ -1575,7 +1645,7 @@
     "region": "日本",
     "synopsis": "最爆笑的小男孩儿",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "评分 9.0",
     "badge": "",
     "rank_change": null
   },
@@ -1998,14 +2068,14 @@
     "latest": "全54集",
     "status": "已完结",
     "tags": [
-      "武侠"
+      "仙侠"
     ],
-    "year": "2010",
-    "pub_time": "",
+    "year": "2022",
+    "pub_time": "2022-07-20",
     "region": "内地",
-    "synopsis": "群雄侠隐仗剑",
+    "synopsis": "我即血祖，踏破空河！",
     "ip_origin": "",
-    "tagline": "讨论破100万",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -2016,8 +2086,8 @@
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002008llnqea1776069329215/350",
     "link": "https://v.qq.com/x/cover/mzc002008llnqea.html",
     "score_label": "热度",
-    "platform_score": 7393,
-    "score_raw": 7393,
+    "platform_score": 7616,
+    "score_raw": 7616,
     "score": null,
     "latest": "更新至171集",
     "status": "连载中",
@@ -2068,14 +2138,14 @@
     "latest": "",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "仙侠"
     ],
     "year": "2010",
     "pub_time": "",
     "region": "内地",
-    "synopsis": "重振道宗，对抗元门",
+    "synopsis": "绝境破阳实，血幡弑祖魂",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "预约破200万",
     "badge": "",
     "rank_change": null
   },
