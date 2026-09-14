@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-07",
+    "updated": "2026-09-14",
     "schema": "v2",
     "note": "各平台未来排播 pipeline。按平台→发布会→板块(section)→项目层级组织，完整录入官方发布会片单。date_confirmed=true 表示确切上线日期，false 表示模糊时间(如2026/2026Q3)。每周一全网检索更新档期。"
   },
@@ -1401,8 +1401,8 @@
                   "ip_origin": "小说",
                   "ip_name": "遮天（辰东）",
                   "synopsis": "登天路踏歌行；叶凡重回北斗迎来新造型，屠灭神灵谷特别篇。",
-                  "release_window": "2026H2",
-                  "date_confirmed": false,
+                  "release_window": "2026-04-08",
+                  "date_confirmed": true,
                   "release_status": "已定档",
                   "notes": "致力电影级实时渲染；辰东宇宙。",
                   "source_url": "https://www.shxiaowu.com/web/info/809593-1.html"
