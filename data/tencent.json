@@ -2267,7 +2267,31 @@
     "region": "内地",
     "synopsis": "重返少年时光",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "评分 9.4",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 100,
+    "cid": "mzc00200p49magn",
+    "title": "全职高手 第3季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200p49magn1717035881243/350",
+    "link": "https://v.qq.com/x/cover/mzc00200p49magn.html",
+    "score_label": "热度",
+    "platform_score": 7466,
+    "score_raw": 7466,
+    "score": null,
+    "latest": "全17集",
+    "status": "已完结",
+    "tags": [
+      "竞技"
+    ],
+    "year": "2024",
+    "pub_time": "2024-05-30 18:00:00",
+    "region": "内地",
+    "synopsis": "愿有你的荣耀永不散场",
+    "ip_origin": "",
+    "tagline": "电竞",
     "badge": "",
     "rank_change": null
   },
