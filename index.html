@@ -664,6 +664,7 @@ function exportExcel() {
 
 // === 热度对标（数据源：线上仓库 data/benchmarks.json，localStorage 仅作离线缓存）===
 const BM_KEY = 'anime-tracker:benchmarks';        // 本机缓存 / 旧版数据
+const BM_BACKUP_KEY = 'anime-tracker:benchmarks-backup';  // 首次联云前的本机数据备份
 const BM_TOKEN_KEY = 'anime-tracker:gh-token';    // 写入用 token（仅存本机）
 const BM_PLATFORMS = ['iqiyi','tencent','youku','bili-guochuang','bili-bangumi'];
 const GH = { owner:'dylan-byte-max', repo:'anime-tracker', branch:'main', path:'data/benchmarks.json' };
@@ -673,6 +674,16 @@ const bmState = { data:{}, sha:null, source:null, loaded:false, updatedAt:null }
 function bmToken() { try { return localStorage.getItem(BM_TOKEN_KEY) || ''; } catch(e) { return ''; } }
 function bmLocalCache() { try { return JSON.parse(localStorage.getItem(BM_KEY) || '{}'); } catch(e) { return {}; } }
 function bmWriteCache(d) { try { localStorage.setItem(BM_KEY, JSON.stringify(d)); } catch(e) {} }
+// 本机可用的历史数据：优先当前缓存，其次首次联云前的备份
+function bmLegacyData() {
+  const cur = bmNormalize(bmLocalCache());
+  if (bmCount(cur) > 0) return cur;
+  try {
+    const bak = JSON.parse(localStorage.getItem(BM_BACKUP_KEY) || 'null');
+    if (bak) { const d = bmNormalize(bak); if (bmCount(d) > 0) return d; }
+  } catch (e) {}
+  return bmNormalize({});
+}
 function bmCount(d) { return BM_PLATFORMS.reduce((s,p) => s + ((d && d[p]) ? d[p].length : 0), 0); }
 
 function b64ToStr(b64) {
@@ -761,11 +772,21 @@ async function bmSave() {
 async function initBenchmark(force) {
   if (bmState.loaded && !force) { renderBenchmark(); bmRefreshStatus(); return; }
   bmStatus('☁️ 正在读取云端数据…');
+  // 读云端之前先把本机已有数据备份一份，避免被空的云端数据覆盖
+  const legacyBefore = bmNormalize(bmLocalCache());
+  if (bmCount(legacyBefore) > 0) {
+    try {
+      if (!localStorage.getItem(BM_BACKUP_KEY)) {
+        localStorage.setItem(BM_BACKUP_KEY, JSON.stringify({ saved_at:new Date().toISOString(), platforms:legacyBefore }));
+      }
+    } catch (e) {}
+  }
   try {
     const r = await bmFetchCloud();
     bmState.data = r.data; bmState.sha = r.sha; bmState.updatedAt = r.updatedAt; bmState.source = 'cloud';
     bmState.loaded = true;
-    bmWriteCache(bmState.data);
+    // 关键保护：云端为空时绝不用空数据覆盖本机缓存
+    if (bmCount(bmState.data) > 0 || bmCount(legacyBefore) === 0) bmWriteCache(bmState.data);
   } catch (e) {
     try {
       const resp = await fetch('data/benchmarks.json?t=' + Date.now(), { cache:'no-store' });
@@ -774,7 +795,7 @@ async function initBenchmark(force) {
       bmState.data = bmNormalize(j); bmState.sha = null; bmState.updatedAt = j.updated_at || null; bmState.source = 'pages';
       bmState.loaded = true;
     } catch (e2) {
-      bmState.data = bmNormalize(bmLocalCache()); bmState.sha = null; bmState.source = 'local';
+      bmState.data = bmLegacyData(); bmState.sha = null; bmState.source = 'local';
     }
   }
   renderBenchmark();
@@ -793,7 +814,7 @@ function bmRefreshStatus() {
     bmStatus(`📴 云端读取失败，当前显示本机缓存 · 共 ${n} 条`, 'err');
   }
   // 云端为空但本机有旧数据 → 提示一键迁移
-  const legacy = bmNormalize(bmLocalCache());
+  const legacy = bmLegacyData();
   const btn = document.getElementById('bm-migrate');
   if (btn) {
     const show = bmState.source !== 'local' && n === 0 && bmCount(legacy) > 0;
@@ -867,21 +888,33 @@ document.getElementById('bm-refresh').addEventListener('click', () => initBenchm
 // 复制本机/当前数据（无需 Token），交给小巴代为上传
 document.getElementById('bm-copy').addEventListener('click', async () => {
   const cloudN = bmCount(bmState.data);
-  const src = cloudN > 0 ? bmState.data : bmNormalize(bmLocalCache());
+  const src = cloudN > 0 ? bmState.data : bmLegacyData();
   const n = bmCount(src);
-  if (!n) { bmStatus('本机与云端都没有对标数据，无需复制', 'warn'); return; }
-  const txt = JSON.stringify({ platforms: src }, null, 2);
   const out = document.getElementById('bm-copy-out');
   const ta = document.getElementById('bm-copy-text');
+  let txt, msg, kind;
+  if (n) {
+    txt = JSON.stringify({ platforms: src }, null, 2);
+    msg = `📋 已复制 ${n} 条数据到剪贴板，粘贴给小巴即可上传到线上`;
+    kind = 'ok';
+  } else {
+    // 一条都没有 → 导出本机存储快照，方便排查是否还有残留
+    const dump = {};
+    try {
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (/anime|benchmark|tracker/i.test(k)) dump[k] = localStorage.getItem(k);
+      }
+    } catch (e) { dump['_error'] = String(e); }
+    txt = JSON.stringify({ diagnostic: true, ua: navigator.userAgent, keys: dump }, null, 2);
+    msg = '⚠️ 本机与云端都查不到对标数据，已导出本机存储快照（粘给小巴排查是否还有残留）';
+    kind = 'err';
+  }
   ta.value = txt;
   out.classList.remove('hidden');
-  try {
-    await navigator.clipboard.writeText(txt);
-    bmStatus(`📋 已复制 ${n} 条数据到剪贴板，粘贴给小巴即可上传到线上`, 'ok');
-  } catch (e) {
-    ta.focus(); ta.select();
-    bmStatus('📋 剪贴板不可用，请手动复制下方文本框内容', 'warn');
-  }
+  try { await navigator.clipboard.writeText(txt); }
+  catch (e) { ta.focus(); ta.select(); msg += ' · 剪贴板不可用，请手动复制下方文本框'; kind = 'warn'; }
+  bmStatus(msg, kind);
 });
 
 // Token 面板
@@ -908,7 +941,7 @@ document.getElementById('bm-token-clear').addEventListener('click', async () => 
 
 // 一键把本机旧数据上传到云端
 document.getElementById('bm-migrate').addEventListener('click', async () => {
-  const legacy = bmNormalize(bmLocalCache());
+  const legacy = bmLegacyData();
   if (bmCount(legacy) === 0) return;
   if (!bmToken()) { alert('上传需要写入权限，请先点「🔑 写入权限」配置 Token'); return; }
   if (!confirm(`将把本机 ${bmCount(legacy)} 条对标数据上传到云端，确认？`)) return;
