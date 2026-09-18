@@ -25,6 +25,30 @@
   },
   {
     "rank": 2,
+    "cid": "mcv8hkc8zk8lnov",
+    "title": "完美世界",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mcv8hkc8zk8lnov1781670538656/350",
+    "link": "https://v.qq.com/x/cover/mcv8hkc8zk8lnov.html",
+    "score_label": "热度",
+    "platform_score": 16809,
+    "score_raw": 16809,
+    "score": null,
+    "latest": "更新至287集",
+    "status": "连载中",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2021",
+    "pub_time": "2021-04-23 10:00:00",
+    "region": "内地",
+    "synopsis": "论万古英豪，丹心贯尘霄",
+    "ip_origin": "",
+    "tagline": "在追破3000万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 3,
     "cid": "mzc002000iis17y",
     "title": "斩神之凡尘神域 第2季",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002000iis17y1782108736144/350",
@@ -540,7 +564,7 @@
     "latest": "更新至641集",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "战斗,玄幻,腾讯出品"
     ],
     "year": "2020",
     "pub_time": "2020-05-18",
@@ -1113,17 +1137,17 @@
     "platform_score": 8141,
     "score_raw": 8141,
     "score": null,
-    "latest": "更新至09集",
-    "status": "连载中",
+    "latest": "全480集",
+    "status": "已完结",
     "tags": [
-      "科幻"
+      "搞笑,经典"
     ],
-    "year": "2026",
-    "pub_time": "2026-08-27 10:00:00",
-    "region": "内地",
-    "synopsis": "全城人都在求死",
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "永恒的小孩",
     "ip_origin": "",
-    "tagline": "科幻悬疑",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
@@ -1225,6 +1249,54 @@
   },
   {
     "rank": 52,
+    "cid": "mzc002004cljbwx",
+    "title": "仙逆 合集篇",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002004cljbwx1737535144008/350",
+    "link": "https://v.qq.com/x/cover/mzc002004cljbwx.html",
+    "score_label": "热度",
+    "platform_score": 8162,
+    "score_raw": 8162,
+    "score": null,
+    "latest": "全12集",
+    "status": "已完结",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2023",
+    "pub_time": "2023-09-25",
+    "region": "内地",
+    "synopsis": "《仙逆》动画合集篇",
+    "ip_origin": "",
+    "tagline": "东方玄幻",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 53,
+    "cid": "mzc00200e951mx9",
+    "title": "星辰变 最终季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200e951mx91776735977961/350",
+    "link": "https://v.qq.com/x/cover/mzc00200e951mx9.html",
+    "score_label": "热度",
+    "platform_score": 8159,
+    "score_raw": 8159,
+    "score": null,
+    "latest": "全12集",
+    "status": "已完结",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2026",
+    "pub_time": "2026-05-07 10:00:00",
+    "region": "内地",
+    "synopsis": "8年陪伴，国漫白月光迎终章",
+    "ip_origin": "",
+    "tagline": "特效炸裂",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 54,
     "cid": "mzc00200451r6j1",
     "title": "斗破苍穹合集篇",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200451r6j11737106304834/350",
@@ -1336,6 +1408,30 @@
     "synopsis": "平淡的校园的爆笑日常",
     "ip_origin": "",
     "tagline": "评分 9.6",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 56,
+    "cid": "mzc00200kwy29cd",
+    "title": "诛仙 第1季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200kwy29cd1658022336405/350",
+    "link": "https://v.qq.com/x/cover/mzc00200kwy29cd.html",
+    "score_label": "热度",
+    "platform_score": 8093,
+    "score_raw": 8093,
+    "score": null,
+    "latest": "全26集",
+    "status": "已完结",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2022",
+    "pub_time": "2024-03-29 20:00:00",
+    "region": "内地",
+    "synopsis": "拔剑欲问仙，怎修心无念",
+    "ip_origin": "",
+    "tagline": "在追破1000万",
     "badge": "",
     "rank_change": null
   },
@@ -1725,25 +1821,25 @@
   },
   {
     "rank": 73,
-    "cid": "h9py387nkwo4ops",
-    "title": "奥特曼最强合辑",
-    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/h9py387nkwo4ops1479717232/350",
-    "link": "https://v.qq.com/x/cover/h9py387nkwo4ops.html",
+    "cid": "3enwc74hj562xjd",
+    "title": "一人之下 第2季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/3enwc74hj562xjd1508914052/350",
+    "link": "https://v.qq.com/x/cover/3enwc74hj562xjd.html",
     "score_label": "热度",
     "platform_score": 7492,
     "score_raw": 7492,
     "score": null,
-    "latest": "更新至29集",
-    "status": "连载中",
+    "latest": "全24集",
+    "status": "已完结",
     "tags": [
-      "动作,经典,科幻,战斗"
+      "奇幻"
     ],
-    "year": "2010",
-    "pub_time": "",
-    "region": "日本",
-    "synopsis": "历代奥特曼都在这里！",
+    "year": "2017",
+    "pub_time": "2017-10-27 10:10:00",
+    "region": "内地",
+    "synopsis": "风起云涌罗天大醮",
     "ip_origin": "",
-    "tagline": "童年记忆",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
@@ -1757,17 +1853,17 @@
     "platform_score": 7487,
     "score_raw": 7487,
     "score": null,
-    "latest": "全8集",
+    "latest": "全27集",
     "status": "已完结",
     "tags": [
-      "武侠"
+      "恋爱"
     ],
-    "year": "2026",
-    "pub_time": "2026-06-11 10:00:00",
+    "year": "2016",
+    "pub_time": "00:00:00",
     "region": "内地",
-    "synopsis": "狂草美学再搅江湖",
+    "synopsis": "狐妖全系列总集篇",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "评分 9.7",
     "badge": "",
     "rank_change": null
   },
@@ -2070,14 +2166,14 @@
     "latest": "全54集",
     "status": "已完结",
     "tags": [
-      "武侠"
+      "仙侠"
     ],
-    "year": "2010",
-    "pub_time": "",
+    "year": "2022",
+    "pub_time": "2022-07-20",
     "region": "内地",
-    "synopsis": "群雄侠隐仗剑",
+    "synopsis": "我即血祖，踏破空河！",
     "ip_origin": "",
-    "tagline": "讨论破100万",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -2365,7 +2461,7 @@
     "region": "日本",
     "synopsis": "欢乐搞笑熊孩子",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "预约破100万",
     "badge": "",
     "rank_change": null
   },
@@ -2390,6 +2486,54 @@
     "synopsis": "灵气复苏，少年崛起",
     "ip_origin": "",
     "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 99,
+    "cid": "od1kjfd56e3s7n7",
+    "title": "大王饶命 第1季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/od1kjfd56e3s7n71628407965692/350",
+    "link": "https://v.qq.com/x/cover/od1kjfd56e3s7n7.html",
+    "score_label": "热度",
+    "platform_score": 7289,
+    "score_raw": 7289,
+    "score": null,
+    "latest": "全12集",
+    "status": "已完结",
+    "tags": [
+      "都市"
+    ],
+    "year": "2021",
+    "pub_time": "2021-12-03 12:00:00",
+    "region": "内地",
+    "synopsis": "灵气复苏，少年崛起",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 100,
+    "cid": "mzc0020025pxmh9",
+    "title": "鬼灭之刃 柱训练篇",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc0020025pxmh91715829433651/350",
+    "link": "https://v.qq.com/x/cover/mzc0020025pxmh9.html",
+    "score_label": "热度",
+    "platform_score": 7287,
+    "score_raw": 7287,
+    "score": null,
+    "latest": "全8集",
+    "status": "已完结",
+    "tags": [
+      "奇幻"
+    ],
+    "year": "2024",
+    "pub_time": "2024-06-22 20:00:00",
+    "region": "日本",
+    "synopsis": "热血柱之特训高燃来袭！",
+    "ip_origin": "",
+    "tagline": "评分 9.6",
     "badge": "",
     "rank_change": null
   }
