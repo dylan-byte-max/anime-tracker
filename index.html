@@ -180,7 +180,34 @@
   <main class="max-w-7xl mx-auto px-4 sm:px-6 mt-6 pb-16">
     <div class="glow-card rounded-2xl p-5 mb-5">
       <h2 class="text-lg font-bold grad-text mb-2">📊 各平台热度对标</h2>
-      <p class="text-sm text-gray-400">手动填入历史 IP 在各平台的"热度峰值"作为锚点，用于判断当前榜单热度水位。数据保存在本地浏览器（localStorage），不上传服务器。</p>
+      <p class="text-sm text-gray-400">手动填入历史 IP 在各平台的"热度峰值"作为锚点，用于判断当前榜单热度水位。数据已改为<span class="text-purple-300">存在线上仓库</span>（<code class="text-purple-300">data/benchmarks.json</code>），任意设备打开本页都能看到；新增/删除需要一次性配置写入权限。</p>
+    </div>
+
+    <!-- 云端同步状态条 -->
+    <div class="glow-card rounded-2xl p-4 mb-5">
+      <div class="flex flex-wrap items-center gap-3">
+        <span id="bm-sync-status" class="text-sm text-gray-400">☁️ 正在读取云端数据…</span>
+        <div class="ml-auto flex items-center gap-2">
+          <button id="bm-refresh" class="btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium">🔄 刷新</button>
+          <button id="bm-migrate" class="hidden btn-primary px-3 py-1.5 rounded-lg text-xs font-medium">⬆️ 上传本机旧数据</button>
+          <button id="bm-token-toggle" class="btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium">🔑 写入权限</button>
+        </div>
+      </div>
+      <div id="bm-token-panel" class="hidden mt-3 pt-3 border-t border-purple-500/10">
+        <div class="flex flex-col sm:flex-row gap-2">
+          <input id="bm-token-input" type="password" placeholder="粘贴 GitHub 细粒度 Token（github_pat_…）" class="flex-1 input-dark rounded-lg px-3 py-2 text-sm" autocomplete="off" />
+          <button id="bm-token-save" class="btn-primary px-4 py-2 rounded-lg text-sm font-medium shrink-0">保存</button>
+          <button id="bm-token-clear" class="btn-ghost px-4 py-2 rounded-lg text-sm font-medium shrink-0">清除</button>
+        </div>
+        <div class="mt-2 text-xs text-gray-500 leading-relaxed">
+          只读浏览无需任何配置。要在本设备新增/删除对标条目，需要一个只对本仓库有写权限的 Token：<br>
+          ① 打开 <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" class="text-purple-300 underline">GitHub → Fine-grained personal access token</a>；
+          ② Repository access 选 <span class="text-gray-300">Only select repositories → anime-tracker</span>；
+          ③ Permissions → Repository permissions → <span class="text-gray-300">Contents 设为 Read and write</span>；
+          ④ 生成后粘贴到上方保存。<br>
+          Token 只存在本机浏览器，不会写进仓库；换设备要编辑时再配一次即可。
+        </div>
+      </div>
     </div>
 
     <!-- 各平台 section -->
@@ -203,7 +230,7 @@
         <button id="bm-add" class="btn-primary px-4 py-2 rounded-lg text-sm font-medium">添加</button>
       </div>
       <div class="mt-3 text-xs text-gray-500">
-        💡 数据保存在本地浏览器 localStorage，换设备需手动重新填写
+        💡 数据存在线上仓库 <code>data/benchmarks.json</code>，换设备直接可见；本机同时留一份缓存用于离线兜底
       </div>
     </div>
   </main>
@@ -629,18 +656,151 @@ function exportExcel() {
   XLSX.writeFile(wb, `anime-tracker_${currentTab}_${today}.xlsx`);
 }
 
-// === 热度对标 ===
-const BM_KEY = 'anime-tracker:benchmarks';
-function loadBenchmarks() {
-  try { return JSON.parse(localStorage.getItem(BM_KEY) || '{}'); } catch(e) { return {}; }
+// === 热度对标（数据源：线上仓库 data/benchmarks.json，localStorage 仅作离线缓存）===
+const BM_KEY = 'anime-tracker:benchmarks';        // 本机缓存 / 旧版数据
+const BM_TOKEN_KEY = 'anime-tracker:gh-token';    // 写入用 token（仅存本机）
+const BM_PLATFORMS = ['iqiyi','tencent','youku','bili-guochuang','bili-bangumi'];
+const GH = { owner:'dylan-byte-max', repo:'anime-tracker', branch:'main', path:'data/benchmarks.json' };
+
+const bmState = { data:{}, sha:null, source:null, loaded:false, updatedAt:null };
+
+function bmToken() { try { return localStorage.getItem(BM_TOKEN_KEY) || ''; } catch(e) { return ''; } }
+function bmLocalCache() { try { return JSON.parse(localStorage.getItem(BM_KEY) || '{}'); } catch(e) { return {}; } }
+function bmWriteCache(d) { try { localStorage.setItem(BM_KEY, JSON.stringify(d)); } catch(e) {} }
+function bmCount(d) { return BM_PLATFORMS.reduce((s,p) => s + ((d && d[p]) ? d[p].length : 0), 0); }
+
+function b64ToStr(b64) {
+  const bin = atob(String(b64).replace(/\s/g,''));
+  const bytes = Uint8Array.from(bin, c => c.charCodeAt(0));
+  return new TextDecoder('utf-8').decode(bytes);
 }
-function saveBenchmarks(bm) { localStorage.setItem(BM_KEY, JSON.stringify(bm)); }
+function strToB64(s) {
+  const bytes = new TextEncoder().encode(s);
+  let bin = ''; bytes.forEach(b => bin += String.fromCharCode(b));
+  return btoa(bin);
+}
+function bmStatus(msg, kind) {
+  const el = document.getElementById('bm-sync-status');
+  if (!el) return;
+  const color = { ok:'text-green-300', warn:'text-amber-300', err:'text-red-300' }[kind] || 'text-gray-400';
+  el.className = 'text-sm ' + color;
+  el.textContent = msg;
+}
+function bmNormalize(raw) {
+  const src = (raw && raw.platforms) ? raw.platforms : (raw || {});
+  const out = {};
+  for (const p of BM_PLATFORMS) out[p] = Array.isArray(src[p]) ? src[p] : [];
+  return out;
+}
+
+// 读：优先 GitHub API（写入后立刻可见）→ Pages 静态文件（API 限流兜底）→ 本机缓存（离线兜底）
+async function bmFetchCloud() {
+  const headers = { 'Accept':'application/vnd.github+json' };
+  const t = bmToken(); if (t) headers['Authorization'] = 'Bearer ' + t;
+  const url = `https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/${encodeURIComponent(GH.path)}?ref=${GH.branch}&t=${Date.now()}`;
+  const resp = await fetch(url, { headers, cache:'no-store' });
+  if (resp.status === 404) return { data: bmNormalize({}), sha:null, updatedAt:null };
+  if (!resp.ok) throw new Error('GitHub API ' + resp.status);
+  const j = await resp.json();
+  let parsed = {};
+  try { parsed = JSON.parse(j.content ? b64ToStr(j.content) : '{}') || {}; } catch(e) { parsed = {}; }
+  return { data: bmNormalize(parsed), sha: j.sha, updatedAt: parsed.updated_at || null };
+}
+
+// 写：PUT contents API；sha 冲突自动重取重试一次
+async function bmPushCloud() {
+  const t = bmToken();
+  if (!t) throw new Error('NO_TOKEN');
+  const payload = JSON.stringify({ updated_at: new Date().toISOString(), platforms: bmState.data }, null, 2) + '\n';
+  const b64 = strToB64(payload);
+  const put = (sha) => fetch(`https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/${encodeURIComponent(GH.path)}`, {
+    method: 'PUT',
+    headers: { 'Accept':'application/vnd.github+json', 'Authorization':'Bearer ' + t, 'Content-Type':'application/json' },
+    body: JSON.stringify(Object.assign({ message:'chore(benchmark): 更新热度对标数据', content:b64, branch:GH.branch }, sha ? { sha } : {}))
+  });
+  let resp = await put(bmState.sha);
+  if (resp.status === 409 || resp.status === 422) {
+    const fresh = await bmFetchCloud();
+    bmState.sha = fresh.sha;
+    resp = await put(fresh.sha);
+  }
+  if (!resp.ok) {
+    let detail = '';
+    try { detail = (await resp.json()).message || ''; } catch(e) {}
+    if (resp.status === 401 || resp.status === 403) throw new Error(`Token 无效或缺少 Contents 写权限（${resp.status}）`);
+    throw new Error(`${resp.status} ${detail}`.trim());
+  }
+  const j = await resp.json();
+  bmState.sha = (j.content && j.content.sha) || null;
+  bmState.updatedAt = new Date().toISOString();
+}
+
+async function bmSave() {
+  bmWriteCache(bmState.data);
+  if (!bmToken()) {
+    bmStatus('⚠️ 未配置写入权限，改动只留在本机 · 点右侧「🔑 写入权限」同步到云端', 'warn');
+    return false;
+  }
+  bmStatus('💾 正在保存到云端…');
+  try {
+    await bmPushCloud();
+    bmStatus(`✅ 已同步到云端 · ${new Date().toLocaleTimeString('zh-CN')} · 共 ${bmCount(bmState.data)} 条`, 'ok');
+    return true;
+  } catch (e) {
+    bmStatus('❌ 云端保存失败：' + e.message + '（改动已暂存本机，可点「🔄 刷新」重试）', 'err');
+    return false;
+  }
+}
+
+async function initBenchmark(force) {
+  if (bmState.loaded && !force) { renderBenchmark(); bmRefreshStatus(); return; }
+  bmStatus('☁️ 正在读取云端数据…');
+  try {
+    const r = await bmFetchCloud();
+    bmState.data = r.data; bmState.sha = r.sha; bmState.updatedAt = r.updatedAt; bmState.source = 'cloud';
+    bmState.loaded = true;
+    bmWriteCache(bmState.data);
+  } catch (e) {
+    try {
+      const resp = await fetch('data/benchmarks.json?t=' + Date.now(), { cache:'no-store' });
+      if (!resp.ok) throw new Error('pages ' + resp.status);
+      const j = await resp.json();
+      bmState.data = bmNormalize(j); bmState.sha = null; bmState.updatedAt = j.updated_at || null; bmState.source = 'pages';
+      bmState.loaded = true;
+    } catch (e2) {
+      bmState.data = bmNormalize(bmLocalCache()); bmState.sha = null; bmState.source = 'local';
+    }
+  }
+  renderBenchmark();
+  bmRefreshStatus();
+}
+
+function bmRefreshStatus() {
+  const n = bmCount(bmState.data);
+  const stamp = bmState.updatedAt ? new Date(bmState.updatedAt).toLocaleString('zh-CN', { hour12:false }) : '—';
+  const canWrite = !!bmToken();
+  if (bmState.source === 'cloud') {
+    bmStatus(`☁️ 已连接云端 · 共 ${n} 条 · 最后更新 ${stamp} · ${canWrite ? '可编辑' : '只读（本设备未配置写入权限）'}`, canWrite ? 'ok' : null);
+  } else if (bmState.source === 'pages') {
+    bmStatus(`☁️ 已读取线上快照（API 暂不可用，可能有 1 分钟延迟）· 共 ${n} 条 · ${canWrite ? '可编辑' : '只读'}`, 'warn');
+  } else {
+    bmStatus(`📴 云端读取失败，当前显示本机缓存 · 共 ${n} 条`, 'err');
+  }
+  // 云端为空但本机有旧数据 → 提示一键迁移
+  const legacy = bmNormalize(bmLocalCache());
+  const btn = document.getElementById('bm-migrate');
+  if (btn) {
+    const show = bmState.source !== 'local' && n === 0 && bmCount(legacy) > 0;
+    btn.classList.toggle('hidden', !show);
+    if (show) btn.textContent = `⬆️ 上传本机旧数据（${bmCount(legacy)} 条）`;
+  }
+}
 
 function renderBenchmark() {
-  const bm = loadBenchmarks();
+  const bm = bmState.data;
   const sections = document.getElementById('benchmark-sections');
   sections.innerHTML = '';
-  for (const platform of ['iqiyi','tencent','youku','bili-guochuang','bili-bangumi']) {
+  for (const platform of BM_PLATFORMS) {
     const items = (bm[platform] || []).slice().sort((a,b) => b.peak - a.peak);
     const sec = document.createElement('div');
     sec.className = 'glow-card rounded-2xl p-5';
@@ -667,31 +827,68 @@ function renderBenchmark() {
   }
   // 绑定删除
   document.querySelectorAll('.bm-del').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', async () => {
       const platform = btn.dataset.platform;
       const id = btn.dataset.id;
-      const bm = loadBenchmarks();
-      bm[platform] = (bm[platform]||[]).filter(x => x.id !== id);
-      saveBenchmarks(bm);
+      const item = (bmState.data[platform] || []).find(x => x.id === id);
+      if (!confirm(`确认删除「${item ? item.title : ''}」？`)) return;
+      bmState.data[platform] = (bmState.data[platform] || []).filter(x => x.id !== id);
       renderBenchmark();
+      await bmSave();
     });
   });
 }
 
-document.getElementById('bm-add').addEventListener('click', () => {
+document.getElementById('bm-add').addEventListener('click', async () => {
   const platform = document.getElementById('bm-platform').value;
   const title = document.getElementById('bm-title').value.trim();
   const peak = parseFloat(document.getElementById('bm-peak').value);
   const note = document.getElementById('bm-note').value.trim();
   if (!title || !peak) { alert('请填写作品名和热度峰值'); return; }
-  const bm = loadBenchmarks();
-  if (!bm[platform]) bm[platform] = [];
-  bm[platform].push({ id: Date.now()+'_'+Math.random().toString(36).slice(2,7), title, peak, note });
-  saveBenchmarks(bm);
+  if (!bmState.loaded) { alert('云端数据还没读完，请稍等一秒再添加，避免覆盖线上数据'); return; }
+  if (!bmState.data[platform]) bmState.data[platform] = [];
+  bmState.data[platform].push({ id: Date.now()+'_'+Math.random().toString(36).slice(2,7), title, peak, note });
   document.getElementById('bm-title').value = '';
   document.getElementById('bm-peak').value = '';
   document.getElementById('bm-note').value = '';
   renderBenchmark();
+  await bmSave();
+});
+
+// 刷新（强制重读云端）
+document.getElementById('bm-refresh').addEventListener('click', () => initBenchmark(true));
+
+// Token 面板
+document.getElementById('bm-token-toggle').addEventListener('click', () => {
+  const panel = document.getElementById('bm-token-panel');
+  panel.classList.toggle('hidden');
+  if (!panel.classList.contains('hidden')) {
+    document.getElementById('bm-token-input').value = bmToken();
+  }
+});
+document.getElementById('bm-token-save').addEventListener('click', async () => {
+  const v = document.getElementById('bm-token-input').value.trim();
+  if (!v) { alert('请粘贴 Token'); return; }
+  try { localStorage.setItem(BM_TOKEN_KEY, v); } catch(e) { alert('本机存储不可用，无法保存 Token'); return; }
+  document.getElementById('bm-token-panel').classList.add('hidden');
+  await initBenchmark(true);
+});
+document.getElementById('bm-token-clear').addEventListener('click', async () => {
+  try { localStorage.removeItem(BM_TOKEN_KEY); } catch(e) {}
+  document.getElementById('bm-token-input').value = '';
+  document.getElementById('bm-token-panel').classList.add('hidden');
+  await initBenchmark(true);
+});
+
+// 一键把本机旧数据上传到云端
+document.getElementById('bm-migrate').addEventListener('click', async () => {
+  const legacy = bmNormalize(bmLocalCache());
+  if (bmCount(legacy) === 0) return;
+  if (!bmToken()) { alert('上传需要写入权限，请先点「🔑 写入权限」配置 Token'); return; }
+  if (!confirm(`将把本机 ${bmCount(legacy)} 条对标数据上传到云端，确认？`)) return;
+  bmState.data = legacy;
+  renderBenchmark();
+  if (await bmSave()) { await initBenchmark(true); }
 });
 
 document.getElementById('export-excel').addEventListener('click', exportExcel);
@@ -958,7 +1155,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     if (tab === 'benchmark') {
       vList.classList.add('hidden'); vPipe.classList.add('hidden');
       vBench.classList.remove('hidden');
-      renderBenchmark();
+      initBenchmark();
     } else if (tab === 'pipeline') {
       vList.classList.add('hidden'); vBench.classList.add('hidden');
       vPipe.classList.remove('hidden');
