@@ -189,14 +189,9 @@
         <span id="bm-sync-status" class="text-sm text-gray-400">☁️ 正在读取云端数据…</span>
         <div class="ml-auto flex items-center gap-2">
           <button id="bm-refresh" class="btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium">🔄 刷新</button>
-          <button id="bm-copy" class="btn-primary px-3 py-1.5 rounded-lg text-xs font-medium">📋 复制本机数据</button>
           <button id="bm-migrate" class="hidden btn-primary px-3 py-1.5 rounded-lg text-xs font-medium">⬆️ 上传本机旧数据</button>
           <button id="bm-token-toggle" class="btn-ghost px-3 py-1.5 rounded-lg text-xs font-medium">🔑 写入权限</button>
         </div>
-      </div>
-      <div id="bm-copy-out" class="hidden mt-3 pt-3 border-t border-purple-500/10">
-        <div class="text-xs text-gray-400 mb-1.5 leading-relaxed">👇 已复制到剪贴板。直接粘贴给小巴、说一句「帮我上传对标数据」，我会提交到线上。若粘贴失败，手动全选复制下面文本框：</div>
-        <textarea id="bm-copy-text" rows="6" class="w-full input-dark rounded-lg px-3 py-2 text-xs" style="font-family:ui-monospace,Consolas,monospace" readonly></textarea>
       </div>
       <div id="bm-token-panel" class="hidden mt-3 pt-3 border-t border-purple-500/10">
         <div class="flex flex-col sm:flex-row gap-2">
@@ -205,7 +200,7 @@
           <button id="bm-token-clear" class="btn-ghost px-4 py-2 rounded-lg text-sm font-medium shrink-0">清除</button>
         </div>
         <div class="mt-2 text-xs text-gray-500 leading-relaxed">
-          <span class="text-amber-300">不想自己配？</span>点上面的「📋 复制本机数据」，把内容粘给小巴，让它替你写到线上；以后要加条目也可以直接跟小巴说。<br>
+          <span class="text-amber-300">不想自己配？</span>直接跟小巴说要加哪条（平台 / 作品名 / 热度峰值 / 备注），它会写到线上，你刷新即可看到。<br>
           <span class="text-gray-400">以下是自助方案：</span>只读浏览无需任何配置。要在本设备直接新增/删除，需要一个只对本仓库有写权限的 Token：<br>
           ① 打开 <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" class="text-purple-300 underline">GitHub → Fine-grained personal access token</a>；
           ② Repository access 选 <span class="text-gray-300">Only select repositories → anime-tracker</span>；
@@ -884,38 +879,6 @@ document.getElementById('bm-add').addEventListener('click', async () => {
 
 // 刷新（强制重读云端）
 document.getElementById('bm-refresh').addEventListener('click', () => initBenchmark(true));
-
-// 复制本机/当前数据（无需 Token），交给小巴代为上传
-document.getElementById('bm-copy').addEventListener('click', async () => {
-  const cloudN = bmCount(bmState.data);
-  const src = cloudN > 0 ? bmState.data : bmLegacyData();
-  const n = bmCount(src);
-  const out = document.getElementById('bm-copy-out');
-  const ta = document.getElementById('bm-copy-text');
-  let txt, msg, kind;
-  if (n) {
-    txt = JSON.stringify({ platforms: src }, null, 2);
-    msg = `📋 已复制 ${n} 条数据到剪贴板，粘贴给小巴即可上传到线上`;
-    kind = 'ok';
-  } else {
-    // 一条都没有 → 导出本机存储快照，方便排查是否还有残留
-    const dump = {};
-    try {
-      for (let i = 0; i < localStorage.length; i++) {
-        const k = localStorage.key(i);
-        if (/anime|benchmark|tracker/i.test(k)) dump[k] = localStorage.getItem(k);
-      }
-    } catch (e) { dump['_error'] = String(e); }
-    txt = JSON.stringify({ diagnostic: true, ua: navigator.userAgent, keys: dump }, null, 2);
-    msg = '⚠️ 本机与云端都查不到对标数据，已导出本机存储快照（粘给小巴排查是否还有残留）';
-    kind = 'err';
-  }
-  ta.value = txt;
-  out.classList.remove('hidden');
-  try { await navigator.clipboard.writeText(txt); }
-  catch (e) { ta.focus(); ta.select(); msg += ' · 剪贴板不可用，请手动复制下方文本框'; kind = 'warn'; }
-  bmStatus(msg, kind);
-});
 
 // Token 面板
 document.getElementById('bm-token-toggle').addEventListener('click', () => {
