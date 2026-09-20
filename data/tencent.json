@@ -120,6 +120,54 @@
     "rank_change": null
   },
   {
+    "rank": 4,
+    "cid": "mzc00200stwyax5",
+    "title": "茶啊二中 第6季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200stwyax51783648218157/350",
+    "link": "https://v.qq.com/x/cover/mzc00200stwyax5.html",
+    "score_label": "热度",
+    "platform_score": 15486,
+    "score_raw": 15486,
+    "score": null,
+    "latest": "全10集",
+    "status": "已完结",
+    "tags": [
+      "搞笑"
+    ],
+    "year": "2026",
+    "pub_time": "2026-07-26 10:00:00",
+    "region": "内地",
+    "synopsis": "重返二中，笑赴年少时光",
+    "ip_origin": "",
+    "tagline": "评分 9.7",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 5,
+    "cid": "mzc00200w9z1axf",
+    "title": "诛仙 最终季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200w9z1axf1786067832823/350",
+    "link": "https://v.qq.com/x/cover/mzc00200w9z1axf.html",
+    "score_label": "热度",
+    "platform_score": 15335,
+    "score_raw": 15335,
+    "score": null,
+    "latest": "更新至07集",
+    "status": "连载中",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2026",
+    "pub_time": "2026-08-21 10:00:00",
+    "region": "内地",
+    "synopsis": "诛魔道辩正邪，十载终红鸾",
+    "ip_origin": "",
+    "tagline": "评分 9.4",
+    "badge": "",
+    "rank_change": null
+  },
+  {
     "rank": 6,
     "cid": "mzc00200xf3rir6",
     "title": "斗罗大陆Ⅱ绝世唐门",
@@ -348,7 +396,7 @@
     "latest": "更新至453集",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "冒险,战斗,玄幻"
     ],
     "year": "2017",
     "pub_time": "2023-01-14 10:00:00",
@@ -612,7 +660,7 @@
     "latest": "更新至484集",
     "status": "连载中",
     "tags": [
-      "玄幻"
+      "玄幻,战斗,腾讯出品"
     ],
     "year": "2021",
     "pub_time": "2021-04-06 10:00:00",
@@ -945,17 +993,17 @@
     "platform_score": 8697,
     "score_raw": 8697,
     "score": null,
-    "latest": "全35集",
+    "latest": "全28集",
     "status": "已完结",
     "tags": [
       "玄幻,腾讯出品,战斗"
     ],
-    "year": "2018",
-    "pub_time": "2021-08-07 12:00:00",
-    "region": "内地",
-    "synopsis": "夷陵老祖重现人间",
+    "year": "2020",
+    "pub_time": "2020-06-20 10:00:00",
+    "region": "日本",
+    "synopsis": "赛罗徒弟大展身手",
     "ip_origin": "",
-    "tagline": "评分 9.8",
+    "tagline": "评分 9.2",
     "badge": "",
     "rank_change": null
   },
@@ -1047,11 +1095,11 @@
       "玄幻"
     ],
     "year": "2018",
-    "pub_time": "2018-01-20 10:00:07",
+    "pub_time": "2021-08-07 12:00:00",
     "region": "内地",
-    "synopsis": "此生不悔入唐门",
+    "synopsis": "夷陵老祖重现人间",
     "ip_origin": "",
-    "tagline": "评分 9.3",
+    "tagline": "评分 9.8",
     "badge": "",
     "rank_change": null
   },
@@ -1316,26 +1364,26 @@
     "rank_change": null
   },
   {
-    "rank": 56,
-    "cid": "mzc00200kwy29cd",
-    "title": "诛仙 第1季",
-    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200kwy29cd1658022336405/350",
-    "link": "https://v.qq.com/x/cover/mzc00200kwy29cd.html",
+    "rank": 49,
+    "cid": "mzc00200ot2jctt",
+    "title": "盘龙",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200ot2jctt1776389839831/350",
+    "link": "https://v.qq.com/x/cover/mzc00200ot2jctt.html",
     "score_label": "热度",
     "platform_score": 8196,
     "score_raw": 8196,
     "score": null,
-    "latest": "全26集",
+    "latest": "全20集",
     "status": "已完结",
     "tags": [
-      "仙侠"
+      "奇幻"
     ],
-    "year": "2022",
-    "pub_time": "2024-03-29 20:00:00",
+    "year": "2026",
+    "pub_time": "2026-04-30 10:00:00",
     "region": "内地",
-    "synopsis": "拔剑欲问仙，怎修心无念",
+    "synopsis": "一戒盘龙，龙血战士觉醒！",
     "ip_origin": "",
-    "tagline": "在追破1000万",
+    "tagline": "奇幻魔法",
     "badge": "",
     "rank_change": null
   },
@@ -1736,7 +1784,7 @@
     "latest": "全10集",
     "status": "已完结",
     "tags": [
-      "搞笑"
+      "真人"
     ],
     "year": "2010",
     "pub_time": "",
@@ -2375,7 +2423,7 @@
     "platform_score": 7411,
     "score_raw": 7411,
     "score": null,
-    "latest": "全27集",
+    "latest": "全54集",
     "status": "已完结",
     "tags": [
       "恋爱"
