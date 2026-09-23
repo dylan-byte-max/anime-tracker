@@ -862,5 +862,33 @@
     "tagline": "豆瓣高分",
     "badge": "",
     "rank_change": null
+  },
+  {
+    "rank": 60,
+    "title": "小品一家人",
+    "cover": "https://pic9.iqiyipic.com/image/20250827/2a/77/a_100391456_m_601_m15_318_424.webp",
+    "link": "https://www.iqiyi.com/v_19rxbzzmao.html",
+    "score_label": "热度",
+    "platform_score": 0,
+    "score_raw": 0,
+    "score": null,
+    "latest": "更新至820集",
+    "status": "连载中",
+    "tags": [
+      "搞笑",
+      "日常",
+      "泡面",
+      "校园",
+      "生活",
+      "合家欢"
+    ],
+    "year": 2020,
+    "pub_time": "2020-3-9",
+    "region": "内地",
+    "synopsis": "讲述的是一家四口的搞笑故事，传递正能量，幽默搞笑神反转。 小品是一名小学三年级的学生。他是一个活泼开朗的调皮孩子，做事喜欢别出心裁。与父亲品爸，母亲品妈和爷爷老品组成四口之家。日子温馨感动又不乏搞笑。",
+    "ip_origin": "",
+    "tagline": "搞笑",
+    "badge": "",
+    "rank_change": null
   }
 ]
