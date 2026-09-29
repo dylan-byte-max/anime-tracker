@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-21",
+    "updated": "2026-09-29",
     "schema": "v2",
     "note": "各平台未来排播 pipeline。按平台→发布会→板块(section)→项目层级组织，完整录入官方发布会片单。date_confirmed=true 表示确切上线日期，false 表示模糊时间(如2026/2026Q3)。每周一全网检索更新档期。"
   },
@@ -60,10 +60,10 @@
                   "ip_origin": "原创剧本",
                   "ip_name": "优酷原创",
                   "synopsis": "首部纯原创3D大女主国漫，以女性独立成长为核心（女主云望舒），高定幻想国风叙事，摒弃大女主必谈恋爱套路。",
-                  "release_window": "2026暑期",
+                  "release_window": "2026-10",
                   "date_confirmed": false,
                   "release_status": "已定档",
-                  "notes": "SP与第二季官宣定档2026暑期档；预约近300万，长期女生榜TOP1；云望舒是唯一登《费加罗》开年群封的国漫女性角色；真人剧同步开发中。",
+                  "notes": "SP与第二季官宣定档2026暑期档；暑期已过未播，9月23日头条文章确认「云深不知梦也定在10月」，更新至2026-10，无精确日。预约近300万，长期女生榜TOP1；云望舒是唯一登《费加罗》开年群封的国漫女性角色；真人剧同步开发中。",
                   "source_url": "https://view.inews.qq.com/a/20260511A06EKE00"
                 }
               ]
@@ -398,10 +398,10 @@
                   "ip_origin": "原创剧本",
                   "ip_name": "优酷原创",
                   "synopsis": "云望舒大婚遭背叛灭门、换脸重生复仇后，走向更广阔世界的异域冒险救赎之路，面对更宏大世界观与暗线。",
-                  "release_window": "2026",
+                  "release_window": "2026-10",
                   "date_confirmed": false,
                   "release_status": "预告",
-                  "notes": "优酷「新原创」战略首个成功样本；第一季开播两小时站内热度破8000刷新新IP预约纪录，真人剧已进入开发；女主云望舒登《费加罗Mode》国漫开年群封。",
+                  "notes": "优酷「新原创」战略首个成功样本；第一季开播两小时站内热度破8000刷新新IP预约纪录，真人剧已进入开发；女主云望舒登《费加罗Mode》国漫开年群封。2026-09-23头条文章确认「云深不知梦也定在10月」，暑期档已过，更新至2026-10。",
                   "source_url": "https://mp.weixin.qq.com/s/ldlt_1y5wY1WkiLdB_dmAw"
                 },
                 {
@@ -1023,10 +1023,10 @@
                   "ip_origin": "小说",
                   "ip_name": "大道之上（宅猪）",
                   "synopsis": "中式民俗玄幻，「一乡一异闻，一村一精怪」；东方诡秘+传统修真。",
-                  "release_window": "2026Q3",
+                  "release_window": "2026Q4",
                   "date_confirmed": false,
                   "release_status": "预告",
-                  "notes": "原著作者看PV后称「太对味了」；民俗玄幻差异化标杆。",
+                  "notes": "原著作者看PV后称「太对味了」；民俗玄幻差异化标杆。Q3已过（截至2026-09-29未上线），推至Q4。",
                   "source_url": "https://www.toutiao.com/article/7654744462140228159/"
                 },
                 {
@@ -1059,10 +1059,10 @@
                   "ip_origin": "小说",
                   "ip_name": "神秘复苏（佛前献花）",
                   "synopsis": "灵异复苏流现象级IP，「都市+诡异」规则类灵异新世界设定。",
-                  "release_window": "2026-09",
+                  "release_window": "2027",
                   "date_confirmed": false,
                   "release_status": "预告",
-                  "notes": "",
+                  "notes": "2026-09-18官方发布会口径偏向2027年播出，网传2026年内上线均为业内人士猜测。",
                   "source_url": "https://finance.sina.cn/2026-06-22/detail-iniekknt9781181.d.html"
                 },
                 {
@@ -1305,11 +1305,11 @@
                   "ip_origin": "小说",
                   "ip_name": "仙逆（耳根）",
                   "synopsis": "王林与血祖生死对决，雷之仙界最燃一战。",
-                  "release_window": "TBD",
-                  "date_confirmed": false,
-                  "release_status": "预告",
-                  "notes": "剧场版拆分线。",
-                  "source_url": "https://finance.sina.cn/2026-06-22/detail-iniekknt9781181.d.html"
+                  "release_window": "2026-10-01",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
+                  "notes": "剧场版拆分线。2026-09-18官宣定档国庆10月1日，腾讯视频/极光TV同步，预约破260万。",
+                  "source_url": "https://baike.baidu.com/item/仙逆剧场版:弑仙之战/66296206"
                 },
                 {
                   "title": "仙逆 年番",
@@ -1425,10 +1425,10 @@
                   "ip_origin": "漫画",
                   "ip_name": "大王饶命（会说话的肘子）",
                   "synopsis": "大魔王回归，卡洛儿登场，吕树将踏出国门。",
-                  "release_window": "2026-06-26",
+                  "release_window": "2026-10-03",
                   "date_confirmed": true,
                   "release_status": "已定档",
-                  "notes": "进入制作收尾，大概率今年9月见；第四季已启动。",
+                  "notes": "进入制作收尾，大概率今年9月见；第四季已启动。2026-09-12官宣定档10月3日，每周六10点腾讯视频，共16集。",
                   "source_url": "https://finance.sina.cn/2026-06-22/detail-iniekknt9781181.d.html"
                 },
                 {
@@ -1870,10 +1870,10 @@
                   "ip_origin": "小说",
                   "ip_name": "万相之王（天蚕土豆）",
                   "synopsis": "李洛负天生空相、承五年死限，携姜青娥绝境逆袭成万相主宰。",
-                  "release_window": "TBD",
+                  "release_window": "2026-10",
                   "date_confirmed": false,
                   "release_status": "预告",
-                  "notes": "中影年年；青春热血正能量，色调明亮。",
+                  "notes": "中影年年；青春热血正能量，色调明亮。2026-09-23头条文章「万相之王10月上线」，天蚕土豆直播亦称年底播出，取偏乐观值2026-10，无精确日。",
                   "source_url": "https://pages.iqiyi.com/p/scpr/63x0awbw.html"
                 },
                 {
