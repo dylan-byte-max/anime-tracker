@@ -553,7 +553,7 @@
     "platform_score": "7亿次播放",
     "score_raw": 698531022,
     "score": "8.9",
-    "follow_count": "1034.7万系列追番",
+    "follow_count": "1034.8万系列追番",
     "tags": [],
     "year": "2020",
     "pub_time": "2020-10-31 11:00:00",
@@ -809,7 +809,33 @@
     "rank_change": null
   },
   {
-    "rank": 30,
+    "rank": 34,
+    "season_id": 26311,
+    "media_id": 4315962,
+    "title": "凹凸世界 第三季",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/8155078332f0d9ce724eda922a14c0f7c9c826ca.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss26311",
+    "sub_title": "打破虚假表象",
+    "status": "已完结",
+    "latest": "全40话",
+    "score_label": "播放量",
+    "platform_score": "4.8亿次播放",
+    "score_raw": 478256062,
+    "score": "9.4",
+    "follow_count": "450.2万系列追番",
+    "tags": [],
+    "year": "2019",
+    "pub_time": "2019-01-25 12:00:00",
+    "region": "中国大陆",
+    "synopsis": "凹凸世界的创世神是一位很肆意随性的神明，他创造了凹凸世界的无数星球和人民，又随心所欲地统治着他们。同时他还设立了七神使，让他们代行神旨。\n但是，创世神也不是完全不给他的子民机会——只要在“凹凸大赛”中获得最终的胜利，那么就能得到一切，并赐予你与“七神使”一样代神统治世界的权力。\n然而，以上这些，都只是虚伪的表象。\n这场比赛注定没有胜利者。\n直到，我们的主角——金，出现在了赛场上。\n",
+    "series": "凹凸世界",
+    "ip_origin": "",
+    "total": "4.8亿次播放",
+    "badge": "独家",
+    "rank_change": null
+  },
+  {
+    "rank": 35,
     "season_id": 48518,
     "media_id": 22730760,
     "title": "宗门里除了我都是卧底",
@@ -839,7 +865,7 @@
     "rank_change": null
   },
   {
-    "rank": 31,
+    "rank": 36,
     "season_id": 26266,
     "media_id": 4315642,
     "title": "元龙",
@@ -865,7 +891,7 @@
     "rank_change": null
   },
   {
-    "rank": 32,
+    "rank": 37,
     "season_id": 39696,
     "media_id": 28235390,
     "title": "仙王的日常生活 第三季",
