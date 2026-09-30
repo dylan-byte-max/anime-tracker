@@ -81,17 +81,17 @@
     "platform_score": 15087,
     "score_raw": 15087,
     "score": null,
-    "latest": "更新至243集",
+    "latest": "更新至13集",
     "status": "连载中",
     "tags": [
-      "科幻"
+      "仙侠"
     ],
-    "year": "2020",
-    "pub_time": "2020-11-29",
+    "year": "2026",
+    "pub_time": "2026-07-22 10:00:00",
     "region": "内地",
-    "synopsis": "银河浩瀚，征途不止",
+    "synopsis": "偷鸡少年长生一梦终圆满",
     "ip_origin": "",
-    "tagline": "在追破2000万",
+    "tagline": "评分 9.7",
     "badge": "",
     "rank_change": null
   },
@@ -975,16 +975,16 @@
       "仙侠"
     ],
     "year": "2018",
-    "pub_time": "2021-08-07 12:00:00",
+    "pub_time": "2018-01-20 10:00:07",
     "region": "内地",
-    "synopsis": "夷陵老祖重现人间",
+    "synopsis": "此生不悔入唐门",
     "ip_origin": "",
-    "tagline": "评分 9.8",
+    "tagline": "评分 9.3",
     "badge": "",
     "rank_change": null
   },
   {
-    "rank": 42,
+    "rank": 43,
     "cid": "mzc00200plj2c14",
     "title": "魔皇大管家",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200plj2c141787557219565/350",
@@ -1159,13 +1159,13 @@
     "platform_score": 8362,
     "score_raw": 8362,
     "score": null,
-    "latest": "全40集",
-    "status": "已完结",
+    "latest": "更新至25集",
+    "status": "连载中",
     "tags": [
       "玄幻"
     ],
-    "year": "2018",
-    "pub_time": "2018-01-20 10:00:07",
+    "year": "2026",
+    "pub_time": "2026-07-15 10:00:00",
     "region": "内地",
     "synopsis": "此生不悔入唐门",
     "ip_origin": "",
@@ -1303,15 +1303,17 @@
     "platform_score": 8217,
     "score_raw": 8217,
     "score": null,
-    "latest": "更新至193集",
-    "status": "连载中",
-    "tags": [],
+    "latest": "全14集",
+    "status": "已完结",
+    "tags": [
+      "搞笑"
+    ],
     "year": "2010",
     "pub_time": "",
     "region": "内地",
-    "synopsis": "",
+    "synopsis": "平淡的校园的爆笑日常",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "评分 9.6",
     "badge": "",
     "rank_change": null
   },
@@ -1412,7 +1414,7 @@
     "rank_change": null
   },
   {
-    "rank": 60,
+    "rank": 52,
     "cid": "mzc00200g760kt3",
     "title": "鬼灭之刃",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200g760kt31762927860474/350",
@@ -1640,14 +1642,14 @@
     "latest": "全26集",
     "status": "已完结",
     "tags": [
-      "仙侠"
+      "玄幻"
     ],
-    "year": "2024",
-    "pub_time": "2024-03-29 20:00:00",
+    "year": "2025",
+    "pub_time": "2025-11-20 10:00:00",
     "region": "内地",
-    "synopsis": "十载离人梦，殊途无归处",
+    "synopsis": "斩杀林琅天，登顶冠军",
     "ip_origin": "",
-    "tagline": "评分 9.1",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -1694,6 +1696,54 @@
     "synopsis": "",
     "ip_origin": "",
     "tagline": "东方玄幻",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 70,
+    "cid": "mzc00200pk5azl4",
+    "title": "小品一家人 合集",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200pk5azl41649217510084/350",
+    "link": "https://v.qq.com/x/cover/mzc00200pk5azl4.html",
+    "score_label": "热度",
+    "platform_score": 7784,
+    "score_raw": 7784,
+    "score": null,
+    "latest": "更新至807集",
+    "status": "连载中",
+    "tags": [
+      "搞笑"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "内地",
+    "synopsis": "小品的搞笑温馨日常",
+    "ip_origin": "",
+    "tagline": "评分 9.2",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 71,
+    "cid": "wk85h1a859a8350",
+    "title": "非人哉 第1季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/wk85h1a859a83501625718132869/350",
+    "link": "https://v.qq.com/x/cover/wk85h1a859a8350.html",
+    "score_label": "热度",
+    "platform_score": 7773,
+    "score_raw": 7773,
+    "score": null,
+    "latest": "全96集",
+    "status": "已完结",
+    "tags": [
+      "日常"
+    ],
+    "year": "2010",
+    "pub_time": "2021-07-21 10:00:00",
+    "region": "内地",
+    "synopsis": "神仙妖怪的爆笑日常",
+    "ip_origin": "",
+    "tagline": "评分 9.6",
     "badge": "",
     "rank_change": null
   },
@@ -1801,17 +1851,41 @@
     "platform_score": 7801,
     "score_raw": 7801,
     "score": null,
-    "latest": "全96集",
+    "latest": "全52集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "仙侠"
+    ],
+    "year": "2020",
+    "pub_time": "2024-07-03 10:00:00",
+    "region": "内地",
+    "synopsis": "修仙界泥石流来了！",
+    "ip_origin": "",
+    "tagline": "在追破1000万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 88,
+    "cid": "qjoizo0oirx43ja",
+    "title": "名侦探柯南剧场版[普通话版]",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/qjoizo0oirx43ja1510284763/350",
+    "link": "https://v.qq.com/x/cover/qjoizo0oirx43ja.html",
+    "score_label": "热度",
+    "platform_score": 7590,
+    "score_raw": 7590,
+    "score": null,
+    "latest": "全20集",
+    "status": "已完结",
+    "tags": [
+      "悬疑"
     ],
     "year": "2010",
-    "pub_time": "2021-07-21 10:00:00",
-    "region": "内地",
-    "synopsis": "神仙妖怪的爆笑日常",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "柯南解谜向日葵疑云",
     "ip_origin": "",
-    "tagline": "评分 9.6",
+    "tagline": "评分 9.5",
     "badge": "",
     "rank_change": null
   },
