@@ -432,7 +432,31 @@
     "rank_change": null
   },
   {
-    "rank": 19,
+    "rank": 20,
+    "cid": "mzc00200xxpsogl",
+    "title": "剑来 第二季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200xxpsogl1766627170315/350",
+    "link": "https://v.qq.com/x/cover/mzc00200xxpsogl.html",
+    "score_label": "热度",
+    "platform_score": 10552,
+    "score_raw": 10552,
+    "score": null,
+    "latest": "全27集",
+    "status": "已完结",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2025",
+    "pub_time": "2025-12-25 10:00:00",
+    "region": "内地",
+    "synopsis": "行万里路，打百万拳",
+    "ip_origin": "",
+    "tagline": "在追破1000万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 21,
     "cid": "mzc00200nc1cbum",
     "title": "火影忍者疾风传[日语版]",
     "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200nc1cbum1615792624639/350",
@@ -537,17 +561,17 @@
     "platform_score": 10879,
     "score_raw": 10879,
     "score": null,
-    "latest": "全8集",
+    "latest": "全12集",
     "status": "已完结",
     "tags": [
-      "搞笑"
+      "仙侠"
     ],
-    "year": "2024",
-    "pub_time": "2024-07-21 10:00:00",
+    "year": "2023",
+    "pub_time": "2023-09-25",
     "region": "内地",
-    "synopsis": "初三夏天，不说再见！",
+    "synopsis": "《仙逆》动画合集篇",
     "ip_origin": "",
-    "tagline": "评分 9.6",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -705,10 +729,10 @@
     "platform_score": 9781,
     "score_raw": 9781,
     "score": null,
-    "latest": "全26集",
+    "latest": "全480集",
     "status": "已完结",
     "tags": [
-      "仙侠"
+      "日常"
     ],
     "year": "2024",
     "pub_time": "2024-08-15 10:00:00",
@@ -1315,7 +1339,7 @@
     "region": "日本",
     "synopsis": "最爆笑的小男孩儿",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "评分 9.7",
     "badge": "",
     "rank_change": null
   },
@@ -1356,14 +1380,14 @@
     "latest": "全480集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "真人"
     ],
     "year": "2010",
     "pub_time": "",
     "region": "日本",
     "synopsis": "永恒的小孩",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "未来科幻",
     "badge": "",
     "rank_change": null
   },
@@ -1497,7 +1521,31 @@
     "platform_score": 8864,
     "score_raw": 8864,
     "score": null,
-    "latest": "全294集",
+    "latest": "全12集",
+    "status": "已完结",
+    "tags": [
+      "武侠"
+    ],
+    "year": "2023",
+    "pub_time": "2023-03-02 10:00:00",
+    "region": "内地",
+    "synopsis": "不能错过的年度高分国漫！",
+    "ip_origin": "",
+    "tagline": "讨论破200万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 99,
+    "cid": "qwzpd184if155sa",
+    "title": "蜡笔小新 第4季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/qwzpd184if155sa1480388725/350",
+    "link": "https://v.qq.com/x/cover/qwzpd184if155sa.html",
+    "score_label": "热度",
+    "platform_score": 7339,
+    "score_raw": 7339,
+    "score": null,
+    "latest": "全156集",
     "status": "已完结",
     "tags": [
       "日常"
@@ -1505,7 +1553,7 @@
     "year": "2010",
     "pub_time": "",
     "region": "日本",
-    "synopsis": "机器猫第3季",
+    "synopsis": "极品小孩",
     "ip_origin": "",
     "tagline": "评分 9.1",
     "badge": "",
