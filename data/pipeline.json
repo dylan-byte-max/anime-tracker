@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-29",
+    "updated": "2026-10-19",
     "schema": "v2",
     "note": "各平台未来排播 pipeline。按平台→发布会→板块(section)→项目层级组织，完整录入官方发布会片单。date_confirmed=true 表示确切上线日期，false 表示模糊时间(如2026/2026Q3)。每周一全网检索更新档期。"
   },
@@ -2327,11 +2327,11 @@
                   "ip_origin": "小说",
                   "ip_name": "第一序列（会说话的肘子，起点）",
                   "synopsis": "末世流民少年任小粟觉醒异能，在废土秩序中崛起。",
-                  "release_window": "2026H2",
-                  "date_confirmed": false,
-                  "release_status": "预告",
+                  "release_window": "2026-12-17",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
                   "notes": "忠实原作改编好评。",
-                  "source_url": "https://bgm.tv/index/84849"
+                  "source_url": "https://baike.baidu.com/item/第一序列第二季/67014771"
                 },
                 {
                   "title": "镇魂街 第五季",
@@ -2339,11 +2339,11 @@
                   "ip_origin": "漫画",
                   "ip_name": "镇魂街（许辰，有妖气）",
                   "synopsis": "「王国纷争篇」，曹操登场、曹焱兵获新守护灵张辽，风林火山四大关卡防守战。",
-                  "release_window": "2026H2",
-                  "date_confirmed": false,
-                  "release_status": "预告",
+                  "release_window": "2026-12-11",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
                   "notes": "IP运营15年；导演尹嘉庚。",
-                  "source_url": "https://m.sohu.com/a/957003895_121124780"
+                  "source_url": "https://www.bilibili.com/bangumi/play/ss119021"
                 },
                 {
                   "title": "胶囊计划·奇迹（第四季）",
