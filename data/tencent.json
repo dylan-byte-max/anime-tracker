@@ -321,17 +321,41 @@
     "platform_score": 12036,
     "score_raw": 12036,
     "score": null,
-    "latest": "更新至14集",
+    "latest": "更新至185集",
     "status": "连载中",
     "tags": [
-      "恋爱"
+      "仙侠"
+    ],
+    "year": "2023",
+    "pub_time": "2023-05-03 10:00:00",
+    "region": "内地",
+    "synopsis": "登天路，踏歌行",
+    "ip_origin": "",
+    "tagline": "东方仙侠",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 14,
+    "cid": "mzc00200gkkin7o",
+    "title": "大理寺日志 第3季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200gkkin7o1792028966967/350",
+    "link": "https://v.qq.com/x/cover/mzc00200gkkin7o.html",
+    "score_label": "热度",
+    "platform_score": 12218,
+    "score_raw": 12218,
+    "score": null,
+    "latest": "更新至04集",
+    "status": "连载中",
+    "tags": [
+      "悬疑"
     ],
     "year": "2026",
-    "pub_time": "2026-09-11 10:00:00",
+    "pub_time": "2026-10-15 10:00:00",
     "region": "内地",
-    "synopsis": "凤牺设局危，月红齐心情",
+    "synopsis": "万国贺圣会，少卿守唐安",
     "ip_origin": "",
-    "tagline": "奇幻爱情",
+    "tagline": "古装悬疑",
     "badge": "",
     "rank_change": null
   },
@@ -852,7 +876,7 @@
     "latest": "全312集",
     "status": "已完结",
     "tags": [
-      "日常"
+      "搞笑,经典"
     ],
     "year": "2010",
     "pub_time": "",
@@ -2043,11 +2067,13 @@
     "score": null,
     "latest": "更新至189集",
     "status": "连载中",
-    "tags": [],
-    "year": "2010",
-    "pub_time": "",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2026",
+    "pub_time": "2026-04-13",
     "region": "内地",
-    "synopsis": "",
+    "synopsis": "他独断万古，诸天俯首称臣",
     "ip_origin": "",
     "tagline": "东方玄幻",
     "badge": "",
