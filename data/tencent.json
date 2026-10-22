@@ -25,6 +25,30 @@
   },
   {
     "rank": 2,
+    "cid": "mzc0020082u0tna",
+    "title": "灵境行者",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc0020082u0tna1788426070601/350",
+    "link": "https://v.qq.com/x/cover/mzc0020082u0tna.html",
+    "score_label": "热度",
+    "platform_score": 14340,
+    "score_raw": 14340,
+    "score": null,
+    "latest": "更新至09集",
+    "status": "连载中",
+    "tags": [
+      "奇幻"
+    ],
+    "year": "2026",
+    "pub_time": "2026-09-03 10:00:00",
+    "region": "内地",
+    "synopsis": "横扫副本，夜夜封神！",
+    "ip_origin": "",
+    "tagline": "评分 9.2",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 3,
     "cid": "mzc00200y0aavbe",
     "title": "一念永恒 完结季",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200y0aavbe1781930768664/350",
@@ -48,7 +72,7 @@
     "rank_change": null
   },
   {
-    "rank": 3,
+    "rank": 4,
     "cid": "mzc00200n53vkqc",
     "title": "遮天",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200n53vkqc1781928886798/350",
@@ -96,7 +120,7 @@
     "rank_change": null
   },
   {
-    "rank": 5,
+    "rank": 6,
     "cid": "mzc0020027yzd9e",
     "title": "斗破苍穹年番",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc0020027yzd9e1754535470956/350",
@@ -396,7 +420,7 @@
     "latest": "更新至1277集",
     "status": "连载中",
     "tags": [
-      "悬疑"
+      "推理,经典"
     ],
     "year": "1996",
     "pub_time": "1996-01-08",
@@ -540,7 +564,7 @@
     "latest": "全488集",
     "status": "已完结",
     "tags": [
-      "玄幻"
+      "冒险,战斗,玄幻"
     ],
     "year": "2017",
     "pub_time": "2023-01-14 10:00:00",
@@ -1309,7 +1333,79 @@
     "region": "内地",
     "synopsis": "初三夏天，不说再见！",
     "ip_origin": "",
-    "tagline": "评分 9.6",
+    "tagline": "评分 9.8",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 80,
+    "cid": "mzc00200faybjea",
+    "title": "诛仙 第2季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200faybjea1726819297144/350",
+    "link": "https://v.qq.com/x/cover/mzc00200faybjea.html",
+    "score_label": "热度",
+    "platform_score": 7475,
+    "score_raw": 7475,
+    "score": null,
+    "latest": "全26集",
+    "status": "已完结",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2024",
+    "pub_time": "2024-03-29 20:00:00",
+    "region": "内地",
+    "synopsis": "十载离人梦，殊途无归处",
+    "ip_origin": "",
+    "tagline": "评分 9.1",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 81,
+    "cid": "od1kjfd56e3s7n7",
+    "title": "大王饶命 第1季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/od1kjfd56e3s7n71628407965692/350",
+    "link": "https://v.qq.com/x/cover/od1kjfd56e3s7n7.html",
+    "score_label": "热度",
+    "platform_score": 7471,
+    "score_raw": 7471,
+    "score": null,
+    "latest": "全12集",
+    "status": "已完结",
+    "tags": [
+      "都市"
+    ],
+    "year": "2021",
+    "pub_time": "2021-12-03 12:00:00",
+    "region": "内地",
+    "synopsis": "灵气复苏，少年崛起",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 82,
+    "cid": "qwzpd184if155sa",
+    "title": "蜡笔小新 第4季",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/qwzpd184if155sa1480388725/350",
+    "link": "https://v.qq.com/x/cover/qwzpd184if155sa.html",
+    "score_label": "热度",
+    "platform_score": 7459,
+    "score_raw": 7459,
+    "score": null,
+    "latest": "全156集",
+    "status": "已完结",
+    "tags": [
+      "日常"
+    ],
+    "year": "2010",
+    "pub_time": "",
+    "region": "日本",
+    "synopsis": "极品小孩",
+    "ip_origin": "",
+    "tagline": "评分 9.4",
     "badge": "",
     "rank_change": null
   },
@@ -1371,17 +1467,17 @@
     "platform_score": 7710,
     "score_raw": 7710,
     "score": null,
-    "latest": "全54集",
+    "latest": "全52集",
     "status": "已完结",
     "tags": [
-      "武侠"
+      "仙侠"
     ],
-    "year": "2010",
-    "pub_time": "",
+    "year": "2020",
+    "pub_time": "2024-07-03 10:00:00",
     "region": "内地",
-    "synopsis": "群雄侠隐仗剑",
+    "synopsis": "修仙界泥石流来了！",
     "ip_origin": "",
-    "tagline": "讨论破100万",
+    "tagline": "在追破1000万",
     "badge": "",
     "rank_change": null
   },
@@ -1805,11 +1901,13 @@
     "score": null,
     "latest": "更新至145集",
     "status": "连载中",
-    "tags": [],
+    "tags": [
+      "玄幻"
+    ],
     "year": "2010",
     "pub_time": "",
     "region": "内地",
-    "synopsis": "",
+    "synopsis": "炎帝降世，万火归位",
     "ip_origin": "",
     "tagline": "未来科幻",
     "badge": "",
@@ -2311,9 +2409,9 @@
     "year": "2010",
     "pub_time": "",
     "region": "内地",
-    "synopsis": "",
+    "synopsis": "异火臣服 萧炎掌握佛怒火莲",
     "ip_origin": "",
-    "tagline": "东方玄幻",
+    "tagline": "讨论破500万",
     "badge": "",
     "rank_change": null
   },
@@ -2378,7 +2476,7 @@
     "latest": "全13集",
     "status": "已完结",
     "tags": [
-      "奇幻"
+      "日常"
     ],
     "year": "2025",
     "pub_time": "2025-06-28 10:00:00",
