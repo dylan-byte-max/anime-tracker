@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-19",
+    "updated": "2026-10-26",
     "schema": "v2",
     "note": "各平台未来排播 pipeline。按平台→发布会→板块(section)→项目层级组织，完整录入官方发布会片单。date_confirmed=true 表示确切上线日期，false 表示模糊时间(如2026/2026Q3)。每周一全网检索更新档期。"
   },
@@ -1245,10 +1245,10 @@
                   "ip_origin": "小说",
                   "ip_name": "斩神（三九音域）",
                   "synopsis": "沧南被神明屠城化为历史，林七夜以凡人之躯重构整座城市。",
-                  "release_window": "TBD",
+                  "release_window": "2027",
                   "date_confirmed": false,
                   "release_status": "远期规划",
-                  "notes": "剧场版拆分线。",
+                  "notes": "剧场版拆分线。【2026-10-26核查】原网传2026年末，官方（斩神S2片尾+百度百科）已官宣延期至2027年院线上映并升级为院线级电影规格，仅公布年份、无确切月日，date_confirmed 保持 false。",
                   "source_url": "https://news.qq.com/rain/a/20260623A0807K00"
                 },
                 {
@@ -2093,10 +2093,10 @@
                   "ip_origin": "原创剧本",
                   "ip_name": "罗小黑战记（MTJJ）",
                   "synopsis": "TV动画时隔4年回归，「学前篇」讲述「众生之门」之后的故事。",
-                  "release_window": "2026",
-                  "date_confirmed": false,
-                  "release_status": "预告",
-                  "notes": "治愈系王牌IP回归，B站开启TV新篇章。",
+                  "release_window": "2026-10-30",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
+                  "notes": "治愈系王牌IP回归，B站开启TV新篇章。【2026-10-26核查】2026-09-25官宣定档10月30日12:00 B站独播，每周五更新，共6集，故事紧接TV第40集《众生之门篇》结尾；多源确认（杭州日报/金羊网/北京大视听新剧发布/百度百科）。",
                   "source_url": "https://www.bilibili.com/read/cv43750963"
                 },
                 {
