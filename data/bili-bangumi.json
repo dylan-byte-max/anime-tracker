@@ -11,7 +11,7 @@
     "latest": "更新至第1277话",
     "score_label": "播放量",
     "platform_score": "22.1亿次播放",
-    "score_raw": 2205166852,
+    "score_raw": 2205813125,
     "score": "8.8",
     "follow_count": "939万系列追番",
     "tags": [
@@ -42,7 +42,7 @@
     "latest": "更新至第1277话",
     "score_label": "播放量",
     "platform_score": "15.2亿次播放",
-    "score_raw": 1516996452,
+    "score_raw": 1517266651,
     "score": "9.4",
     "follow_count": "939万系列追番",
     "tags": [
@@ -73,7 +73,7 @@
     "latest": "全26话",
     "score_label": "播放量",
     "platform_score": "12.6亿次播放",
-    "score_raw": 1264255835,
+    "score_raw": 1264303940,
     "score": "9.7",
     "follow_count": "2019.3万系列追番",
     "tags": [
@@ -104,9 +104,9 @@
     "latest": "全873话",
     "score_label": "播放量",
     "platform_score": "11.5亿次播放",
-    "score_raw": 1154584284,
+    "score_raw": 1154987167,
     "score": "9.8",
-    "follow_count": "430万系列追番",
+    "follow_count": "430.1万系列追番",
     "tags": [
       "搞笑"
     ],
@@ -132,7 +132,7 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "10.2亿次播放",
-    "score_raw": 1022050002,
+    "score_raw": 1022177669,
     "score": "9.7",
     "follow_count": "1488.1万系列追番",
     "tags": [
@@ -163,7 +163,7 @@
     "latest": "全25话",
     "score_label": "播放量",
     "platform_score": "8.9亿次播放",
-    "score_raw": 891319554,
+    "score_raw": 891357284,
     "score": "9.7",
     "follow_count": "1413.4万系列追番",
     "tags": [
@@ -194,9 +194,9 @@
     "latest": "全479话",
     "score_label": "播放量",
     "platform_score": "8.6亿次播放",
-    "score_raw": 855808434,
+    "score_raw": 856076679,
     "score": "9.8",
-    "follow_count": "430万系列追番",
+    "follow_count": "430.1万系列追番",
     "tags": [
       "搞笑"
     ],
@@ -222,7 +222,7 @@
     "latest": "全200话",
     "score_label": "播放量",
     "platform_score": "8.2亿次播放",
-    "score_raw": 824688175,
+    "score_raw": 824907912,
     "score": "9.9",
     "follow_count": "563.3万系列追番",
     "tags": [
@@ -253,7 +253,7 @@
     "latest": "全161话",
     "score_label": "播放量",
     "platform_score": "7.3亿次播放",
-    "score_raw": 725873971,
+    "score_raw": 726066589,
     "score": "9.8",
     "follow_count": "307.1万系列追番",
     "tags": [
@@ -282,7 +282,7 @@
     "latest": "全39话",
     "score_label": "播放量",
     "platform_score": "7.1亿次播放",
-    "score_raw": 711919195,
+    "score_raw": 711988924,
     "score": "9.8",
     "follow_count": "1105.2万系列追番",
     "tags": [
@@ -313,7 +313,7 @@
     "latest": "全55话",
     "score_label": "播放量",
     "platform_score": "7亿次播放",
-    "score_raw": 695917016,
+    "score_raw": 696074853,
     "score": "9.9",
     "follow_count": "448.2万系列追番",
     "tags": [
@@ -343,7 +343,7 @@
     "latest": "全167话",
     "score_label": "播放量",
     "platform_score": "5.7亿次播放",
-    "score_raw": 571827882,
+    "score_raw": 571929980,
     "score": "9.8",
     "follow_count": "470.1万系列追番",
     "tags": [
@@ -374,7 +374,7 @@
     "latest": "全28话",
     "score_label": "播放量",
     "platform_score": "5.3亿次播放",
-    "score_raw": 531728003,
+    "score_raw": 531747587,
     "score": "9.4",
     "follow_count": "1100万系列追番",
     "tags": [
@@ -405,7 +405,7 @@
     "latest": "全23话",
     "score_label": "播放量",
     "platform_score": "5.1亿次播放",
-    "score_raw": 512768107,
+    "score_raw": 512770232,
     "score": "7.0",
     "follow_count": "897.7万系列追番",
     "tags": [
@@ -426,6 +426,37 @@
   },
   {
     "rank": 15,
+    "season_id": 6422,
+    "media_id": 6422,
+    "title": "黑色四叶草",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/aecbaaf4e3e36a2796684c2eff8ceb9b0f247c6d.jpg",
+    "link": "https://www.bilibili.com/bangumi/play/ss6422",
+    "sub_title": "我要成为魔法帝",
+    "status": "已完结",
+    "latest": "全171话",
+    "score_label": "播放量",
+    "platform_score": "5亿次播放",
+    "score_raw": 498484691,
+    "score": "9.5",
+    "follow_count": "364万系列追番",
+    "tags": [
+      "架空",
+      "漫画改",
+      "热血",
+      "战斗"
+    ],
+    "year": "2017",
+    "pub_time": "2017-10-03 18:25:00",
+    "region": "日本",
+    "synopsis": "曾经险些遭到魔神毁灭的世界，拯救它的是一位被后世称为“魔法帝”的魔导士……两位被遗弃在教堂的少年，一位是有卓越魔力跟魔法才能的四叶草魔导书的尤诺，另一位魔法值为零但却意外获得黑色五叶草的魔法书的亚斯塔……这是关于一位没魔法能力的少年却想要成为魔法帝的故事。",
+    "series": "黑色四叶草",
+    "ip_origin": "漫画改",
+    "total": "5亿次播放",
+    "badge": "大会员",
+    "rank_change": null
+  },
+  {
+    "rank": 16,
     "season_id": 36170,
     "media_id": 28231812,
     "title": "关于我转生变成史莱姆这档事 第二季",
@@ -436,7 +467,7 @@
     "latest": "全26话",
     "score_label": "播放量",
     "platform_score": "5亿次播放",
-    "score_raw": 498315764,
+    "score_raw": 498334876,
     "score": "8.9",
     "follow_count": "1100万系列追番",
     "tags": [
@@ -456,37 +487,6 @@
     "rank_change": null
   },
   {
-    "rank": 16,
-    "season_id": 6422,
-    "media_id": 6422,
-    "title": "黑色四叶草",
-    "cover": "http://i0.hdslb.com/bfs/bangumi/image/aecbaaf4e3e36a2796684c2eff8ceb9b0f247c6d.jpg",
-    "link": "https://www.bilibili.com/bangumi/play/ss6422",
-    "sub_title": "我要成为魔法帝",
-    "status": "已完结",
-    "latest": "全171话",
-    "score_label": "播放量",
-    "platform_score": "5亿次播放",
-    "score_raw": 498290306,
-    "score": "9.5",
-    "follow_count": "363.9万系列追番",
-    "tags": [
-      "架空",
-      "漫画改",
-      "热血",
-      "战斗"
-    ],
-    "year": "2017",
-    "pub_time": "2017-10-03 18:25:00",
-    "region": "日本",
-    "synopsis": "曾经险些遭到魔神毁灭的世界，拯救它的是一位被后世称为“魔法帝”的魔导士……两位被遗弃在教堂的少年，一位是有卓越魔力跟魔法才能的四叶草魔导书的尤诺，另一位魔法值为零但却意外获得黑色五叶草的魔法书的亚斯塔……这是关于一位没魔法能力的少年却想要成为魔法帝的故事。",
-    "series": "黑色四叶草",
-    "ip_origin": "漫画改",
-    "total": "5亿次播放",
-    "badge": "大会员",
-    "rank_change": null
-  },
-  {
     "rank": 17,
     "season_id": 2576,
     "media_id": 2576,
@@ -498,7 +498,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "5亿次播放",
-    "score_raw": 497581556,
+    "score_raw": 497599130,
     "score": "9.6",
     "follow_count": "1065.2万系列追番",
     "tags": [
@@ -529,7 +529,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "4.8亿次播放",
-    "score_raw": 479253270,
+    "score_raw": 479271707,
     "score": "9.4",
     "follow_count": "1065.2万系列追番",
     "tags": [
@@ -560,7 +560,7 @@
     "latest": "全39话",
     "score_label": "播放量",
     "platform_score": "4.6亿次播放",
-    "score_raw": 460016161,
+    "score_raw": 460074553,
     "score": "9.8",
     "follow_count": "1105.2万系列追番",
     "tags": [
@@ -591,7 +591,7 @@
     "latest": "全11话",
     "score_label": "播放量",
     "platform_score": "4.5亿次播放",
-    "score_raw": 454351029,
+    "score_raw": 454387100,
     "score": "9.7",
     "follow_count": "2019.3万系列追番",
     "tags": [
@@ -622,7 +622,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "4.5亿次播放",
-    "score_raw": 448380163,
+    "score_raw": 448394537,
     "score": "9.6",
     "follow_count": "1065.2万系列追番",
     "tags": [
@@ -653,9 +653,9 @@
     "latest": "全28话",
     "score_label": "播放量",
     "platform_score": "4.4亿次播放",
-    "score_raw": 443184919,
+    "score_raw": 443253365,
     "score": "9.9",
-    "follow_count": "571.1万系列追番",
+    "follow_count": "571.2万系列追番",
     "tags": [
       "漫画改",
       "奇幻",
@@ -684,9 +684,9 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "4.3亿次播放",
-    "score_raw": 430738975,
+    "score_raw": 430750559,
     "score": "7.9",
-    "follow_count": "629万追番",
+    "follow_count": "628.9万追番",
     "tags": [
       "奇幻",
       "穿越",
@@ -715,7 +715,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "4.1亿次播放",
-    "score_raw": 413035605,
+    "score_raw": 413085762,
     "score": "9.2",
     "follow_count": "2019.3万系列追番",
     "tags": [
@@ -746,7 +746,7 @@
     "latest": "全120话",
     "score_label": "播放量",
     "platform_score": "4.1亿次播放",
-    "score_raw": 407265350,
+    "score_raw": 407325703,
     "score": "9.6",
     "follow_count": "620.7万系列追番",
     "tags": [
@@ -777,7 +777,7 @@
     "latest": "全38话",
     "score_label": "播放量",
     "platform_score": "3.9亿次播放",
-    "score_raw": 394479222,
+    "score_raw": 394524106,
     "score": "9.8",
     "follow_count": "1105.2万系列追番",
     "tags": [
@@ -808,7 +808,7 @@
     "latest": "全23话",
     "score_label": "播放量",
     "platform_score": "3.9亿次播放",
-    "score_raw": 386217179,
+    "score_raw": 386338424,
     "score": "9.4",
     "follow_count": "1488.1万系列追番",
     "tags": [
@@ -839,7 +839,7 @@
     "latest": "全26话",
     "score_label": "播放量",
     "platform_score": "3.9亿次播放",
-    "score_raw": 385646397,
+    "score_raw": 385696550,
     "score": "9.8",
     "follow_count": "1105.2万系列追番",
     "tags": [
@@ -870,7 +870,7 @@
     "latest": "全14话",
     "score_label": "播放量",
     "platform_score": "3.8亿次播放",
-    "score_raw": 381768934,
+    "score_raw": 381781358,
     "score": "9.7",
     "follow_count": "1054万系列追番",
     "tags": [
@@ -901,7 +901,7 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "3.6亿次播放",
-    "score_raw": 355568312,
+    "score_raw": 355611959,
     "score": "9.8",
     "follow_count": "1105.2万系列追番",
     "tags": [
@@ -932,9 +932,9 @@
     "latest": "全156话",
     "score_label": "播放量",
     "platform_score": "3.5亿次播放",
-    "score_raw": 353796536,
+    "score_raw": 353868777,
     "score": "9.8",
-    "follow_count": "430万系列追番",
+    "follow_count": "430.1万系列追番",
     "tags": [
       "搞笑"
     ],
@@ -960,7 +960,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "3.5亿次播放",
-    "score_raw": 345248832,
+    "score_raw": 345271328,
     "score": "9.8",
     "follow_count": "937.3万系列追番",
     "tags": [
@@ -991,9 +991,9 @@
     "latest": "全156话",
     "score_label": "播放量",
     "platform_score": "3.3亿次播放",
-    "score_raw": 325707768,
+    "score_raw": 325804276,
     "score": "9.7",
-    "follow_count": "430万系列追番",
+    "follow_count": "430.1万系列追番",
     "tags": [
       "搞笑"
     ],
@@ -1019,7 +1019,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "3.2亿次播放",
-    "score_raw": 319962060,
+    "score_raw": 319979757,
     "score": "9.8",
     "follow_count": "1081.9万系列追番",
     "tags": [
@@ -1050,9 +1050,9 @@
     "latest": "全203话",
     "score_label": "播放量",
     "platform_score": "3.2亿次播放",
-    "score_raw": 319157231,
+    "score_raw": 319238117,
     "score": "9.9",
-    "follow_count": "263万追番",
+    "follow_count": "263.1万追番",
     "tags": [
       "漫画改",
       "热血",
@@ -1080,7 +1080,7 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "3.2亿次播放",
-    "score_raw": 318309459,
+    "score_raw": 318354086,
     "score": "9.8",
     "follow_count": "1105.2万系列追番",
     "tags": [
@@ -1111,7 +1111,7 @@
     "latest": "全25话",
     "score_label": "播放量",
     "platform_score": "3.2亿次播放",
-    "score_raw": 316928812,
+    "score_raw": 316934415,
     "score": "7.4",
     "follow_count": "640.3万系列追番",
     "tags": [
@@ -1142,7 +1142,7 @@
     "latest": "全7话",
     "score_label": "播放量",
     "platform_score": "3.2亿次播放",
-    "score_raw": 315268898,
+    "score_raw": 315289174,
     "score": "9.8",
     "follow_count": "2019.3万系列追番",
     "tags": [
@@ -1173,9 +1173,9 @@
     "latest": "全156话",
     "score_label": "播放量",
     "platform_score": "3.1亿次播放",
-    "score_raw": 311660293,
+    "score_raw": 311741036,
     "score": "9.7",
-    "follow_count": "430万系列追番",
+    "follow_count": "430.1万系列追番",
     "tags": [
       "搞笑"
     ],
@@ -1201,7 +1201,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "3亿次播放",
-    "score_raw": 304391225,
+    "score_raw": 304397870,
     "score": "9.0",
     "follow_count": "762万系列追番",
     "tags": [
@@ -1232,7 +1232,7 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "2.9亿次播放",
-    "score_raw": 294347808,
+    "score_raw": 294400108,
     "score": "9.8",
     "follow_count": "332.1万追番",
     "tags": [
@@ -1263,9 +1263,9 @@
     "latest": "全26话",
     "score_label": "播放量",
     "platform_score": "2.9亿次播放",
-    "score_raw": 293617111,
+    "score_raw": 293689575,
     "score": "9.7",
-    "follow_count": "580.1万系列追番",
+    "follow_count": "580.2万系列追番",
     "tags": [
       "科幻",
       "机战",
@@ -1293,7 +1293,7 @@
     "latest": "全25话",
     "score_label": "播放量",
     "platform_score": "2.8亿次播放",
-    "score_raw": 283753701,
+    "score_raw": 283781633,
     "score": "9.8",
     "follow_count": "543万追番",
     "tags": [
@@ -1324,7 +1324,7 @@
     "latest": "全52话",
     "score_label": "播放量",
     "platform_score": "2.8亿次播放",
-    "score_raw": 281052626,
+    "score_raw": 281077376,
     "score": "8.8",
     "follow_count": "128.3万系列追番",
     "tags": [
@@ -1354,7 +1354,7 @@
     "latest": "全25话",
     "score_label": "播放量",
     "platform_score": "2.8亿次播放",
-    "score_raw": 277616752,
+    "score_raw": 277651360,
     "score": "9.8",
     "follow_count": "927.5万系列追番",
     "tags": [
@@ -1385,7 +1385,7 @@
     "latest": "全52话",
     "score_label": "播放量",
     "platform_score": "2.8亿次播放",
-    "score_raw": 277430419,
+    "score_raw": 277493791,
     "score": "9.9",
     "follow_count": "341.9万系列追番",
     "tags": [
@@ -1416,9 +1416,9 @@
     "latest": "全14话",
     "score_label": "播放量",
     "platform_score": "2.8亿次播放",
-    "score_raw": 277310786,
+    "score_raw": 277317954,
     "score": "9.7",
-    "follow_count": "1047.8万系列追番",
+    "follow_count": "1047.9万系列追番",
     "tags": [
       "声控",
       "战斗",
@@ -1447,7 +1447,7 @@
     "latest": "全95话",
     "score_label": "播放量",
     "platform_score": "2.8亿次播放",
-    "score_raw": 275847022,
+    "score_raw": 275945948,
     "score": "8.8",
     "follow_count": "129万系列追番",
     "tags": [
@@ -1478,7 +1478,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "2.7亿次播放",
-    "score_raw": 273538080,
+    "score_raw": 273550635,
     "score": "9.8",
     "follow_count": "902.6万系列追番",
     "tags": [
@@ -1509,9 +1509,9 @@
     "latest": "全70话",
     "score_label": "播放量",
     "platform_score": "2.7亿次播放",
-    "score_raw": 270800807,
+    "score_raw": 270869127,
     "score": "9.8",
-    "follow_count": "543.5万系列追番",
+    "follow_count": "543.6万系列追番",
     "tags": [
       "少女",
       "魔法",
@@ -1539,7 +1539,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "2.7亿次播放",
-    "score_raw": 265267108,
+    "score_raw": 265271312,
     "score": "8.9",
     "follow_count": "762.3万追番",
     "tags": [
@@ -1568,7 +1568,7 @@
     "latest": "全8话",
     "score_label": "播放量",
     "platform_score": "2.6亿次播放",
-    "score_raw": 264048129,
+    "score_raw": 264087054,
     "score": "9.7",
     "follow_count": "2019.3万系列追番",
     "tags": [
@@ -1598,7 +1598,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "2.6亿次播放",
-    "score_raw": 257689028,
+    "score_raw": 257718051,
     "score": "9.9",
     "follow_count": "603.4万系列追番",
     "tags": [
@@ -1629,7 +1629,7 @@
     "latest": "全25话",
     "score_label": "播放量",
     "platform_score": "2.5亿次播放",
-    "score_raw": 254924105,
+    "score_raw": 254946099,
     "score": "9.7",
     "follow_count": "892.3万系列追番",
     "tags": [
@@ -1660,7 +1660,7 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "2.5亿次播放",
-    "score_raw": 253986201,
+    "score_raw": 254014932,
     "score": "9.7",
     "follow_count": "927.5万系列追番",
     "tags": [
@@ -1691,7 +1691,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "2.5亿次播放",
-    "score_raw": 253754955,
+    "score_raw": 253768118,
     "score": "9.8",
     "follow_count": "1081.9万系列追番",
     "tags": [
@@ -1722,7 +1722,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "2.5亿次播放",
-    "score_raw": 250477521,
+    "score_raw": 250483812,
     "score": "9.4",
     "follow_count": "655.5万系列追番",
     "tags": [
@@ -1752,7 +1752,7 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "2.5亿次播放",
-    "score_raw": 249342228,
+    "score_raw": 249375711,
     "score": "9.7",
     "follow_count": "620.7万系列追番",
     "tags": [
@@ -1783,7 +1783,7 @@
     "latest": "全64话",
     "score_label": "播放量",
     "platform_score": "2.5亿次播放",
-    "score_raw": 248922564,
+    "score_raw": 248978373,
     "score": "9.9",
     "follow_count": "563.3万系列追番",
     "tags": [
@@ -1814,7 +1814,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "2.5亿次播放",
-    "score_raw": 245995298,
+    "score_raw": 245998819,
     "score": "9.3",
     "follow_count": "771.5万追番",
     "tags": [
@@ -1834,6 +1834,35 @@
   },
   {
     "rank": 61,
+    "season_id": 1586,
+    "media_id": 1586,
+    "title": "Fate/stay night [Unlimited Blade Works] 第一季",
+    "cover": "http://i0.hdslb.com/bfs/bangumi/image/e67e09c9e48a32371a81100e0f65a61b18aabb24.png",
+    "link": "https://www.bilibili.com/bangumi/play/ss1586",
+    "sub_title": "圣杯战争来袭",
+    "status": "已完结",
+    "latest": "全13话",
+    "score_label": "播放量",
+    "platform_score": "2.5亿次播放",
+    "score_raw": 245991359,
+    "score": "9.5",
+    "follow_count": "734.5万系列追番",
+    "tags": [
+      "奇幻",
+      "热血"
+    ],
+    "year": "2014",
+    "pub_time": "2014-10-04 00:00:00",
+    "region": "日本",
+    "synopsis": "Fate/stay night -UBW-是FSN的第二条路线Unlimited Blade Works的TV化作品。通过2010年1月23日上映的UBW剧场版，为我们应该已对该路线的故事情节有所了解。而即将于2014年10月4日播出的TV版到底又有何不同呢？\n或许是对游戏情节更加细致的描写，亦或是对某些未出现的场景作出的补充。于齿轮转动的无边旷野中，耳边再次回响起那浅吟低唱的咒文时，伴随着我们度过的那段难忘的圣杯战争又将重燃战火……",
+    "series": "Fate/stay night",
+    "ip_origin": "",
+    "total": "2.5亿次播放",
+    "badge": "独家",
+    "rank_change": null
+  },
+  {
+    "rank": 62,
     "season_id": 1699,
     "media_id": 1699,
     "title": "四月是你的谎言",
@@ -1844,7 +1873,7 @@
     "latest": "全22话",
     "score_label": "播放量",
     "platform_score": "2.5亿次播放",
-    "score_raw": 245981850,
+    "score_raw": 245991201,
     "score": "9.8",
     "follow_count": "744.4万系列追番",
     "tags": [
@@ -1864,35 +1893,6 @@
     "rank_change": null
   },
   {
-    "rank": 62,
-    "season_id": 1586,
-    "media_id": 1586,
-    "title": "Fate/stay night [Unlimited Blade Works] 第一季",
-    "cover": "http://i0.hdslb.com/bfs/bangumi/image/e67e09c9e48a32371a81100e0f65a61b18aabb24.png",
-    "link": "https://www.bilibili.com/bangumi/play/ss1586",
-    "sub_title": "圣杯战争来袭",
-    "status": "已完结",
-    "latest": "全13话",
-    "score_label": "播放量",
-    "platform_score": "2.5亿次播放",
-    "score_raw": 245975998,
-    "score": "9.5",
-    "follow_count": "734.5万系列追番",
-    "tags": [
-      "奇幻",
-      "热血"
-    ],
-    "year": "2014",
-    "pub_time": "2014-10-04 00:00:00",
-    "region": "日本",
-    "synopsis": "Fate/stay night -UBW-是FSN的第二条路线Unlimited Blade Works的TV化作品。通过2010年1月23日上映的UBW剧场版，为我们应该已对该路线的故事情节有所了解。而即将于2014年10月4日播出的TV版到底又有何不同呢？\n或许是对游戏情节更加细致的描写，亦或是对某些未出现的场景作出的补充。于齿轮转动的无边旷野中，耳边再次回响起那浅吟低唱的咒文时，伴随着我们度过的那段难忘的圣杯战争又将重燃战火……",
-    "series": "Fate/stay night",
-    "ip_origin": "",
-    "total": "2.5亿次播放",
-    "badge": "独家",
-    "rank_change": null
-  },
-  {
     "rank": 63,
     "season_id": 21542,
     "media_id": 8892,
@@ -1904,7 +1904,7 @@
     "latest": "全14话",
     "score_label": "播放量",
     "platform_score": "2.4亿次播放",
-    "score_raw": 239805777,
+    "score_raw": 239820236,
     "score": "9.8",
     "follow_count": "1098.4万系列追番",
     "tags": [
@@ -1935,9 +1935,9 @@
     "latest": "全156话",
     "score_label": "播放量",
     "platform_score": "2.3亿次播放",
-    "score_raw": 228538314,
+    "score_raw": 228606368,
     "score": "9.8",
-    "follow_count": "430万系列追番",
+    "follow_count": "430.1万系列追番",
     "tags": [
       "搞笑"
     ],
@@ -1963,7 +1963,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "2.3亿次播放",
-    "score_raw": 227884470,
+    "score_raw": 227899283,
     "score": "9.5",
     "follow_count": "635.9万系列追番",
     "tags": [
@@ -1993,9 +1993,9 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "2.3亿次播放",
-    "score_raw": 227454508,
+    "score_raw": 227466107,
     "score": "9.5",
-    "follow_count": "665.8万系列追番",
+    "follow_count": "665.9万系列追番",
     "tags": [
       "日常",
       "校园",
@@ -2024,7 +2024,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "2.2亿次播放",
-    "score_raw": 223885249,
+    "score_raw": 223892368,
     "score": "9.4",
     "follow_count": "845.3万系列追番",
     "tags": [
@@ -2053,9 +2053,9 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "2.2亿次播放",
-    "score_raw": 223026031,
+    "score_raw": 223060403,
     "score": "9.9",
-    "follow_count": "495.8万系列追番",
+    "follow_count": "495.9万系列追番",
     "tags": [
       "漫画改",
       "音乐",
@@ -2083,7 +2083,7 @@
     "latest": "全161话",
     "score_label": "播放量",
     "platform_score": "2.2亿次播放",
-    "score_raw": 220269473,
+    "score_raw": 220388776,
     "score": "9.8",
     "follow_count": "307.1万系列追番",
     "tags": [
@@ -2112,7 +2112,7 @@
     "latest": "全26话",
     "score_label": "播放量",
     "platform_score": "2.2亿次播放",
-    "score_raw": 216539485,
+    "score_raw": 216549322,
     "score": "9.1",
     "follow_count": "2019.3万系列追番",
     "tags": [
@@ -2143,7 +2143,7 @@
     "latest": "全25话",
     "score_label": "播放量",
     "platform_score": "2.1亿次播放",
-    "score_raw": 214820937,
+    "score_raw": 214833464,
     "score": "8.3",
     "follow_count": "892.3万系列追番",
     "tags": [
@@ -2174,7 +2174,7 @@
     "latest": "全39话",
     "score_label": "播放量",
     "platform_score": "2.1亿次播放",
-    "score_raw": 214013189,
+    "score_raw": 214046933,
     "score": "8.9",
     "follow_count": "128.3万系列追番",
     "tags": [
@@ -2205,9 +2205,9 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "2.1亿次播放",
-    "score_raw": 212297981,
+    "score_raw": 212319491,
     "score": "9.7",
-    "follow_count": "546.7万系列追番",
+    "follow_count": "546.8万系列追番",
     "tags": [
       "漫画改",
       "科幻",
@@ -2236,7 +2236,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "2.1亿次播放",
-    "score_raw": 209591493,
+    "score_raw": 209604227,
     "score": "8.6",
     "follow_count": "578.2万系列追番",
     "tags": [
@@ -2265,7 +2265,7 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "2.1亿次播放",
-    "score_raw": 207613772,
+    "score_raw": 207645270,
     "score": "9.8",
     "follow_count": "620.7万系列追番",
     "tags": [
@@ -2296,7 +2296,7 @@
     "latest": "全23话",
     "score_label": "播放量",
     "platform_score": "2.1亿次播放",
-    "score_raw": 206558413,
+    "score_raw": 206569630,
     "score": "9.8",
     "follow_count": "898.6万追番",
     "tags": [
@@ -2327,7 +2327,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "2.1亿次播放",
-    "score_raw": 205962141,
+    "score_raw": 205977857,
     "score": "9.5",
     "follow_count": "734.5万系列追番",
     "tags": [
@@ -2356,7 +2356,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "2.1亿次播放",
-    "score_raw": 205719619,
+    "score_raw": 205739951,
     "score": "9.7",
     "follow_count": "530.8万追番",
     "tags": [
@@ -2386,8 +2386,8 @@
     "status": "已完结",
     "latest": "全22话",
     "score_label": "播放量",
-    "platform_score": "2.0亿次播放",
-    "score_raw": 204999269,
+    "platform_score": "2.1亿次播放",
+    "score_raw": 205012884,
     "score": "9.5",
     "follow_count": "610.6万系列追番",
     "tags": [
@@ -2402,7 +2402,7 @@
     "synopsis": "人理续存保障机构·迦勒底，对于仅凭魔术无法看见的世界，仅凭科学无法计算的世界进行观测，为了让已被证明会灭亡于2017年的人类史存续下去，日夜持续着活动。\n人类灭亡的原因，是在历史上数个地点突然出现的“无法观测领域”——“特异点”。\n迦勒底唯一残存的御主·藤丸立香，与亚从者玛修·基列莱特一同介入这些特异点的事象，从而执行将其解明或破坏的禁断仪式——“圣杯探索 Grand Order”。\n这一次新发现的是第七个特异点——纪元前2655年的古代美索不达米亚。 由结束了不老不死灵草的探索的“天之楔·贤王吉尔伽美什”所统治，以繁荣而自豪的乌鲁克之地，在三柱女神及众多魔兽的蹂躏下面临灭亡的危机。 以及，通过前往过去的时间旅行——“灵子转移”而到达乌鲁克之地的藤丸与玛修，所遇到的是 阻挡住魔兽猛攻的要塞都市·绝对魔兽战线，以及人们那即使暴露于威胁之下仍然拼命求生的样子。 袭来的诸神与魔兽。以及对其反抗的人类——。\n这里是人与神分道扬镳，命运的时代。\n跨越了六个探索（Order）的两人——藤丸与玛修所挑战的光环开始了。",
     "series": "命运-冠位指定",
     "ip_origin": "游戏改",
-    "total": "2.0亿次播放",
+    "total": "2.1亿次播放",
     "badge": "独家",
     "rank_change": null
   },
@@ -2418,7 +2418,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "2亿次播放",
-    "score_raw": 201755820,
+    "score_raw": 201783349,
     "score": "9.7",
     "follow_count": "1413.4万系列追番",
     "tags": [
@@ -2448,7 +2448,7 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "2亿次播放",
-    "score_raw": 199201701,
+    "score_raw": 199209538,
     "score": "9.5",
     "follow_count": "388万系列追番",
     "tags": [
@@ -2477,7 +2477,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "2亿次播放",
-    "score_raw": 199021449,
+    "score_raw": 199035384,
     "score": "9.8",
     "follow_count": "800.3万系列追番",
     "tags": [
@@ -2508,7 +2508,7 @@
     "latest": "全271话",
     "score_label": "播放量",
     "platform_score": "2亿次播放",
-    "score_raw": 198427307,
+    "score_raw": 198502638,
     "score": "9.8",
     "follow_count": "271.1万系列追番",
     "tags": [
@@ -2539,7 +2539,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "2亿次播放",
-    "score_raw": 197577123,
+    "score_raw": 197603148,
     "score": "8.8",
     "follow_count": "352.6万系列追番",
     "tags": [
@@ -2570,7 +2570,7 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "2亿次播放",
-    "score_raw": 196260186,
+    "score_raw": 196261737,
     "score": "9.4",
     "follow_count": "472.7万追番",
     "tags": [
@@ -2601,7 +2601,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "2亿次播放",
-    "score_raw": 195420509,
+    "score_raw": 195434827,
     "score": "8.7",
     "follow_count": "296.6万系列追番",
     "tags": [
@@ -2632,7 +2632,7 @@
     "latest": "全50话",
     "score_label": "播放量",
     "platform_score": "1.9亿次播放",
-    "score_raw": 193877168,
+    "score_raw": 193928250,
     "score": "9.6",
     "follow_count": "170.7万系列追番",
     "tags": [
@@ -2663,7 +2663,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "1.9亿次播放",
-    "score_raw": 193400635,
+    "score_raw": 193421900,
     "score": "9.6",
     "follow_count": "558.5万系列追番",
     "tags": [
@@ -2694,7 +2694,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "1.9亿次播放",
-    "score_raw": 193342807,
+    "score_raw": 193372648,
     "score": "9.3",
     "follow_count": "419.8万追番",
     "tags": [
@@ -2724,7 +2724,7 @@
     "latest": "全52话",
     "score_label": "播放量",
     "platform_score": "1.9亿次播放",
-    "score_raw": 189193191,
+    "score_raw": 189224206,
     "score": "8.5",
     "follow_count": "128.3万系列追番",
     "tags": [
@@ -2753,7 +2753,7 @@
     "latest": "全52话",
     "score_label": "播放量",
     "platform_score": "1.9亿次播放",
-    "score_raw": 189018755,
+    "score_raw": 189051027,
     "score": "8.6",
     "follow_count": "128.3万系列追番",
     "tags": [
@@ -2782,7 +2782,7 @@
     "latest": "全24话",
     "score_label": "播放量",
     "platform_score": "1.9亿次播放",
-    "score_raw": 188872022,
+    "score_raw": 188888127,
     "score": "5.4",
     "follow_count": "289.5万追番",
     "tags": [
@@ -2813,7 +2813,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "1.9亿次播放",
-    "score_raw": 186874493,
+    "score_raw": 186883787,
     "score": "9.7",
     "follow_count": "630.8万追番",
     "tags": [
@@ -2844,7 +2844,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "1.8亿次播放",
-    "score_raw": 184524611,
+    "score_raw": 184540981,
     "score": "9.4",
     "follow_count": "588.4万系列追番",
     "tags": [
@@ -2873,9 +2873,9 @@
     "latest": "全25话",
     "score_label": "播放量",
     "platform_score": "1.8亿次播放",
-    "score_raw": 182473984,
+    "score_raw": 182500947,
     "score": "9.9",
-    "follow_count": "319万系列追番",
+    "follow_count": "319.1万系列追番",
     "tags": [
       "漫画改",
       "热血",
@@ -2904,7 +2904,7 @@
     "latest": "全224话",
     "score_label": "播放量",
     "platform_score": "1.8亿次播放",
-    "score_raw": 180319992,
+    "score_raw": 180353834,
     "score": "9.8",
     "follow_count": "104.1万系列追番",
     "tags": [
@@ -2934,7 +2934,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "1.8亿次播放",
-    "score_raw": 178713699,
+    "score_raw": 178729365,
     "score": "9.7",
     "follow_count": "558.5万系列追番",
     "tags": [
@@ -2965,7 +2965,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "1.8亿次播放",
-    "score_raw": 176337217,
+    "score_raw": 176346012,
     "score": "9.2",
     "follow_count": "530.9万追番",
     "tags": [
@@ -2995,7 +2995,7 @@
     "latest": "全13话",
     "score_label": "播放量",
     "platform_score": "1.8亿次播放",
-    "score_raw": 175672290,
+    "score_raw": 175722117,
     "score": "9.7",
     "follow_count": "352.6万系列追番",
     "tags": [
@@ -3025,7 +3025,7 @@
     "latest": "全12话",
     "score_label": "播放量",
     "platform_score": "1.7亿次播放",
-    "score_raw": 174755792,
+    "score_raw": 174759870,
     "score": "9.5",
     "follow_count": "845.3万系列追番",
     "tags": [
