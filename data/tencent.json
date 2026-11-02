@@ -24,11 +24,11 @@
     "rank_change": null
   },
   {
-    "rank": 2,
-    "cid": "mzc00200aaogpgh",
-    "title": "仙逆",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200aaogpgh1766914172519/350",
-    "link": "https://v.qq.com/x/cover/mzc00200aaogpgh.html",
+    "rank": 4,
+    "cid": "mzc00200xf3rir6",
+    "title": "斗罗大陆Ⅱ绝世唐门",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200xf3rir61787886989404/350",
+    "link": "https://v.qq.com/x/cover/mzc00200xf3rir6.html",
     "score_label": "热度",
     "platform_score": 16311,
     "score_raw": 16311,
@@ -97,10 +97,10 @@
   },
   {
     "rank": 5,
-    "cid": "mzc00200w9z1axf",
-    "title": "诛仙 最终季",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200w9z1axf1786067832823/350",
-    "link": "https://v.qq.com/x/cover/mzc00200w9z1axf.html",
+    "cid": "mzc002001zvj4ts",
+    "title": "大王饶命 第3季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002001zvj4ts1790992618629/350",
+    "link": "https://v.qq.com/x/cover/mzc002001zvj4ts.html",
     "score_label": "热度",
     "platform_score": 15302,
     "score_raw": 15302,
@@ -108,14 +108,14 @@
     "latest": "更新至13集",
     "status": "连载中",
     "tags": [
-      "仙侠"
+      "都市"
     ],
     "year": "2026",
-    "pub_time": "2026-08-21 10:00:00",
+    "pub_time": "2026-10-03 10:00:00",
     "region": "内地",
-    "synopsis": "诛魔道辩正邪，十载终红鸾",
+    "synopsis": "灵气复苏爆笑修炼",
     "ip_origin": "",
-    "tagline": "评分 9.4",
+    "tagline": "评分 9.6",
     "badge": "",
     "rank_change": null
   },
@@ -374,12 +374,12 @@
     "tags": [
       "奇幻"
     ],
-    "year": "2007",
-    "pub_time": "2024-03-22 18:00:00",
-    "region": "日本",
-    "synopsis": "新的冲突一触即发",
+    "year": "2026",
+    "pub_time": "2026-09-03 10:00:00",
+    "region": "内地",
+    "synopsis": "横扫副本，夜夜封神！",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "评分 9.2",
     "badge": "",
     "rank_change": null
   },
@@ -614,12 +614,12 @@
     "tags": [
       "玄幻"
     ],
-    "year": "2023",
-    "pub_time": "2023-02-18 10:00:00",
+    "year": "2010",
+    "pub_time": "",
     "region": "内地",
-    "synopsis": "我乃“区区”炼气期",
+    "synopsis": "炎帝降世，万火归位",
     "ip_origin": "",
-    "tagline": "评分 9.0",
+    "tagline": "预约破100万",
     "badge": "",
     "rank_change": null
   },
@@ -721,10 +721,10 @@
   },
   {
     "rank": 31,
-    "cid": "mzc002008hw5asj",
-    "title": "蜡笔小新 第7季",
-    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc002008hw5asj1611127404024/350",
-    "link": "https://v.qq.com/x/cover/mzc002008hw5asj.html",
+    "cid": "mzc00200azkttu2",
+    "title": "逆天至尊",
+    "cover": "https://puui.qpic.cn/vcover_vt_pic/0/mzc00200azkttu21691465661315/350",
+    "link": "https://v.qq.com/x/cover/mzc00200azkttu2.html",
     "score_label": "热度",
     "platform_score": 9637,
     "score_raw": 9637,
@@ -1044,7 +1044,7 @@
     "latest": "全480集",
     "status": "已完结",
     "tags": [
-      "搞笑,经典"
+      "玄幻"
     ],
     "year": "2010",
     "pub_time": "",
@@ -1935,7 +1935,7 @@
     "region": "日本",
     "synopsis": "这个小孩太逗了",
     "ip_origin": "",
-    "tagline": "评分 9.5",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -2214,7 +2214,7 @@
     "latest": "全156集",
     "status": "已完结",
     "tags": [
-      "搞笑,经典"
+      "日常"
     ],
     "year": "2010",
     "pub_time": "",
