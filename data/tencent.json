@@ -72,11 +72,11 @@
     "rank_change": null
   },
   {
-    "rank": 4,
-    "cid": "324olz7ilvo2j5f",
-    "title": "吞噬星空",
-    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/324olz7ilvo2j5f1781926278904/350",
-    "link": "https://v.qq.com/x/cover/324olz7ilvo2j5f.html",
+    "rank": 3,
+    "cid": "mzc00200n53vkqc",
+    "title": "遮天",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200n53vkqc1781928886798/350",
+    "link": "https://v.qq.com/x/cover/mzc00200n53vkqc.html",
     "score_label": "热度",
     "platform_score": 14815,
     "score_raw": 14815,
@@ -110,17 +110,17 @@
     "tags": [
       "仙侠"
     ],
-    "year": "2026",
-    "pub_time": "2026-07-22 10:00:00",
+    "year": "2023",
+    "pub_time": "2023-05-03 10:00:00",
     "region": "内地",
-    "synopsis": "偷鸡少年长生一梦终圆满",
+    "synopsis": "登天路，踏歌行",
     "ip_origin": "",
-    "tagline": "评分 9.7",
+    "tagline": "东方仙侠",
     "badge": "",
     "rank_change": null
   },
   {
-    "rank": 6,
+    "rank": 4,
     "cid": "mzc00200w9z1axf",
     "title": "诛仙 最终季",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200w9z1axf1786067832823/350",
@@ -153,17 +153,17 @@
     "platform_score": 13388,
     "score_raw": 13388,
     "score": null,
-    "latest": "更新至07集",
+    "latest": "更新至11集",
     "status": "连载中",
     "tags": [
-      "都市"
+      "奇幻"
     ],
     "year": "2026",
-    "pub_time": "2026-10-03 10:00:00",
+    "pub_time": "2026-09-03 10:00:00",
     "region": "内地",
-    "synopsis": "灵气复苏爆笑修炼",
+    "synopsis": "横扫副本，夜夜封神！",
     "ip_origin": "",
-    "tagline": "评分 9.6",
+    "tagline": "评分 9.2",
     "badge": "",
     "rank_change": null
   },
@@ -177,22 +177,22 @@
     "platform_score": 13237,
     "score_raw": 13237,
     "score": null,
-    "latest": "更新至177集",
+    "latest": "更新至248集",
     "status": "连载中",
     "tags": [
-      "奇幻"
+      "科幻"
     ],
-    "year": "2023",
-    "pub_time": "2023-06-24 10:00:00",
+    "year": "2020",
+    "pub_time": "2020-11-29",
     "region": "内地",
-    "synopsis": "你我皆唐门，生在绝世中",
+    "synopsis": "银河浩瀚，征途不止",
     "ip_origin": "",
-    "tagline": "讨论破100万",
+    "tagline": "在追破2000万",
     "badge": "",
     "rank_change": null
   },
   {
-    "rank": 9,
+    "rank": 7,
     "cid": "mzc00200kums5rm",
     "title": "大夏守墓人",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200kums5rm1790732842062/350",
@@ -201,7 +201,7 @@
     "platform_score": 13224,
     "score_raw": 13224,
     "score": null,
-    "latest": "更新至13集",
+    "latest": "更新至14集",
     "status": "连载中",
     "tags": [
       "奇幻"
@@ -216,7 +216,31 @@
     "rank_change": null
   },
   {
-    "rank": 10,
+    "rank": 8,
+    "cid": "mzc00200y0aavbe",
+    "title": "一念永恒 完结季",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200y0aavbe1781930768664/350",
+    "link": "https://v.qq.com/x/cover/mzc00200y0aavbe.html",
+    "score_label": "热度",
+    "platform_score": 13179,
+    "score_raw": 13179,
+    "score": null,
+    "latest": "更新至18集",
+    "status": "连载中",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2026",
+    "pub_time": "2026-07-22 10:00:00",
+    "region": "内地",
+    "synopsis": "偷鸡少年长生一梦终圆满",
+    "ip_origin": "",
+    "tagline": "评分 9.7",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 9,
     "cid": "mcv8hkc8zk8lnov",
     "title": "完美世界",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mcv8hkc8zk8lnov1781670538656/350",
@@ -480,7 +504,55 @@
     "rank_change": null
   },
   {
+    "rank": 20,
+    "cid": "mzc00200fcns51n",
+    "title": "仙逆剧场版 弑仙之战",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200fcns51n1781960412009/350",
+    "link": "https://v.qq.com/x/cover/mzc00200fcns51n.html",
+    "score_label": "热度",
+    "platform_score": 10441,
+    "score_raw": 10441,
+    "score": null,
+    "latest": "全1集",
+    "status": "已完结",
+    "tags": [
+      "仙侠"
+    ],
+    "year": "2026",
+    "pub_time": "2026-10-01 12:00:00",
+    "region": "内地",
+    "synopsis": "绝境破阳实，血幡弑祖魂",
+    "ip_origin": "",
+    "tagline": "评分 9.7",
+    "badge": "",
+    "rank_change": null
+  },
+  {
     "rank": 21,
+    "cid": "mzc00200nc1cbum",
+    "title": "火影忍者疾风传[日语版]",
+    "cover": "http://puui.qpic.cn/vcover_vt_pic/0/mzc00200nc1cbum1615792624639/350",
+    "link": "https://v.qq.com/x/cover/mzc00200nc1cbum.html",
+    "score_label": "热度",
+    "platform_score": 10376,
+    "score_raw": 10376,
+    "score": null,
+    "latest": "全720集",
+    "status": "已完结",
+    "tags": [
+      "奇幻"
+    ],
+    "year": "2007",
+    "pub_time": "2024-03-22 18:00:00",
+    "region": "日本",
+    "synopsis": "新的冲突一触即发",
+    "ip_origin": "",
+    "tagline": "评分 9.5",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 22,
     "cid": "mzc002007j7p5hn",
     "title": "神印王座",
     "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002007j7p5hn1776850944831/350",
@@ -668,6 +740,30 @@
     "synopsis": "天行健，君子以自强不息",
     "ip_origin": "",
     "tagline": "评分 9.4",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 28,
+    "cid": "7q544xyrava3vxf",
+    "title": "武神主宰",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/7q544xyrava3vxf1781927008498/350",
+    "link": "https://v.qq.com/x/cover/7q544xyrava3vxf.html",
+    "score_label": "热度",
+    "platform_score": 9342,
+    "score_raw": 9342,
+    "score": null,
+    "latest": "更新至706集",
+    "status": "连载中",
+    "tags": [
+      "玄幻"
+    ],
+    "year": "2020",
+    "pub_time": "2020-03-08",
+    "region": "内地",
+    "synopsis": "武神跌落，浴火少年再起",
+    "ip_origin": "",
+    "tagline": "在追破1000万",
     "badge": "",
     "rank_change": null
   },
@@ -1995,7 +2091,31 @@
     "platform_score": 7629,
     "score_raw": 7629,
     "score": null,
-    "latest": "更新至145集",
+    "latest": "全12集",
+    "status": "已完结",
+    "tags": [
+      "玄幻,腾讯出品,冒险"
+    ],
+    "year": "2018",
+    "pub_time": "2018-03-03 10:00:59",
+    "region": "内地",
+    "synopsis": "萧炎归来 风云再起",
+    "ip_origin": "",
+    "tagline": "讨论破500万",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 80,
+    "cid": "mzc002008llnqea",
+    "title": "斗破苍穹小医仙",
+    "cover": "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002008llnqea1776069329215/350",
+    "link": "https://v.qq.com/x/cover/mzc002008llnqea.html",
+    "score_label": "热度",
+    "platform_score": 7510,
+    "score_raw": 7510,
+    "score": null,
+    "latest": "更新至171集",
     "status": "连载中",
     "tags": [],
     "year": "2010",
@@ -2003,7 +2123,7 @@
     "region": "内地",
     "synopsis": "",
     "ip_origin": "",
-    "tagline": "未来科幻",
+    "tagline": "东方玄幻",
     "badge": "",
     "rank_change": null
   },
@@ -2210,7 +2330,7 @@
     "latest": "全13集",
     "status": "已完结",
     "tags": [
-      "奇幻"
+      "仙侠"
     ],
     "year": "2025",
     "pub_time": "2025-06-28 10:00:00",
