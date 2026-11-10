@@ -1,12 +1,39 @@
 [
   {
     "rank": 1,
+    "title": "航海王",
+    "cover": "https://pic8.iqiyipic.com/image/20260402/ed/a7/a_100013977_m_601_m77_318_424.webp",
+    "link": "https://www.iqiyi.com/v_19rrok4nt0.html",
+    "score_label": "热度",
+    "platform_score": 3613,
+    "score_raw": 3613,
+    "score": 9.5,
+    "latest": "更新至1180集",
+    "status": "连载中",
+    "tags": [
+      "热血",
+      "冒险",
+      "励志",
+      "奇幻",
+      "热血冒险"
+    ],
+    "year": 1999,
+    "pub_time": "1999-10-20",
+    "region": "日本",
+    "synopsis": "有个男人，他拥有世界上一切财富、名望和权势，他就是「海盗王」高路德•罗杰。 他在临死前说过这样一句话，让全世界的人都奔向大海： 「想要我的财宝吗？想要的话就拿去吧……！你们去找吧！我把世界上的一切都放在那里了」。 后来世界上的人们将这个宝藏称作“大秘宝”（One Piece），许多人为了争夺大秘宝One Piece，无数海盗扬起旗帜，互相斗争，后来就形成了「大海盗时代」。 主角蒙奇•D•路飞在遥远的路途上找寻着志同道合的伙伴，携手共进「伟大航线」，目标则是当上「海盗王」。 航海王是一个依靠彼此坚毅的友情最终获得胜利，伙伴们一起朝着梦想扬帆努力的冒险故事。",
+    "ip_origin": "",
+    "tagline": "豆瓣高分",
+    "badge": "独播",
+    "rank_change": null
+  },
+  {
+    "rank": 2,
     "title": "财神窦占龙",
     "cover": "https://pic2.iqiyipic.com/image/20260904/df/e6/a_100614442_m_601_m5_318_424.webp",
     "link": "https://www.iqiyi.com/v_1wgr39oa4c8.html",
     "score_label": "热度",
-    "platform_score": 1973,
-    "score_raw": 1973,
+    "platform_score": 1960,
+    "score_raw": 1960,
     "score": null,
     "latest": "更新至15集",
     "status": "连载中",
@@ -28,23 +55,23 @@
     "rank_change": null
   },
   {
-    "rank": 2,
-    "title": "蜡笔小新 第7季 普通话",
-    "cover": "https://pic2.iqiyipic.com/image/20260515/8b/04/a_100441390_m_601_m5_318_424.webp",
-    "link": "https://www.iqiyi.com/v_y8fmt1s9z0.html",
+    "rank": 3,
+    "title": "蜡笔小新 第8季 普通话",
+    "cover": "https://pic1.iqiyipic.com/image/20260409/66/46/a_100577014_m_601_m4_318_424.webp",
+    "link": "https://www.iqiyi.com/v_1jhkv401ysk.html",
     "score_label": "热度",
-    "platform_score": 1584,
-    "score_raw": 1584,
-    "score": 9.1,
-    "latest": "312集全",
+    "platform_score": 1748,
+    "score_raw": 1748,
+    "score": 9.3,
+    "latest": "84集全",
     "status": "已完结",
     "tags": [
       "搞笑",
-      "合家欢",
-      "日常"
+      "日常",
+      "合家欢"
     ],
-    "year": 2021,
-    "pub_time": "2021-1-1",
+    "year": 2024,
+    "pub_time": "2024-6-8",
     "region": "日本",
     "synopsis": "小新今年5岁了，不要以为他是那种懵懂无知的小孩，他其实人小鬼大，收养了一条棉花糖一样的流浪狗——小白，还经常讲些无厘头的笑话。小新的妈妈是一个全职主妇，粗心而又有点神经质的她经常被小新捉弄得七窍生烟，爸爸野原亦经常被这两母子搞得晕头转向。",
     "ip_origin": "",
@@ -53,13 +80,38 @@
     "rank_change": null
   },
   {
-    "rank": 3,
+    "rank": 4,
+    "title": "捷德奥特曼 普通话",
+    "cover": "https://pic9.iqiyipic.com/image/20231110/0d/55/a_100059659_m_601_m7_318_424.webp",
+    "link": "https://www.iqiyi.com/v_19rr7y8ju0.html",
+    "score_label": "热度",
+    "platform_score": 1068,
+    "score_raw": 1068,
+    "score": 8.9,
+    "latest": "25集全",
+    "status": "已完结",
+    "tags": [
+      "热血",
+      "科幻",
+      "特摄"
+    ],
+    "year": 2017,
+    "pub_time": "2017-7-8",
+    "region": "日本",
+    "synopsis": "拥有邪恶奥特曼战士贝利亚奥特曼遗传因子的青年朝仓陆！...此刻！苦痛的天命，自我的证明！",
+    "ip_origin": "",
+    "tagline": "热血",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 5,
     "title": "逃亡兔 第5季",
     "cover": "https://pic1.iqiyipic.com/image/20230628/64/1d/a_100039103_m_601_m4_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rra63tfg.html",
     "score_label": "热度",
-    "platform_score": 1057,
-    "score_raw": 1057,
+    "platform_score": 1065,
+    "score_raw": 1065,
     "score": 8.5,
     "latest": "13集全",
     "status": "已完结",
@@ -76,7 +128,7 @@
     "rank_change": null
   },
   {
-    "rank": 4,
+    "rank": 6,
     "title": "开心锤锤世界",
     "cover": "https://pic5.iqiyipic.com/image/20260706/e7/50/a_100615404_m_601_m6_318_424.webp",
     "link": "https://www.iqiyi.com/v_2a3379vgptg.html",
@@ -104,7 +156,7 @@
     "rank_change": null
   },
   {
-    "rank": 5,
+    "rank": 7,
     "title": "迪迦奥特曼 普通话",
     "cover": "https://pic8.iqiyipic.com/image/20231109/f2/4c/a_50009273_m_601_m19_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rrje300c.html",
@@ -131,7 +183,7 @@
     "rank_change": null
   },
   {
-    "rank": 6,
+    "rank": 8,
     "title": "罗小黑战记",
     "cover": "https://pic8.iqiyipic.com/image/20250805/a7/00/a_50134362_m_601_m7_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rrk2ca5w.html",
@@ -159,7 +211,7 @@
     "rank_change": null
   },
   {
-    "rank": 7,
+    "rank": 9,
     "title": "蜡笔小新",
     "cover": "https://pic8.iqiyipic.com/image/20250812/08/93/a_50138731_m_601_m24_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rrk1snao.html",
@@ -184,7 +236,7 @@
     "rank_change": null
   },
   {
-    "rank": 8,
+    "rank": 10,
     "title": " 开心锤锤Story：校园武神",
     "cover": "https://pic7.iqiyipic.com/image/20260403/94/18/a_100757843_m_601_m3_318_424.webp",
     "link": "https://www.iqiyi.com/v_1r2egj7822o.html",
@@ -212,7 +264,7 @@
     "rank_change": null
   },
   {
-    "rank": 9,
+    "rank": 11,
     "title": "神奇数字马戏团 普通话",
     "cover": "https://pic2.iqiyipic.com/image/20260818/29/67/a_101370510_m_601_m1_318_424.webp",
     "link": "https://www.iqiyi.com/v_10kik0l7wmw.html",
@@ -237,7 +289,7 @@
     "rank_change": null
   },
   {
-    "rank": 10,
+    "rank": 12,
     "title": "灌篮高手 普通话",
     "cover": "https://pic9.iqiyipic.com/image/20241009/74/6e/a_100014540_m_601_m9_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rro6v558.html",
@@ -261,11 +313,11 @@
     "synopsis": "为了讨好同级暗恋对象赤木晴子的欢心，原来毫无篮球基础的樱木花道未及细想就参加了篮球队，而晴子却喜欢从初中开始就一直是明星球员的流川枫。天生的潜质加上不服输的精神，使樱木飞速的进步，渐渐成为湘北篮球队不可缺的主力球员。本作的主轴在于樱木花道所加入的湘北高中篮球队，在赤木刚宪等人的带领之下，自地区选拔赛开始，勇闯全国高中篮球联赛。",
     "ip_origin": "",
     "tagline": "豆瓣高分",
-    "badge": "",
+    "badge": "独播",
     "rank_change": null
   },
   {
-    "rank": 11,
+    "rank": 13,
     "title": "海绵宝宝",
     "cover": "https://pic1.iqiyipic.com/image/20260429/ff/da/a_50218261_m_601_m13_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rrk55wpg.html",
@@ -292,7 +344,7 @@
     "rank_change": null
   },
   {
-    "rank": 12,
+    "rank": 14,
     "title": "海绵宝宝 第12季",
     "cover": "https://pic7.iqiyipic.com/image/20231109/14/5e/a_100358947_m_601_m11_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rvdx1uq4.html",
@@ -318,7 +370,7 @@
     "rank_change": null
   },
   {
-    "rank": 13,
+    "rank": 15,
     "title": "蜡笔小新 第1季",
     "cover": "https://pic1.iqiyipic.com/image/20240718/8a/62/a_50370695_m_601_m14_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rrg7nrck.html",
@@ -345,34 +397,7 @@
     "rank_change": null
   },
   {
-    "rank": 14,
-    "title": "航海王",
-    "cover": "https://pic8.iqiyipic.com/image/20260402/ed/a7/a_100013977_m_601_m77_318_424.webp",
-    "link": "https://www.iqiyi.com/v_19rrok4nt0.html",
-    "score_label": "热度",
-    "platform_score": 0,
-    "score_raw": 0,
-    "score": 9.5,
-    "latest": "更新至1180集",
-    "status": "连载中",
-    "tags": [
-      "热血",
-      "冒险",
-      "励志",
-      "奇幻",
-      "热血冒险"
-    ],
-    "year": 1999,
-    "pub_time": "1999-10-20",
-    "region": "日本",
-    "synopsis": "有个男人，他拥有世界上一切财富、名望和权势，他就是「海盗王」高路德•罗杰。 他在临死前说过这样一句话，让全世界的人都奔向大海： 「想要我的财宝吗？想要的话就拿去吧……！你们去找吧！我把世界上的一切都放在那里了」。 后来世界上的人们将这个宝藏称作“大秘宝”（One Piece），许多人为了争夺大秘宝One Piece，无数海盗扬起旗帜，互相斗争，后来就形成了「大海盗时代」。 主角蒙奇•D•路飞在遥远的路途上找寻着志同道合的伙伴，携手共进「伟大航线」，目标则是当上「海盗王」。 航海王是一个依靠彼此坚毅的友情最终获得胜利，伙伴们一起朝着梦想扬帆努力的冒险故事。",
-    "ip_origin": "",
-    "tagline": "豆瓣高分",
-    "badge": "独播",
-    "rank_change": null
-  },
-  {
-    "rank": 15,
+    "rank": 16,
     "title": "名侦探柯南 普通话",
     "cover": "https://pic7.iqiyipic.com/image/20260206/82/3b/a_50167419_m_601_m97_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rrjzcqm4.html",
@@ -396,7 +421,7 @@
     "rank_change": null
   },
   {
-    "rank": 16,
+    "rank": 17,
     "title": "海绵宝宝 第13季",
     "cover": "https://pic5.iqiyipic.com/image/20240607/c9/9d/a_100563356_m_601_m6_318_424.webp",
     "link": "https://www.iqiyi.com/v_1vdtqdz6po8.html",
@@ -422,7 +447,7 @@
     "rank_change": null
   },
   {
-    "rank": 17,
+    "rank": 18,
     "title": "名侦探柯南",
     "cover": "https://pic8.iqiyipic.com/image/20241024/90/03/a_100006957_m_601_m76_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rrnfnjyw.html",
@@ -448,7 +473,7 @@
     "rank_change": null
   },
   {
-    "rank": 18,
+    "rank": 19,
     "title": "鬼灭之刃 第1季",
     "cover": "https://pic8.iqiyipic.com/image/20251113/de/0d/a_100705364_m_601_m3_318_424.webp",
     "link": "https://www.iqiyi.com/v_1hxqhc8fnbk.html",
@@ -476,7 +501,7 @@
     "rank_change": null
   },
   {
-    "rank": 19,
+    "rank": 20,
     "title": "海绵宝宝 普通话 第14季",
     "cover": "https://pic7.iqiyipic.com/image/20260813/05/33/a_101341760_m_601_m2_318_424.webp",
     "link": "https://www.iqiyi.com/v_dp9sglz5to.html",
@@ -502,7 +527,7 @@
     "rank_change": null
   },
   {
-    "rank": 20,
+    "rank": 21,
     "title": "择日飞升",
     "cover": "https://pic5.iqiyipic.com/image/20260704/41/14/a_100571652_m_601_m8_318_424.webp",
     "link": "https://www.iqiyi.com/v_1v6u22gybf0.html",
@@ -528,7 +553,7 @@
     "rank_change": null
   },
   {
-    "rank": 21,
+    "rank": 22,
     "title": "泽塔奥特曼 普通话",
     "cover": "https://pic5.iqiyipic.com/image/20231109/8c/4d/a_100411141_m_601_m8_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rxumy4e8.html",
@@ -554,7 +579,7 @@
     "rank_change": null
   },
   {
-    "rank": 22,
+    "rank": 23,
     "title": "龙珠Z",
     "cover": "https://pic5.iqiyipic.com/image/20231113/fe/ee/a_100012609_m_601_m12_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rroof3oo.html",
@@ -576,11 +601,11 @@
     "synopsis": "悟空的哥哥拉帝兹来到地球，透漏了悟空原是战斗民族的赛亚人战士，并抢走了孙悟饭威胁悟空一天之内杀死一百个地球人，悟空和比克大魔王联手对抗，然而因为双方实力的差距而陷入苦战。由于赛亚人的侵略，比克等龙珠战士战死，七龙珠也随着消失，为了让死去的战士复活，克林、悟饭和布尔玛出发前往那美克星球寻找七龙珠。贝吉塔为了得到永生，也去了那美克星。贝吉塔等人把受伤的悟空送入治疗室诊治，这时候那美克星的龙珠已经聚集，克林与悟饭让天天召唤出了神龙，许到最后一个愿望的时候大长老牺牲，神龙因此消失。与此同时，比克从神龙的愿望中复活！",
     "ip_origin": "",
     "tagline": "豆瓣高分",
-    "badge": "",
+    "badge": "独播",
     "rank_change": null
   },
   {
-    "rank": 23,
+    "rank": 24,
     "title": "逃亡兔 第2季",
     "cover": "https://pic3.iqiyipic.com/image/20231109/3e/fe/a_100010674_m_601_m10_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rro0sk2k.html",
@@ -600,31 +625,6 @@
     "synopsis": "《逃亡兔》是风靡网络的日本卡通短片，由日本 KANABAN GRAPHICS 制作。 故事讲述的是被关在前苏联监狱的两只兔子基里连科和普京的生活。两人与看守警卫一同展开欢乐有趣的笑闹斗争。以前苏联为背景，两只超级爆笑的兔子在监狱里搞东搞西。影片中几乎没有对白，只有一些简单的配音，片中的兔子民警和兔子老板偶尔会说出听不清是俄语还是日语的话。",
     "ip_origin": "",
     "tagline": "豆瓣高分",
-    "badge": "",
-    "rank_change": null
-  },
-  {
-    "rank": 24,
-    "title": "蜡笔小新 第8季 普通话",
-    "cover": "https://pic1.iqiyipic.com/image/20260409/66/46/a_100577014_m_601_m4_318_424.webp",
-    "link": "https://www.iqiyi.com/v_1jhkv401ysk.html",
-    "score_label": "热度",
-    "platform_score": 0,
-    "score_raw": 0,
-    "score": 9.3,
-    "latest": "84集全",
-    "status": "已完结",
-    "tags": [
-      "搞笑",
-      "日常",
-      "合家欢"
-    ],
-    "year": 2024,
-    "pub_time": "2024-6-8",
-    "region": "日本",
-    "synopsis": "小新今年5岁了，不要以为他是那种懵懂无知的小孩，他其实人小鬼大，收养了一条棉花糖一样的流浪狗——小白，还经常讲些无厘头的笑话。小新的妈妈是一个全职主妇，粗心而又有点神经质的她经常被小新捉弄得七窍生烟，爸爸野原亦经常被这两母子搞得晕头转向。",
-    "ip_origin": "",
-    "tagline": "搞笑",
     "badge": "",
     "rank_change": null
   },
@@ -811,6 +811,31 @@
   },
   {
     "rank": 32,
+    "title": "蜡笔小新 第7季 普通话",
+    "cover": "https://pic2.iqiyipic.com/image/20260515/8b/04/a_100441390_m_601_m5_318_424.webp",
+    "link": "https://www.iqiyi.com/v_y8fmt1s9z0.html",
+    "score_label": "热度",
+    "platform_score": 0,
+    "score_raw": 0,
+    "score": 9.1,
+    "latest": "312集全",
+    "status": "已完结",
+    "tags": [
+      "搞笑",
+      "合家欢",
+      "日常"
+    ],
+    "year": 2021,
+    "pub_time": "2021-1-1",
+    "region": "日本",
+    "synopsis": "小新今年5岁了，不要以为他是那种懵懂无知的小孩，他其实人小鬼大，收养了一条棉花糖一样的流浪狗——小白，还经常讲些无厘头的笑话。小新的妈妈是一个全职主妇，粗心而又有点神经质的她经常被小新捉弄得七窍生烟，爸爸野原亦经常被这两母子搞得晕头转向。",
+    "ip_origin": "",
+    "tagline": "搞笑",
+    "badge": "",
+    "rank_change": null
+  },
+  {
+    "rank": 33,
     "title": "西游记",
     "cover": "https://pic5.iqiyipic.com/image/20251009/46/24/a_100588892_m_601_m3_318_424.webp",
     "link": "https://www.iqiyi.com/v_2f0oirbjmt0.html",
@@ -838,7 +863,7 @@
     "rank_change": null
   },
   {
-    "rank": 33,
+    "rank": 34,
     "title": "妖精的尾巴",
     "cover": "https://pic5.iqiyipic.com/image/20231110/c7/96/a_62016073_m_601_m27_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rrek0xfo.html",
@@ -860,11 +885,11 @@
     "synopsis": "在一个名叫菲欧雷的魔法王国里，存在著许多专门替魔导士中介任务的魔导士公会，其中最有名的公会就是“妖精的尾巴”，这里聚集了许多厉害的魔导士。 少女露西一直希望能加入云集众多厉害魔导士的名为“妖精尾巴”的公会，在纳兹的引导下，露西终于得偿所愿，随后，露西跟纳兹、格雷、艾露莎和哈比组成最强队伍，他们的旅程就此展开。",
     "ip_origin": "",
     "tagline": "豆瓣高分",
-    "badge": "",
+    "badge": "独播",
     "rank_change": null
   },
   {
-    "rank": 34,
+    "rank": 35,
     "title": "龙珠超",
     "cover": "https://pic1.iqiyipic.com/image/20240308/76/18/a_100013208_m_601_m17_318_424.webp",
     "link": "https://www.iqiyi.com/v_19rroopiy0.html",
@@ -886,11 +911,11 @@
     "synopsis": "《龙珠》新系列动画的舞台为悟空与魔人布欧的壮绝战斗结束后，地球重新恢复和平之后发生的故事。与自漫长沉睡中觉醒的破坏神比鲁斯的相遇，加上曾经被人敬畏为“宇宙帝王”的弗利萨的复活，在这些接连迫近悟空等人的威胁之上，地球周边还发生了星球消失的不可思议现象，更有神秘的新角色“象帕”登场。",
     "ip_origin": "",
     "tagline": "冒险",
-    "badge": "",
+    "badge": "独播",
     "rank_change": null
   },
   {
-    "rank": 35,
+    "rank": 36,
     "title": "咒术回战",
     "cover": "https://pic9.iqiyipic.com/image/20260515/60/b4/a_100429401_m_601_m8_318_424.webp",
     "link": "https://www.iqiyi.com/v_ydkrdj86fw.html",
@@ -914,31 +939,6 @@
     "synopsis": "虎杖悠仁是一位体育万能的高中生，某天捡到了一个被布条所包裹的手指，并将其交予其研究灵异事件的社团中的学姐，学姐解开封印，意外导致其他咒灵吸引过来，攻击学姐与另外一名社团成员。他为了从“咒物”危机中解救学姐，而吞下了被诅咒的手指“两面宿傩之指”，让“宿傩”这种诅咒跟自己合二为一。 咒术师高层企图直接杀死虎杖悠仁，在最强咒术师五条悟劝解下，让其吃下20根“两面宿傩之指”后死亡。在五条悟的指引下，进入对诅咒专门机关“东京都立咒术高等专门学校”，并遇到了伏黑惠与钉崎野蔷薇这两位同学……",
     "ip_origin": "",
     "tagline": "豆瓣高分",
-    "badge": "",
-    "rank_change": null
-  },
-  {
-    "rank": 36,
-    "title": "捷德奥特曼 普通话",
-    "cover": "https://pic9.iqiyipic.com/image/20231110/0d/55/a_100059659_m_601_m7_318_424.webp",
-    "link": "https://www.iqiyi.com/v_19rr7y8ju0.html",
-    "score_label": "热度",
-    "platform_score": 0,
-    "score_raw": 0,
-    "score": 8.9,
-    "latest": "25集全",
-    "status": "已完结",
-    "tags": [
-      "热血",
-      "科幻",
-      "特摄"
-    ],
-    "year": 2017,
-    "pub_time": "2017-7-8",
-    "region": "日本",
-    "synopsis": "拥有邪恶奥特曼战士贝利亚奥特曼遗传因子的青年朝仓陆！...此刻！苦痛的天命，自我的证明！",
-    "ip_origin": "",
-    "tagline": "热血",
     "badge": "",
     "rank_change": null
   },
