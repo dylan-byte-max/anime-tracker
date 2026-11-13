@@ -33,7 +33,7 @@
     "platform_score": 5552,
     "score_raw": 5552,
     "score": null,
-    "latest": "更新至102话",
+    "latest": "更新至103话",
     "status": "连载中",
     "tags": [
       "新国风",
@@ -225,24 +225,25 @@
     "rank": 10,
     "title": "开心锤锤世界",
     "cover": "",
-    "link": "https://v.youku.com/video?s=fddfda805de444198966&scm=20140719.rcmd.54061.show_fddfda805de444198966",
+    "link": "https://v.youku.com/video?s=eabedc9465724a09b03d&scm=20140719.manual.54061.show_eabedc9465724a09b03d",
     "score_label": "热度",
     "platform_score": 3048,
     "score_raw": 3048,
     "score": null,
-    "latest": "更新至79话",
+    "latest": "更新至18话",
     "status": "连载中",
     "tags": [
-      "搞笑",
-      "青春"
+      "都市",
+      "玄幻",
+      "校园"
     ],
-    "year": "2025",
-    "pub_time": "2025-04-25 18:00:01",
+    "year": "2026",
+    "pub_time": "2026-07-16 10:00:01",
     "region": "",
-    "synopsis": "在《开心锤锤世界》，生活着乐观善良的少年锤锤和他性格各异的家人朋友们，他们在日常琐事中脑洞大开，以充满趣味的方式应对生活琐事或难题，碰撞出欢乐的火花。在用幽默为你带来欢乐的同时，传递满满正能量。",
+    "synopsis": "灵气复苏的都市，妖魔入侵威胁来袭，天生废灵根的少年秦雨体内意外觉醒神力，被选中成为神秘至强功法万物生的传承人。秦雨加入东大高武学院后逐渐结识侠肝义胆的一群伙伴，一起修炼成长，共同守护校园和人族星球。",
     "ip_origin": "",
     "tagline": "",
-    "badge": "VIP",
+    "badge": "独播",
     "rank_change": null
   },
   {
@@ -520,6 +521,81 @@
     "rank_change": null
   },
   {
+    "rank": 19,
+    "title": "斗罗大陆5重生唐三",
+    "cover": "",
+    "link": "https://v.youku.com/video?s=aefb6e73b0e245dfa2ee&scm=20140719.rcmd.48457.show_aefb6e73b0e245dfa2ee",
+    "score_label": "热度",
+    "platform_score": 1446,
+    "score_raw": 1446,
+    "score": null,
+    "latest": "更新至94话",
+    "status": "连载中",
+    "tags": [
+      "热血",
+      "冒险",
+      "玄幻"
+    ],
+    "year": "2025",
+    "pub_time": "2025-01-15 12:00:17",
+    "region": "",
+    "synopsis": "神王唐三重生，探索异界妖精大陆，揭示人族奴隶世界。",
+    "ip_origin": "",
+    "tagline": "",
+    "badge": "VIP",
+    "rank_change": null
+  },
+  {
+    "rank": 20,
+    "title": "一拳超人 第三季 中配版",
+    "cover": "",
+    "link": "https://v.youku.com/video?s=aabd3463509245b3bed7&scm=20140719.manual.48457.show_aabd3463509245b3bed7",
+    "score_label": "热度",
+    "platform_score": 1402,
+    "score_raw": 1402,
+    "score": null,
+    "latest": "12话全",
+    "status": "已完结",
+    "tags": [
+      "格斗",
+      "热血",
+      "搞笑"
+    ],
+    "year": "2026",
+    "pub_time": "2026-03-27 09:54:59",
+    "region": "",
+    "synopsis": "因兴趣使然而成为英雄的男人——埼玉。他通过3年的特训获得了无敌的力量，成为仅凭一击就能打倒任何敌人的英雄。机缘巧合下，他与成为自己弟子的杰诺斯一同加入了职业英雄所属的组织“英雄协会”，并每日开展英雄活动。某天，英雄协会突然遭到一群自称为“怪人协会”的怪人袭击，协会干部的孩子还被掳走作为人质。S级英雄们纷纷集结，为夺回人质制定了突袭怪人协会基地的作战计划。另一方面，在与英雄们的战斗中被怪人协会掳走的“人类怪人”饿狼，在怪人协会的基地里苏醒了。",
+    "ip_origin": "",
+    "tagline": "",
+    "badge": "独播",
+    "rank_change": null
+  },
+  {
+    "rank": 21,
+    "title": "排球少年 第四季",
+    "cover": "",
+    "link": "https://v.youku.com/video?s=bafa149a350a4e9a8b68&scm=20140719.manual.54061.show_bafa149a350a4e9a8b68",
+    "score_label": "热度",
+    "platform_score": 1350,
+    "score_raw": 1350,
+    "score": null,
+    "latest": "25话全",
+    "status": "已完结",
+    "tags": [
+      "热血",
+      "运动",
+      "竞技"
+    ],
+    "year": "2020",
+    "pub_time": "2020-01-11 01:28:01",
+    "region": "",
+    "synopsis": "乌野排球部为全国大赛再战，主力球员影山和月岛加入合宿挑战，日向的挑战随之升级。",
+    "ip_origin": "",
+    "tagline": "",
+    "badge": "独播",
+    "rank_change": null
+  },
+  {
     "rank": 22,
     "title": "一拳超人 第三季 中配版",
     "cover": "",
@@ -620,24 +696,23 @@
     "rank": 26,
     "title": "境界 新篇章 相克谭篇",
     "cover": "",
-    "link": "https://v.youku.com/video?s=cadf0eeca540465d9df2&scm=20140719.manual.54061.show_cadf0eeca540465d9df2",
+    "link": "https://v.youku.com/video?s=ccab8dfac64c4340a1d6&scm=20140719.rcmd.feed.show_ccab8dfac64c4340a1d6&scg_id=22931706",
     "score_label": "热度",
     "platform_score": 1124,
     "score_raw": 1124,
     "score": null,
-    "latest": "14话全",
+    "latest": "85话全",
     "status": "已完结",
     "tags": [
-      "热血",
-      "格斗"
+      "恋爱"
     ],
     "year": "2024",
     "pub_time": "2024-10-03 10:00:17",
     "region": "",
-    "synopsis": "《境界新篇章》延续热血战斗，护廷十三队决战灵王宫，守护正义，终极对决一触即发。",
+    "synopsis": "前世，迟早为完成系统任务，伪装三年温柔，悉心侍奉林锦洋。可林锦洋意外听见系统提示音，全然误会迟早的真心，万般磋磨下，迟早心灰意冷决然离去。失去她后林锦洋深陷无尽悔恨，世界濒临崩塌。系统强行将迟早送回，治好他残破双腿后，迟早便重返现实。林锦洋舍弃全部身家，跨越生死时空苦苦追寻，数次舍命护她周全，令迟早冰封已久的心，悄然裂开一道缝隙。",
     "ip_origin": "",
     "tagline": "",
-    "badge": "独播",
+    "badge": "",
     "rank_change": null
   },
   {
@@ -770,7 +845,7 @@
     "platform_score": 342,
     "score_raw": 342,
     "score": null,
-    "latest": "更新至44话",
+    "latest": "更新至45话",
     "status": "连载中",
     "tags": [
       "剧情"
