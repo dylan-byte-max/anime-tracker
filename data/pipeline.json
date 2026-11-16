@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-02",
+    "updated": "2026-11-16",
     "schema": "v2",
     "note": "各平台未来排播 pipeline。按平台→发布会→板块(section)→项目层级组织，完整录入官方发布会片单。date_confirmed=true 表示确切上线日期，false 表示模糊时间(如2026/2026Q3)。每周一全网检索更新档期。"
   },
@@ -1047,10 +1047,10 @@
                   "ip_origin": "小说",
                   "ip_name": "火旺",
                   "synopsis": "「东方克苏鲁修仙」开创之作，克苏鲁与道教修仙融合创造新视觉语言。",
-                  "release_window": "2026",
+                  "release_window": "2026-12",
                   "date_confirmed": false,
                   "release_status": "预告",
-                  "notes": "确定今年与观众见面。",
+                  "notes": "确定今年与观众见面。2026-11新浪爆料「12月底播」，细化至12月，官方尚未公布确切日。",
                   "source_url": "https://finance.sina.cn/2026-06-22/detail-iniekknt9781181.d.html"
                 },
                 {
@@ -1413,10 +1413,10 @@
                   "ip_origin": "小说",
                   "ip_name": "武动乾坤（天蚕土豆）",
                   "synopsis": "重振道宗、勇闯乱魔海。",
-                  "release_window": "2026-12",
-                  "date_confirmed": false,
+                  "release_window": "2026-11-29",
+                  "date_confirmed": true,
                   "release_status": "已定档",
-                  "notes": "更新第七年，季番升级年番。",
+                  "notes": "更新第七年，季番升级年番。2026-11-08官宣定档11月29日腾讯视频独播，共24集，接档斗破苍穹。",
                   "source_url": "https://finance.sina.cn/2026-06-22/detail-iniekknt9781181.d.html"
                 },
                 {
@@ -1437,10 +1437,10 @@
                   "ip_origin": "小说",
                   "ip_name": "斗破苍穹（天蚕土豆）",
                   "synopsis": "萧炎与魂天帝终极对决，为开播近十年的头部IP画上句号。",
-                  "release_window": "TBD",
-                  "date_confirmed": false,
-                  "release_status": "预告",
-                  "notes": "完结篇章。",
+                  "release_window": "2026-11-22",
+                  "date_confirmed": true,
+                  "release_status": "已定档",
+                  "notes": "完结篇章。2026-11-05官宣定档11月22日10点腾讯视频、极光TV独播，片长90分钟，不上院线。",
                   "source_url": "https://finance.sina.cn/2026-06-22/detail-iniekknt9781181.d.html"
                 },
                 {
